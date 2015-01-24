@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\5. Bit-Shifting\bin\Debug\_5.Bit_Shifting.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\5. Bit-Shifting\bin\Debug\_5.Bit_Shifting.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\5. Bit-Shifting\bin\Debug\_5.Bit_Shifting.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\5. Bit-Shifting\obj\Debug\_5.Bit_Shifting.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\5. Bit-Shifting\obj\Debug\_5.Bit_Shifting.pdb

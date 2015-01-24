@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\4. Carpets\bin\Debug\_4.Carpets.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\4. Carpets\bin\Debug\_4.Carpets.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\4. Carpets\bin\Debug\_4.Carpets.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\4. Carpets\obj\Debug\4. Carpets.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\4. Carpets\obj\Debug\_4.Carpets.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\4. Carpets\obj\Debug\_4.Carpets.pdb

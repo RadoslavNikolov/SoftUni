@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\9. Trapezoids-Area\bin\Debug\_9.Trapezoids_Area.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\9. Trapezoids-Area\bin\Debug\_9.Trapezoids_Area.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\9. Trapezoids-Area\bin\Debug\_9.Trapezoids_Area.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\9. Trapezoids-Area\obj\Debug\9. Trapezoids-Area.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\9. Trapezoids-Area\obj\Debug\_9.Trapezoids_Area.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\9. Trapezoids-Area\obj\Debug\_9.Trapezoids_Area.pdb

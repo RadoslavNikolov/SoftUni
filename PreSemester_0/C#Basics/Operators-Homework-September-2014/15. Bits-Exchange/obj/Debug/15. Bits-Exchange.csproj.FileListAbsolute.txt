@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\15. Bits-Exchange\bin\Debug\_15.Bits_Exchange.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\15. Bits-Exchange\bin\Debug\_15.Bits_Exchange.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\15. Bits-Exchange\bin\Debug\_15.Bits_Exchange.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\15. Bits-Exchange\obj\Debug\_15.Bits_Exchange.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\15. Bits-Exchange\obj\Debug\_15.Bits_Exchange.pdb

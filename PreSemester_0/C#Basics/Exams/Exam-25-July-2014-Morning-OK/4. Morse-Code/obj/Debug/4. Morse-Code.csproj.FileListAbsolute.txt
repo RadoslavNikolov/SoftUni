@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-25-July-2014-Morning\4. Morse-Code\bin\Debug\_4.Morse_Code.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-25-July-2014-Morning\4. Morse-Code\bin\Debug\_4.Morse_Code.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-25-July-2014-Morning\4. Morse-Code\bin\Debug\_4.Morse_Code.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-25-July-2014-Morning\4. Morse-Code\obj\Debug\_4.Morse_Code.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-25-July-2014-Morning\4. Morse-Code\obj\Debug\_4.Morse_Code.pdb

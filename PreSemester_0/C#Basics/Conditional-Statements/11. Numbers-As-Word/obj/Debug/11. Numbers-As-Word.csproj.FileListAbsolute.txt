@@ -1,0 +1,9 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\11. Numbers-As-Word\bin\Debug\_11.Numbers_As_Word.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\11. Numbers-As-Word\bin\Debug\_11.Numbers_As_Word.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\11. Numbers-As-Word\bin\Debug\_11.Numbers_As_Word.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\11. Numbers-As-Word\obj\Debug\11. Numbers-As-Word.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\11. Numbers-As-Word\obj\Debug\_11.Numbers_As_Word.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\11. Numbers-As-Word\obj\Debug\_11.Numbers_As_Word.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\11. Numbers-As-Word\bin\Debug\_11.Numbers_As_Word.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\11. Numbers-As-Word\obj\Debug\_11.Numbers_As_Word.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\11. Numbers-As-Word\obj\Debug\_11.Numbers_As_Word.pdb

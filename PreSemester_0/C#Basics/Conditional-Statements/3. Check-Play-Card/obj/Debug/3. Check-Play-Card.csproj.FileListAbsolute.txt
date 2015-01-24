@@ -1,0 +1,9 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\3. Check-Play-Card\bin\Debug\_3.Check_Play_Card.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\3. Check-Play-Card\bin\Debug\_3.Check_Play_Card.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\3. Check-Play-Card\bin\Debug\_3.Check_Play_Card.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\3. Check-Play-Card\obj\Debug\3. Check-Play-Card.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\3. Check-Play-Card\obj\Debug\_3.Check_Play_Card.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\3. Check-Play-Card\obj\Debug\_3.Check_Play_Card.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\3. Check-Play-Card\bin\Debug\_3.Check_Play_Card.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\3. Check-Play-Card\obj\Debug\_3.Check_Play_Card.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\3. Check-Play-Card\obj\Debug\_3.Check_Play_Card.pdb

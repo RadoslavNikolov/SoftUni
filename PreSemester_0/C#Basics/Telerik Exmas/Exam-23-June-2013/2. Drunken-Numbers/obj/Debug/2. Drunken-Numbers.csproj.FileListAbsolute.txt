@@ -1,0 +1,6 @@
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\2. Drunken-Numbers\bin\Debug\_2.Drunken_Numbers.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\2. Drunken-Numbers\bin\Debug\_2.Drunken_Numbers.exe
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\2. Drunken-Numbers\bin\Debug\_2.Drunken_Numbers.pdb
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\2. Drunken-Numbers\obj\Debug\2. Drunken-Numbers.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\2. Drunken-Numbers\obj\Debug\_2.Drunken_Numbers.exe
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\2. Drunken-Numbers\obj\Debug\_2.Drunken_Numbers.pdb

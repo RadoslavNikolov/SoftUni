@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5. Task 8\bin\Debug\_5.Task_8.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5. Task 8\bin\Debug\_5.Task_8.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5. Task 8\bin\Debug\_5.Task_8.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5. Task 8\obj\Debug\5. Task 8.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5. Task 8\obj\Debug\_5.Task_8.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5. Task 8\obj\Debug\_5.Task_8.pdb

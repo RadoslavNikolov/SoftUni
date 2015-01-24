@@ -1,0 +1,9 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\17. Voleyball\bin\Debug\_17.Voleyball.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\17. Voleyball\obj\Debug\17. Voleyball.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\17. Voleyball\bin\Debug\_17.Voleyball.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\17. Voleyball\bin\Debug\_17.Voleyball.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\17. Voleyball\obj\Debug\_17.Voleyball.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\17. Voleyball\obj\Debug\_17.Voleyball.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\17. Voleyball\bin\Debug\_17.Voleyball.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\17. Voleyball\obj\Debug\_17.Voleyball.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\17. Voleyball\obj\Debug\_17.Voleyball.pdb

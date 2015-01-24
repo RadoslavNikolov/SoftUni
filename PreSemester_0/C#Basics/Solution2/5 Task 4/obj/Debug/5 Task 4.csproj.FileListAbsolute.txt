@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5 Task 4\bin\Debug\5 Task 4.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5 Task 4\bin\Debug\5 Task 4.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5 Task 4\bin\Debug\5 Task 4.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5 Task 4\obj\Debug\5 Task 4.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5 Task 4\obj\Debug\5 Task 4.pdb

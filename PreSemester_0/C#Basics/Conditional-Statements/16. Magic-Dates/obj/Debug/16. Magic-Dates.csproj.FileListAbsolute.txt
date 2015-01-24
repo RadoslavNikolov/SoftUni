@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\16. Magic-Dates\bin\Debug\_16.Magic_Dates.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\16. Magic-Dates\bin\Debug\_16.Magic_Dates.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\16. Magic-Dates\bin\Debug\_16.Magic_Dates.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\16. Magic-Dates\obj\Debug\_16.Magic_Dates.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\16. Magic-Dates\obj\Debug\_16.Magic_Dates.pdb

@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5. Task 3\bin\Debug\_5.Task_3.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5. Task 3\bin\Debug\_5.Task_3.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5. Task 3\bin\Debug\_5.Task_3.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5. Task 3\obj\Debug\_5.Task_3.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\5. Task 3\obj\Debug\_5.Task_3.pdb

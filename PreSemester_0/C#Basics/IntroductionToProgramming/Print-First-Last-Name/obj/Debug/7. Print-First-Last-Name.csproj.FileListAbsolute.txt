@@ -1,0 +1,3 @@
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Print-First-Last-Name\bin\Debug\Print-First-Last-Name.exe.config
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Print-First-Last-Name\obj\Debug\Print-First-Last-Name.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Print-First-Last-Name\obj\Debug\Print-First-Last-Name.pdb

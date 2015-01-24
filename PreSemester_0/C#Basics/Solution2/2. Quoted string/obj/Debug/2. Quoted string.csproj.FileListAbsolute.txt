@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Quoted string\bin\Debug\_2.Quoted_string.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Quoted string\bin\Debug\_2.Quoted_string.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Quoted string\bin\Debug\_2.Quoted_string.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Quoted string\obj\Debug\_2.Quoted_string.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Quoted string\obj\Debug\_2.Quoted_string.pdb

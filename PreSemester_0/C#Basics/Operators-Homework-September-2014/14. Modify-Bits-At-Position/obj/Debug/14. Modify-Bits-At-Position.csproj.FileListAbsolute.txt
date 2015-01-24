@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\14. Modify-Bits-At-Position\bin\Debug\_14.Modify_Bits_At_Position.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\14. Modify-Bits-At-Position\bin\Debug\_14.Modify_Bits_At_Position.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\14. Modify-Bits-At-Position\bin\Debug\_14.Modify_Bits_At_Position.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\14. Modify-Bits-At-Position\obj\Debug\_14.Modify_Bits_At_Position.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\14. Modify-Bits-At-Position\obj\Debug\_14.Modify_Bits_At_Position.pdb

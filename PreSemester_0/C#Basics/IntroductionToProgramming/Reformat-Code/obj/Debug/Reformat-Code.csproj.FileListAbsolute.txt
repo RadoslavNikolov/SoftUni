@@ -1,0 +1,5 @@
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Reformat-Code\bin\Debug\Reformat-Code.exe.config
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Reformat-Code\bin\Debug\Reformat-Code.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Reformat-Code\bin\Debug\Reformat-Code.pdb
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Reformat-Code\obj\Debug\Reformat-Code.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Reformat-Code\obj\Debug\Reformat-Code.pdb

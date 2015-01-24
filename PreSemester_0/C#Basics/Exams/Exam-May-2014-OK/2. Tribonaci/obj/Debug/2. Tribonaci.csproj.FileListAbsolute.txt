@@ -1,0 +1,12 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-May-2014\2. Tribonaci\bin\Debug\_2.Tribonaci.exe.config
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-May-2014\2. Tribonaci\bin\Debug\_2.Tribonaci.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-May-2014\2. Tribonaci\bin\Debug\_2.Tribonaci.pdb
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-May-2014\2. Tribonaci\obj\Debug\2. Tribonaci.csprojResolveAssemblyReference.cache
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-May-2014\2. Tribonaci\obj\Debug\_2.Tribonaci.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-May-2014\2. Tribonaci\obj\Debug\_2.Tribonaci.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-May-2014-OK\2. Tribonaci\bin\Debug\_2.Tribonaci.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-May-2014-OK\2. Tribonaci\obj\Debug\_2.Tribonaci.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-May-2014-OK\2. Tribonaci\obj\Debug\_2.Tribonaci.pdb
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Exams\Exam-May-2014-OK\2. Tribonaci\bin\Debug\_2.Tribonaci.exe.config
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Exams\Exam-May-2014-OK\2. Tribonaci\obj\Debug\_2.Tribonaci.exe
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Exams\Exam-May-2014-OK\2. Tribonaci\obj\Debug\_2.Tribonaci.pdb

@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point inside circle and regtangle\bin\Debug\_3.Point_inside_circle_and_regtangle.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point inside circle and regtangle\bin\Debug\_3.Point_inside_circle_and_regtangle.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point inside circle and regtangle\bin\Debug\_3.Point_inside_circle_and_regtangle.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point inside circle and regtangle\obj\Debug\3. Point inside circle and regtangle.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point inside circle and regtangle\obj\Debug\_3.Point_inside_circle_and_regtangle.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point inside circle and regtangle\obj\Debug\_3.Point_inside_circle_and_regtangle.pdb

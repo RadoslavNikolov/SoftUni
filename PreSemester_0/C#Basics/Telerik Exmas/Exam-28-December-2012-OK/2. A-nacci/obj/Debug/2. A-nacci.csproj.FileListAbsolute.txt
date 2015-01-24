@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\2. A-nacci\bin\Debug\_2.A_nacci.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\2. A-nacci\bin\Debug\_2.A_nacci.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\2. A-nacci\bin\Debug\_2.A_nacci.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\2. A-nacci\obj\Debug\_2.A_nacci.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\2. A-nacci\obj\Debug\_2.A_nacci.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\2. A-nacci\obj\Debug\2. A-nacci.csprojResolveAssemblyReference.cache

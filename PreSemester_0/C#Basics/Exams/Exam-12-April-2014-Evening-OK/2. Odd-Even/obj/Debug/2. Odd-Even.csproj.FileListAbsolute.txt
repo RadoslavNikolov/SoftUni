@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\2. Odd-Even\bin\Debug\_2.Odd_Even.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\2. Odd-Even\bin\Debug\_2.Odd_Even.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\2. Odd-Even\bin\Debug\_2.Odd_Even.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\2. Odd-Even\obj\Debug\2. Odd-Even.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\2. Odd-Even\obj\Debug\_2.Odd_Even.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\2. Odd-Even\obj\Debug\_2.Odd_Even.pdb

@@ -1,0 +1,3 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Declare variables\bin\Debug\_1.Declare_variables.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Declare variables\obj\Debug\_1.Declare_variables.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Declare variables\obj\Debug\_1.Declare_variables.pdb

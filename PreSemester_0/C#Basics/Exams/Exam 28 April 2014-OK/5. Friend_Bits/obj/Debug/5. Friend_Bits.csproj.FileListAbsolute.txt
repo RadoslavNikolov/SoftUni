@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\5. Friend_Bits\bin\Debug\_5.Friend_Bits.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\5. Friend_Bits\bin\Debug\_5.Friend_Bits.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\5. Friend_Bits\bin\Debug\_5.Friend_Bits.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\5. Friend_Bits\obj\Debug\5. Friend_Bits.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\5. Friend_Bits\obj\Debug\_5.Friend_Bits.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\5. Friend_Bits\obj\Debug\_5.Friend_Bits.pdb

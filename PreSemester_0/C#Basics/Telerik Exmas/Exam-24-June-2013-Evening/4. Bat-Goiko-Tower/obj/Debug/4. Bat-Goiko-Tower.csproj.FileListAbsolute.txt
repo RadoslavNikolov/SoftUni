@@ -1,0 +1,6 @@
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\4. Bat-Goiko-Tower\bin\Debug\_4.Bat_Goiko_Tower.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\4. Bat-Goiko-Tower\obj\Debug\4. Bat-Goiko-Tower.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\4. Bat-Goiko-Tower\bin\Debug\_4.Bat_Goiko_Tower.exe
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\4. Bat-Goiko-Tower\bin\Debug\_4.Bat_Goiko_Tower.pdb
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\4. Bat-Goiko-Tower\obj\Debug\_4.Bat_Goiko_Tower.exe
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\4. Bat-Goiko-Tower\obj\Debug\_4.Bat_Goiko_Tower.pdb

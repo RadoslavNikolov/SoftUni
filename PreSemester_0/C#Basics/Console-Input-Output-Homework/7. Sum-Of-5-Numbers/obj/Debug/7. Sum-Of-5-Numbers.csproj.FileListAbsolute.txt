@@ -1,0 +1,5 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\7. Sum-Of-5-Numbers\bin\Debug\_7.Sum_Of_5_Numbers.exe.config
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\7. Sum-Of-5-Numbers\bin\Debug\_7.Sum_Of_5_Numbers.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\7. Sum-Of-5-Numbers\bin\Debug\_7.Sum_Of_5_Numbers.pdb
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\7. Sum-Of-5-Numbers\obj\Debug\_7.Sum_Of_5_Numbers.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\7. Sum-Of-5-Numbers\obj\Debug\_7.Sum_Of_5_Numbers.pdb

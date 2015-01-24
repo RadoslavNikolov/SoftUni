@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Declare char variable\bin\Debug\_2.Declare_char_variable.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Declare char variable\bin\Debug\_2.Declare_char_variable.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Declare char variable\bin\Debug\_2.Declare_char_variable.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Declare char variable\obj\Debug\_2.Declare_char_variable.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Declare char variable\obj\Debug\_2.Declare_char_variable.pdb

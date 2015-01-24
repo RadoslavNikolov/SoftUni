@@ -1,0 +1,12 @@
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\21. Bit-Shifting\bin\Debug\_21.Bit_Shifting.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\21. Bit-Shifting\obj\Debug\21. Bit-Shifting.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\21. Bit-Shifting\bin\Debug\_21.Bit_Shifting.exe
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\21. Bit-Shifting\bin\Debug\_21.Bit_Shifting.pdb
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\21. Bit-Shifting\obj\Debug\_21.Bit_Shifting.exe
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\21. Bit-Shifting\obj\Debug\_21.Bit_Shifting.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\21. Bit-Shifting\bin\Debug\_21.Bit_Shifting.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\21. Bit-Shifting\obj\Debug\_21.Bit_Shifting.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\21. Bit-Shifting\obj\Debug\_21.Bit_Shifting.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\21. Bit-Shifting\bin\Debug\_21.Bit_Shifting.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\21. Bit-Shifting\bin\Debug\_21.Bit_Shifting.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\21. Bit-Shifting\obj\Debug\21. Bit-Shifting.csprojResolveAssemblyReference.cache

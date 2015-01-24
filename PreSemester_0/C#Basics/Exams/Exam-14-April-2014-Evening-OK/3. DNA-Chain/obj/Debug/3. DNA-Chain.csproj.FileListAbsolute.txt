@@ -1,0 +1,9 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\3. DNA-Chain\bin\Debug\_3.DNA_Chain.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\3. DNA-Chain\obj\Debug\3. DNA-Chain.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\3. DNA-Chain\bin\Debug\_3.DNA_Chain.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\3. DNA-Chain\bin\Debug\_3.DNA_Chain.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\3. DNA-Chain\obj\Debug\_3.DNA_Chain.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\3. DNA-Chain\obj\Debug\_3.DNA_Chain.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\3. DNA-Chain\bin\Debug\_3.DNA_Chain.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\3. DNA-Chain\obj\Debug\_3.DNA_Chain.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\3. DNA-Chain\obj\Debug\_3.DNA_Chain.pdb

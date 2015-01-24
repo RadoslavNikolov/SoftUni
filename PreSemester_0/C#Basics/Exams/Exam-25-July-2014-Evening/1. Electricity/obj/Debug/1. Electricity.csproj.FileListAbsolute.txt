@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\1. Electricity\bin\Debug\_1.Electricity.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\1. Electricity\bin\Debug\_1.Electricity.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\1. Electricity\bin\Debug\_1.Electricity.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\1. Electricity\obj\Debug\1. Electricity.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\1. Electricity\obj\Debug\_1.Electricity.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\1. Electricity\obj\Debug\_1.Electricity.pdb

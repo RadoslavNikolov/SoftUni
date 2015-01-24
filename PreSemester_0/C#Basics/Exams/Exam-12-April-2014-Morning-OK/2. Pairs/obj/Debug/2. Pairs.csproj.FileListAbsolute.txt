@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\2. Pairs\bin\Debug\_2.Pairs.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\2. Pairs\bin\Debug\_2.Pairs.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\2. Pairs\bin\Debug\_2.Pairs.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\2. Pairs\obj\Debug\_2.Pairs.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\2. Pairs\obj\Debug\_2.Pairs.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\2. Pairs\obj\Debug\2. Pairs.csprojResolveAssemblyReference.cache

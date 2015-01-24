@@ -1,0 +1,9 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-25-July-2014-Morning\1. Melons\bin\Debug\_1.Melons.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-25-July-2014-Morning\1. Melons\bin\Debug\_1.Melons.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-25-July-2014-Morning\1. Melons\bin\Debug\_1.Melons.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-25-July-2014-Morning\1. Melons\obj\Debug\1. Melons.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-25-July-2014-Morning\1. Melons\obj\Debug\_1.Melons.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-25-July-2014-Morning\1. Melons\obj\Debug\_1.Melons.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Morning\1. Melons\bin\Debug\_1.Melons.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Morning\1. Melons\obj\Debug\_1.Melons.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Morning\1. Melons\obj\Debug\_1.Melons.pdb

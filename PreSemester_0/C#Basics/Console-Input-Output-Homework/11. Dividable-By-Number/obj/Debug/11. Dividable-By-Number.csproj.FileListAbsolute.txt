@@ -1,0 +1,6 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\11. Dividable-By-Number\bin\Debug\_11.Dividable_By_Number.exe.config
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\11. Dividable-By-Number\bin\Debug\_11.Dividable_By_Number.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\11. Dividable-By-Number\bin\Debug\_11.Dividable_By_Number.pdb
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\11. Dividable-By-Number\obj\Debug\11. Dividable-By-Number.csprojResolveAssemblyReference.cache
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\11. Dividable-By-Number\obj\Debug\_11.Dividable_By_Number.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\11. Dividable-By-Number\obj\Debug\_11.Dividable_By_Number.pdb

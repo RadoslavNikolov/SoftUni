@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Face and perimeter of rectangle\bin\Debug\_3.Face_and_perimeter_of_rectangle.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Face and perimeter of rectangle\bin\Debug\_3.Face_and_perimeter_of_rectangle.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Face and perimeter of rectangle\bin\Debug\_3.Face_and_perimeter_of_rectangle.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Face and perimeter of rectangle\obj\Debug\_3.Face_and_perimeter_of_rectangle.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Face and perimeter of rectangle\obj\Debug\_3.Face_and_perimeter_of_rectangle.pdb

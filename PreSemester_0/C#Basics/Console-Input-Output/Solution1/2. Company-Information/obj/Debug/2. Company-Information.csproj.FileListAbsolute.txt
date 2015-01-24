@@ -1,0 +1,6 @@
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\2. Company-Information\bin\Debug\_2.Company_Information.exe.config
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\2. Company-Information\bin\Debug\_2.Company_Information.exe
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\2. Company-Information\bin\Debug\_2.Company_Information.pdb
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\2. Company-Information\obj\Debug\2. Company-Information.csprojResolveAssemblyReference.cache
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\2. Company-Information\obj\Debug\_2.Company_Information.exe
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\2. Company-Information\obj\Debug\_2.Company_Information.pdb

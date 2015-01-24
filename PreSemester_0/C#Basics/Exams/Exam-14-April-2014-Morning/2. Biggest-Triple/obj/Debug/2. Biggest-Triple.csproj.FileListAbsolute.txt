@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\2. Biggest-Triple\bin\Debug\_2.Biggest_Triple.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\2. Biggest-Triple\bin\Debug\_2.Biggest_Triple.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\2. Biggest-Triple\bin\Debug\_2.Biggest_Triple.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\2. Biggest-Triple\obj\Debug\2. Biggest-Triple.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\2. Biggest-Triple\obj\Debug\_2.Biggest_Triple.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\2. Biggest-Triple\obj\Debug\_2.Biggest_Triple.pdb

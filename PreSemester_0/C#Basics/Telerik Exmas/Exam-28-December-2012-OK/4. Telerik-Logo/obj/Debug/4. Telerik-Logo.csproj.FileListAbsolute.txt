@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\4. Telerik-Logo\bin\Debug\_4.Telerik_Logo.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\4. Telerik-Logo\bin\Debug\_4.Telerik_Logo.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\4. Telerik-Logo\bin\Debug\_4.Telerik_Logo.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\4. Telerik-Logo\obj\Debug\4. Telerik-Logo.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\4. Telerik-Logo\obj\Debug\_4.Telerik_Logo.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\4. Telerik-Logo\obj\Debug\_4.Telerik_Logo.pdb

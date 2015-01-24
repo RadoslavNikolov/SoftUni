@@ -1,0 +1,8 @@
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\13. Comparing Floats\bin\Debug\_13.Comparing_Floats.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\13. Comparing Floats\bin\Debug\_13.Comparing_Floats.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\13. Comparing Floats\bin\Debug\_13.Comparing_Floats.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\13. Comparing Floats\obj\Debug\_13.Comparing_Floats.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\13. Comparing Floats\obj\Debug\_13.Comparing_Floats.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\13. Comparing Floats\bin\Debug\_13.Comparing_Floats.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\13. Comparing Floats\obj\Debug\_13.Comparing_Floats.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\13. Comparing Floats\obj\Debug\_13.Comparing_Floats.pdb

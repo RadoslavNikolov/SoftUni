@@ -1,0 +1,5 @@
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Values Exchange\bin\Debug\Values Exchange.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Values Exchange\bin\Debug\Values Exchange.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Values Exchange\bin\Debug\Values Exchange.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Values Exchange\obj\Debug\Values Exchange.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Values Exchange\obj\Debug\Values Exchange.pdb

@@ -1,0 +1,6 @@
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\1. Coffee-Machine\bin\Debug\_1.Coffee_Machine.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\1. Coffee-Machine\bin\Debug\_1.Coffee_Machine.exe
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\1. Coffee-Machine\bin\Debug\_1.Coffee_Machine.pdb
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\1. Coffee-Machine\obj\Debug\1. Coffee-Machine.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\1. Coffee-Machine\obj\Debug\_1.Coffee_Machine.exe
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\1. Coffee-Machine\obj\Debug\_1.Coffee_Machine.pdb

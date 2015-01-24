@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\17. Calcilate-GCD\bin\Debug\_17.Calcilate_GCD.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\17. Calcilate-GCD\bin\Debug\_17.Calcilate_GCD.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\17. Calcilate-GCD\bin\Debug\_17.Calcilate_GCD.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\17. Calcilate-GCD\obj\Debug\_17.Calcilate_GCD.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\17. Calcilate-GCD\obj\Debug\_17.Calcilate_GCD.pdb

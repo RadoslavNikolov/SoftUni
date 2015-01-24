@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\1. Sevenland-Numbers\bin\Debug\_1.Sevenland_Numbers.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\1. Sevenland-Numbers\bin\Debug\_1.Sevenland_Numbers.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\1. Sevenland-Numbers\bin\Debug\_1.Sevenland_Numbers.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\1. Sevenland-Numbers\obj\Debug\1. Sevenland-Numbers.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\1. Sevenland-Numbers\obj\Debug\_1.Sevenland_Numbers.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\1. Sevenland-Numbers\obj\Debug\_1.Sevenland_Numbers.pdb

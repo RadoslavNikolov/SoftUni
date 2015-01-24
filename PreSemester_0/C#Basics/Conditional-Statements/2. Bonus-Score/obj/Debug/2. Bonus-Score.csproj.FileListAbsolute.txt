@@ -1,0 +1,2 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\2. Bonus-Score\bin\Debug\_2.Bonus_Score.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\2. Bonus-Score\bin\Debug\_2.Bonus_Score.exe.config

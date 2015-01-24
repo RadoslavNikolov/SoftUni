@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Disk\bin\Debug\_3.Disk.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Disk\bin\Debug\_3.Disk.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Disk\bin\Debug\_3.Disk.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Disk\obj\Debug\3. Disk.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Disk\obj\Debug\_3.Disk.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Disk\obj\Debug\_3.Disk.pdb

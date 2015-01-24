@@ -1,0 +1,3 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\Unicode character\bin\Debug\Unicode character.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\Unicode character\obj\Debug\Unicode character.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\Unicode character\obj\Debug\Unicode character.pdb

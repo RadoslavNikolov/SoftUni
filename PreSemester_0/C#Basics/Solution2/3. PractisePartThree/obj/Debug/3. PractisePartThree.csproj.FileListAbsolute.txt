@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. PractisePartThree\bin\Debug\_3.PractisePartThree.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. PractisePartThree\bin\Debug\_3.PractisePartThree.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. PractisePartThree\bin\Debug\_3.PractisePartThree.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. PractisePartThree\obj\Debug\3. PractisePartThree.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. PractisePartThree\obj\Debug\_3.PractisePartThree.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. PractisePartThree\obj\Debug\_3.PractisePartThree.pdb

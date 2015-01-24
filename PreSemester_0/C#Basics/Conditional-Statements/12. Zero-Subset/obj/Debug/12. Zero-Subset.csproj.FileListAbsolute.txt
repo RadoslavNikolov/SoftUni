@@ -1,0 +1,9 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\12. Zero-Subset\bin\Debug\_12.Zero_Subset.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\12. Zero-Subset\bin\Debug\_12.Zero_Subset.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\12. Zero-Subset\bin\Debug\_12.Zero_Subset.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\12. Zero-Subset\obj\Debug\12. Zero-Subset.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\12. Zero-Subset\obj\Debug\_12.Zero_Subset.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\12. Zero-Subset\obj\Debug\_12.Zero_Subset.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\12. Zero-Subset\bin\Debug\_12.Zero_Subset.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\12. Zero-Subset\obj\Debug\_12.Zero_Subset.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\12. Zero-Subset\obj\Debug\_12.Zero_Subset.pdb

@@ -1,0 +1,3 @@
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\PrintNumbers\bin\Debug\PrintNumbers.exe.config
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\PrintNumbers\obj\Debug\PrintNumbers.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\PrintNumbers\obj\Debug\PrintNumbers.pdb

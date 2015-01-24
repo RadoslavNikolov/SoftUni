@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\13. Check-Bit-At-Position\bin\Debug\_13.Check_Bit_At_Position.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\13. Check-Bit-At-Position\bin\Debug\_13.Check_Bit_At_Position.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\13. Check-Bit-At-Position\bin\Debug\_13.Check_Bit_At_Position.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\13. Check-Bit-At-Position\obj\Debug\_13.Check_Bit_At_Position.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\13. Check-Bit-At-Position\obj\Debug\_13.Check_Bit_At_Position.pdb

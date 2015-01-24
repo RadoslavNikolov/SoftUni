@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. Sequence2\bin\Debug\_2.Sequence2.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. Sequence2\bin\Debug\_2.Sequence2.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. Sequence2\bin\Debug\_2.Sequence2.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. Sequence2\obj\Debug\2. Sequence2.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. Sequence2\obj\Debug\_2.Sequence2.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. Sequence2\obj\Debug\_2.Sequence2.pdb

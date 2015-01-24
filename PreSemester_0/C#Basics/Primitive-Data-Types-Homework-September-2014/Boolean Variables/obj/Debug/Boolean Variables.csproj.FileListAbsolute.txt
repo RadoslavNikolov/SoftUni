@@ -1,0 +1,5 @@
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Boolean Variables\bin\Debug\Boolean Variables.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Boolean Variables\bin\Debug\Boolean Variables.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Boolean Variables\bin\Debug\Boolean Variables.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Boolean Variables\obj\Debug\Boolean Variables.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Boolean Variables\obj\Debug\Boolean Variables.pdb

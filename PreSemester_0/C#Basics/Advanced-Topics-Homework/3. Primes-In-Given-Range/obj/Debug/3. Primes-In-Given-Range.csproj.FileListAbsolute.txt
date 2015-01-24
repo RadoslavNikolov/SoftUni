@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\3. Primes-In-Given-Range\bin\Debug\_3.Primes_In_Given_Range.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\3. Primes-In-Given-Range\bin\Debug\_3.Primes_In_Given_Range.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\3. Primes-In-Given-Range\bin\Debug\_3.Primes_In_Given_Range.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\3. Primes-In-Given-Range\obj\Debug\3. Primes-In-Given-Range.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\3. Primes-In-Given-Range\obj\Debug\_3.Primes_In_Given_Range.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\3. Primes-In-Given-Range\obj\Debug\_3.Primes_In_Given_Range.pdb

@@ -1,0 +1,9 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\18. Odd-Even-Sum\bin\Debug\_18.Odd_Even_Sum.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\18. Odd-Even-Sum\bin\Debug\_18.Odd_Even_Sum.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\18. Odd-Even-Sum\bin\Debug\_18.Odd_Even_Sum.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\18. Odd-Even-Sum\obj\Debug\18. Odd-Even-Sum.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\18. Odd-Even-Sum\obj\Debug\_18.Odd_Even_Sum.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\18. Odd-Even-Sum\obj\Debug\_18.Odd_Even_Sum.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\18. Odd-Even-Sum\bin\Debug\_18.Odd_Even_Sum.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\18. Odd-Even-Sum\obj\Debug\_18.Odd_Even_Sum.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\18. Odd-Even-Sum\obj\Debug\_18.Odd_Even_Sum.pdb

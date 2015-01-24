@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\2. Odd-Even-Jumps\bin\Debug\_2.Odd_Even_Jumps.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\2. Odd-Even-Jumps\bin\Debug\_2.Odd_Even_Jumps.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\2. Odd-Even-Jumps\bin\Debug\_2.Odd_Even_Jumps.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\2. Odd-Even-Jumps\obj\Debug\2. Odd-Even-Jumps.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\2. Odd-Even-Jumps\obj\Debug\_2.Odd_Even_Jumps.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\2. Odd-Even-Jumps\obj\Debug\_2.Odd_Even_Jumps.pdb

@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\1. Problem-3-6-9\bin\Debug\_1.Problem_3_6_9.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\1. Problem-3-6-9\bin\Debug\_1.Problem_3_6_9.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\1. Problem-3-6-9\bin\Debug\_1.Problem_3_6_9.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\1. Problem-3-6-9\obj\Debug\1. Problem-3-6-9.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\1. Problem-3-6-9\obj\Debug\_1.Problem_3_6_9.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\1. Problem-3-6-9\obj\Debug\_1.Problem_3_6_9.pdb

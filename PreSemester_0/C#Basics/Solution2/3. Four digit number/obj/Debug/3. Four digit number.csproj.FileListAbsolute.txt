@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Four digit number\bin\Debug\_3.Four_digit_number.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Four digit number\bin\Debug\_3.Four_digit_number.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Four digit number\bin\Debug\_3.Four_digit_number.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Four digit number\obj\Debug\3. Four digit number.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Four digit number\obj\Debug\_3.Four_digit_number.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Four digit number\obj\Debug\_3.Four_digit_number.pdb

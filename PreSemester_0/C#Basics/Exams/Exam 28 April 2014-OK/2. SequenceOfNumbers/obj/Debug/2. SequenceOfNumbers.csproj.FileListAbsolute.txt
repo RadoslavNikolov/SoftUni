@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. SequenceOfNumbers\bin\Debug\_2.SequenceOfNumbers.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. SequenceOfNumbers\bin\Debug\_2.SequenceOfNumbers.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. SequenceOfNumbers\bin\Debug\_2.SequenceOfNumbers.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. SequenceOfNumbers\obj\Debug\2. SequenceOfNumbers.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. SequenceOfNumbers\obj\Debug\_2.SequenceOfNumbers.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\2. SequenceOfNumbers\obj\Debug\_2.SequenceOfNumbers.pdb

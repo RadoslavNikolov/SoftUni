@@ -1,0 +1,6 @@
+@import url("common.css");  /* importing *.css in other *.css file   !!!Only in the beginning */
+/*CSS file*/
+body {
+    background-color: azure;
+
+}

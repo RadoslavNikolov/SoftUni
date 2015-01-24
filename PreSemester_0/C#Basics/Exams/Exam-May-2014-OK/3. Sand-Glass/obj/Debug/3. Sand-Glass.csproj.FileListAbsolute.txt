@@ -1,0 +1,9 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\3. Sand-Glass\bin\Debug\_3.Sand_Glass.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\3. Sand-Glass\bin\Debug\_3.Sand_Glass.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\3. Sand-Glass\bin\Debug\_3.Sand_Glass.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\3. Sand-Glass\obj\Debug\3. Sand-Glass.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\3. Sand-Glass\obj\Debug\_3.Sand_Glass.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\3. Sand-Glass\obj\Debug\_3.Sand_Glass.pdb
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Exams\Exam-May-2014-OK\3. Sand-Glass\bin\Debug\_3.Sand_Glass.exe.config
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Exams\Exam-May-2014-OK\3. Sand-Glass\obj\Debug\_3.Sand_Glass.exe
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Exams\Exam-May-2014-OK\3. Sand-Glass\obj\Debug\_3.Sand_Glass.pdb

@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\18. Trailing-Zeroes-1\bin\Debug\_18.Trailing_Zeroes_1.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\18. Trailing-Zeroes-1\bin\Debug\_18.Trailing_Zeroes_1.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\18. Trailing-Zeroes-1\bin\Debug\_18.Trailing_Zeroes_1.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\18. Trailing-Zeroes-1\obj\Debug\_18.Trailing_Zeroes_1.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\18. Trailing-Zeroes-1\obj\Debug\_18.Trailing_Zeroes_1.pdb

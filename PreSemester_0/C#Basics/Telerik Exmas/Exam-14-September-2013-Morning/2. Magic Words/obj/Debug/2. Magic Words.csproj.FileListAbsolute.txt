@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\2. Magic Words\bin\Debug\_2.Magic_Words.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\2. Magic Words\bin\Debug\_2.Magic_Words.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\2. Magic Words\bin\Debug\_2.Magic_Words.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\2. Magic Words\obj\Debug\2. Magic Words.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\2. Magic Words\obj\Debug\_2.Magic_Words.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\2. Magic Words\obj\Debug\_2.Magic_Words.pdb

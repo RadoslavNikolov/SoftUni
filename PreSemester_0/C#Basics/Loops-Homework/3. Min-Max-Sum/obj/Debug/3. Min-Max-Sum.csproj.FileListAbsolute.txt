@@ -1,0 +1,5 @@
+D:\Loops-Homework\3. Min-Max-Sum\bin\Debug\_3.Min_Max_Sum.exe.config
+D:\Loops-Homework\3. Min-Max-Sum\bin\Debug\_3.Min_Max_Sum.exe
+D:\Loops-Homework\3. Min-Max-Sum\bin\Debug\_3.Min_Max_Sum.pdb
+D:\Loops-Homework\3. Min-Max-Sum\obj\Debug\_3.Min_Max_Sum.exe
+D:\Loops-Homework\3. Min-Max-Sum\obj\Debug\_3.Min_Max_Sum.pdb

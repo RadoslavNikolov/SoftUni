@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\9. Play-With-Variables-Types\bin\Debug\_9.Play_With_Variables_Types.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\9. Play-With-Variables-Types\bin\Debug\_9.Play_With_Variables_Types.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\9. Play-With-Variables-Types\bin\Debug\_9.Play_With_Variables_Types.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\9. Play-With-Variables-Types\obj\Debug\_9.Play_With_Variables_Types.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\9. Play-With-Variables-Types\obj\Debug\_9.Play_With_Variables_Types.pdb

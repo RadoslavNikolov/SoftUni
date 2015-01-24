@@ -1,0 +1,5 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\15. New-House\bin\Debug\_15.New_House.exe.config
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\15. New-House\bin\Debug\_15.New_House.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\15. New-House\bin\Debug\_15.New_House.pdb
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\15. New-House\obj\Debug\_15.New_House.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\15. New-House\obj\Debug\_15.New_House.pdb

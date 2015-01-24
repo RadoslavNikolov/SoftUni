@@ -1,0 +1,9 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\16. Megic-String\bin\Debug\_16.Megic_String.exe.config
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\16. Megic-String\bin\Debug\_16.Megic_String.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\16. Megic-String\bin\Debug\_16.Megic_String.pdb
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\16. Megic-String\obj\Debug\16. Megic-String.csprojResolveAssemblyReference.cache
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\16. Megic-String\obj\Debug\_16.Megic_String.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\16. Megic-String\obj\Debug\_16.Megic_String.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Console-Input-Output-Homework\16. Megic-String\bin\Debug\_16.Megic_String.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Console-Input-Output-Homework\16. Megic-String\obj\Debug\_16.Megic_String.exe
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Console-Input-Output-Homework\16. Megic-String\obj\Debug\_16.Megic_String.pdb

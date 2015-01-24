@@ -1,0 +1,5 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\12. Count-Of-Names\bin\Debug\_12.Count_Of_Names.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\12. Count-Of-Names\bin\Debug\_12.Count_Of_Names.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\12. Count-Of-Names\bin\Debug\_12.Count_Of_Names.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\12. Count-Of-Names\obj\Debug\_12.Count_Of_Names.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\12. Count-Of-Names\obj\Debug\_12.Count_Of_Names.pdb

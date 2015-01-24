@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Present Date and Time\bin\Debug\_1.Present_Date_and_Time.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Present Date and Time\bin\Debug\_1.Present_Date_and_Time.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Present Date and Time\bin\Debug\_1.Present_Date_and_Time.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Present Date and Time\obj\Debug\1. Present Date and Time.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Present Date and Time\obj\Debug\_1.Present_Date_and_Time.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Present Date and Time\obj\Debug\_1.Present_Date_and_Time.pdb

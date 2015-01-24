@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Print Heart\bin\Debug\_2.Print_Heart.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Print Heart\bin\Debug\_2.Print_Heart.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Print Heart\bin\Debug\_2.Print_Heart.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Print Heart\obj\Debug\2. Print Heart.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Print Heart\obj\Debug\_2.Print_Heart.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Print Heart\obj\Debug\_2.Print_Heart.pdb

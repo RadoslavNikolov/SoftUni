@@ -1,0 +1,15 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\4. Megic-Car-Number\bin\Debug\_4.Megic_Car_Number.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\4. Megic-Car-Number\bin\Debug\_4.Megic_Car_Number.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\4. Megic-Car-Number\bin\Debug\_4.Megic_Car_Number.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\4. Megic-Car-Number\obj\Debug\4. Megic-Car-Number.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\4. Megic-Car-Number\obj\Debug\_4.Megic_Car_Number.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\4. Megic-Car-Number\obj\Debug\_4.Megic_Car_Number.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Evening-OK\4. Megic-Car-Number\bin\Debug\_4.Megic_Car_Number.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Evening-OK\4. Megic-Car-Number\obj\Debug\_4.Megic_Car_Number.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Evening-OK\4. Megic-Car-Number\obj\Debug\_4.Megic_Car_Number.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\4. Megic-Car-Number\bin\Debug\_4.Megic_Car_Number.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\4. Megic-Car-Number\obj\Debug\_4.Megic_Car_Number.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\4. Megic-Car-Number\obj\Debug\_4.Megic_Car_Number.pdb
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Exams\Exam-14-April-2014-Evening-OK\4. Megic-Car-Number\bin\Debug\_4.Megic_Car_Number.exe.config
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Exams\Exam-14-April-2014-Evening-OK\4. Megic-Car-Number\obj\Debug\_4.Megic_Car_Number.exe
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Exams\Exam-14-April-2014-Evening-OK\4. Megic-Car-Number\obj\Debug\_4.Megic_Car_Number.pdb

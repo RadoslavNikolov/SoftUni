@@ -1,0 +1,15 @@
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\19. The-Explorer\bin\Debug\_19.The_Explorer.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\19. The-Explorer\obj\Debug\19. The-Explorer.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\19. The-Explorer\bin\Debug\_19.The_Explorer.exe
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\19. The-Explorer\bin\Debug\_19.The_Explorer.pdb
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\19. The-Explorer\obj\Debug\_19.The_Explorer.exe
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\19. The-Explorer\obj\Debug\_19.The_Explorer.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\19. The-Explorer\bin\Debug\_19.The_Explorer.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\19. The-Explorer\obj\Debug\_19.The_Explorer.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\19. The-Explorer\obj\Debug\_19.The_Explorer.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\19. The-Explorer\bin\Debug\_19.The_Explorer.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\19. The-Explorer\obj\Debug\_19.The_Explorer.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\19. The-Explorer\obj\Debug\_19.The_Explorer.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\19. The-Explorer\bin\Debug\_19.The_Explorer.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\19. The-Explorer\bin\Debug\_19.The_Explorer.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\19. The-Explorer\obj\Debug\19. The-Explorer.csprojResolveAssemblyReference.cache

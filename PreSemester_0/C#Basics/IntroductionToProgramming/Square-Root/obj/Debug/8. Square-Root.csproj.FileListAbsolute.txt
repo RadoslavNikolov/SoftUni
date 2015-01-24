@@ -1,0 +1,3 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\IntroductionToProgramming\Square-Root\bin\Debug\Square-Root.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\IntroductionToProgramming\Square-Root\obj\Debug\Square-Root.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\IntroductionToProgramming\Square-Root\obj\Debug\Square-Root.pdb

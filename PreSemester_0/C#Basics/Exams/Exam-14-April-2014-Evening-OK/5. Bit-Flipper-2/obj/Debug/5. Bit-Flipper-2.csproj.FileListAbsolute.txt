@@ -1,0 +1,11 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\5. Bit-Flipper-2\bin\Debug\_5.Bit_Flipper_2.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\5. Bit-Flipper-2\bin\Debug\_5.Bit_Flipper_2.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\5. Bit-Flipper-2\bin\Debug\_5.Bit_Flipper_2.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\5. Bit-Flipper-2\obj\Debug\_5.Bit_Flipper_2.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\5. Bit-Flipper-2\obj\Debug\_5.Bit_Flipper_2.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Evening-OK\5. Bit-Flipper-2\bin\Debug\_5.Bit_Flipper_2.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Evening-OK\5. Bit-Flipper-2\obj\Debug\_5.Bit_Flipper_2.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Evening-OK\5. Bit-Flipper-2\obj\Debug\_5.Bit_Flipper_2.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\5. Bit-Flipper-2\bin\Debug\_5.Bit_Flipper_2.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\5. Bit-Flipper-2\obj\Debug\_5.Bit_Flipper_2.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\5. Bit-Flipper-2\obj\Debug\_5.Bit_Flipper_2.pdb

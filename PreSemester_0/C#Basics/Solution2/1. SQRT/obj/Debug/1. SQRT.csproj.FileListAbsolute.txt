@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. SQRT\bin\Debug\_1.SQRT.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. SQRT\bin\Debug\_1.SQRT.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. SQRT\bin\Debug\_1.SQRT.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. SQRT\obj\Debug\1. SQRT.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. SQRT\obj\Debug\_1.SQRT.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. SQRT\obj\Debug\_1.SQRT.pdb

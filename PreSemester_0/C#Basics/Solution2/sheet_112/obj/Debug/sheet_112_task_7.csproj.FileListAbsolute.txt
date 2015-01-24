@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\sheet_112\bin\Debug\sheet_112.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\sheet_112\bin\Debug\sheet_112.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\sheet_112\bin\Debug\sheet_112.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\sheet_112\obj\Debug\sheet_112.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\sheet_112\obj\Debug\sheet_112.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\sheet_112\obj\Debug\sheet_112_task_7.csprojResolveAssemblyReference.cache

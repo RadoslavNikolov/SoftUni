@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\2. Prime-Checker\bin\Debug\_2.Prime_Checker.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\2. Prime-Checker\bin\Debug\_2.Prime_Checker.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\2. Prime-Checker\bin\Debug\_2.Prime_Checker.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\2. Prime-Checker\obj\Debug\2. Prime-Checker.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\2. Prime-Checker\obj\Debug\_2.Prime_Checker.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\2. Prime-Checker\obj\Debug\_2.Prime_Checker.pdb

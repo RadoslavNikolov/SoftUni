@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\1. Cinema\bin\Debug\_1.Cinema.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\1. Cinema\bin\Debug\_1.Cinema.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\1. Cinema\bin\Debug\_1.Cinema.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\1. Cinema\obj\Debug\1. Cinema.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\1. Cinema\obj\Debug\_1.Cinema.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\1. Cinema\obj\Debug\_1.Cinema.pdb

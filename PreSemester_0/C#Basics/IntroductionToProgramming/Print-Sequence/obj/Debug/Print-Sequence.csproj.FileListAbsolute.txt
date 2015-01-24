@@ -1,0 +1,5 @@
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Print-Sequence\bin\Debug\Print-Sequence.exe.config
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Print-Sequence\bin\Debug\Print-Sequence.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Print-Sequence\bin\Debug\Print-Sequence.pdb
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Print-Sequence\obj\Debug\Print-Sequence.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Print-Sequence\obj\Debug\Print-Sequence.pdb

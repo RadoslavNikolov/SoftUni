@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\24. Bit-Roller\bin\Debug\_24.Bit_Roller.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\24. Bit-Roller\bin\Debug\_24.Bit_Roller.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\24. Bit-Roller\bin\Debug\_24.Bit_Roller.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\24. Bit-Roller\obj\Debug\_24.Bit_Roller.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\24. Bit-Roller\obj\Debug\_24.Bit_Roller.pdb

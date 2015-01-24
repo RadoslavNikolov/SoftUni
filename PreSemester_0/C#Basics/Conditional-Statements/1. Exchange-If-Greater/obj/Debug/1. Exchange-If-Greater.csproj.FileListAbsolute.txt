@@ -1,0 +1,2 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\1. Exchange-If-Greater\bin\Debug\_1.Exchange_If_Greater.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\1. Exchange-If-Greater\bin\Debug\_1.Exchange_If_Greater.exe.config

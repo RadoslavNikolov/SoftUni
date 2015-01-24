@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\2. Nightmare-on-Code-Street\bin\Debug\_2.Nightmare_on_Code_Street.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\2. Nightmare-on-Code-Street\bin\Debug\_2.Nightmare_on_Code_Street.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\2. Nightmare-on-Code-Street\bin\Debug\_2.Nightmare_on_Code_Street.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\2. Nightmare-on-Code-Street\obj\Debug\2. Nightmare-on-Code-Street.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\2. Nightmare-on-Code-Street\obj\Debug\_2.Nightmare_on_Code_Street.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\2. Nightmare-on-Code-Street\obj\Debug\_2.Nightmare_on_Code_Street.pdb

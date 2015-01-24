@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\23. Five-Special-Letters\bin\Debug\_23.Five_Special_Letters.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\23. Five-Special-Letters\bin\Debug\_23.Five_Special_Letters.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\23. Five-Special-Letters\bin\Debug\_23.Five_Special_Letters.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\23. Five-Special-Letters\obj\Debug\_23.Five_Special_Letters.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\23. Five-Special-Letters\obj\Debug\_23.Five_Special_Letters.pdb

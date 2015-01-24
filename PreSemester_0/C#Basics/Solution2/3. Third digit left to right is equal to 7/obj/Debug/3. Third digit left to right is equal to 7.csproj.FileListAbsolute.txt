@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third digit left to right is equal to 7\bin\Debug\_3.Third_digit_left_to_right_is_equal_to_7.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third digit left to right is equal to 7\bin\Debug\_3.Third_digit_left_to_right_is_equal_to_7.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third digit left to right is equal to 7\bin\Debug\_3.Third_digit_left_to_right_is_equal_to_7.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third digit left to right is equal to 7\obj\Debug\_3.Third_digit_left_to_right_is_equal_to_7.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third digit left to right is equal to 7\obj\Debug\_3.Third_digit_left_to_right_is_equal_to_7.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third digit left to right is equal to 7\obj\Debug\3. Third digit left to right is equal to 7.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\9. Print-Matrix\bin\Debug\_9.Print_Matrix.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\9. Print-Matrix\bin\Debug\_9.Print_Matrix.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\9. Print-Matrix\bin\Debug\_9.Print_Matrix.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\9. Print-Matrix\obj\Debug\_9.Print_Matrix.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\9. Print-Matrix\obj\Debug\_9.Print_Matrix.pdb

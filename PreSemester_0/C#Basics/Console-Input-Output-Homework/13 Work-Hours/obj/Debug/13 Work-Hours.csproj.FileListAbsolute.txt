@@ -1,0 +1,6 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\13 Work-Hours\bin\Debug\13 Work-Hours.exe.config
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\13 Work-Hours\bin\Debug\13 Work-Hours.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\13 Work-Hours\bin\Debug\13 Work-Hours.pdb
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\13 Work-Hours\obj\Debug\13 Work-Hours.csprojResolveAssemblyReference.cache
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\13 Work-Hours\obj\Debug\13 Work-Hours.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\13 Work-Hours\obj\Debug\13 Work-Hours.pdb

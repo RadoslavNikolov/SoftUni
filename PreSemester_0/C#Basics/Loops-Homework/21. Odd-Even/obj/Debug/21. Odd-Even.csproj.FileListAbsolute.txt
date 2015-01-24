@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\21. Odd-Even\bin\Debug\_21.Odd_Even.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\21. Odd-Even\bin\Debug\_21.Odd_Even.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\21. Odd-Even\bin\Debug\_21.Odd_Even.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\21. Odd-Even\obj\Debug\21. Odd-Even.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\21. Odd-Even\obj\Debug\_21.Odd_Even.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\21. Odd-Even\obj\Debug\_21.Odd_Even.pdb

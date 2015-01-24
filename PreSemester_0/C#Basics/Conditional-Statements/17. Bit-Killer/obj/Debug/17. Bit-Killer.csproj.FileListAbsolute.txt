@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\17. Bit-Killer\bin\Debug\_17.Bit_Killer.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\17. Bit-Killer\bin\Debug\_17.Bit_Killer.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\17. Bit-Killer\bin\Debug\_17.Bit_Killer.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\17. Bit-Killer\obj\Debug\_17.Bit_Killer.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\17. Bit-Killer\obj\Debug\_17.Bit_Killer.pdb

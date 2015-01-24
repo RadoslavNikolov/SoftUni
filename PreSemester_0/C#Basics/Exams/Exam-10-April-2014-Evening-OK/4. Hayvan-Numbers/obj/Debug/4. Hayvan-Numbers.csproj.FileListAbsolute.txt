@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-10-April-2014-Evening\4. Hayvan-Numbers\bin\Debug\_4.Hayvan_Numbers.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-10-April-2014-Evening\4. Hayvan-Numbers\bin\Debug\_4.Hayvan_Numbers.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-10-April-2014-Evening\4. Hayvan-Numbers\bin\Debug\_4.Hayvan_Numbers.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-10-April-2014-Evening\4. Hayvan-Numbers\obj\Debug\4. Hayvan-Numbers.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-10-April-2014-Evening\4. Hayvan-Numbers\obj\Debug\_4.Hayvan_Numbers.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-10-April-2014-Evening\4. Hayvan-Numbers\obj\Debug\_4.Hayvan_Numbers.pdb

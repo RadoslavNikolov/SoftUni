@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\16. Bit-Exchange-Advanced\bin\Debug\_16.Bit_Exchange_Advanced.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\16. Bit-Exchange-Advanced\bin\Debug\_16.Bit_Exchange_Advanced.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\16. Bit-Exchange-Advanced\bin\Debug\_16.Bit_Exchange_Advanced.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\16. Bit-Exchange-Advanced\obj\Debug\16. Bit-Exchange-Advanced.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\16. Bit-Exchange-Advanced\obj\Debug\_16.Bit_Exchange_Advanced.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\16. Bit-Exchange-Advanced\obj\Debug\_16.Bit_Exchange_Advanced.pdb

@@ -1,0 +1,15 @@
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\1. Odd-or-Even\bin\Debug\_1.Odd_or_Even.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\1. Odd-or-Even\bin\Debug\_1.Odd_or_Even.exe
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\1. Odd-or-Even\bin\Debug\_1.Odd_or_Even.pdb
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\1. Odd-or-Even\obj\Debug\1. Odd-or-Even.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\1. Odd-or-Even\obj\Debug\_1.Odd_or_Even.exe
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\1. Odd-or-Even\obj\Debug\_1.Odd_or_Even.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\1. Odd-or-Even\bin\Debug\_1.Odd_or_Even.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\1. Odd-or-Even\obj\Debug\_1.Odd_or_Even.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\1. Odd-or-Even\obj\Debug\_1.Odd_or_Even.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\1. Odd-or-Even\bin\Debug\_1.Odd_or_Even.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\1. Odd-or-Even\obj\Debug\_1.Odd_or_Even.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\1. Odd-or-Even\obj\Debug\_1.Odd_or_Even.pdb
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Operators-Homework-September-2014\1. Odd-or-Even\bin\Debug\_1.Odd_or_Even.exe.config
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Operators-Homework-September-2014\1. Odd-or-Even\obj\Debug\_1.Odd_or_Even.exe
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Operators-Homework-September-2014\1. Odd-or-Even\obj\Debug\_1.Odd_or_Even.pdb

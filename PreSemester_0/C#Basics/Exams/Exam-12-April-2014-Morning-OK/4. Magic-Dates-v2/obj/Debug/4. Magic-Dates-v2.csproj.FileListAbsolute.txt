@@ -1,0 +1,9 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\4. Magic-Dates-v2\bin\Debug\_4.Magic_Dates_v2.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\4. Magic-Dates-v2\bin\Debug\_4.Magic_Dates_v2.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\4. Magic-Dates-v2\bin\Debug\_4.Magic_Dates_v2.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\4. Magic-Dates-v2\obj\Debug\4. Magic-Dates-v2.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\4. Magic-Dates-v2\obj\Debug\_4.Magic_Dates_v2.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\4. Magic-Dates-v2\obj\Debug\_4.Magic_Dates_v2.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning-OK\4. Magic-Dates-v2\bin\Debug\_4.Magic_Dates_v2.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning-OK\4. Magic-Dates-v2\obj\Debug\_4.Magic_Dates_v2.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning-OK\4. Magic-Dates-v2\obj\Debug\_4.Magic_Dates_v2.pdb

@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\18. Magic Numbers\bin\Debug\_18.Magic_Numbers.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\18. Magic Numbers\bin\Debug\_18.Magic_Numbers.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\18. Magic Numbers\bin\Debug\_18.Magic_Numbers.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\18. Magic Numbers\obj\Debug\18. Magic Numbers.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\18. Magic Numbers\obj\Debug\_18.Magic_Numbers.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\18. Magic Numbers\obj\Debug\_18.Magic_Numbers.pdb

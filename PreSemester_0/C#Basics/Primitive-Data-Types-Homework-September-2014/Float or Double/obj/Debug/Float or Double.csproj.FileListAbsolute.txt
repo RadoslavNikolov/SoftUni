@@ -1,0 +1,5 @@
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Float or Double\bin\Debug\Float or Double.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Float or Double\bin\Debug\Float or Double.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Float or Double\bin\Debug\Float or Double.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Float or Double\obj\Debug\Float or Double.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Float or Double\obj\Debug\Float or Double.pdb

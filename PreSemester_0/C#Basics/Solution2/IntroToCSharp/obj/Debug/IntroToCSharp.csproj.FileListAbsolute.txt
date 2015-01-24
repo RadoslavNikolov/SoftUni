@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\IntroToCSharp\bin\Debug\IntroToCSharp.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\IntroToCSharp\bin\Debug\IntroToCSharp.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\IntroToCSharp\bin\Debug\IntroToCSharp.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\IntroToCSharp\obj\Debug\IntroToCSharp.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\IntroToCSharp\obj\Debug\IntroToCSharp.pdb

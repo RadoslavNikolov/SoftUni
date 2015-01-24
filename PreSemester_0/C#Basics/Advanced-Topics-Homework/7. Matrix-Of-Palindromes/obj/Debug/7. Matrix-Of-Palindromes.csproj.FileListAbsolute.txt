@@ -1,0 +1,5 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\7. Matrix-Of-Palindromes\bin\Debug\_7.Matrix_Of_Palindromes.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\7. Matrix-Of-Palindromes\bin\Debug\_7.Matrix_Of_Palindromes.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\7. Matrix-Of-Palindromes\bin\Debug\_7.Matrix_Of_Palindromes.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\7. Matrix-Of-Palindromes\obj\Debug\_7.Matrix_Of_Palindromes.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\7. Matrix-Of-Palindromes\obj\Debug\_7.Matrix_Of_Palindromes.pdb

@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\14. ASCII Table\bin\Debug\_14.ASCII_Table.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\14. ASCII Table\bin\Debug\_14.ASCII_Table.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\14. ASCII Table\bin\Debug\_14.ASCII_Table.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\14. ASCII Table\obj\Debug\14. ASCII Table.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\14. ASCII Table\obj\Debug\_14.ASCII_Table.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\14. ASCII Table\obj\Debug\_14.ASCII_Table.pdb

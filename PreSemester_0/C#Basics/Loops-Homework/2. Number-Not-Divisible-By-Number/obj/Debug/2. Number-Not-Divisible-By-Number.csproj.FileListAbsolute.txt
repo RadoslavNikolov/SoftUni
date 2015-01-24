@@ -1,0 +1,5 @@
+D:\Loops-Homework\2. Number-Not-Divisible-By-Number\bin\Debug\_2.Number_Not_Divisible_By_Number.exe.config
+D:\Loops-Homework\2. Number-Not-Divisible-By-Number\bin\Debug\_2.Number_Not_Divisible_By_Number.exe
+D:\Loops-Homework\2. Number-Not-Divisible-By-Number\bin\Debug\_2.Number_Not_Divisible_By_Number.pdb
+D:\Loops-Homework\2. Number-Not-Divisible-By-Number\obj\Debug\_2.Number_Not_Divisible_By_Number.exe
+D:\Loops-Homework\2. Number-Not-Divisible-By-Number\obj\Debug\_2.Number_Not_Divisible_By_Number.pdb

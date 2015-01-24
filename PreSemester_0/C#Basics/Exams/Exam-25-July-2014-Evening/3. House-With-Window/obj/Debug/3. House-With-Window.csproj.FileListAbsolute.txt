@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\3. House-With-Window\bin\Debug\_3.House_With_Window.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\3. House-With-Window\bin\Debug\_3.House_With_Window.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\3. House-With-Window\bin\Debug\_3.House_With_Window.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\3. House-With-Window\obj\Debug\3. House-With-Window.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\3. House-With-Window\obj\Debug\_3.House_With_Window.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Evening\3. House-With-Window\obj\Debug\_3.House_With_Window.pdb

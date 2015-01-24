@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\5. Bit-Ball\bin\Debug\_5.Bit_Ball.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\5. Bit-Ball\obj\Debug\5. Bit-Ball.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\5. Bit-Ball\bin\Debug\_5.Bit_Ball.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\5. Bit-Ball\bin\Debug\_5.Bit_Ball.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\5. Bit-Ball\obj\Debug\_5.Bit_Ball.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-28-December-2012\5. Bit-Ball\obj\Debug\_5.Bit_Ball.pdb

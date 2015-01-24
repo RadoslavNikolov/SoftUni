@@ -1,0 +1,6 @@
+D:\Loops-Homework\4. Print-Deck-Of-Cards\bin\Debug\_4.Print_Deck_Of_Cards.exe.config
+D:\Loops-Homework\4. Print-Deck-Of-Cards\obj\Debug\4. Print-Deck-Of-Cards.csprojResolveAssemblyReference.cache
+D:\Loops-Homework\4. Print-Deck-Of-Cards\bin\Debug\_4.Print_Deck_Of_Cards.exe
+D:\Loops-Homework\4. Print-Deck-Of-Cards\bin\Debug\_4.Print_Deck_Of_Cards.pdb
+D:\Loops-Homework\4. Print-Deck-Of-Cards\obj\Debug\_4.Print_Deck_Of_Cards.exe
+D:\Loops-Homework\4. Print-Deck-Of-Cards\obj\Debug\_4.Print_Deck_Of_Cards.pdb

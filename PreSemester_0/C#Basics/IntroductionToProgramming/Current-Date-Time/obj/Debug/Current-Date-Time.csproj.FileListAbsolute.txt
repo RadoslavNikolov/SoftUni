@@ -1,0 +1,5 @@
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Current-Date-Time\bin\Debug\Current-Date-Time.exe.config
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Current-Date-Time\bin\Debug\Current-Date-Time.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Current-Date-Time\bin\Debug\Current-Date-Time.pdb
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Current-Date-Time\obj\Debug\Current-Date-Time.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Current-Date-Time\obj\Debug\Current-Date-Time.pdb

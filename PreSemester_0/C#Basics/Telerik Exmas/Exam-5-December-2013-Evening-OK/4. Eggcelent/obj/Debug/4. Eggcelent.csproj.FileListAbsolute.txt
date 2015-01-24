@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\4. Eggcelent\bin\Debug\_4.Eggcelent.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\4. Eggcelent\bin\Debug\_4.Eggcelent.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\4. Eggcelent\bin\Debug\_4.Eggcelent.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\4. Eggcelent\obj\Debug\4. Eggcelent.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\4. Eggcelent\obj\Debug\_4.Eggcelent.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\4. Eggcelent\obj\Debug\_4.Eggcelent.pdb

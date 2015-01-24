@@ -1,0 +1,8 @@
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Hello-World\bin\Debug\Hello-World.exe.config
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Hello-World\obj\Debug\Hello-World.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Hello-World\obj\Debug\Hello-World.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\IntroductionToProgramming\Hello-World\bin\Debug\Hello-World.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\IntroductionToProgramming\Hello-World\obj\Debug\Hello-World.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\IntroductionToProgramming\Hello-World\obj\Debug\Hello-World.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\IntroductionToProgramming\Hello-World\bin\Debug\Hello-World.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\IntroductionToProgramming\Hello-World\bin\Debug\Hello-World.pdb

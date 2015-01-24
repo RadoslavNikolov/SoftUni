@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\5. Formula-Bit-1\bin\Debug\_5.Formula_Bit_1.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\5. Formula-Bit-1\bin\Debug\_5.Formula_Bit_1.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\5. Formula-Bit-1\bin\Debug\_5.Formula_Bit_1.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\5. Formula-Bit-1\obj\Debug\5. Formula-Bit-1.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\5. Formula-Bit-1\obj\Debug\_5.Formula_Bit_1.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\5. Formula-Bit-1\obj\Debug\_5.Formula_Bit_1.pdb

@@ -1,0 +1,5 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\16. Counting-a-Word-In-a-Text\bin\Debug\_16.Counting_a_Word_In_a_Text.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\16. Counting-a-Word-In-a-Text\bin\Debug\_16.Counting_a_Word_In_a_Text.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\16. Counting-a-Word-In-a-Text\bin\Debug\_16.Counting_a_Word_In_a_Text.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\16. Counting-a-Word-In-a-Text\obj\Debug\_16.Counting_a_Word_In_a_Text.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\16. Counting-a-Word-In-a-Text\obj\Debug\_16.Counting_a_Word_In_a_Text.pdb

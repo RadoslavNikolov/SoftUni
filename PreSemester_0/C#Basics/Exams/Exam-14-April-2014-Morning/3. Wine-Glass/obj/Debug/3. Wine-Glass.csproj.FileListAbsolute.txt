@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\3. Wine-Glass\bin\Debug\_3.Wine_Glass.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\3. Wine-Glass\bin\Debug\_3.Wine_Glass.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\3. Wine-Glass\bin\Debug\_3.Wine_Glass.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\3. Wine-Glass\obj\Debug\_3.Wine_Glass.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\3. Wine-Glass\obj\Debug\_3.Wine_Glass.pdb

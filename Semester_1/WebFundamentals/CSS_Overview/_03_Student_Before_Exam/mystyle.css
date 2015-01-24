@@ -1,0 +1,65 @@
+#main {
+    border: 2px solid;
+    background-color: #ffff00;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+#nose {
+    border: 2px solid;
+    background-color: #ff0000;
+    width: 14%;
+    height: 14%;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 42%;
+    margin-left: 42%;
+}
+.eye {
+    border: 2px solid;
+    background: #ffffff;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    position: relative;
+}
+.eye[id=leftEye] {
+    margin-top: -38%;
+    margin-left: 19%;
+}
+.eye[id=rightEye] {
+    margin-top: -21%;
+    margin-left: 59%;
+}
+.eyeApple {
+    background-color: black;
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+}
+.eyeApple[id="left"] {
+    margin-top: 55%;
+    margin-left: 55%;
+}
+.mouth {
+    height: 18%;
+    width: 52%;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-radius: 100px;
+    margin-left: 24%;
+    margin-top: 21%;
+}
+.tooth {
+    background-color: #ffffff;
+    border: 2px solid;
+    width: 17%;
+    height: 48%;
+    display: inline-block;
+    margin: -2px;
+    border-radius: 0 0 8px 8px;
+}
+.tooth[id="leftTooth"] {
+    margin-left: 31%;
+}

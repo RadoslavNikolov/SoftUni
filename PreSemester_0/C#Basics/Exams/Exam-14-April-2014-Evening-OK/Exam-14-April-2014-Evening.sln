@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Inside-The-Building", "1. Inside-The-Building\1. Inside-The-Building.csproj", "{A5E357FA-C423-4ACA-8F2C-ED2BE2D5D8F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Student-Cables", "2. Student-Cables\2. Student-Cables.csproj", "{9EE26AD5-DC23-4156-BB5D-B449BDB8AC54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. DNA-Chain", "3. DNA-Chain\3. DNA-Chain.csproj", "{A0B1CDFD-D57D-41FF-8C5C-4E1A7A123FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. DNA-Chain-2", "3. DNA-Chain-2\3. DNA-Chain-2.csproj", "{1BCCE549-EEFF-4390-BE78-494F8C5DFA96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Megic-Car-Number", "4. Megic-Car-Number\4. Megic-Car-Number.csproj", "{B9505C75-CBE5-483F-895C-5D42731656F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Bit_Flipper", "5. Bit_Flipper\5. Bit_Flipper.csproj", "{F5B05024-E834-412B-9EDE-E00D0FBDCAE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Bit-Flipper-2", "5. Bit-Flipper-2\5. Bit-Flipper-2.csproj", "{FEB7FD8A-EDD8-4DA2-BB3B-82448C4506D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5E357FA-C423-4ACA-8F2C-ED2BE2D5D8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E357FA-C423-4ACA-8F2C-ED2BE2D5D8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E357FA-C423-4ACA-8F2C-ED2BE2D5D8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E357FA-C423-4ACA-8F2C-ED2BE2D5D8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE26AD5-DC23-4156-BB5D-B449BDB8AC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE26AD5-DC23-4156-BB5D-B449BDB8AC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE26AD5-DC23-4156-BB5D-B449BDB8AC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE26AD5-DC23-4156-BB5D-B449BDB8AC54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B1CDFD-D57D-41FF-8C5C-4E1A7A123FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B1CDFD-D57D-41FF-8C5C-4E1A7A123FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B1CDFD-D57D-41FF-8C5C-4E1A7A123FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B1CDFD-D57D-41FF-8C5C-4E1A7A123FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCCE549-EEFF-4390-BE78-494F8C5DFA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCCE549-EEFF-4390-BE78-494F8C5DFA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCCE549-EEFF-4390-BE78-494F8C5DFA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCCE549-EEFF-4390-BE78-494F8C5DFA96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9505C75-CBE5-483F-895C-5D42731656F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9505C75-CBE5-483F-895C-5D42731656F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9505C75-CBE5-483F-895C-5D42731656F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9505C75-CBE5-483F-895C-5D42731656F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B05024-E834-412B-9EDE-E00D0FBDCAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B05024-E834-412B-9EDE-E00D0FBDCAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B05024-E834-412B-9EDE-E00D0FBDCAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B05024-E834-412B-9EDE-E00D0FBDCAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB7FD8A-EDD8-4DA2-BB3B-82448C4506D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB7FD8A-EDD8-4DA2-BB3B-82448C4506D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB7FD8A-EDD8-4DA2-BB3B-82448C4506D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB7FD8A-EDD8-4DA2-BB3B-82448C4506D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

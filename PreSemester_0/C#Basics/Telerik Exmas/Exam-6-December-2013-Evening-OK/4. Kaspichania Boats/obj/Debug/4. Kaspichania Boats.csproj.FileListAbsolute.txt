@@ -1,0 +1,5 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\4. Kaspichania Boats\bin\Debug\_4.Kaspichania_Boats.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\4. Kaspichania Boats\bin\Debug\_4.Kaspichania_Boats.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\4. Kaspichania Boats\bin\Debug\_4.Kaspichania_Boats.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\4. Kaspichania Boats\obj\Debug\_4.Kaspichania_Boats.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\4. Kaspichania Boats\obj\Debug\_4.Kaspichania_Boats.pdb

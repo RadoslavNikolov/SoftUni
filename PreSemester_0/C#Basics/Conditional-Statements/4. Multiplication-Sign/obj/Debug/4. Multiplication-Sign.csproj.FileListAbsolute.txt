@@ -1,0 +1,8 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\4. Multiplication-Sign\bin\Debug\_4.Multiplication_Sign.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\4. Multiplication-Sign\bin\Debug\_4.Multiplication_Sign.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\4. Multiplication-Sign\bin\Debug\_4.Multiplication_Sign.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\4. Multiplication-Sign\obj\Debug\_4.Multiplication_Sign.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\4. Multiplication-Sign\obj\Debug\_4.Multiplication_Sign.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\4. Multiplication-Sign\bin\Debug\_4.Multiplication_Sign.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\4. Multiplication-Sign\obj\Debug\_4.Multiplication_Sign.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\4. Multiplication-Sign\obj\Debug\_4.Multiplication_Sign.pdb

@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Devision on 3 and 5\bin\Debug\_3.Devision_on_3_and_5.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Devision on 3 and 5\bin\Debug\_3.Devision_on_3_and_5.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Devision on 3 and 5\bin\Debug\_3.Devision_on_3_and_5.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Devision on 3 and 5\obj\Debug\3. Devision on 3 and 5.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Devision on 3 and 5\obj\Debug\_3.Devision_on_3_and_5.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Devision on 3 and 5\obj\Debug\_3.Devision_on_3_and_5.pdb

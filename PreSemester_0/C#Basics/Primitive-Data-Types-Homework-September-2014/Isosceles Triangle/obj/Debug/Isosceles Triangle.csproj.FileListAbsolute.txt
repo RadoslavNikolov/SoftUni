@@ -1,0 +1,5 @@
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Isosceles Triangle\bin\Debug\Isosceles Triangle.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Isosceles Triangle\bin\Debug\Isosceles Triangle.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Isosceles Triangle\bin\Debug\Isosceles Triangle.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Isosceles Triangle\obj\Debug\Isosceles Triangle.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Isosceles Triangle\obj\Debug\Isosceles Triangle.pdb

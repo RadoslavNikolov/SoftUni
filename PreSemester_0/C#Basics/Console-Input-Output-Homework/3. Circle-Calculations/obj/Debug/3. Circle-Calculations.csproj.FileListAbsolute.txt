@@ -1,0 +1,5 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\3. Circle-Calculations\bin\Debug\_3.Circle_Calculations.exe.config
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\3. Circle-Calculations\bin\Debug\_3.Circle_Calculations.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\3. Circle-Calculations\bin\Debug\_3.Circle_Calculations.pdb
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\3. Circle-Calculations\obj\Debug\_3.Circle_Calculations.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\3. Circle-Calculations\obj\Debug\_3.Circle_Calculations.pdb

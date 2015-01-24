@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\Redefine NewLine\bin\Debug\Redefine NewLine.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\Redefine NewLine\bin\Debug\Redefine NewLine.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\Redefine NewLine\bin\Debug\Redefine NewLine.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\Redefine NewLine\obj\Debug\Redefine NewLine.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\Redefine NewLine\obj\Debug\Redefine NewLine.pdb

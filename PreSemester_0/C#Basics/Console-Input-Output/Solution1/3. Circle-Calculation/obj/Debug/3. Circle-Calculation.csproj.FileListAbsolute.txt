@@ -1,0 +1,5 @@
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\3. Circle-Calculation\bin\Debug\_3.Circle_Calculation.exe.config
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\3. Circle-Calculation\bin\Debug\_3.Circle_Calculation.exe
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\3. Circle-Calculation\bin\Debug\_3.Circle_Calculation.pdb
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\3. Circle-Calculation\obj\Debug\_3.Circle_Calculation.exe
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\3. Circle-Calculation\obj\Debug\_3.Circle_Calculation.pdb

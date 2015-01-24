@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\3. Divide-By-7-And-5\bin\Debug\_3.Divide_By_7_And_5.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\3. Divide-By-7-And-5\bin\Debug\_3.Divide_By_7_And_5.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\3. Divide-By-7-And-5\bin\Debug\_3.Divide_By_7_And_5.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\3. Divide-By-7-And-5\obj\Debug\_3.Divide_By_7_And_5.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\3. Divide-By-7-And-5\obj\Debug\_3.Divide_By_7_And_5.pdb

@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. evenOrOdd\bin\Debug\_3.evenOrOdd.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. evenOrOdd\bin\Debug\_3.evenOrOdd.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. evenOrOdd\bin\Debug\_3.evenOrOdd.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. evenOrOdd\obj\Debug\_3.evenOrOdd.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. evenOrOdd\obj\Debug\_3.evenOrOdd.pdb

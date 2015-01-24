@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Afgabe 13\bin\Debug\_3.Afgabe_13.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Afgabe 13\bin\Debug\_3.Afgabe_13.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Afgabe 13\bin\Debug\_3.Afgabe_13.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Afgabe 13\obj\Debug\3. Afgabe 13.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Afgabe 13\obj\Debug\_3.Afgabe_13.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Afgabe 13\obj\Debug\_3.Afgabe_13.pdb

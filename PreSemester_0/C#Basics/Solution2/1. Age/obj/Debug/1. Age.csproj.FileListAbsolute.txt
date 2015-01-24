@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Age\bin\Debug\_1.Age.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Age\bin\Debug\_1.Age.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Age\bin\Debug\_1.Age.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Age\obj\Debug\_1.Age.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Age\obj\Debug\_1.Age.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Age\obj\Debug\1. Age.csprojResolveAssemblyReference.cache

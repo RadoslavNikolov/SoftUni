@@ -1,0 +1,5 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\2. The-Horro\bin\Debug\_2.The_Horro.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\2. The-Horro\bin\Debug\_2.The_Horro.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\2. The-Horro\bin\Debug\_2.The_Horro.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\2. The-Horro\obj\Debug\_2.The_Horro.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\2. The-Horro\obj\Debug\_2.The_Horro.pdb

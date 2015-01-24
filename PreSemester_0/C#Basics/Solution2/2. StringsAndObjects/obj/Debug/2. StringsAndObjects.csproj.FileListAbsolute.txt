@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. StringsAndObjects\bin\Debug\_2.StringsAndObjects.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. StringsAndObjects\bin\Debug\_2.StringsAndObjects.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. StringsAndObjects\bin\Debug\_2.StringsAndObjects.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. StringsAndObjects\obj\Debug\_2.StringsAndObjects.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. StringsAndObjects\obj\Debug\_2.StringsAndObjects.pdb

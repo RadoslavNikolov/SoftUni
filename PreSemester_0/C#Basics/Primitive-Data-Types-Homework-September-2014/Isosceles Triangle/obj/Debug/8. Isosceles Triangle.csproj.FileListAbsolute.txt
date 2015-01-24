@@ -1,0 +1,9 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\Isosceles Triangle\bin\Debug\Isosceles Triangle.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\Isosceles Triangle\obj\Debug\Isosceles Triangle.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\Isosceles Triangle\obj\Debug\Isosceles Triangle.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Primitive-Data-Types-Homework-September-2014\Isosceles Triangle\bin\Debug\Isosceles Triangle.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Primitive-Data-Types-Homework-September-2014\Isosceles Triangle\obj\Debug\Isosceles Triangle.exe
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Primitive-Data-Types-Homework-September-2014\Isosceles Triangle\obj\Debug\Isosceles Triangle.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Primitive-Data-Types-Homework-September-2014\Isosceles Triangle\bin\Debug\Isosceles Triangle.exe
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Primitive-Data-Types-Homework-September-2014\Isosceles Triangle\bin\Debug\Isosceles Triangle.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Primitive-Data-Types-Homework-September-2014\Isosceles Triangle\obj\Debug\8. Isosceles Triangle.csprojResolveAssemblyReference.cache

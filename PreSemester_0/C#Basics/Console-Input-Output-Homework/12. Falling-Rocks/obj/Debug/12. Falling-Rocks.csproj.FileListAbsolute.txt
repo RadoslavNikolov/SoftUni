@@ -1,0 +1,9 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\12. Falling-Rocks\bin\Debug\_12.Falling_Rocks.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\12. Falling-Rocks\bin\Debug\_12.Falling_Rocks.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\12. Falling-Rocks\bin\Debug\_12.Falling_Rocks.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\12. Falling-Rocks\obj\Debug\12. Falling-Rocks.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\12. Falling-Rocks\obj\Debug\_12.Falling_Rocks.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\12. Falling-Rocks\obj\Debug\_12.Falling_Rocks.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Console-Input-Output-Homework\12. Falling-Rocks\bin\Debug\_12.Falling_Rocks.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Console-Input-Output-Homework\12. Falling-Rocks\obj\Debug\_12.Falling_Rocks.exe
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Console-Input-Output-Homework\12. Falling-Rocks\obj\Debug\_12.Falling_Rocks.pdb

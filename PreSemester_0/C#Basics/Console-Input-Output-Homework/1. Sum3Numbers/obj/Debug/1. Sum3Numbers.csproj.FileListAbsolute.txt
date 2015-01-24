@@ -1,0 +1,8 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\1. Sum3Numbers\bin\Debug\_1.Sum3Numbers.exe.config
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\1. Sum3Numbers\bin\Debug\_1.Sum3Numbers.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\1. Sum3Numbers\bin\Debug\_1.Sum3Numbers.pdb
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\1. Sum3Numbers\obj\Debug\_1.Sum3Numbers.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\1. Sum3Numbers\obj\Debug\_1.Sum3Numbers.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Console-Input-Output-Homework\1. Sum3Numbers\bin\Debug\_1.Sum3Numbers.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Console-Input-Output-Homework\1. Sum3Numbers\obj\Debug\_1.Sum3Numbers.exe
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Console-Input-Output-Homework\1. Sum3Numbers\obj\Debug\_1.Sum3Numbers.pdb

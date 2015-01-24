@@ -1,0 +1,8 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\11. Bank Account Data\bin\Debug\_11.Bank_Account_Data.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\11. Bank Account Data\bin\Debug\_11.Bank_Account_Data.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\11. Bank Account Data\bin\Debug\_11.Bank_Account_Data.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\11. Bank Account Data\obj\Debug\_11.Bank_Account_Data.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\11. Bank Account Data\obj\Debug\_11.Bank_Account_Data.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Primitive-Data-Types-Homework-September-2014\11. Bank Account Data\bin\Debug\_11.Bank_Account_Data.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Primitive-Data-Types-Homework-September-2014\11. Bank Account Data\obj\Debug\_11.Bank_Account_Data.exe
+C:\Users\radko\Desktop\C#Basics GitHub\CSharp-Basics\trunk\Primitive-Data-Types-Homework-September-2014\11. Bank Account Data\obj\Debug\_11.Bank_Account_Data.pdb

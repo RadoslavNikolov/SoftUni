@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\14. Decima-To-Binary\bin\Debug\_14.Decima_To_Binary.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\14. Decima-To-Binary\bin\Debug\_14.Decima_To_Binary.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\14. Decima-To-Binary\bin\Debug\_14.Decima_To_Binary.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\14. Decima-To-Binary\obj\Debug\_14.Decima_To_Binary.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\14. Decima-To-Binary\obj\Debug\_14.Decima_To_Binary.pdb

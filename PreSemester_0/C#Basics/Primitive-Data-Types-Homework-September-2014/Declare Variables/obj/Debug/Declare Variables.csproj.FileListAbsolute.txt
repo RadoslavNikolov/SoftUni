@@ -1,0 +1,6 @@
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Declare Variables\bin\Debug\Declare Variables.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Declare Variables\obj\Debug\Declare Variables.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Declare Variables\bin\Debug\Declare Variables.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Declare Variables\bin\Debug\Declare Variables.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Declare Variables\obj\Debug\Declare Variables.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Declare Variables\obj\Debug\Declare Variables.pdb

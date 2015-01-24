@@ -1,0 +1,12 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\Exam-11-April-2014-Morning\1. Work-Hours\bin\Debug\_1.Work_Hours.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\Exam-11-April-2014-Morning\1. Work-Hours\bin\Debug\_1.Work_Hours.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\Exam-11-April-2014-Morning\1. Work-Hours\bin\Debug\_1.Work_Hours.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\Exam-11-April-2014-Morning\1. Work-Hours\obj\Debug\1. Work-Hours.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\Exam-11-April-2014-Morning\1. Work-Hours\obj\Debug\_1.Work_Hours.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\Exam-11-April-2014-Morning\1. Work-Hours\obj\Debug\_1.Work_Hours.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\1. Work-Hours\bin\Debug\_1.Work_Hours.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\1. Work-Hours\obj\Debug\_1.Work_Hours.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\1. Work-Hours\obj\Debug\_1.Work_Hours.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-11-April-2014-Morning-OK\1. Work-Hours\bin\Debug\_1.Work_Hours.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-11-April-2014-Morning-OK\1. Work-Hours\obj\Debug\_1.Work_Hours.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-11-April-2014-Morning-OK\1. Work-Hours\obj\Debug\_1.Work_Hours.pdb

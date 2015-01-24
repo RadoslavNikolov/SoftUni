@@ -1,0 +1,12 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\bin\Debug\_1.Exam_Schedule.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\bin\Debug\_1.Exam_Schedule.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\bin\Debug\_1.Exam_Schedule.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\obj\Debug\1. Exam-Schedule.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\obj\Debug\_1.Exam_Schedule.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\obj\Debug\_1.Exam_Schedule.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\bin\Debug\_1.Exam_Schedule.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\obj\Debug\_1.Exam_Schedule.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\obj\Debug\_1.Exam_Schedule.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\bin\Debug\_1.Exam_Schedule.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\bin\Debug\_1.Exam_Schedule.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\1. Exam-Schedule\obj\Debug\1. Exam-Schedule.csprojResolveAssemblyReference.cache

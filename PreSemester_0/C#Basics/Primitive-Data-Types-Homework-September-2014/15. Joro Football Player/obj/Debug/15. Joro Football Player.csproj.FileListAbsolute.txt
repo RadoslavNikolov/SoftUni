@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\15. Joro Football Player\bin\Debug\_15.Joro_Football_Player.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\15. Joro Football Player\bin\Debug\_15.Joro_Football_Player.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\15. Joro Football Player\bin\Debug\_15.Joro_Football_Player.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\15. Joro Football Player\obj\Debug\15. Joro Football Player.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\15. Joro Football Player\obj\Debug\_15.Joro_Football_Player.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\15. Joro Football Player\obj\Debug\_15.Joro_Football_Player.pdb

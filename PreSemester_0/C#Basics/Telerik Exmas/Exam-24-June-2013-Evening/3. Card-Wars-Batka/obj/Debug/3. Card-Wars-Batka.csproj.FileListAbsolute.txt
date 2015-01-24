@@ -1,0 +1,6 @@
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\3. Card-Wars-Batka\bin\Debug\_3.Card_Wars_Batka.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\3. Card-Wars-Batka\bin\Debug\_3.Card_Wars_Batka.exe
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\3. Card-Wars-Batka\bin\Debug\_3.Card_Wars_Batka.pdb
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\3. Card-Wars-Batka\obj\Debug\3. Card-Wars-Batka.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\3. Card-Wars-Batka\obj\Debug\_3.Card_Wars_Batka.exe
+C:\Users\toshiba\Desktop\C# Projects\Telerik Exmas\Exam-24-June-2013-Evening\3. Card-Wars-Batka\obj\Debug\_3.Card_Wars_Batka.pdb

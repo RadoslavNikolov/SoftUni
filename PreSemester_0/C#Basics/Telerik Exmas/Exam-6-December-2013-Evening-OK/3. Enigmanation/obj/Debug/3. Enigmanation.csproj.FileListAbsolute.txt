@@ -1,0 +1,5 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\3. Enigmanation\bin\Debug\_3.Enigmanation.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\3. Enigmanation\bin\Debug\_3.Enigmanation.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\3. Enigmanation\bin\Debug\_3.Enigmanation.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\3. Enigmanation\obj\Debug\_3.Enigmanation.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\3. Enigmanation\obj\Debug\_3.Enigmanation.pdb

@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Math Sequence\bin\Debug\_1.Math_Sequence.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Math Sequence\bin\Debug\_1.Math_Sequence.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Math Sequence\bin\Debug\_1.Math_Sequence.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Math Sequence\obj\Debug\1. Math Sequence.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Math Sequence\obj\Debug\_1.Math_Sequence.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\1. Math Sequence\obj\Debug\_1.Math_Sequence.pdb

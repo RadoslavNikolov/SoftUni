@@ -1,0 +1,6 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam 28 April 2014\1. Fit Boxes\bin\Debug\_1.Fit_Boxes.exe.config
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam 28 April 2014\1. Fit Boxes\bin\Debug\_1.Fit_Boxes.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam 28 April 2014\1. Fit Boxes\bin\Debug\_1.Fit_Boxes.pdb
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam 28 April 2014\1. Fit Boxes\obj\Debug\1. Fit Boxes.csprojResolveAssemblyReference.cache
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam 28 April 2014\1. Fit Boxes\obj\Debug\_1.Fit_Boxes.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam 28 April 2014\1. Fit Boxes\obj\Debug\_1.Fit_Boxes.pdb

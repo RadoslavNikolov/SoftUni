@@ -1,0 +1,8 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\8. Digit-As-Word\bin\Debug\_8.Digit_As_Word.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\8. Digit-As-Word\bin\Debug\_8.Digit_As_Word.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\8. Digit-As-Word\bin\Debug\_8.Digit_As_Word.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\8. Digit-As-Word\obj\Debug\_8.Digit_As_Word.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Conditional-Statements\8. Digit-As-Word\obj\Debug\_8.Digit_As_Word.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\8. Digit-As-Word\bin\Debug\_8.Digit_As_Word.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\8. Digit-As-Word\obj\Debug\_8.Digit_As_Word.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Conditional-Statements\8. Digit-As-Word\obj\Debug\_8.Digit_As_Word.pdb

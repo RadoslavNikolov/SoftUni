@@ -1,0 +1,5 @@
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Unicode character\bin\Debug\Unicode character.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Unicode character\bin\Debug\Unicode character.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Unicode character\bin\Debug\Unicode character.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Unicode character\obj\Debug\Unicode character.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Unicode character\obj\Debug\Unicode character.pdb

@@ -1,0 +1,6 @@
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\3. Fire in the Matrix\bin\Debug\_3.Fire_in_the_Matrix.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\3. Fire in the Matrix\bin\Debug\_3.Fire_in_the_Matrix.exe
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\3. Fire in the Matrix\bin\Debug\_3.Fire_in_the_Matrix.pdb
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\3. Fire in the Matrix\obj\Debug\3. Fire in the Matrix.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\3. Fire in the Matrix\obj\Debug\_3.Fire_in_the_Matrix.exe
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-23-June-2013\3. Fire in the Matrix\obj\Debug\_3.Fire_in_the_Matrix.pdb

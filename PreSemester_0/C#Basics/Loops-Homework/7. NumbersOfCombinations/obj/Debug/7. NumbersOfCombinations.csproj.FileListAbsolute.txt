@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\7. NumbersOfCombinations\bin\Debug\_7.NumbersOfCombinations.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\7. NumbersOfCombinations\bin\Debug\_7.NumbersOfCombinations.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\7. NumbersOfCombinations\bin\Debug\_7.NumbersOfCombinations.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\7. NumbersOfCombinations\obj\Debug\_7.NumbersOfCombinations.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\7. NumbersOfCombinations\obj\Debug\_7.NumbersOfCombinations.pdb

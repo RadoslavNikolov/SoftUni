@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Gravitation on the Moon\bin\Debug\_3.Gravitation_on_the_Moon.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Gravitation on the Moon\bin\Debug\_3.Gravitation_on_the_Moon.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Gravitation on the Moon\bin\Debug\_3.Gravitation_on_the_Moon.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Gravitation on the Moon\obj\Debug\_3.Gravitation_on_the_Moon.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Gravitation on the Moon\obj\Debug\_3.Gravitation_on_the_Moon.pdb

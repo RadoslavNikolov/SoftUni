@@ -1,0 +1,5 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\14. Longest-Word-In-a-Text\bin\Debug\_14.Longest_Word_In_a_Text.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\14. Longest-Word-In-a-Text\bin\Debug\_14.Longest_Word_In_a_Text.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\14. Longest-Word-In-a-Text\bin\Debug\_14.Longest_Word_In_a_Text.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\14. Longest-Word-In-a-Text\obj\Debug\_14.Longest_Word_In_a_Text.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\14. Longest-Word-In-a-Text\obj\Debug\_14.Longest_Word_In_a_Text.pdb

@@ -1,0 +1,4 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-May-2014\1. Cartesian-System\bin\Debug\_1.Cartesian_System.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-May-2014\1. Cartesian-System\bin\Debug\_1.Cartesian_System.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-May-2014-OK\1. Cartesian-System\bin\Debug\_1.Cartesian_System.exe.config
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Exams\Exam-May-2014-OK\1. Cartesian-System\bin\Debug\_1.Cartesian_System.exe.config

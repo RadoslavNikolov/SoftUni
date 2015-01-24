@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Example</title>
+</head>
+<body>
+    <form method="get">
+        <input type="text" name="firstName" placeholder="Rado" required="true" autofocus="true" />
+        <input type="submit" />
+        <br><br>
+        <textarea name="comments">This is multi-line
+        text field</textarea>
+        <br><br>
+        <input type="password" name="password">
+        <br>
+        <input type="reset">
+        <br><br><br>
+        <input type="button" value="click me">
+        <br><br>
+        <button>Click Me</button>
+        <br>
+        <input type="checkbox" id="agreeCheckbox">
+        <label for="agreeCheckbox">I agree</label>
+        <br><br>
+        <input type="radio" id="radioBtn" name="town" value="10">
+        <label for="radioBtn">Sofia</label>
+        <input type="radio" id="radioBtn" name="town" value="20">
+        <label for="radioBtn">Varna</label>
+        <br><br>
+        <select name="gender">
+            <option value="Value 1">Male</option>
+            <option value="Value 2" selected="selected">Female</option>
+            <option value="Value 3">Other</option>
+        </select>
+        <select name="products" multiple="multiple">
+            <option value="202">mouse</option>
+            <option value="171">sound speakers</option>
+            <option value="146">keyboard</option>
+        </select>
+
+        <fieldset style="width: 200px">
+            <legend>Customer Details</legend>
+            <input type="text" placeholder="firs name" name="custFirstName">
+            <input type="text" placeholder="last name" name="custLastName">
+        </fieldset>
+        <fieldset style="width: 200px">
+            <legend>Order Details</legend>
+            <input type="text" name="quantity" placeholder="quantity">
+            <textarea name="remarks"></textarea>
+        </fieldset>
+        <input type="range" min="0" max="10" id="countRange" name="countRange" value="0"
+                onchange="document.getElementById('countText').value=
+                document.getElementById('countRange').value"/>
+        <input type="text" style="border: 0" id="countText"/>
+        <input type="number" min="0" max="10" value="0" step="2"/>
+        <input type="number" min="0" max="10"/>
+        <br><br>
+        <input name="backgroundColor" type="color">
+        <input name="startDate" type="date" value="2020-02-28" required="true">
+        <input name="startTime" type="time">
+        <input name="endDay" type="date">
+        <input name="endTime" type="time">
+        <br><br>
+        <input name="departureTime" type="datetime-local">
+        <input name="arrivalTime" type="datetime">
+        <input type="month">
+        <input type="file">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\1. Multiverse-Communication\bin\Debug\_1.Multiverse_Communication.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\1. Multiverse-Communication\bin\Debug\_1.Multiverse_Communication.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\1. Multiverse-Communication\bin\Debug\_1.Multiverse_Communication.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\1. Multiverse-Communication\obj\Debug\1. Multiverse-Communication.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\1. Multiverse-Communication\obj\Debug\_1.Multiverse_Communication.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-14-September-2013-Morning\1. Multiverse-Communication\obj\Debug\_1.Multiverse_Communication.pdb

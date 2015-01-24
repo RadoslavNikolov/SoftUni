@@ -1,0 +1,18 @@
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\bin\Debug\_1.Triangle.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\bin\Debug\_1.Triangle.exe
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\bin\Debug\_1.Triangle.pdb
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\obj\Debug\1. Triangle.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\obj\Debug\_1.Triangle.exe
+C:\Users\toshiba\Desktop\C# Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\obj\Debug\_1.Triangle.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\bin\Debug\_1.Triangle.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\obj\Debug\_1.Triangle.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\obj\Debug\_1.Triangle.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\bin\Debug\_1.Triangle.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\bin\Debug\_1.Triangle.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning\1. Triangle\obj\Debug\1. Triangle.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning-OK\1. Triangle\bin\Debug\_1.Triangle.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning-OK\1. Triangle\obj\Debug\_1.Triangle.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-12-April-2014-Morning-OK\1. Triangle\obj\Debug\_1.Triangle.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Morning-OK\1. Triangle\bin\Debug\_1.Triangle.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Morning-OK\1. Triangle\obj\Debug\_1.Triangle.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Morning-OK\1. Triangle\obj\Debug\_1.Triangle.pdb

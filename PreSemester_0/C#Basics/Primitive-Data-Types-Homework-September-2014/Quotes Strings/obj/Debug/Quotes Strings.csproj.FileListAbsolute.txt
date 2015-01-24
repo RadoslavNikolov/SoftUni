@@ -1,0 +1,5 @@
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Quotes Strings\bin\Debug\Quotes Strings.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Quotes Strings\bin\Debug\Quotes Strings.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Quotes Strings\bin\Debug\Quotes Strings.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Quotes Strings\obj\Debug\Quotes Strings.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Quotes Strings\obj\Debug\Quotes Strings.pdb

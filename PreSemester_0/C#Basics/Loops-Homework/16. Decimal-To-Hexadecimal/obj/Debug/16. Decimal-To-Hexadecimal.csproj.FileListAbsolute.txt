@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\16. Decimal-To-Hexadecimal\bin\Debug\_16.Decimal_To_Hexadecimal.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\16. Decimal-To-Hexadecimal\bin\Debug\_16.Decimal_To_Hexadecimal.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\16. Decimal-To-Hexadecimal\bin\Debug\_16.Decimal_To_Hexadecimal.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\16. Decimal-To-Hexadecimal\obj\Debug\_16.Decimal_To_Hexadecimal.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\16. Decimal-To-Hexadecimal\obj\Debug\_16.Decimal_To_Hexadecimal.pdb

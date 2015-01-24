@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\5. Bit-Roller\bin\Debug\_5.Bit_Roller.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\5. Bit-Roller\bin\Debug\_5.Bit_Roller.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\5. Bit-Roller\bin\Debug\_5.Bit_Roller.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\5. Bit-Roller\obj\Debug\5. Bit-Roller.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\5. Bit-Roller\obj\Debug\_5.Bit_Roller.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\5. Bit-Roller\obj\Debug\_5.Bit_Roller.pdb

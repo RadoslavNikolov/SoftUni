@@ -1,0 +1,3 @@
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Print-Long-Sequence\bin\Debug\Print-Long-Sequence.exe.config
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Print-Long-Sequence\obj\Debug\Print-Long-Sequence.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Print-Long-Sequence\obj\Debug\Print-Long-Sequence.pdb

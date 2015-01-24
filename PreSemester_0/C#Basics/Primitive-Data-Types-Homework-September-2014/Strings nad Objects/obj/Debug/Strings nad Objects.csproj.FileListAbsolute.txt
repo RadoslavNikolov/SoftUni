@@ -1,0 +1,5 @@
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Strings nad Objects\bin\Debug\Strings nad Objects.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Strings nad Objects\bin\Debug\Strings nad Objects.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Strings nad Objects\bin\Debug\Strings nad Objects.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Strings nad Objects\obj\Debug\Strings nad Objects.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\Strings nad Objects\obj\Debug\Strings nad Objects.pdb

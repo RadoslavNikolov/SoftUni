@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body>
+    <div id="mainDiv">
+        <h1>Flight Order</h1>
+        <div id="from">
+            <p class="inputLabel">From</p>
+            <select id="depCity" required="true" autofocus="autofocus">
+                <option selected="selected">enter a city</option>
+                <option value="sofia">Sofia</option>
+                <option value="plovdiv">Plovdiv</option>
+                <option value="bourgas">Bourgas</option>
+            </select>
+        </div>
+        <div id="to">
+            <p class="inputLabel">To</p>
+            <select id="arrCity" required="true">
+                <option selected="selected">enter a city</option>
+                <option value="berlin">Berlin</option>
+                <option value="dublin">Dublin</option>
+                <option value="madrid">Madrid</option>
+            </select>
+        </div>
+        <div id="direct">
+            <input type="checkbox" id="directCheck" name="directCheck">
+            <label for="directCheck" class="inputLabel">Prefer directs</label>
+        </div>
+        <div id="dateDivDep">
+            <p class="inputLabel">Departure Date</p>
+            <input type="date"  required="true" id="depDate" name="depDate">
+        </div>
+        <div id="depTimeInterval">
+            <p class="inputLabel">Time Interval</p>
+            <input type="time" value="00:00" required="true" id="depStartTime" name="depStartTime">
+            <input type="time" value="00:00" required="true" id="depEndTime" name="depEndTime">
+        </div>
+        <div id="dateDivArr">
+            <p class="inputLabel">Return Date</p>
+            <input type="date" id="arrDate" name="depDate">
+        </div>
+        <div id="arrTimeInterval">
+            <p class="inputLabel">Time Interval</p>
+            <input type="time" value="00:00" id="arrStartTime" name="depStartTime">
+            <input type="time" value="00:00" id="arrEndTime" name="depEndTime">
+        </div>
+        <div id="personsDiv">
+            <div id="years12up">
+                <p class="inputLabel">12+</p>
+                <input type="number" value="0" id="person12+" name="person12" min="0" max="120">
+            </div>
+            <div id="years2to12">
+                <p class="inputLabel">2-12</p>
+                <input type="number" value="0" id="person2_12" name="person2_12" min="0" max="120">
+            </div>
+            <div id="years0to2">
+                <p class="inputLabel">0-2</p>
+                <input type="number" value="0" id="person0_2" name="person0_2" min="0" max="120">
+            </div>
+        </div>
+        <div id="tripClassChoice">
+            <p class="inputLabel">Choose class</p>
+            <select id="typeClass" >
+                <option value="economy">Economy</option>
+                <option value="Business">Business</option>
+                <option value="first">First</option>
+            </select>
+        </div>
+        <button id="searchBtn">Search</button>
+    </div>
+</body>
+</html>

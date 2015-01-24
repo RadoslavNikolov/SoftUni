@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Website Header</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+    <table id="outer">
+        <tr>
+            <td class="logo">
+                <a href="http://softuni.bg"><div class="logo">
+                    <span class="logo">beta</span>
+                </div></a>
+            </td>
+            <td>
+                <div id="news">News</div>
+            </td>
+            <td>
+                <div id="aboutUni">About the university</div>
+            </td>
+            <td>
+                <table id="inner">
+                    <tr>
+                        <td>
+                            <div id="userMenuLine">
+                                <ul>
+                                    <li><a href="https://softuni.bg/notifications" target="_blank">
+                                        <span>0</span>
+                                        <span id="notification-icon"></span>
+                                    </a> </li>
+                                    <li>
+                                        <div id="user">User</div>
+
+                                    </li>
+                                    <li>
+                                            <form action="https://softuni.bg/Search/Results" method="get" target="_blank">
+                                                <input type="text" name="query" placeholder="Search...">
+                                                <button onclick="javascript: submitForm()"></button>
+                                            </form>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li><div id="courses">Training courses</div></li>
+                                <li><div id="forCompanies">For Companies</div></li>
+                                <li><div id="forum">Forum</div></li>
+                                <li><div id="contacts">Contacts</div></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,8 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\3. DNA-Chain-2\bin\Debug\_3.DNA_Chain_2.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\3. DNA-Chain-2\bin\Debug\_3.DNA_Chain_2.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\3. DNA-Chain-2\bin\Debug\_3.DNA_Chain_2.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\3. DNA-Chain-2\obj\Debug\_3.DNA_Chain_2.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-14-April-2014-Evening\3. DNA-Chain-2\obj\Debug\_3.DNA_Chain_2.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\3. DNA-Chain-2\bin\Debug\_3.DNA_Chain_2.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\3. DNA-Chain-2\obj\Debug\_3.DNA_Chain_2.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\3. DNA-Chain-2\obj\Debug\_3.DNA_Chain_2.pdb

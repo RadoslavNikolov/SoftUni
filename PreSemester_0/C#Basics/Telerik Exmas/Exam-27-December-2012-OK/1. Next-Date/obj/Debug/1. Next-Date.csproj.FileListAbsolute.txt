@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\1. Next-Date\bin\Debug\_1.Next_Date.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\1. Next-Date\bin\Debug\_1.Next_Date.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\1. Next-Date\bin\Debug\_1.Next_Date.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\1. Next-Date\obj\Debug\1. Next-Date.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\1. Next-Date\obj\Debug\_1.Next_Date.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-27-December-2012\1. Next-Date\obj\Debug\_1.Next_Date.pdb

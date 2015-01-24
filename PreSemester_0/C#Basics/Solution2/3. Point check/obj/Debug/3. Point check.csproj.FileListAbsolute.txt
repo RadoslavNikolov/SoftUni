@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point check\bin\Debug\_3.Point_check.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point check\bin\Debug\_3.Point_check.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point check\bin\Debug\_3.Point_check.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point check\obj\Debug\3. Point check.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point check\obj\Debug\_3.Point_check.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Point check\obj\Debug\_3.Point_check.pdb

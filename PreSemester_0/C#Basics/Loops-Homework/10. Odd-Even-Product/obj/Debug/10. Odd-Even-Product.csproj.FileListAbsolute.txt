@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\10. Odd-Even-Product\bin\Debug\_10.Odd_Even_Product.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\10. Odd-Even-Product\bin\Debug\_10.Odd_Even_Product.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\10. Odd-Even-Product\bin\Debug\_10.Odd_Even_Product.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\10. Odd-Even-Product\obj\Debug\_10.Odd_Even_Product.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\10. Odd-Even-Product\obj\Debug\_10.Odd_Even_Product.pdb

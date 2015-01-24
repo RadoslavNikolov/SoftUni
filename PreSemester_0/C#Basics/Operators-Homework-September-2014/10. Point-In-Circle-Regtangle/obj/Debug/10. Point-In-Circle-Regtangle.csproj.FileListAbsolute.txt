@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\10. Point-In-Circle-Regtangle\bin\Debug\_10.Point_In_Circle_Regtangle.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\10. Point-In-Circle-Regtangle\bin\Debug\_10.Point_In_Circle_Regtangle.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\10. Point-In-Circle-Regtangle\bin\Debug\_10.Point_In_Circle_Regtangle.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\10. Point-In-Circle-Regtangle\obj\Debug\_10.Point_In_Circle_Regtangle.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\10. Point-In-Circle-Regtangle\obj\Debug\_10.Point_In_Circle_Regtangle.pdb

@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\Data types\bin\Debug\Data types.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\Data types\bin\Debug\Data types.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\Data types\bin\Debug\Data types.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\Data types\obj\Debug\Data types.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\Data types\obj\Debug\Data types.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\Data types\obj\Debug\Data types.pdb

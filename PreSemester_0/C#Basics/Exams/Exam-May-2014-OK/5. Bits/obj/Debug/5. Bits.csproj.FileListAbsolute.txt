@@ -1,0 +1,9 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\5. Bits\bin\Debug\_5.Bits.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\5. Bits\bin\Debug\_5.Bits.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\5. Bits\bin\Debug\_5.Bits.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\5. Bits\obj\Debug\_5.Bits.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\5. Bits\obj\Debug\_5.Bits.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam-May-2014\5. Bits\obj\Debug\5. Bits.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-May-2014\5. Bits\bin\Debug\_5.Bits.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-May-2014\5. Bits\obj\Debug\_5.Bits.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-May-2014\5. Bits\obj\Debug\_5.Bits.pdb

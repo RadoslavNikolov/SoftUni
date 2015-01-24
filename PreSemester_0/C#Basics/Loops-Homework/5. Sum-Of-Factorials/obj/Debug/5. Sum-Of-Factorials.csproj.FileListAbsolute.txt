@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\5. Sum-Of-Factorials\bin\Debug\_5.Sum_Of_Factorials.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\5. Sum-Of-Factorials\bin\Debug\_5.Sum_Of_Factorials.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\5. Sum-Of-Factorials\bin\Debug\_5.Sum_Of_Factorials.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\5. Sum-Of-Factorials\obj\Debug\5. Sum-Of-Factorials.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\5. Sum-Of-Factorials\obj\Debug\_5.Sum_Of_Factorials.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\5. Sum-Of-Factorials\obj\Debug\_5.Sum_Of_Factorials.pdb

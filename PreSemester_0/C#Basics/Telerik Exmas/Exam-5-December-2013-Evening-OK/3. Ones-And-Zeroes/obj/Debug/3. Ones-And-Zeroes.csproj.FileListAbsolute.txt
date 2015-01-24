@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\3. Ones-And-Zeroes\bin\Debug\_3.Ones_And_Zeroes.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\3. Ones-And-Zeroes\bin\Debug\_3.Ones_And_Zeroes.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\3. Ones-And-Zeroes\bin\Debug\_3.Ones_And_Zeroes.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\3. Ones-And-Zeroes\obj\Debug\3. Ones-And-Zeroes.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\3. Ones-And-Zeroes\obj\Debug\_3.Ones_And_Zeroes.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\3. Ones-And-Zeroes\obj\Debug\_3.Ones_And_Zeroes.pdb

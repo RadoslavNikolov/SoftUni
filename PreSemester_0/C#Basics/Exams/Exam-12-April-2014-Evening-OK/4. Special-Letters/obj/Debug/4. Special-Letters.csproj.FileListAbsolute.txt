@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\4. Special-Letters\bin\Debug\_4.Special_Letters.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\4. Special-Letters\bin\Debug\_4.Special_Letters.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\4. Special-Letters\bin\Debug\_4.Special_Letters.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\4. Special-Letters\obj\Debug\4. Special-Letters.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\4. Special-Letters\obj\Debug\_4.Special_Letters.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-12-April-2014-Evening\4. Special-Letters\obj\Debug\_4.Special_Letters.pdb

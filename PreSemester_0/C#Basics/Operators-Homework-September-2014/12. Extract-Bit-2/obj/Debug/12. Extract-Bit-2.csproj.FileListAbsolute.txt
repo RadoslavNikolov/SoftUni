@@ -1,0 +1,3 @@
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\12. Extract-Bit-2\bin\Debug\_12.Extract_Bit_2.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\12. Extract-Bit-2\bin\Debug\_12.Extract_Bit_2.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Operators-Homework-September-2014\12. Extract-Bit-2\bin\Debug\_12.Extract_Bit_2.exe.config

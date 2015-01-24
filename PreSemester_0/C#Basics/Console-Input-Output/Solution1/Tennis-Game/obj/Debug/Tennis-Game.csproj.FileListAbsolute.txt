@@ -1,0 +1,12 @@
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\Tennis-Game\bin\Debug\Tennis-Game.exe.config
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\Tennis-Game\bin\Debug\Tennis-Game.exe
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\Tennis-Game\bin\Debug\Tennis-Game.pdb
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\Tennis-Game\obj\Debug\Tennis-Game.exe
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\Tennis-Game\obj\Debug\Tennis-Game.pdb
+C:\Users\UniUser\Desktop\Rado\Console-Input-Output\Solution1\Tennis-Game\obj\Debug\Tennis-Game.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output\Solution1\Tennis-Game\bin\Debug\Tennis-Game.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output\Solution1\Tennis-Game\obj\Debug\Tennis-Game.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output\Solution1\Tennis-Game\obj\Debug\Tennis-Game.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output\Solution1\Tennis-Game\bin\Debug\Tennis-Game.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output\Solution1\Tennis-Game\bin\Debug\Tennis-Game.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output\Solution1\Tennis-Game\obj\Debug\Tennis-Game.csprojResolveAssemblyReference.cache

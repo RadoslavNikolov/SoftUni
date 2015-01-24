@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Print bit from given position\bin\Debug\_3.Print_bit_from_given_position.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Print bit from given position\bin\Debug\_3.Print_bit_from_given_position.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Print bit from given position\bin\Debug\_3.Print_bit_from_given_position.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Print bit from given position\obj\Debug\3. Print bit from given position.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Print bit from given position\obj\Debug\_3.Print_bit_from_given_position.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Print bit from given position\obj\Debug\_3.Print_bit_from_given_position.pdb

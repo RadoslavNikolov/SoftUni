@@ -1,0 +1,8 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\8. Prime-Check\bin\Debug\_8.Prime_Check.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\8. Prime-Check\bin\Debug\_8.Prime_Check.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\8. Prime-Check\bin\Debug\_8.Prime_Check.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\8. Prime-Check\obj\Debug\_8.Prime_Check.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\8. Prime-Check\obj\Debug\_8.Prime_Check.pdb
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Operators-Homework-September-2014\8. Prime-Check\bin\Debug\_8.Prime_Check.exe.config
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Operators-Homework-September-2014\8. Prime-Check\obj\Debug\_8.Prime_Check.exe
+C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Operators-Homework-September-2014\8. Prime-Check\obj\Debug\_8.Prime_Check.pdb

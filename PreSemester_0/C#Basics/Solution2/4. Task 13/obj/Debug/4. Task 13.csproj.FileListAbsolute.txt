@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\4. Task 13\bin\Debug\_4.Task_13.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\4. Task 13\bin\Debug\_4.Task_13.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\4. Task 13\bin\Debug\_4.Task_13.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\4. Task 13\obj\Debug\_4.Task_13.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\4. Task 13\obj\Debug\_4.Task_13.pdb

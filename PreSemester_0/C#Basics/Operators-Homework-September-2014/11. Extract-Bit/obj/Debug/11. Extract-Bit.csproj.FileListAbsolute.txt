@@ -1,0 +1,9 @@
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\11. Extract-Bit\bin\Debug\_11.Extract_Bit.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\11. Extract-Bit\bin\Debug\_11.Extract_Bit.exe
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\11. Extract-Bit\bin\Debug\_11.Extract_Bit.pdb
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\11. Extract-Bit\obj\Debug\11. Extract-Bit.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\11. Extract-Bit\obj\Debug\_11.Extract_Bit.exe
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\11. Extract-Bit\obj\Debug\_11.Extract_Bit.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\11. Extract-Bit\bin\Debug\_11.Extract_Bit.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\11. Extract-Bit\obj\Debug\_11.Extract_Bit.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\11. Extract-Bit\obj\Debug\_11.Extract_Bit.pdb

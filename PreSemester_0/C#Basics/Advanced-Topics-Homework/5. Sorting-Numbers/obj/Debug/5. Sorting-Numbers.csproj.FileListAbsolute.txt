@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\5. Sorting-Numbers\bin\Debug\_5.Sorting_Numbers.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\5. Sorting-Numbers\bin\Debug\_5.Sorting_Numbers.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\5. Sorting-Numbers\bin\Debug\_5.Sorting_Numbers.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\5. Sorting-Numbers\obj\Debug\5. Sorting-Numbers.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\5. Sorting-Numbers\obj\Debug\_5.Sorting_Numbers.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\5. Sorting-Numbers\obj\Debug\_5.Sorting_Numbers.pdb

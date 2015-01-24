@@ -1,0 +1,8 @@
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\12. Null Aritmetics\bin\Debug\_12.Null_Aritmetics.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\12. Null Aritmetics\bin\Debug\_12.Null_Aritmetics.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\12. Null Aritmetics\bin\Debug\_12.Null_Aritmetics.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\12. Null Aritmetics\obj\Debug\_12.Null_Aritmetics.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\12. Null Aritmetics\obj\Debug\_12.Null_Aritmetics.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\12. Null Aritmetics\bin\Debug\_12.Null_Aritmetics.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\12. Null Aritmetics\obj\Debug\_12.Null_Aritmetics.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Primitive-Data-Types-Homework-September-2014\12. Null Aritmetics\obj\Debug\_12.Null_Aritmetics.pdb

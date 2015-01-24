@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\2. Sum-Of-Elements\bin\Debug\_2.Sum_Of_Elements.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\2. Sum-Of-Elements\bin\Debug\_2.Sum_Of_Elements.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\2. Sum-Of-Elements\bin\Debug\_2.Sum_Of_Elements.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\2. Sum-Of-Elements\obj\Debug\2. Sum-Of-Elements.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\2. Sum-Of-Elements\obj\Debug\_2.Sum_Of_Elements.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\2. Sum-Of-Elements\obj\Debug\_2.Sum_Of_Elements.pdb

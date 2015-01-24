@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\5. Game-of-Page\bin\Debug\_5.Game_of_Page.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\5. Game-of-Page\bin\Debug\_5.Game_of_Page.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\5. Game-of-Page\bin\Debug\_5.Game_of_Page.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\5. Game-of-Page\obj\Debug\5. Game-of-Page.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\5. Game-of-Page\obj\Debug\_5.Game_of_Page.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Evening\5. Game-of-Page\obj\Debug\_5.Game_of_Page.pdb

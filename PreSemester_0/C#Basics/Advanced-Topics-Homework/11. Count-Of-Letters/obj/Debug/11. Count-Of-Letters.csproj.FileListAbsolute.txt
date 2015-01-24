@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\11. Count-Of-Letters\bin\Debug\_11.Count_Of_Letters.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\11. Count-Of-Letters\bin\Debug\_11.Count_Of_Letters.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\11. Count-Of-Letters\bin\Debug\_11.Count_Of_Letters.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\11. Count-Of-Letters\obj\Debug\11. Count-Of-Letters.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\11. Count-Of-Letters\obj\Debug\_11.Count_Of_Letters.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Advanced-Topics-Homework\11. Count-Of-Letters\obj\Debug\_11.Count_Of_Letters.pdb

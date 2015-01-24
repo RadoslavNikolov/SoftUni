@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\1. Fruit-Market\bin\Debug\_1.Fruit_Market.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\1. Fruit-Market\bin\Debug\_1.Fruit_Market.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\1. Fruit-Market\bin\Debug\_1.Fruit_Market.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\1. Fruit-Market\obj\Debug\1. Fruit-Market.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\1. Fruit-Market\obj\Debug\_1.Fruit_Market.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-14-April-2014-Morning\1. Fruit-Market\obj\Debug\_1.Fruit_Market.pdb

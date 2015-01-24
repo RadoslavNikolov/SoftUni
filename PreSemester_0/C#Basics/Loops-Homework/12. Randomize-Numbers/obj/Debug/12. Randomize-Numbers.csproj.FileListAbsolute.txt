@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\12. Randomize-Numbers\bin\Debug\_12.Randomize_Numbers.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\12. Randomize-Numbers\bin\Debug\_12.Randomize_Numbers.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\12. Randomize-Numbers\bin\Debug\_12.Randomize_Numbers.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\12. Randomize-Numbers\obj\Debug\_12.Randomize_Numbers.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\12. Randomize-Numbers\obj\Debug\_12.Randomize_Numbers.pdb

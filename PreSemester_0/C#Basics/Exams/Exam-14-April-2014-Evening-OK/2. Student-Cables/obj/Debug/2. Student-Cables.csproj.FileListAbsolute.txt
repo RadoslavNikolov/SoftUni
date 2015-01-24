@@ -1,0 +1,9 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-14-April-2014-Evening\2. Student-Cables\bin\Debug\_2.Student_Cables.exe.config
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-14-April-2014-Evening\2. Student-Cables\bin\Debug\_2.Student_Cables.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-14-April-2014-Evening\2. Student-Cables\bin\Debug\_2.Student_Cables.pdb
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-14-April-2014-Evening\2. Student-Cables\obj\Debug\2. Student-Cables.csprojResolveAssemblyReference.cache
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-14-April-2014-Evening\2. Student-Cables\obj\Debug\_2.Student_Cables.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Exam-14-April-2014-Evening\2. Student-Cables\obj\Debug\_2.Student_Cables.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\2. Student-Cables\bin\Debug\_2.Student_Cables.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\2. Student-Cables\obj\Debug\_2.Student_Cables.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-14-April-2014-Evening-OK\2. Student-Cables\obj\Debug\_2.Student_Cables.pdb

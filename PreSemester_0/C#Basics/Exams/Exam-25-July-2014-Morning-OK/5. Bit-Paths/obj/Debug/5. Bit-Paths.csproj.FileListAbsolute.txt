@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Morning\5. Bit-Paths\bin\Debug\_5.Bit_Paths.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Morning\5. Bit-Paths\bin\Debug\_5.Bit_Paths.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Morning\5. Bit-Paths\bin\Debug\_5.Bit_Paths.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Morning\5. Bit-Paths\obj\Debug\_5.Bit_Paths.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Morning\5. Bit-Paths\obj\Debug\_5.Bit_Paths.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-25-July-2014-Morning\5. Bit-Paths\obj\Debug\5. Bit-Paths.csprojResolveAssemblyReference.cache

@@ -1,0 +1,21 @@
+﻿using System;
+
+class extractBit
+{
+    static void Main()
+    {
+        int n = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write("Enter number: ");
+            int number = int.Parse(Console.ReadLine());
+            Console.Write("Enter bit to exchange: ");
+            int index = int.Parse(Console.ReadLine());
+            int numberRight = number >> index;
+            int bit = numberRight & 1;
+            Console.WriteLine(bit);
+           
+        }
+    }
+}

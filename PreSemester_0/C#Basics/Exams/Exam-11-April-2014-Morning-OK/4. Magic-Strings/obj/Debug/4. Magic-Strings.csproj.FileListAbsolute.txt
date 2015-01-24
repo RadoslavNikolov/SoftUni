@@ -1,0 +1,2 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Morning\4. Magic-Strings\bin\Debug\_4.Magic_Strings.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Exams\Exam-11-April-2014-Morning-OK\4. Magic-Strings\bin\Debug\_4.Magic_Strings.exe.config

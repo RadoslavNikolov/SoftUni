@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Face of trapezium\bin\Debug\_3.Face_of_trapezium.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Face of trapezium\bin\Debug\_3.Face_of_trapezium.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Face of trapezium\bin\Debug\_3.Face_of_trapezium.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Face of trapezium\obj\Debug\3. Face of trapezium.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Face of trapezium\obj\Debug\_3.Face_of_trapezium.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Face of trapezium\obj\Debug\_3.Face_of_trapezium.pdb

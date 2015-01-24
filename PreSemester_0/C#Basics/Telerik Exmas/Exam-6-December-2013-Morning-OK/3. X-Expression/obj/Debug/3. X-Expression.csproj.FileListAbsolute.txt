@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\3. X-Expression\bin\Debug\_3.X_Expression.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\3. X-Expression\bin\Debug\_3.X_Expression.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\3. X-Expression\bin\Debug\_3.X_Expression.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\3. X-Expression\obj\Debug\3. X-Expression.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\3. X-Expression\obj\Debug\_3.X_Expression.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-6-December-2013-Morning\3. X-Expression\obj\Debug\_3.X_Expression.pdb

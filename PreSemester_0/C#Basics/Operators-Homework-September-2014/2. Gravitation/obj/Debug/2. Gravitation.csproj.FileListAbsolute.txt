@@ -1,0 +1,9 @@
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\2. Gravitation\bin\Debug\_2.Gravitation.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\2. Gravitation\bin\Debug\_2.Gravitation.exe
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\2. Gravitation\bin\Debug\_2.Gravitation.pdb
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\2. Gravitation\obj\Debug\_2.Gravitation.exe
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\2. Gravitation\obj\Debug\_2.Gravitation.pdb
+C:\Users\toshiba\Desktop\C# Projects\Operators-Homework-September-2014\2. Gravitation\obj\Debug\2. Gravitation.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\2. Gravitation\bin\Debug\_2.Gravitation.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\2. Gravitation\obj\Debug\_2.Gravitation.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Operators-Homework-September-2014\2. Gravitation\obj\Debug\_2.Gravitation.pdb

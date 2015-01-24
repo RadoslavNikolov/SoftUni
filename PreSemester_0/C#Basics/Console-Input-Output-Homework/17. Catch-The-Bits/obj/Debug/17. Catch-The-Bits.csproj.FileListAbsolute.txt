@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\17. Catch-The-Bits\bin\Debug\_17.Catch_The_Bits.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\17. Catch-The-Bits\obj\Debug\17. Catch-The-Bits.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\17. Catch-The-Bits\bin\Debug\_17.Catch_The_Bits.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\17. Catch-The-Bits\bin\Debug\_17.Catch_The_Bits.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\17. Catch-The-Bits\obj\Debug\_17.Catch_The_Bits.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Console-Input-Output-Homework\17. Catch-The-Bits\obj\Debug\_17.Catch_The_Bits.pdb

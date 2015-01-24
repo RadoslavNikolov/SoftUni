@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Poker-Streight\bin\Debug\_3.Poker_Streight.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Poker-Streight\bin\Debug\_3.Poker_Streight.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Poker-Streight\bin\Debug\_3.Poker_Streight.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Poker-Streight\obj\Debug\3. Poker-Streight.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Poker-Streight\obj\Debug\_3.Poker_Streight.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exam 28 April 2014\3. Poker-Streight\obj\Debug\_3.Poker_Streight.pdb

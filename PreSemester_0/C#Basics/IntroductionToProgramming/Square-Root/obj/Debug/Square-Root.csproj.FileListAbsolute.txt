@@ -1,0 +1,5 @@
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Square-Root\bin\Debug\Square-Root.exe.config
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Square-Root\bin\Debug\Square-Root.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Square-Root\bin\Debug\Square-Root.pdb
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Square-Root\obj\Debug\Square-Root.exe
+C:\Users\toshiba\Desktop\C# Projects\IntroductionToProgramming\Square-Root\obj\Debug\Square-Root.pdb

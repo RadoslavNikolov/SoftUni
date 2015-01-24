@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third bit equal to 1 check\bin\Debug\_3.Third_bit_equal_to_1_check.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third bit equal to 1 check\bin\Debug\_3.Third_bit_equal_to_1_check.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third bit equal to 1 check\bin\Debug\_3.Third_bit_equal_to_1_check.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third bit equal to 1 check\obj\Debug\3. Third bit equal to 1 check.csprojResolveAssemblyReference.cache
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third bit equal to 1 check\obj\Debug\_3.Third_bit_equal_to_1_check.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\3. Third bit equal to 1 check\obj\Debug\_3.Third_bit_equal_to_1_check.pdb

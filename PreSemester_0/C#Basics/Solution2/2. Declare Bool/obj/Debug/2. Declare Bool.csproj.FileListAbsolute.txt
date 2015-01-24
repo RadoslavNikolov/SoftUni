@@ -1,0 +1,5 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Declare Bool\bin\Debug\_2.Declare_Bool.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Declare Bool\bin\Debug\_2.Declare_Bool.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Declare Bool\bin\Debug\_2.Declare_Bool.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Declare Bool\obj\Debug\_2.Declare_Bool.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Solution2\2. Declare Bool\obj\Debug\_2.Declare_Bool.pdb

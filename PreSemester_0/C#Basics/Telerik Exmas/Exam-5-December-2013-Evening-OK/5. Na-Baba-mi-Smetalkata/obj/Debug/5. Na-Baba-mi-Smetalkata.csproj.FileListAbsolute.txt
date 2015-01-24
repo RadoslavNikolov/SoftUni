@@ -1,0 +1,6 @@
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\5. Na-Baba-mi-Smetalkata\bin\Debug\_5.Na_Baba_mi_Smetalkata.exe.config
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\5. Na-Baba-mi-Smetalkata\bin\Debug\_5.Na_Baba_mi_Smetalkata.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\5. Na-Baba-mi-Smetalkata\bin\Debug\_5.Na_Baba_mi_Smetalkata.pdb
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\5. Na-Baba-mi-Smetalkata\obj\Debug\5. Na-Baba-mi-Smetalkata.csprojResolveAssemblyReference.cache
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\5. Na-Baba-mi-Smetalkata\obj\Debug\_5.Na_Baba_mi_Smetalkata.exe
+C:\Users\radko\Desktop\C#Basics GitHub\Telerik Exmas\Exam-5-December-2013-Evening\5. Na-Baba-mi-Smetalkata\obj\Debug\_5.Na_Baba_mi_Smetalkata.pdb

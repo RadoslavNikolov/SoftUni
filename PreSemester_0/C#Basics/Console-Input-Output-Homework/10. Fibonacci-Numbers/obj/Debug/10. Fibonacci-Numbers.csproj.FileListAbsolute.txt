@@ -1,0 +1,5 @@
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\10. Fibonacci-Numbers\bin\Debug\_10.Fibonacci_Numbers.exe.config
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\10. Fibonacci-Numbers\bin\Debug\_10.Fibonacci_Numbers.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\10. Fibonacci-Numbers\bin\Debug\_10.Fibonacci_Numbers.pdb
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\10. Fibonacci-Numbers\obj\Debug\_10.Fibonacci_Numbers.exe
+c:\users\isrmn\documents\visual studio 2012\Projects\Console-Input-Output-Homework\10. Fibonacci-Numbers\obj\Debug\_10.Fibonacci_Numbers.pdb

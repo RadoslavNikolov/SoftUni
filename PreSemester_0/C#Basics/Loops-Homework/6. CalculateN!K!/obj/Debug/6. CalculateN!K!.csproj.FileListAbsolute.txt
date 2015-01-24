@@ -1,0 +1,6 @@
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\6. CalculateN!K!\bin\Debug\_6.CalculateN_K_.exe.config
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\6. CalculateN!K!\bin\Debug\_6.CalculateN_K_.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\6. CalculateN!K!\bin\Debug\_6.CalculateN_K_.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\6. CalculateN!K!\obj\Debug\_6.CalculateN_K_.exe
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\6. CalculateN!K!\obj\Debug\_6.CalculateN_K_.pdb
+C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\6. CalculateN!K!\obj\Debug\6. CalculateN!K!.csprojResolveAssemblyReference.cache

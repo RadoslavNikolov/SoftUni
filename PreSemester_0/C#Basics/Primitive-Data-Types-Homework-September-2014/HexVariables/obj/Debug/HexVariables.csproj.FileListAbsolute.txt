@@ -1,0 +1,6 @@
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\HexVariables\bin\Debug\HexVariables.exe.config
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\HexVariables\bin\Debug\HexVariables.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\HexVariables\bin\Debug\HexVariables.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\HexVariables\obj\Debug\HexVariables.exe
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\HexVariables\obj\Debug\HexVariables.pdb
+C:\Users\toshiba\Desktop\C# Projects\Primitive-Data-Types-and-Variables\HexVariables\obj\Debug\HexVariables.csprojResolveAssemblyReference.cache
