@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Print-Deck-Of-Cards">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Print-Deck-Of-Cards.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

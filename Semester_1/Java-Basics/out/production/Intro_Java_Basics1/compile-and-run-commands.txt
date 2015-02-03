@@ -1,0 +1,7 @@
+Linux
+
+Navigate to contain folder (_07_Console_Based_Compilation) then right mouse click and open terminal. Then type:
+
+javac _6_Sum_Two_Numbers.java
+
+java _6_Sum_Two_Numbers
