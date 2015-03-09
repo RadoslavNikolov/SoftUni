@@ -1,0 +1,139 @@
+body {
+    margin: 5px auto;
+    width: 100%;
+    font-family: Tahoma,sans-serif;
+}
+header {
+    width: 100%;
+    height: auto;
+    background-color: #eeeeee;
+    margin: 0 auto;
+}
+div.header {
+    background-color: #eeeeee;
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px  solid #eeeeee;
+}
+img.logo {
+    float: left;
+    margin: 15px 0px 15px 0px;
+}
+div.header nav {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /*display: inline-block;*/
+}
+div.header ul {
+    text-decoration: none;
+}
+
+div.header ul li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+div.header ul li > a {
+    text-decoration: none;
+    color: #878181;
+    padding: 15px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.header ul li > a:hover {
+    color: #555555;
+    background-color: #cad1d1;
+}
+div.header ul li > a.active {
+    color: #f99600;
+}
+
+main {
+    width: 840px;
+    margin: 0 auto;
+    padding: 5px;
+}
+section {
+    display: inline-block;
+    width: 47%;
+}
+section article {
+    margin-bottom: 35px;
+    line-height: 1.5em;
+    color: #3e3e46;
+}
+h1 {
+    width: 100%;
+    font-weight: normal;
+    font-size: 35px;
+    margin-top: 35px;
+    color: #3e3e46;
+}
+aside {
+    display: inline-block;
+    width: 52%;
+    vertical-align: top;
+}
+aside ul {
+    list-style: none;
+}
+aside ul  li {
+    margin-bottom: 35px;
+    line-height: 1.5em;
+    color: #3e3e46;
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #eeeeee;
+    padding-bottom: 15px;
+}
+div.footer {
+    background-color: #eeeeee;
+    width: 920px;
+    margin: 0px auto;
+    padding-top: 30px;
+
+    text-align: center;
+}
+div.footer > p{
+    float: left;
+}
+div.links {
+    float: right;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+div.links > a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: url("images/icons.png") no-repeat;
+}
+#google {
+    background-position: 0 -40px;
+}
+#twitter {
+    background-position: 0 -80px;
+}
+#tumbler {
+    background-position: 0 -120px;
+}
+#facebook:hover {
+    background-position: -40px 0;
+}
+#google:hover {
+    background-position: -40px -40px;
+}
+#twitter:hover {
+    background-position: -40px -80px;
+}
+#tumbler:hover {
+    background-position: -40px -120px;
+}

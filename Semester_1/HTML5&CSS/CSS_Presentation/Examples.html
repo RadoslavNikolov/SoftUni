@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <style>
+        ul.menu {
+            list-style-type: none;
+        }
+            ul.menu li {
+                display: inline-block;
+                background-color: #9999FF;
+                border-radius: 5px 3px;
+                padding: 3px 15px 3px 5px;
+                border: 1px solid #CCCCCC;
+            }
+            ul.menu li::before {
+                content: "\25BA";
+                margin-right: 8px;
+                color: aqua;
+            }
+            ul.menu li:hover {
+                color: black;
+                background-color: cornsilk;
+                cursor: pointer;
+
+            }
+            ul.menu li:hover:before {
+                color: darkorange;
+            }
+    </style>
+
+
+</head>
+<body>
+    <ul class="menu">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Water</li>
+        <li>Cola</li>
+    </ul>
+</body>
+</html>

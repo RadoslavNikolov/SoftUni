@@ -1,0 +1,166 @@
+body {
+    background-color: #50247d;
+}
+div.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    /*border: 1px solid white;*/
+    font-family: Colibri, Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+/*header style*/
+header {
+    width: 100%;
+    height: auto;
+    background: url("resources/orion-gas-and-star-bgr.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 0 9%;
+    border-bottom: 10px solid #37a0ca;
+}
+header h1 {
+    font-family: Oleo Script;
+    font-size: 68px;
+    font-weight: normal;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+header h4 {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+    margin-top: 0;
+    font-size: 26px;
+    font-weight: normal;
+}
+nav {
+    width: 500px;
+    margin: 0 auto;
+}
+nav ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    color: #4f2579;
+    padding: 0;
+}
+nav ul li {
+    padding: 10px 25px;
+    background-color: #FFFFFF;
+}
+nav ul li:hover {
+    background-color: #36a4d5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*main content style*/
+main {
+    width: 940px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 30px 30px 40px 30px;
+    background-color: #eae7ee;
+    border-top: 10px solid #865ab3;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border-bottom: 10px solid #37a0ca;
+}
+
+section {
+    width: 41%;
+    padding-left: 3%;
+    padding-right: 5%;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    position: relative;
+}
+section article h2 {
+    font-family: Oleo Script;
+    font-size: 48px;
+    margin-top: 35px;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+section article h4 {
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+span.italic {
+    font-weight: bold;
+    font-style: italic;
+}
+a.wallpaper-btn {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #865ab3;
+    color: #ffffff;
+    padding: 10px 25px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+a.wallpaper-btn:hover {
+    background-color: #52267d;
+    cursor: pointer;
+}
+
+aside {
+    width: 47%;
+    background-color: #eae7ee;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+aside article {
+    width: 45%;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+aside article img {
+    width: 100%;
+}
+aside article h4 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #36a4d5;
+}
+aside article p {
+    margin-left: 10px;
+}
+a.read-more-btn {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #36a4d5;
+    color: #ffffff;
+    padding: 10px 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*footer style*/
+footer p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    padding-left: 15px;
+}

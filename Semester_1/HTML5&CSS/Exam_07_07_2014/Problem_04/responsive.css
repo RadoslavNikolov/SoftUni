@@ -1,0 +1,77 @@
+@media only screen and (max-width: 699px) {
+
+    ul.nav.nav-minor {
+        clear: both;
+        width: 285px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 0 auto;
+        zoom: 0.9;
+        -moz-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+    }
+    body > div.header > div {
+        width: 100%;
+    }
+    div.header {
+        padding-top: 35px;
+    }
+    body > div.header > div.container {
+        zoom: 0.9;
+        -moz-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+    }
+    body > div.leader > div {
+        width: 95%;
+    }
+    body > div.content > div {
+        width: 95%;
+    }
+    body.home div.header {
+        background-size: 100%;
+        background-position: 0 3%;
+        background-repeat: no-repeat;
+
+    }
+    div.header div.container p  {
+          margin-bottom: 25px;
+    }
+}
+@media only screen and (max-width: 499px) {
+    body > div.leader > div > ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+        justify-content: center;
+        margin: 0 auto;
+        /*zoom: 0.9;*/
+        /*-moz-transform: scale(0.9);*/
+        /*-webkit-transform: scale(0.9);*/
+    }
+    body > div.leader > div > ul li {
+        line-height: 1.8em;
+    }
+    body.home div.header {
+        background-size: 100%;
+        background-position: 0 3%;
+        background-repeat: no-repeat;
+
+    }
+    div.header {
+        padding-top: 25px;
+    }
+    body > div.header > div.container {
+        zoom: 0.8;
+        -moz-transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+    }
+    div.header div.container p  {
+        margin-bottom: 15px;
+    }
+    div.container {
+        zoom: 0.9;
+        -moz-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+    }
+}

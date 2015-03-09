@@ -1,0 +1,71 @@
+/* Add here your responsive CSS */
+@media only screen and (max-width: 780px) {
+    header.mainHeader img {
+        width: 100%;
+    }
+
+
+    /* ===========================
+   ===== Main Navigation =====
+   =========================== */
+    .mainHeader nav {
+        height: 160px;
+        margin-bottom: 20px;
+    }
+    .mainHeader nav ul {
+        padding-left: 0;
+    }
+
+    .mainHeader nav ul li {
+        clear: both;
+        display: block;
+        width: 100%;
+    }
+    .mainHeader nav a:link, .mainHeader nav a:visited {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* ===========================
+   ======= Content Area ======
+   =========================== */
+    .content {
+        float: none;
+        width: 100%;
+    }
+    body > div > div > article {
+        display: block;
+    }
+    article.topcontent > footer > p, article.bottomcontent > footer > p {
+        display: none;
+    }
+    article.bottomcontent {
+        margin-bottom: 20px;
+    }
+
+
+    /* ===========================
+   ======== Sidebar ==========
+   =========================== */
+    aside.top-sidebar, aside.middle-sidebar, aside.bottom-sidebar {
+        clear: both;
+        margin-left: 0;
+        width: auto;
+        padding: 3% 5%;
+        margin-bottom: 20px;
+    }
+    body > div > aside > article > h2 {
+        margin-top: 0;
+    }
+
+
+    /* ===========================
+   ========= Footer ==========
+   =========================== */
+    .mainFooter {
+        margin-top: 0;
+    }
+
+
+}

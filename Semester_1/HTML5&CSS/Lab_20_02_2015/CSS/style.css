@@ -1,0 +1,309 @@
+/*reset css*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+/*table {*/
+    /*border-collapse: collapse;*/
+    /*border-spacing: 0;*/
+/*}*/
+
+
+
+
+
+/*my CSS*/
+
+@font-face {
+    font-family: Pamela wants Ride;
+    src: url("../Lab-Skeleton/css/fonts/Pamela%20wants%20to%20Ride.ttf");
+}
+@font-face {
+    font-family: Pamela wants a Bike Ride;
+    src: url("../Lab-Skeleton/css/fonts/Pamela%20want%20a%20Bike%20to%20Ride.ttf");
+}
+html {
+    background-color: #CCCCCC;
+    font-size: 10px;
+}
+body {
+    padding: 10px;
+}
+header {
+    padding: 1em;
+    /*border: 1px solid;*/
+    height: 60px;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
+    min-height: 670px;
+    background-color: #DDDDDD;
+    /*border: 1px solid;*/
+
+}
+#logo {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    /*vertical-align: middle;*/
+
+}
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+header ul {
+    display: inline-block;
+
+}
+header nav {
+    display: inline-block;
+    margin-left: 7em;
+}
+header li {
+    margin: 1.2em;
+    display: inline-block;
+    font-family: "Pamela wants Ride";
+    font-size: 2.5em;
+
+}
+header li a {
+    color: #c61444;
+    text-decoration: none;
+}
+header li a:hover {
+    font-family: "Pamela wants a Bike Ride";
+    color: #c61444;
+}
+footer {
+    font-size: 1.5em;
+    padding: 1em;
+    padding-top: 1em;
+    /*border: 1px solid;*/
+    height: 75px;
+}
+footer div {
+    margin-left: 0.5em;
+}
+#info {
+    line-height: 1.5em;
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+    float: left;
+    margin-right: 2em;
+    font-size: 1.2em;
+}
+#facebook {
+    background: url('../Lab-Skeleton/css/images/sprites-transparent.png') -75px 0px;
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+}
+#twitter {
+    background: url('../Lab-Skeleton/css/images/sprites-transparent.png') 0px 0px;
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+}
+#vimeo {
+    background: url('../Lab-Skeleton/css/images/sprites-transparent.png') -225px 0px;
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+}
+#facebook:hover {
+    background: url('../Lab-Skeleton/css/images/sprites-transparent.png') -75px 150px;
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+}
+#twitter:hover {
+    background: url('../Lab-Skeleton/css/images/sprites-transparent.png') 0px 227px;
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+}
+#vimeo:hover {
+    background: url('../Lab-Skeleton/css/images/sprites-transparent.png') -225px 75px;
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+}
+main {
+    padding: 10px;
+    display: inline-flex;
+}
+table {
+    /*border: 1px solid;*/
+    display: inline-block;
+    width: 500px;
+    min-height: 150px;
+    background-color: #ffff00;
+    /*text-align: center;*/
+    /*border-spacing: 5px;*/
+    vertical-align: middle;
+    font-size: 1.5em;
+    padding: 0.8em;
+    margin: 10px;
+}
+td, th {
+    /*border: 1px solid;*/
+    text-align: center;
+    padding: 0.5em;
+    padding-top: 0.8em;
+}
+th {
+    background-color: orange;
+    font-weight: bold;
+}
+table p {
+    width: 20px;
+    display: inline;
+}
+table a:link, table a:visited {
+    display: inline-block;
+    width: 6em;
+    padding: 0.2em;
+    line-height: 1.4;
+    border: 2px solid #0000ff;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    color: #0000ff;
+
+}
+
+table a.yes:hover {
+    background-color: #008000;
+}
+table a.no:hover {
+    background-color: red;
+}
+
+form {
+    width: 380px;
+    padding: 0.5em;
+    display: inline-block;
+}
+fieldset {
+    border: 2px solid #CCCCCC;
+    height: 50px;
+    width: 95%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+fieldset input, fieldset select, fieldset button {
+    font-size: 1.3em;
+    width: 150px;
+    height: 20px;
+    margin-top: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+#send {
+    background-color: #008000;
+    color: #ffffff;
+    height: 50px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+#reset {
+    background-color: red;
+    height: 50px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#team-size {
+    height: 25px;
+}
+#done {
+    height: 70px;
+}
+#pic-container {
+    margin-top: 15px;
+    bottom: 5px;
+    width: 550px;
+    height: 200px;
+    padding: 0.8em;
+    display: inline-block;
+}
+#pic-container img {
+    margin-right: 10px;
+}
+#titanic-pic {
+    display: inline-block;
+}
+#titanic-pic img {
+    width: 165px;
+    /*display: inline-block;*/
+}
+#pumba-pic {
+    display: inline-block;
+}
+#pumba-pic img {
+    width: 165px;
+    /*display: inline-block;*/
+
+}
+#kfc-pic {
+    display: inline-block;
+}
+#kfc-pic img {
+    width: 165px;
+    /*display: inline-block;*/
+}
+#table-section {
+    width: 550px;
+}
+
+
+

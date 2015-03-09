@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Fairview;
+    src: url("fonts/Fairview_Regular.otf");
+}
+@font-face {
+    font-family: Nunito-regular;
+    src: url("fonts/Nunito-Regular.ttf");
+}
+div.wrapper {
+    margin: 5px auto;
+}
+
+header {
+    width: 100%;
+    background-color: #e05e43;
+    font-family: Fairview,Helvetica,sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+header:hover {
+    color: #000000;
+}
+
+nav.header {
+    width: 670px;
+    margin: 0 auto;
+    font-family: Fairview,Helvetica,sans-serif;
+    text-align: center;
+}
+nav.header ul {
+    padding-left: 0;
+}
+
+nav.header > ul  li {
+    display: inline-block;
+}
+nav.header > ul li > a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #666666;
+    padding: 10px;
+    margin: 2px 5px 2px 5px;
+    cursor: pointer;
+}
+a.active {
+    background-color: #ff6347;
+    color: #fff;
+}
+nav.header > ul li > a:hover {
+    color: #000000;
+}
+main {
+    width: 670px;
+    margin: 0 auto;
+    font-family: Nunito-regular,Arial,sans-serif;
+}
+h3 {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dddddd;
+}
+
+th {
+    text-align: left;
+}
+td {
+    padding: 10px 40px 10px 0px;
+    color: #111111;
+}
+td a {
+    text-decoration: none;
+    border-bottom: 1px dotted #ff6347;
+    color: #aa0000;
+}
+td a:hover {
+    border-bottom: 1px solid #ff6347;
+    color: #000000;
+}
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #222222;
+    font-family: Nunito-regular,Arial,sans-serif;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+nav.footer {
+    width: 90%;
+    margin: 0 auto;
+    /*font-family: Fairview,Helvetica,sans-serif;*/
+    text-align: center;
+    border-bottom: 1px solid #aaaaaa;
+}
+nav.footer ul {
+    padding-left: 0;
+}
+
+nav.footer > ul  li {
+    display: inline-block;
+    margin-top: 20px;
+}
+nav.footer > ul li > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #aaaaaa;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+nav.footer > ul li > a:hover {
+    color: #aa2222;
+    background-color: #aaaaaa;
+    font-weight: bold;
+}
+div.address  {
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+div.address p {
+    margin: 0;
+}
+div.link {
+    width: 100%;
+    text-align: center;
+}
+div.link > a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+

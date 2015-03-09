@@ -1,0 +1,74 @@
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 11px;
+    box-sizing: border-box;
+}
+section {
+    width: 505px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+article {
+    display: inline-block;
+    margin: 10px;
+    width: 145px;
+    vertical-align: top;
+}
+article header > a {
+    text-decoration: none;
+    color: #000000;
+}
+article header > a:hover {
+    text-decoration: none;
+    color: #a7a8c3;
+}
+article header a h1 {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+
+article footer h3{
+    color: #a0aebb;
+    font-size: 1em;
+    font-weight: normal;
+}
+p.price {
+    color: #8f0e17;
+    font-weight: bold;
+    font-size: 10px;
+}
+img.book {
+    width: 100%;
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+    cursor: pointer;
+    border: 2px solid #dde1e6;
+    box-sizing: border-box;
+}
+img:hover {
+    border: 1px solid#eef1f5;
+}
+
+a.inactive {
+    font-size: 10px;
+    color: #4b5255;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 2px 25px 3px 25px;
+    background: url("images/shopping-cart-inactive.png");
+}
+a.active {
+    font-size: 10px;
+    color: #111316;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 2px 25px 3px 25px;
+    background: url("images/shopping-cart-active.png");
+}
+
+
+
+

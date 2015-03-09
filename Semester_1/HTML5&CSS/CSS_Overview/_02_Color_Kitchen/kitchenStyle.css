@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("../images/colorful_dots_on_black.jpg");
+    font-family: Tahoma;
+}
+body > header {
+    background: linear-gradient(to right, #ff0000 33.33%, #008000 33.33%, #008000 66.667%, #0000ff 66.667%);
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+    color: #ffff00;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+aside {
+    float: left;
+    width: 220px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 30px 15px;
+    padding: 15px 15px 5px 15px;
+}
+
+aside header {
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 500;
+}
+ul {
+    color: black;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0;
+
+}
+li {
+    background-image: url("../images/bullet.png");
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+    padding: 6px 0 6px 40px;
+    border-radius: 7px;
+}
+li a, li:hover a {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+a:visited {
+    color: #808080;
+}
+li:nth-child(1):hover {
+    background-color: #ff0000;
+}
+li:nth-child(2):hover {
+    background-color: #ffa500;
+}
+li:nth-child(3):hover {
+    background-color: #ffff00;
+}
+li:nth-child(4):hover {
+    background-color: #008000;
+}
+li:nth-child(5):hover {
+    background-color: #0000ff;
+}
+li:nth-child(6):hover {
+    background-color: #800080;
+}
+
+section {
+    display: block;
+    margin: 30px 30px 30px 285px;
+}
+
+section header {
+    color: #ffffff;
+    font-size: 22px;
+    height: 30px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+#webColors {
+    background-color: #ff0000;
+}
+#webSafeColors {
+    background-color: #ffa500;
+    color: black;
+}
+#RGB {
+    background-color: #ffff00;
+    color: black;
+}
+#RGBA {
+    background-color: #008000;
+}
+#HSLHSV {
+    background-color: #0000ff;
+ }
+#lorem {
+    background-color: #800080;
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px;
+}
+article a {
+    color: #808080;
+}
+
+article div:first-line {
+    font-style: italic !important;
+}
+article div:first-letter {
+    font-size: 60px !important;
+}
+footer {
+    font-style: italic;
+    margin-top: 10px;
+}
+span:lang(la):before, span:lang(la):after {
+    content: "\"";
+}
+span:lang(la) {
+    font-style: italic;
+    color: #0000ff;
+}

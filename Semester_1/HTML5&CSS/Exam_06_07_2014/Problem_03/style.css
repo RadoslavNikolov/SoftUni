@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Gliphicons;
+    src: url(resources/glyphicons-halflings-regular.ttf);
+}
+body {
+    background: url("resources/blurred-green-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+div.wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+div.login-form {
+    font-family: Arial,Helvetica,sans-serif;
+    width: 350px;
+    height: 264px;
+    margin: 0 auto;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.8);
+}
+h4 {
+    width: 100%;
+    background-color: #93d55c;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px 5px 0 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+form {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+span.login-name ,  span.login-pass{
+    height: 26px;
+    width: 32px;
+    background-color: #eeeeee;
+    border: 1px solid #d1d1d0;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    float: left;
+    padding-top: 6px;
+    margin-top: 15px;
+}
+div.login-form > form > input[type="text"], div.login-form > form > input[type="password"] {
+    float: left;
+    border: 1px solid #d1d1d0;
+    border-radius: 0 3px 3px 0;
+    width: 265px;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 15px;
+
+}
+
+span.login-name:before {
+    font-family: Gliphicons;
+    content: "\e008";
+    color: #555555;
+    margin-left: 8px;
+}
+
+span.login-pass:before {
+    font-family: Gliphicons;
+    content: "\e033";
+    color: #555555;
+    margin-left: 8px;
+}
+
+button[type="submit"] {
+    width: 308px;
+    height: 32px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-top: 30px;
+    box-shadow: 0px 4px 0px #229e22;
+    cursor: pointer;
+}
+
+div.search-form {
+    width: 350px;
+    height: 34px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+div.search-form > input {
+    float: left;
+    width: 75%;
+    height: 32px;
+    border-radius: 3px 0 0 3px;
+    border: none;
+    padding-left: 10px;
+}
+div.search-form > button {
+    float: left;
+    width: 22%;
+    height: 34px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    color: #ffffff;
+    cursor: pointer;
+}
+span.search-btn:before {
+    font-family: Gliphicons;
+    content: "\e003";
+    color: #fff;
+    margin-right: 3px;
+}
+
+

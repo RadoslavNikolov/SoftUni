@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fakebook Register Form</title>
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="white">fakebook<span class="white" id="tradeMark">&#174</span></h1>
+            <h3 class="white">Registration</h3>
+            <p class="white tahoma">It is safe and it will always be!</p>
+        </header>
+        <section id="forms">
+            <article id="noneImportantInfo">
+                <fieldset id="noneImportantInfoFieldset">
+                    <legend>None-Important Information</legend>
+                    <input type="text" id="firstName" placeholder="First Name">
+                    <input type="text" id="lastName" placeholder="Last Name">
+                    <input type="email" id="email" placeholder="Your Email">
+                    <input type="tel" id="telNumber" placeholder="Phone Number">
+                    <input type="password" id="password" placeholder="Your Password">
+                    <input type="url" id="website" placeholder="Website">
+                    <div id="birthdayDiv">
+                        <label>Birthday</label><br>
+                        <input type="datetime-local" id="dateTimeInput">
+                    </div>
+                    <div id="gender">
+                        <ul>
+                            <li>
+                                <input type="radio" id="femaleRadioBtn" name="radioBtn">
+                                <label for="femaleRadioBtn">Female</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="maleRadioBtn" name="radioBtn">
+                                <label for="maleRadioBtn">Male</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="otherRadioBtn" name="radioBtn">
+                                <label for="otherRadioBtn">Other</label>
+                            </li>
+
+                        </ul>
+                    </div>
+                </fieldset>
+            </article>
+            <article id="importantInfo">
+                <fieldset id="importantInfoFieldset">
+                    <legend>Important Information *required</legend>
+                    <select id="country" required="true">
+                        <option disabled="disabled" selected="selected" >Country</option>
+                        <option>Bulgaria</option>
+                        <option>Germany</option>
+                        <option>Italy</option>
+                    </select>
+                    <input type="text" id="village" required="true" placeholder="Village">
+                    <input type="text" id="district" required="true" placeholder="District">
+                    <input type="text" id="street" required="true" placeholder="Street">
+                    <input type="number" id="strNumber" required="true" placeholder="Nr">
+                    <input type="number" id="floorNumber" required="true" placeholder="Floor">
+                    <input type="number" id="appNumber" required="true" placeholder="Ap Nr">
+                    <br>
+                    <label for="color">Door Color</label>
+                    <br>
+                    <input type="color" id="color" required="true" value="#ff80c0">
+                    <input type="number" id="waterMeterNumber" required="true" placeholder="Water Mater Nr">
+                    <select id="AuntPantiesSize" required="true">
+                        <option disabled="disabled" selected="selected" >Aunt Panties`Size</option>
+                        <option>large</option>
+                        <option>extra large</option>
+                        <option>huge</option>
+                        <option>uuuuuuuuu</option>
+                    </select>
+                    <br>
+                    <label for="moreInfo">More Personal Information</label>
+                    <br>
+                    <textarea id="moreInfo" required="true" placeholder="Give Us More Information!!!"></textarea>
+
+                </fieldset>
+
+            </article>
+        </section>
+        <footer>
+            <button type="reset" id="clearBtn">Clear Form</button>
+            <button type="submit" id="registerBtn">Register</button>
+        </footer>
+    </div>
+</body>
+</html>

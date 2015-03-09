@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section {
+    width: 630px;
+    margin: 0 auto;
+}
+article {
+    width: 280px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #808080;
+    box-shadow: 3px 3px 5px grey;
+}
+
+figure {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0;
+}
+figure img {
+    margin-top: 5px;
+}
+#it-news > article > figure > figcaption {
+    font-size: 10px;
+    color: #808080;
+}
+
+article > header > a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+ article > header > a:hover {
+    text-decoration: underline;
+}
+article > header > a >h1 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    margin-top: 0;
+}
+article p {
+    font-size: 13px;
+    margin-bottom: 0;
+}

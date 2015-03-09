@@ -1,0 +1,78 @@
+html {
+    font-size: 13px;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+#mainDiv {
+    width: 600px;
+    height: 350px;
+    background-color: #ffc0cb;
+    margin: 0 auto;
+    padding: 5px 10px 10px 10px;
+
+}
+.inputLabel {
+    font-style: italic;
+    margin-bottom: 3px;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    margin: 0;
+    padding-top: 5px;
+}
+#from, #to, #dateDivDep, #depTimeInterval, #dateDivArr, #arrTimeInterval, #tripClassChoice, #personsDiv {
+    display: inline-block;
+    width: 295px;
+}
+input {
+    width: 100%;
+    height: 23px;
+    font-size: 1.3em;
+}
+select {
+    width: 100%;
+    height: 30px;
+    font-size: 1.3em;
+}
+p {
+    margin-bottom: 0;
+}
+#depStartTime, #depEndTime, #arrStartTime, #arrEndTime {
+    display: inline-block;
+    width: 140px;
+
+}
+#years12up, #years0to2, #years2to12 {
+    display: inline-block; !important;
+    width: 94px; !important;
+}
+#depDate, #arrDate {
+    width: 290px; !important;
+}
+#searchBtn {
+    width: 295px;
+    float: right;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+#direct {
+    width: 310px;
+    float: right;
+    height: 15px;
+}
+#directCheck {
+    width: 13px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+label {
+    vertical-align: super;
+    cursor: pointer;
+}
+#depCity option:first-child, #arrCity option:first-child {
+    display: none;
+}

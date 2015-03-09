@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SoftUni Lab</title>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="logo">
+                <img src="Lab-Skeleton/images/nissan-logo.png" alt="logo"/>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">The project</a></li>
+                    <li><a href="#">Car models</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="table-section">
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Mark</th>
+                        <th>Approove?</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Jim</td>
+                        <td>White</td>
+                        <td>7</td>
+                        <td>
+                            <p><a href="#" class="yes">Yes</a></p>
+                            <p><a href="#" class="no">No</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td colspan="2">Jane No Last Name</td>
+                        <td>7</td>
+                        <td>
+                            <p><a href="#" class="yes">Yes</a></p>
+                            <p><a href="#" class="no">No</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Jordan</td>
+                        <td>Brown</td>
+                        <td>4</td>
+                        <td>
+                            <p><a href="#" class="yes">Yes</a></p>
+                            <p><a href="#" class="no">No</a></p>
+                        </td>
+                    </tr>
+                </table>
+                    <section id="pic-container">
+                        <div id="titanic-pic">
+                            <img src="Lab-Skeleton/images/titanic.png" alt=""/>
+                        </div>
+                        <div id="pumba-pic">
+                            <img src="Lab-Skeleton/images/pumba.jpg" alt=""/>
+                        </div>
+                        <div id="kfc-pic">
+                            <img src="Lab-Skeleton/images/kfc.jpg" alt=""/>
+                        </div>
+                    </section>
+
+            </section>
+
+            <form id="form">
+                <fieldset id="login-information">
+                    <legend>User login information</legend>
+                    <input type="text" id="user-name" placeholder="Enter your username" required autofocus="">
+                    <input type="password" id="user-password" placeholder="Enter your password" required>
+                </fieldset>
+                <fieldset id="profile-information">
+                    <legend>Profile information</legend>
+                    <input type="text"  placeholder="First name" required>
+                    <input type="text"  placeholder="Last name" required>
+                </fieldset>
+                <fieldset id="business-information">
+                    <legend>Business information</legend>
+                    <input type="email"  placeholder="Email address" required>
+                    <select name="team-size" id="team-size" >
+                        <option disabled="disabled" selected="selected" >Team size</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </fieldset>
+                <fieldset id="done">
+                    <legend>Done?</legend>
+                    <button type="submit" id="send" value="Submit">Send</button>
+                    <button type="reset" id="reset" value="Reset">Reset form</button>
+
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <div id="info">This site is distributed under the R.A.K.I.A&#153 License. If you want to contribute to it please contact us at SoftUn2i&#169 official email address.</div>
+            <p></p>
+            <a href="http://facebook.com" target="_blank"><div id="facebook"></div></a>
+            <a href="https://twitter.com/" target="_blank"><div id="twitter"></div></a>
+            <a href="https://vimeo.com" target="_blank"><div id="vimeo"></div></a>
+        </footer>
+    </div>
+
+</body>
+</html>

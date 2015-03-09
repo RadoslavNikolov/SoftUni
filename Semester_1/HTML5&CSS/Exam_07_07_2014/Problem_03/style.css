@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Yanone;
+    src: url("resources/yanonekaffeesatz-regular-webfont.ttf");
+}
+body {
+    background: url("resources/form-background.png");
+    box-sizing: border-box;
+}
+div.wrapper {
+    width: 530px;
+    height: 735px;
+    padding: 0;
+    margin: 10px auto;
+    background: url("resources");
+}
+div.wrapper > h1 {
+    font-family: Yanone;
+    font-size: 50px;
+    letter-spacing: 3px;
+    width: 530px;
+    color: #7c7873;
+    text-align: center;
+    text-shadow: 1px 1px #f3eee5;
+    margin-top: 60px;
+}
+
+div.form {
+    font-family: Yanone;
+    background: url("resources/letter-background.png");
+    height: 530px;
+    width: 430px;
+    margin: 30px 30px 0px 30px;
+    border: 1px solid #bfbcb3;
+    border-radius: 5px;
+    box-shadow: inset 0 0 15px #ffffff;
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    padding: 0 20px;
+}
+
+div.form h2 {
+    font-size: 30px;
+    color: #7c7873;
+    text-shadow: 1px 1px #fff;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-left: 4px;
+}
+fieldset {
+    padding: 0;
+    border: none;
+}
+fieldset legend {
+    color: #b3aba1;
+    text-transform: uppercase;
+
+}
+textarea {
+    font-family: Helvetica, Arial, serif;
+    font-size: 14px;
+    width: 97%;
+    height: 100px;
+    background-color: #f2ede4;
+    border-radius: 4px;
+    border-color: #b3aba1;
+    resize: none;
+    padding: 5px;
+}
+input {
+    font-family: Helvetica, Arial, serif;
+    font-size: 14px;
+    width: 97%;
+    height: 35px;
+    background-color: #f2ede4;
+    border-radius: 4px;
+    border: 1px solid #b3aba1;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+textarea:focus, input:focus {
+    background-color: #f7f3ee;
+    outline: none;
+}
+button {
+    font-family: Yanone;
+    color: #7c7873;
+    text-shadow: 1px 1px #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    background-color: #f4efe6;
+    border-style: none;
+    z-index: 15;
+}
+button:hover {
+    background-color: #bbc9cf;
+    font-weight: bold;
+    color: #435c70;
+    text-shadow: 1px 1px #f3eee5;
+    border-radius: 4px;
+}
+button:focus {
+    outline: none;
+}
+
+
+
+div.envelop-back {
+    background: url("resources/envelope-top.png");
+    width: 530px;
+    height: 316px;
+    z-index: -10;
+    position: absolute;
+    top: 365px;
+}
+div.envelop-front {
+    background: url("resources/envelope-bottom.png");
+    width: 530px;
+    height: 260px;
+    z-index: 2;
+    position: absolute;
+    top: 550px;
+}
+div.btn {
+    width: 530px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    z-index: 20;
+    top: 570px;
+}
