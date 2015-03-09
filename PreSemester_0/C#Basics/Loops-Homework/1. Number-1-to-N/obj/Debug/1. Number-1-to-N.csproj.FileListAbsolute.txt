@@ -10,3 +10,9 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\1. Number-1-
 C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Loops-Homework\1. Number-1-to-N\bin\Debug\_1.Number_1_to_N.exe.config
 C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Loops-Homework\1. Number-1-to-N\obj\Debug\_1.Number_1_to_N.exe
 C:\Users\radko\Desktop\SoftUni\trunk\PreSemester_0\C#Basics\Loops-Homework\1. Number-1-to-N\obj\Debug\_1.Number_1_to_N.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\1. Number-1-to-N\bin\Debug\_1.Number_1_to_N.exe.config
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\1. Number-1-to-N\obj\Debug\_1.Number_1_to_N.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\1. Number-1-to-N\obj\Debug\_1.Number_1_to_N.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\1. Number-1-to-N\bin\Debug\_1.Number_1_to_N.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\1. Number-1-to-N\bin\Debug\_1.Number_1_to_N.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\1. Number-1-to-N\obj\Debug\1. Number-1-to-N.csprojResolveAssemblyReference.cache
