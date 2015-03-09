@@ -3,3 +3,9 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\7. NumbersOf
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\7. NumbersOfCombinations\bin\Debug\_7.NumbersOfCombinations.pdb
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\7. NumbersOfCombinations\obj\Debug\_7.NumbersOfCombinations.exe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\7. NumbersOfCombinations\obj\Debug\_7.NumbersOfCombinations.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\7. NumbersOfCombinations\bin\Debug\_7.NumbersOfCombinations.exe.config
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\7. NumbersOfCombinations\bin\Debug\_7.NumbersOfCombinations.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\7. NumbersOfCombinations\bin\Debug\_7.NumbersOfCombinations.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\7. NumbersOfCombinations\obj\Debug\7. NumbersOfCombinations.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\7. NumbersOfCombinations\obj\Debug\_7.NumbersOfCombinations.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\7. NumbersOfCombinations\obj\Debug\_7.NumbersOfCombinations.pdb

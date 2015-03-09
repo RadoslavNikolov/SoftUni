@@ -3,3 +3,9 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\15. Hex-To-D
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\15. Hex-To-Decimal\bin\Debug\_15.Hex_To_Decimal.pdb
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\15. Hex-To-Decimal\obj\Debug\_15.Hex_To_Decimal.exe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\15. Hex-To-Decimal\obj\Debug\_15.Hex_To_Decimal.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\15. Hex-To-Decimal\bin\Debug\_15.Hex_To_Decimal.exe.config
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\15. Hex-To-Decimal\bin\Debug\_15.Hex_To_Decimal.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\15. Hex-To-Decimal\bin\Debug\_15.Hex_To_Decimal.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\15. Hex-To-Decimal\obj\Debug\15. Hex-To-Decimal.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\15. Hex-To-Decimal\obj\Debug\_15.Hex_To_Decimal.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\15. Hex-To-Decimal\obj\Debug\_15.Hex_To_Decimal.pdb

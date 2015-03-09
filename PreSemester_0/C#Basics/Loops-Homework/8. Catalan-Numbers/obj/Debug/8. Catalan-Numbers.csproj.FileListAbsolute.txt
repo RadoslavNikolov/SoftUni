@@ -4,3 +4,9 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\8. Catalan-N
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\8. Catalan-Numbers\obj\Debug\8. Catalan-Numbers.csprojResolveAssemblyReference.cache
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\8. Catalan-Numbers\obj\Debug\_8.Catalan_Numbers.exe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\8. Catalan-Numbers\obj\Debug\_8.Catalan_Numbers.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\8. Catalan-Numbers\bin\Debug\_8.Catalan_Numbers.exe.config
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\8. Catalan-Numbers\bin\Debug\_8.Catalan_Numbers.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\8. Catalan-Numbers\bin\Debug\_8.Catalan_Numbers.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\8. Catalan-Numbers\obj\Debug\8. Catalan-Numbers.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\8. Catalan-Numbers\obj\Debug\_8.Catalan_Numbers.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\8. Catalan-Numbers\obj\Debug\_8.Catalan_Numbers.pdb

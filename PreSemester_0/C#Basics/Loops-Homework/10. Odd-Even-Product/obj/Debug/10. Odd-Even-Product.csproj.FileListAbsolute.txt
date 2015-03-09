@@ -3,3 +3,9 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\10. Odd-Even
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\10. Odd-Even-Product\bin\Debug\_10.Odd_Even_Product.pdb
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\10. Odd-Even-Product\obj\Debug\_10.Odd_Even_Product.exe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\10. Odd-Even-Product\obj\Debug\_10.Odd_Even_Product.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\10. Odd-Even-Product\bin\Debug\_10.Odd_Even_Product.exe.config
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\10. Odd-Even-Product\bin\Debug\_10.Odd_Even_Product.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\10. Odd-Even-Product\bin\Debug\_10.Odd_Even_Product.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\10. Odd-Even-Product\obj\Debug\10. Odd-Even-Product.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\10. Odd-Even-Product\obj\Debug\_10.Odd_Even_Product.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\10. Odd-Even-Product\obj\Debug\_10.Odd_Even_Product.pdb

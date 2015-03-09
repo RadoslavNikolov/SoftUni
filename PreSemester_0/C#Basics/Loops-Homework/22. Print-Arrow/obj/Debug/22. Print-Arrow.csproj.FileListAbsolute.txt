@@ -3,3 +3,8 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\22. Print-Ar
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\22. Print-Arrow\bin\Debug\_22.Print_Arrow.pdb
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\22. Print-Arrow\obj\Debug\_22.Print_Arrow.exe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\22. Print-Arrow\obj\Debug\_22.Print_Arrow.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\22. Print-Arrow\bin\Debug\_22.Print_Arrow.exe.config
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\22. Print-Arrow\bin\Debug\_22.Print_Arrow.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\22. Print-Arrow\bin\Debug\_22.Print_Arrow.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\22. Print-Arrow\obj\Debug\_22.Print_Arrow.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\22. Print-Arrow\obj\Debug\_22.Print_Arrow.pdb

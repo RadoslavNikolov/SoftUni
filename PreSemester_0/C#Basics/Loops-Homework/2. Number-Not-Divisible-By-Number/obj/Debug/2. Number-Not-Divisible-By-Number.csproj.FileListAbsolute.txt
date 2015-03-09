@@ -3,3 +3,9 @@ D:\Loops-Homework\2. Number-Not-Divisible-By-Number\bin\Debug\_2.Number_Not_Divi
 D:\Loops-Homework\2. Number-Not-Divisible-By-Number\bin\Debug\_2.Number_Not_Divisible_By_Number.pdb
 D:\Loops-Homework\2. Number-Not-Divisible-By-Number\obj\Debug\_2.Number_Not_Divisible_By_Number.exe
 D:\Loops-Homework\2. Number-Not-Divisible-By-Number\obj\Debug\_2.Number_Not_Divisible_By_Number.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\2. Number-Not-Divisible-By-Number\bin\Debug\_2.Number_Not_Divisible_By_Number.exe.config
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\2. Number-Not-Divisible-By-Number\bin\Debug\_2.Number_Not_Divisible_By_Number.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\2. Number-Not-Divisible-By-Number\bin\Debug\_2.Number_Not_Divisible_By_Number.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\2. Number-Not-Divisible-By-Number\obj\Debug\2. Number-Not-Divisible-By-Number.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\2. Number-Not-Divisible-By-Number\obj\Debug\_2.Number_Not_Divisible_By_Number.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\2. Number-Not-Divisible-By-Number\obj\Debug\_2.Number_Not_Divisible_By_Number.pdb

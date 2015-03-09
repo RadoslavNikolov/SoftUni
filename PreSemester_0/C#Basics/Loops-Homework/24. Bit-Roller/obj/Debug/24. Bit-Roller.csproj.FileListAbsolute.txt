@@ -3,3 +3,9 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\24. Bit-Roll
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\24. Bit-Roller\bin\Debug\_24.Bit_Roller.pdb
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\24. Bit-Roller\obj\Debug\_24.Bit_Roller.exe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\24. Bit-Roller\obj\Debug\_24.Bit_Roller.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\24. Bit-Roller\bin\Debug\_24.Bit_Roller.exe.config
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\24. Bit-Roller\bin\Debug\_24.Bit_Roller.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\24. Bit-Roller\bin\Debug\_24.Bit_Roller.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\24. Bit-Roller\obj\Debug\24. Bit-Roller.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\24. Bit-Roller\obj\Debug\_24.Bit_Roller.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\24. Bit-Roller\obj\Debug\_24.Bit_Roller.pdb

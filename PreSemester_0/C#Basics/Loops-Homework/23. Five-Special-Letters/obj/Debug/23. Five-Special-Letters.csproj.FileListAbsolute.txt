@@ -3,3 +3,9 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\23. Five-Spe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\23. Five-Special-Letters\bin\Debug\_23.Five_Special_Letters.pdb
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\23. Five-Special-Letters\obj\Debug\_23.Five_Special_Letters.exe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\23. Five-Special-Letters\obj\Debug\_23.Five_Special_Letters.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\23. Five-Special-Letters\bin\Debug\_23.Five_Special_Letters.exe.config
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\23. Five-Special-Letters\bin\Debug\_23.Five_Special_Letters.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\23. Five-Special-Letters\bin\Debug\_23.Five_Special_Letters.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\23. Five-Special-Letters\obj\Debug\23. Five-Special-Letters.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\23. Five-Special-Letters\obj\Debug\_23.Five_Special_Letters.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\23. Five-Special-Letters\obj\Debug\_23.Five_Special_Letters.pdb

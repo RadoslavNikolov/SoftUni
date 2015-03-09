@@ -3,3 +3,9 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\18. Trailing
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\18. Trailing-Zeroes-1\bin\Debug\_18.Trailing_Zeroes_1.pdb
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\18. Trailing-Zeroes-1\obj\Debug\_18.Trailing_Zeroes_1.exe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Loops-Homework\18. Trailing-Zeroes-1\obj\Debug\_18.Trailing_Zeroes_1.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\18. Trailing-Zeroes-1\bin\Debug\_18.Trailing_Zeroes_1.exe.config
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\18. Trailing-Zeroes-1\bin\Debug\_18.Trailing_Zeroes_1.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\18. Trailing-Zeroes-1\bin\Debug\_18.Trailing_Zeroes_1.pdb
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\18. Trailing-Zeroes-1\obj\Debug\18. Trailing-Zeroes-1.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\18. Trailing-Zeroes-1\obj\Debug\_18.Trailing_Zeroes_1.exe
+C:\Users\toshiba\Desktop\SoftUni\PreSemester_0\C#Basics\Loops-Homework\18. Trailing-Zeroes-1\obj\Debug\_18.Trailing_Zeroes_1.pdb
