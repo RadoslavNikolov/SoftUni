@@ -1,0 +1,39 @@
+div#wrapper {
+    zoom: 1.5;
+    width: 700px;
+    margin: 0 auto;
+}
+
+input#first-name, input#last-name, input#email, input#telephone {
+    display: block;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+input#company, input#start-work-date, input#end-work-date {
+    margin-bottom: 5px;
+}
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+div.show {
+    margin-bottom: 5px;
+}
+input[type=submit] {
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 150px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}

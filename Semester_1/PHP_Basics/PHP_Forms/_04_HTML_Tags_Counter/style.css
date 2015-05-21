@@ -1,0 +1,13 @@
+div#wrapper {
+    width: 250px;
+    margin: 50px auto;
+    zoom: 2;
+    -ms-zoom: 2;
+    -webkit-zoom: 2;
+    -moz-transform: scale(2,2);
+
+}
+label {
+    display: block;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,15 @@
+#wrapper {
+    margin: 0 auto;
+    width: 350px;
+    height: 150px;
+    font-size: 25px;
+}
+input[type=text], input[type=submit], input[type=number] {
+    font-size: 25px;
+    display: block;
+    margin: 2px 0;
+    padding-left: 10px;
+}
+input[type=submit] {
+    margin-top: 15px;
+}

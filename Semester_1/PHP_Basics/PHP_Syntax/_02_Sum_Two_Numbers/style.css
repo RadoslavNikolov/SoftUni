@@ -1,0 +1,21 @@
+#wrapper {
+    margin: 0 auto;
+    width: 350px;
+    height: 150px;
+    font-size: 25px;
+}
+#wrapper input {
+    width: 350px;
+    height: 35px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+#wrapper input[type = "submit"] {
+    border-radius: 5px;
+    height: 45px;
+}
+#wrapper p {
+    text-align: center;
+    color: red;
+    font-size: 1.3em;
+}

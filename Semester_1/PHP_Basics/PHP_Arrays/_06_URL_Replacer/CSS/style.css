@@ -1,0 +1,25 @@
+
+div#wrapper {
+    width: 600px;
+    margin:  0 auto;
+    font-size: 25px;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    resize: none;
+    display: block;
+    cursor: pointer;
+}
+label {
+    cursor: pointer;
+}
+
+input[type=submit] {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px auto;
+    cursor: pointer;
+}

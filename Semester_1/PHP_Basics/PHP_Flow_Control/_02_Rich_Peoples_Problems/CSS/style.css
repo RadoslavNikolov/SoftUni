@@ -1,0 +1,11 @@
+div#wrapper {
+    width: 350px;
+    margin: 0 auto;
+}
+table {
+    min-width: 150px;
+    margin: 0 auto;
+}
+table,td,th {
+    border: 1px solid black;
+}

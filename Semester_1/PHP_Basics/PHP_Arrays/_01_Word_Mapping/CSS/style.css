@@ -1,0 +1,26 @@
+
+div#wrapper {
+    width: 600px;
+    margin:  0 auto;
+    font-size: 25px;
+}
+textarea {
+    width: 350px;
+    height: 100px;
+    resize: none;
+    display: block;
+}
+table {
+    border: 1px solid #000000;
+    margin-top: 20px;
+}
+td {
+    border: 1px solid #000000;
+    min-width: 50px;
+}
+input[type=submit] {
+    width: 130px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px auto;
+}

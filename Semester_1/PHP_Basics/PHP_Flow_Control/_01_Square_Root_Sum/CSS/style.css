@@ -1,0 +1,7 @@
+div#wrapper {
+    width: 200px;
+    margin: 0 auto;
+}
+table,td,th {
+    border: 1px solid black;
+}

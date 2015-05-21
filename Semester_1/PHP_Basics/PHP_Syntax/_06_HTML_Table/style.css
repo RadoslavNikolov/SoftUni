@@ -1,0 +1,23 @@
+#wrapper {
+    margin: 0 auto;
+    width: 350px;
+    min-height: 50px;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+}
+.title {
+    background-color: orange;
+    font-weight: bold;
+}
+.info {
+    text-align: right;
+}
+td {
+    width: 200px;
+    height: 35px;
+    border: 1px solid black;
+    padding: 5px;
+}

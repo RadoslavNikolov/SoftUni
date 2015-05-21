@@ -1,0 +1,14 @@
+div#wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+input[type=text] {
+    width: 400px;
+}
+input[type=submit] {
+    cursor: pointer;
+}

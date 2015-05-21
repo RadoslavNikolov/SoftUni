@@ -1,0 +1,32 @@
+
+h1 {
+    color: red;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 1px solid grey;
+}
+h2 {
+    border-bottom: 1px solid grey;
+}
+.day, .day-label {
+    display: inline-block;
+    width: 14%;
+    text-align: center;
+    vertical-align: middle;
+}
+.month {
+    display: inline-block;
+    width: 21%;
+    vertical-align: top;
+    margin: 0 2%;
+
+}
+.day:nth-child(7n+8), .day-label:nth-child(8) {
+    color: red;
+}
+
+
+/*.day:nth-child(7n+7), .day:nth-child(7n+8), .day-label:nth-child(7) , .day-label:nth-child(8) {*/
+    /*color: red;*/
+/*}*/

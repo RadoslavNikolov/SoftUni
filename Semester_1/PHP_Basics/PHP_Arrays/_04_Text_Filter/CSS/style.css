@@ -1,0 +1,24 @@
+
+div#wrapper {
+    width: 600px;
+    margin:  0 auto;
+    font-size: 25px;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    resize: none;
+    display: block;
+}
+input[type=text] {
+    width: 505px;
+    height: 30px;
+    margin: 15px 0;
+}
+input[type=submit] {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px auto;
+}
