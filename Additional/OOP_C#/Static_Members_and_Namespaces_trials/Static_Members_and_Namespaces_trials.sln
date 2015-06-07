@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{96E6F6E5-9F80-4176-B825-AF1D7214C759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQRT_Precalculated", "SQRT_Precalculated\SQRT_Precalculated.csproj", "{4F5A66E6-2D91-499F-A650-57B509EEABE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexers.csproj", "{336462AB-3B7F-456F-9B40-707C34E6DB9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96E6F6E5-9F80-4176-B825-AF1D7214C759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E6F6E5-9F80-4176-B825-AF1D7214C759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E6F6E5-9F80-4176-B825-AF1D7214C759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E6F6E5-9F80-4176-B825-AF1D7214C759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5A66E6-2D91-499F-A650-57B509EEABE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5A66E6-2D91-499F-A650-57B509EEABE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5A66E6-2D91-499F-A650-57B509EEABE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5A66E6-2D91-499F-A650-57B509EEABE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336462AB-3B7F-456F-9B40-707C34E6DB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336462AB-3B7F-456F-9B40-707C34E6DB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336462AB-3B7F-456F-9B40-707C34E6DB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336462AB-3B7F-456F-9B40-707C34E6DB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
