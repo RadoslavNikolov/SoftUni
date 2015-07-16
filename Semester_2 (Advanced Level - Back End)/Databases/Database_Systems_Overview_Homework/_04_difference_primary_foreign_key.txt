@@ -1,0 +1,30 @@
+Primary Keys
+
+In order for a table to qualify as a relational table it must have a primary key.
+The primary key consists of one or more columns whose data contained within is used to uniquely identify each row in the table.  
+We can think of the primary key as an address.  If the rows in a table were mailboxes, then the primary key would be the listing 
+of street addresses. When a primary key is composed of multiple columns, the data from each column is used to determine whether 
+a row is unique. In order to be a primary key, several conditions must hold true.  First:  the columns must be unique.  
+To clarify, we’re referring to the data within the rows, not the column names themselves.  Also, no value in the columns can be blank 
+or NULL. When defining a table you specify the primary key. A table has just one primary key, and its definition is mandatory.
+The primary key for each table is stored in an index.  The index is used to enforce the uniqueness requirement.  
+It also makes it easy for foreign key values to refer back to corresponding primary key values, 
+as we will learn about in the following section.
+
+
+Foreign Keys
+
+A foreign key is a set of one or more columns in a table that refers to the primary key in another table.  
+There isn’t any special code, configurations, or table definitions you need to place to officially “designate” a foreign key.
+Some database management systems, such as SQL Server allow you to set up foreign key constraints.  
+These help to enforce referential integrity.  In their simplest form, a foreign key constraint stops you 
+from entering values that aren’t found in the related table’s primary key.
+
+	Item					Primary Key					Foreign Key
+
+Consist of One or More Columns			Yes						Yes
+Duplicate Values Allowed			No						Yes
+Null Values Allowed				No						Yes
+Uniquely Identify Rows In a Table		Yes						Maybe
+Number allowed per table			One						One or More
+Indexed						Automatically Indexed				No Index Automatically created

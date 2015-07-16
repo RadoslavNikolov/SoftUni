@@ -1,0 +1,38 @@
+Normalization is the word coined by E.F.Codd (who conceived of the relational model) and his colleagues to refer to the organization 
+of the logical structure of a database so as to facilitate both ad-hoc query as well as data update. 
+In a 1993 interview with DBMS magazine, Codd stated that he got the inspiration for this phrase in 1972 when he read about 
+President Nixon "normalizing relations" with China. (Codd used the word "Relation" as a synonym for "Table".) 
+It implies "logical" (proper) design of a database with minimal redundancy of data.
+
+When designing a relational database, there is a need to "normalize" the database.  
+There are different degrees of normalization, but in general, relational databases should be normalized to the "third normal form".  
+Simply put, this means that the attributes (i.e. fields) in each table should "depend on the key, the whole key and nothing but the key".
+By moving repeating groups of attributes to a separate database table, the database design becomes more flexible.
+
+1.
+Hence Codd's first rule of Normalization: A table shall contain no repeating groups. 
+The first step for proper table design is to remove  repeating groups, and place them in a separate table.
+A table without repeating groups is said to be in first normal form.
+
+2.
+The  second rule of normalization:
+If a table has a compound primary key, and one or more fields in a table depend on only part of the primary key for that table, 
+move them to a separate table along with that part of the key. To illustrate here:
+
+3.
+The  third rule of normalization:
+If one or more fields in a table do not depend at all on the primary key for that table (or any part of it), 
+move them to a separate table along with copies of the fields on which they do depend.
+
+4.
+The fourth rule of normalization can be stated formally: 
+If a table appears to combine information that on closer inspection, is composed of independent logical units, 
+(both dependent on the primary key for the table) it should be split (decomposed) into separate tables reflecting this independence, 
+replicating the primary key for the parent table in each of the daughter tables.
+
+5.
+The fifth rule of normalization is: 
+Create extra tables as needed to prevent loss of ancillary information when data is updated, added or deleted, 
+if an analysis of the problem indicates that such loss is likely to occur. The database literature refers to the design solution 
+as "preventing update anomalies".
+

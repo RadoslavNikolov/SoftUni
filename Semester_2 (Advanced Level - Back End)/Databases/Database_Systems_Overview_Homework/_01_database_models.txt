@@ -1,0 +1,72 @@
+There is two Database Models:
+1.The Relational Model
+2.The Model-less(NoSQL) Approach
+
+There are quite a few different types of database models which clearly and strictly provide the means of structuring the data,
+with most popular probably being the Relational Model.
+
+Although the relational model and relational databases are extremely powerful and flexible - when the programmer knows how to use them,
+for many, there have been several issues or features that these solutions never really offered.
+
+Recently, a series of different systems and applications called NoSQL databases started to gain popularity,
+expeditiously, with their promise of solving these problems and offering some very interesting additional functionality.
+By eradicating the strictly structured data keeping style defined within the relational model,
+these DB systems work by offering a much more freely shaped way of working with information,
+thus providing a great deal of flexibility and ease -- despite the fact that they come with their own problems,
+some serious considering the important and indispensable nature of data.
+
+
+The Relational Model
+--------------------------------------------------------------------------------
+ 
+Introduced in 1970s, the relational model offers a very mathematically-adapt way of structuring, keeping,
+and using the data. It expands the earlier designs of flat model, network model, 
+et cetera by introducing means of relations. Relations bring the benefits of group-keeping the data as constrained collections whereby data-tables,
+containing the information in a structured way (e.g. a Person's name and address), 
+relates all the input by assigning values to attributes (e.g. a Person's ID number).
+
+Thanks to decades of research and development, database systems that implement the relational model work extremely efficiently and reliably. 
+Combined with the long experience of programmers and database administrators working with these tools, 
+using relational database applications has become the choice of mission-critical applications which can not afford loss of any information, in any situation -- especially due to glitches or gotchas.
+
+Despite their strict nature of forming and handling data, relational databases can become extremely flexible and offer a lot, 
+granted with a little bit of effort.
+
+
+The Model-less (NoSQL) Approach
+--------------------------------------------------------------------------------
+ 
+The NoSQL way of structuring the data consists of getting rid of these constraints, 
+hence liberating the means of keeping, querying, and using information. 
+NoSQL databases, by using an unstructured (or structured-on-the-go) kind of approach, 
+aim to eliminate the limitations of strict relations, and offer many different types of ways to 
+keep and work with the data for specific use cases efficiently (e.g. full-text document storage).
+
+
+MongoDB
+---------------------
+
+MongoDB is an open source database that uses a document-oriented data model.
+
+MongoDB is one of several database types to arise in the mid-2000s under the NoSQL banner. 
+Instead of using tables and rows as in relational databases, MongoDB is built on an architecture of collections and documents. 
+Documents comprise sets of key-value pairs and are the basic unit of data in MongoDB. 
+Collections contain sets of documents and function as the equivalent of relational database tables. 
+
+Like other NoSQL databases, MongoDB supports dynamic schema design, allowing the documents in a collection to have different 
+fields and structures. The database uses a document storage and data interchange format called BSON, 
+which provides a binary representation of JSON-like documents. Automatic sharding enables data in a collection to be 
+distributed across multiple systems for horizontal scalability as data volumes increase.
+
+MongoDB was created by Dwight Merriman and Eliot Horowitz, who had encountered development and scalability issues with traditional 
+relational database approaches while building Web applications at DoubleClick, an Internet advertising company that is now owned 
+by Google Inc. According to Merriman, the name of the database was derived from the word humongous to represent the idea of 
+supporting large amounts of data. Merriman and Horowitz helped form 10Gen Inc. in 2007 to commercialize MongoDB and related software. 
+The company was renamed MongoDB Inc. in 2013. 
+
+The database was released to open source in 2009 and is available under the terms of 
+the Free Software Foundation's GNU AGPL Version 3.0 commercial license. At the time of this writing, 
+among other users, the insurance company MetLife is using MongoDB for customer service applications, 
+the website Craigslist is using it for archiving data, the CERN physics lab is using it for data aggregation and discovery 
+and the The New York Times newspaper is using MongoDB to support a form-building application for photo submissions.
+

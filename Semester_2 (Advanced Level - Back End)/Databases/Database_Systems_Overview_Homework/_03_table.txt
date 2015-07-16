@@ -1,0 +1,25 @@
+A table is a structure with a bunch of rows (aka "tuples"), each of which has the attributes defined by the schema. 
+Tables might also have indexes on them to aid in looking up values on certain columns.
+
+
+A relation schema is the logical definition of a table - it defines what the name of the table is, 
+and what the name and type of each column is. It's like a plan or a blueprint. 
+A database schema is the collection of relation schemas for a whole database.
+ 
+
+
+In computer programming, a table is a data structure used to organize information, just as it is on paper. 
+There are many different types of computer-related tables, which work in a number of different ways. 
+The following are examples of the more common types.
+
+1. In data processing, a table (also called an array) is a organized grouping of fields. 
+Tables may store relatively permanent data, or may be frequently updated. 
+For example, a table contained in a disk volume is updated when sectors are being written.
+
+2. In a relational database, a table (sometimes called a file) organizes the information about a single topic into rows and columns. 
+For example, a database for a business would typically contain a table for customer information, 
+which would store customers' account numbers, addresses, phone numbers, and so on as a series of columns. 
+Each single piece of data (such as the account number) is a field in the table. A column consists of all the entries in a single field,
+such as the telephone numbers of all the customers. Fields, in turn, are organized as records, 
+which are complete sets of information (such as the set of information about a particular customer), 
+each of which comprises a row.

@@ -1,0 +1,2 @@
+http://stackoverflow.com/questions/11448068/mysql-error-code-1175-during-update-in-mysql-workbench
+Проблем с update-a. Промяна на safe mode error 1175

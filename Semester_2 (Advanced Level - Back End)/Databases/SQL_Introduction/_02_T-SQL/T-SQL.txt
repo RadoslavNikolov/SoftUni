@@ -1,0 +1,2 @@
+Short for Transaction-SQL, an extended form of SQL that adds declared variables, transaction control, 
+error and exceptionhandling and row processing to SQL`s existing functions.

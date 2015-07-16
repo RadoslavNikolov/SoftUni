@@ -1,0 +1,13 @@
+A relational database management system (RDBMS) is a program that lets you create, update, 
+and administer a relational database. Most commercial RDBMS's use the Structured Query Language (SQL) to access the database, 
+although SQL was invented after the development of the relational model and is not necessary for its use.
+
+The leading RDBMS products are Oracle, IBM's DB2 and Microsoft's SQL Server. 
+Despite repeated challenges by competing technologies, as well as the claim by some experts that no current RDBMS 
+has fully implemented relational principles, the majority of new corporate databases are still being created 
+and managed with an RDBMS.
+
+A relational DBMS is special system software that is used to manage the organization, storage, access, 
+security and integrity of data.  This specialized software allows application systems to focus on the user interface, 
+data validation and screen navigation.  When there is a need to add, modify, delete or display data, 
+the application system simply makes a "call" to the RDBMS.

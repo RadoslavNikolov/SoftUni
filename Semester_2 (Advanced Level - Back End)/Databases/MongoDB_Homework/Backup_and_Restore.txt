@@ -1,0 +1,6 @@
+To back up:   mongodump.exe in /bin directory
+It makes dir  /dump   with backups ..... in my case   c:\mongodb\bin\dump
+
+To restore backup data mongodb's mongorestore.exe is used. 
+This command restore all of the data from the back up directory.
+ 

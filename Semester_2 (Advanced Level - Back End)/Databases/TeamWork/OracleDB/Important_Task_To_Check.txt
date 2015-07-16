@@ -1,0 +1,19 @@
+Subversion and TortoiseSVN  - Version Control Systems
+TortoiseSVN - Client SVN
+Subversion - server part not needed
+
+Oracle Database pass: test   При инсталацията
+
+http://127.0.0.1:8080/apex/f?p=4550:1:3478261805162695
+workspace : INTERNAL
+username: ADMIN
+pass:  като тази при инсталацията. После иска смяна.
+В този случай: test
+
+Създадох workspace with name: "TeamWork"  с ново Schema Name: "radko" + pass: "radko"
+Administrator Username: radko  + pass: radko + email: rado_niko@abv.bg
+
+Oracle SQL Developer:
+
++ Connection -> Con.name: TeamWork  Първоначално username: SYS и парола, като тази по време на исталацията, в 
+моя случай "test"

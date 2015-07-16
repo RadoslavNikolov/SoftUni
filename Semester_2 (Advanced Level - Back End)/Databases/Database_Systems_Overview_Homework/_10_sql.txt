@@ -1,0 +1,63 @@
+Structured Query Language (SQL) is a standard computer language for relational database management and data manipulation. 
+SQL is used to query, insert, update and modify data. Most relational databases support SQL, which is an added benefit for database 
+administrators (DBAs), as they are often required to support databases across several different platforms. 
+
+
+SQL code is divided into four main categories: 
+•Queries are performed using the ubiquitous yet familiar SELECT statement, which is further divided into clauses, including SELECT, 
+FROM, WHERE and ORDER BY.
+
+
+SELECT column_name, column_name
+ FROM table_name
+ ORDER BY column_name ASC|DESC, column_name ASC|DESC;
+
+
+
+•Data Manipulation Language (DML) is used to add, update or delete data and is actually a SELECT statement subset 
+and is comprised of the INSERT, DELETE and UPDATE statements, as well as control statements, 
+e.g., BEGIN TRANSACTION, SAVEPOINT, COMMIT and ROLLBACK.
+
+INSERT INTO table_name (column1,column2,column3,...)
+ VALUES (value1,value2,value3,...);
+
+DELETE FROM table_name
+ WHERE some_column=some_value; 
+
+UPDATE table_name
+ SET column1=value1,column2=value2,...
+ WHERE some_column=some_value;
+
+INSERT INTO table2
+(column_name(s))
+ SELECT column_name(s)
+ FROM table1;
+
+
+•Data Definition Language (DDL) is used for managing tables and index structures. 
+Examples of DDL statements include CREATE, ALTER, TRUNCATE and DROP.
+
+CREATE DATABASE dbname;
+
+CREATE TABLE table_name
+ (
+column_name1 data_type(size),
+column_name2 data_type(size),
+column_name3 data_type(size),
+ ....
+ );
+
+ALTER TABLE table_name
+ ADD column_name datatype
+
+ALTER TABLE table_name
+ DROP COLUMN column_name
+
+
+DROP TABLE table_name
+
+
+•Data Control Language (DCL) is used to assign and revoke database rights and permissions. Its main statements are GRANT and REVOKE.
+
+
+

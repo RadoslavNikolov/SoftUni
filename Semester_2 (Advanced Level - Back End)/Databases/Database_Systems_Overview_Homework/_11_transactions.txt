@@ -1,0 +1,16 @@
+A transaction, in the context of a database, is a logical unit that is independently executed for data retrieval or updates. 
+In relational databases, database transactions must be atomic, consistent, isolated and durable--summarized as the ACID acronym.
+
+
+
+Transactions are completed by COMMIT or ROLLBACK SQL statements, which indicate a transaction’s beginning or end. 
+The ACID acronym defines the properties of a database transaction, as follows: 
+•Atomicity: A transaction must be fully complete, saved (committed) or completely undone (rolled back). 
+A sale in a retail store database illustrates a scenario which explains atomicity, e.g., 
+the sale consists of an inventory reduction and a record of incoming cash. Both either happen together or do not happen - 
+it's all or nothing.
+•Consistency: The transaction must be fully compliant with the state of the database as it was prior to the transaction. 
+In other words, the transaction cannot break the database’s constraints. For example, if a database table’s Phone Number column 
+can only contain numerals, then consistency dictates that any transaction attempting to enter an alphabetical letter may not commit.
+•Isolation: Transaction data must not be available to other transactions until the original transaction is committed or rolled back.
+•Durability: Transaction data changes must be available, even in the event of database failure.
