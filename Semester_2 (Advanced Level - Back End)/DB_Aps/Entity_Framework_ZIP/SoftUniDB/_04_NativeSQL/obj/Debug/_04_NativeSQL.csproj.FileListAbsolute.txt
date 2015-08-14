@@ -1,0 +1,14 @@
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\bin\Debug\_04_NativeSQL.exe.config
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\bin\Debug\_04_NativeSQL.exe
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\bin\Debug\_04_NativeSQL.pdb
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\bin\Debug\EntityFramework.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\bin\Debug\SuftuniContext.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\bin\Debug\_02_DAO.exe
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\bin\Debug\SuftuniContext.pdb
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\bin\Debug\_02_DAO.pdb
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\bin\Debug\EntityFramework.xml
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\obj\Debug\_04_NativeSQL.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\obj\Debug\_04_NativeSQL.exe
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_04_NativeSQL\obj\Debug\_04_NativeSQL.pdb

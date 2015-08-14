@@ -1,0 +1,28 @@
+1. Всеки проект трябва да има инсталрана референция към EF6:
+   Инсталиране през NuGet console:  Install-Package EntityFramework -Version 6.1.3     
+	!!Да се следи "Default project" в NuGet конзолата да е този, където искаме да се инсталира.
+
+2.Добавяне на референция в консолния проект към Data и Model проекта. 
+3.Копиране на <connectionStrings> тага с името на конекцият от App.config на Data проекта в App.config на конзолния проект.
+	Като първо оправяме connection string-a така, че "connectionString="data source=IT-NIKOLOV\SQLEXPRESS;" сорса на базата да е верен.
+
+4.Добавяне на миграция в Data проекта:
+  Инсталиране през NuGet console:  Enable-Migrations -EnableAutomaticMigrations
+	!!Да се следи "Default project" в NuGet конзолата да е Data проекта.
+
+	Появява се папка Migrations. Вътре трябва да има Configuration.cs.
+	В конструктура му се добавя : this.ContextKey = "BookShopSystem.Data.BookShopContext";  което не е задължително.
+	Това показва за кой контекст се отнася тази миграция.
+5. В Data проекта в BookShopContext.cs  или както там се казва контекста в конструктура му се добавя:
+
+	Database.SetInitializer(new MigrateDatabaseToLatestVersion<BookShopContext, Configuration>());, където
+		BookShopContext е името на контекста (cs файла в Data проекта)
+		Configuration е името на файла в папката Migrations в Data проекта.
+	
+	AutomaticMigrationDataLossAllowed = true; Ако се наложи да променяме колони или таблици с вече наляти данни
+
+Install-Package Newtonsoft.Json
+
+
+http://jsonlint.com/  -  Валидиране на JSON
+http://json2csharp.com/  -  Генериране на C# class от JSON

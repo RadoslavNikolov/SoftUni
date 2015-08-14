@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geography.DB", "Geography.DB\Geography.DB.csproj", "{A4E57914-777A-4C3E-808C-663D6B2091AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geography.Console", "Geography.Console\Geography.Console.csproj", "{34BC2CC8-A81C-4DCF-A6D7-0A74FC10ECE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Export-Rivers-as-JSON", "Export-Rivers-as-JSON\2. Export-Rivers-as-JSON.csproj", "{4BE43D2C-07FC-4849-8A0B-DECC269BEDFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Export-Monasteries-as-XML", "Export-Monasteries-as-XML\3. Export-Monasteries-as-XML.csproj", "{1BC6DA71-0ECB-4187-9FA1-6CD21EC4AA64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Import-Rivers-From-XML", "Import-Rivers-From-XML\4. Import-Rivers-From-XML.csproj", "{9E511609-8D0E-4747-AA8C-C039DBF4F84E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Mountains-Code-First", "Mountains-Code-First\5. Mountains-Code-First.csproj", "{CB50ED41-A17E-4837-943B-B76D7CEB9608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4E57914-777A-4C3E-808C-663D6B2091AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E57914-777A-4C3E-808C-663D6B2091AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E57914-777A-4C3E-808C-663D6B2091AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E57914-777A-4C3E-808C-663D6B2091AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BC2CC8-A81C-4DCF-A6D7-0A74FC10ECE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BC2CC8-A81C-4DCF-A6D7-0A74FC10ECE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BC2CC8-A81C-4DCF-A6D7-0A74FC10ECE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BC2CC8-A81C-4DCF-A6D7-0A74FC10ECE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE43D2C-07FC-4849-8A0B-DECC269BEDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE43D2C-07FC-4849-8A0B-DECC269BEDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE43D2C-07FC-4849-8A0B-DECC269BEDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE43D2C-07FC-4849-8A0B-DECC269BEDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC6DA71-0ECB-4187-9FA1-6CD21EC4AA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC6DA71-0ECB-4187-9FA1-6CD21EC4AA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC6DA71-0ECB-4187-9FA1-6CD21EC4AA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC6DA71-0ECB-4187-9FA1-6CD21EC4AA64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E511609-8D0E-4747-AA8C-C039DBF4F84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E511609-8D0E-4747-AA8C-C039DBF4F84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E511609-8D0E-4747-AA8C-C039DBF4F84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E511609-8D0E-4747-AA8C-C039DBF4F84E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB50ED41-A17E-4837-943B-B76D7CEB9608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB50ED41-A17E-4837-943B-B76D7CEB9608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB50ED41-A17E-4837-943B-B76D7CEB9608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB50ED41-A17E-4837-943B-B76D7CEB9608}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

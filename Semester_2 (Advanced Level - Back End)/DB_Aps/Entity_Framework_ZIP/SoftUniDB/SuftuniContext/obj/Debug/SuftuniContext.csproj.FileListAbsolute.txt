@@ -1,0 +1,10 @@
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\SuftuniContext\obj\Debug\SuftuniContext.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\SuftuniContext\bin\Debug\SuftuniContext.dll.config
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\SuftuniContext\bin\Debug\SuftuniContext.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\SuftuniContext\bin\Debug\SuftuniContext.pdb
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\SuftuniContext\bin\Debug\EntityFramework.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\SuftuniContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\SuftuniContext\bin\Debug\EntityFramework.xml
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\SuftuniContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\SuftuniContext\obj\Debug\SuftuniContext.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\SuftuniContext\obj\Debug\SuftuniContext.pdb

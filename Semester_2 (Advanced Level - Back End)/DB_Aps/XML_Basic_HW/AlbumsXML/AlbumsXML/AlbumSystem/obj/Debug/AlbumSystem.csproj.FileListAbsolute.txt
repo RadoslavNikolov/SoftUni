@@ -1,0 +1,9 @@
+F:\Programming\DB_Aps\XML_Basic_HW\AlbumsXML\AlbumsXML\AlbumSystem\bin\Debug\AlbumSystem.exe.config
+F:\Programming\DB_Aps\XML_Basic_HW\AlbumsXML\AlbumsXML\AlbumSystem\bin\Debug\AlbumSystem.exe
+F:\Programming\DB_Aps\XML_Basic_HW\AlbumsXML\AlbumsXML\AlbumSystem\bin\Debug\AlbumSystem.pdb
+F:\Programming\DB_Aps\XML_Basic_HW\AlbumsXML\AlbumsXML\AlbumSystem\obj\Debug\AlbumSystem.csprojResolveAssemblyReference.cache
+F:\Programming\DB_Aps\XML_Basic_HW\AlbumsXML\AlbumsXML\AlbumSystem\obj\Debug\AlbumSystem.exe
+F:\Programming\DB_Aps\XML_Basic_HW\AlbumsXML\AlbumsXML\AlbumSystem\obj\Debug\AlbumSystem.pdb
+C:\Users\toshiba\Desktop\DB_Aps\XML_Basic_HW\AlbumsXML\AlbumsXML\AlbumSystem\bin\Debug\AlbumSystem.exe.config
+C:\Users\toshiba\Desktop\DB_Aps\XML_Basic_HW\AlbumsXML\AlbumsXML\AlbumSystem\obj\Debug\AlbumSystem.exe
+C:\Users\toshiba\Desktop\DB_Aps\XML_Basic_HW\AlbumsXML\AlbumsXML\AlbumSystem\obj\Debug\AlbumSystem.pdb

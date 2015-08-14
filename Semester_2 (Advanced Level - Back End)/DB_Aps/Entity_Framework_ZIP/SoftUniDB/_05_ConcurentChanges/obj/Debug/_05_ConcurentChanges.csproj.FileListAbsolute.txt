@@ -1,0 +1,11 @@
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_05_ConcurentChanges\bin\Debug\_05_ConcurentChanges.exe.config
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_05_ConcurentChanges\bin\Debug\_05_ConcurentChanges.exe
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_05_ConcurentChanges\bin\Debug\_05_ConcurentChanges.pdb
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_05_ConcurentChanges\bin\Debug\EntityFramework.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_05_ConcurentChanges\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_05_ConcurentChanges\bin\Debug\SuftuniContext.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_05_ConcurentChanges\bin\Debug\SuftuniContext.pdb
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_05_ConcurentChanges\bin\Debug\EntityFramework.xml
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_05_ConcurentChanges\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_05_ConcurentChanges\obj\Debug\_05_ConcurentChanges.exe
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\_05_ConcurentChanges\obj\Debug\_05_ConcurentChanges.pdb

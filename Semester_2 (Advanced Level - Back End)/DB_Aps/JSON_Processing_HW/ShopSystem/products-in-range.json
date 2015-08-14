@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Parsley",
+    "price": 519.06,
+    "seller": "FredAllen"
+  },
+  {
+    "name": "equaline",
+    "price": 520.45,
+    "seller": "GloriaAlexander"
+  },
+  {
+    "name": "Propranolol Hydrochloride",
+    "price": 546.95,
+    "seller": "PatriciaCooper"
+  },
+  {
+    "name": "PLANTAGO LANCEOLATA POLLEN",
+    "price": 561.68,
+    "seller": "CarlDaniels"
+  },
+  {
+    "name": "Glipizide",
+    "price": 621.78,
+    "seller": "JoshuaMurray"
+  },
+  {
+    "name": "ENBREL",
+    "price": 673.97,
+    "seller": "PatriciaCooper"
+  },
+  {
+    "name": "Naproxen",
+    "price": 807.22,
+    "seller": "PatriciaFuller"
+  },
+  {
+    "name": "LV-FX",
+    "price": 820.87,
+    "seller": "JoshuaMurray"
+  },
+  {
+    "name": "Moore Medical Sinus Pain and Pressure Relief",
+    "price": 855.39,
+    "seller": "JoshuaMurray"
+  },
+  {
+    "name": "Perrigo Benzoyl Peroxide",
+    "price": 873.24,
+    "seller": "PatriciaCooper"
+  },
+  {
+    "name": "ESIKA",
+    "price": 879.37,
+    "seller": "Peterson"
+  },
+  {
+    "name": "Care One Hemorrhoidal",
+    "price": 932.18,
+    "seller": "Lawson"
+  },
+  {
+    "name": "Metformin Hydrochloride",
+    "price": 953.99,
+    "seller": "Mitchell"
+  },
+  {
+    "name": "Homeopathic Rheumatism",
+    "price": 967.08,
+    "seller": "DianaHarvey"
+  },
+  {
+    "name": "Megestrol Acetate",
+    "price": 976.15,
+    "seller": "BettyLawson"
+  },
+  {
+    "name": "Smooth texture Orange flavor",
+    "price": 976.65,
+    "seller": "PatrickKing"
+  }
+]

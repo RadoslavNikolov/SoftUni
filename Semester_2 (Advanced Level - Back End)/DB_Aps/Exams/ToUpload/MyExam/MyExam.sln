@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_Diablo-DataBase-First", "Diablo-DataBase-First\_01_Diablo-DataBase-First.csproj", "{910A8C5C-6579-4B39-8C49-BA10A8A565DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02_Export-Characters-and-Players-as-JSON", "Export-Characters-and-Players-as-JSON\_02_Export-Characters-and-Players-as-JSON.csproj", "{DE5203CC-7E28-4289-9430-891E8A0E7E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_03_Export-Finished-Games-as-XML", "Export-Finished-Games-as-XML\_03_Export-Finished-Games-as-XML.csproj", "{3B5C5BF1-3EB1-4AF2-8E16-6B88EEF0762B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05_Code-First", "Code-First\_05_Code-First.csproj", "{6C0ED5D2-9481-4E90-8D1D-184F6A3BBC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06_Query-the-Database", "Query-the-Database\_06_Query-the-Database.csproj", "{058CC3D3-D5AA-4215-841F-57CBECB152D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_04_Import-Users-and-Their-Games-from-XML", "Import-Users-and-Their-Games-from-XML\_04_Import-Users-and-Their-Games-from-XML.csproj", "{9CB8432A-D6E3-4DE0-A7C9-AE78F93977CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{910A8C5C-6579-4B39-8C49-BA10A8A565DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910A8C5C-6579-4B39-8C49-BA10A8A565DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910A8C5C-6579-4B39-8C49-BA10A8A565DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910A8C5C-6579-4B39-8C49-BA10A8A565DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5203CC-7E28-4289-9430-891E8A0E7E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5203CC-7E28-4289-9430-891E8A0E7E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5203CC-7E28-4289-9430-891E8A0E7E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5203CC-7E28-4289-9430-891E8A0E7E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5C5BF1-3EB1-4AF2-8E16-6B88EEF0762B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5C5BF1-3EB1-4AF2-8E16-6B88EEF0762B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5C5BF1-3EB1-4AF2-8E16-6B88EEF0762B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5C5BF1-3EB1-4AF2-8E16-6B88EEF0762B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0ED5D2-9481-4E90-8D1D-184F6A3BBC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0ED5D2-9481-4E90-8D1D-184F6A3BBC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0ED5D2-9481-4E90-8D1D-184F6A3BBC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0ED5D2-9481-4E90-8D1D-184F6A3BBC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058CC3D3-D5AA-4215-841F-57CBECB152D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058CC3D3-D5AA-4215-841F-57CBECB152D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058CC3D3-D5AA-4215-841F-57CBECB152D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058CC3D3-D5AA-4215-841F-57CBECB152D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB8432A-D6E3-4DE0-A7C9-AE78F93977CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB8432A-D6E3-4DE0-A7C9-AE78F93977CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB8432A-D6E3-4DE0-A7C9-AE78F93977CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB8432A-D6E3-4DE0-A7C9-AE78F93977CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

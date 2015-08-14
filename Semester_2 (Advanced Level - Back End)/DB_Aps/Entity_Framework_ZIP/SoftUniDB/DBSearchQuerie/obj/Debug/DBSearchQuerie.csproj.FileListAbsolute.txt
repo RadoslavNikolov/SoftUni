@@ -1,0 +1,14 @@
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\bin\Debug\DBSearchQuerie.exe.config
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\bin\Debug\DBSearchQuerie.exe
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\bin\Debug\DBSearchQuerie.pdb
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\bin\Debug\EntityFramework.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\bin\Debug\SuftuniContext.dll
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\bin\Debug\_02_DAO.exe
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\bin\Debug\SuftuniContext.pdb
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\bin\Debug\_02_DAO.pdb
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\bin\Debug\EntityFramework.xml
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\obj\Debug\DBSearchQuerie.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\obj\Debug\DBSearchQuerie.exe
+C:\Users\toshiba\Desktop\DB_Aps\EntityFramewrok_Homework\Entity_Framewor_Homework\SoftUniDB\DBSearchQuerie\obj\Debug\DBSearchQuerie.pdb

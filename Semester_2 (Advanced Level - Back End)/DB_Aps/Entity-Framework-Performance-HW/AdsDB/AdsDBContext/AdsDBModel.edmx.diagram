@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="11b3e62c692341f59c47459cb87a6867" Name="Diagram1">
+        <EntityTypeShape EntityType="AdsDbContext.Ad" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsDbContext.AdStatus" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsDbContext.AspNetRole" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsDbContext.AspNetUser" Width="1.5" PointX="6" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsDbContext.Category" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsDbContext.sysdiagram" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsDbContext.Town" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="AdsDbContext.FK_Ads_AdStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsDbContext.FK_dbo_Advertisements_dbo_AspNetUsers_OwnerId" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsDbContext.FK_dbo_Advertisements_dbo_Categories_CategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsDbContext.FK_dbo_Advertisements_dbo_Towns_TownId" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsDbContext.FK_dbo_AspNetUsers_dbo_Towns_TownId" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsDbContext.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

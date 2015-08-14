@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="catalog-xml2html.xsl"?>
+<catalog name="AlbumsXML" xmlns:catalog="http://www.somesite.com/students" culture="en-US">
+  <album>
+    <name>Programers Hell</name>
+    <artist>The softuni warrior</artist>
+    <year>1976</year>
+    <producer>Nakov</producer>
+    <price>150</price>
+    <songs>
+      <song>
+        <title>PHP</title>
+        <duration>3.47</duration>
+      </song>
+      <song>
+      <title>JS</title>
+      <duration>4.47</duration>
+      </song>
+    </songs>
+  </album>
+  
+  <album>
+    <name>I want to be smart ass</name>
+    <artist>The developer</artist>
+    <year>1996</year>
+    <producer>Nakov</producer>
+    <price>250</price>
+    <songs>
+      <song>
+        <title>C#</title>
+        <duration>2.47</duration>
+      </song>
+      <song>
+        <title>DB</title>
+        <duration>8.47</duration>
+      </song>
+    </songs>
+  </album>
+
+  <album>
+    <name>In the future</name>
+    <artist>The developer</artist>
+    <year>1997</year>
+    <producer>Nakov</producer>
+    <price>50</price>
+    <songs>
+      <song>
+        <title>Java</title>
+        <duration>1.47</duration>
+      </song>
+      <song>
+        <title>DB</title>
+        <duration>2.47</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>
+

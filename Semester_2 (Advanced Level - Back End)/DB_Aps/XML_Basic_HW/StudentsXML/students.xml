@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students-xml2html.xsl"?>
+<students:students name="StudentXML" xmlns:students="http://www.somesite.com/students" culture="en-US">
+  <students:student>
+    <name>Mincho Minev</name>
+    <gender>male</gender>
+    <birth-date>1966-03-03</birth-date>
+    <phone-number>5544332211</phone-number>
+    <email>mincho@minchov.com</email>
+    <university>SoftUni</university>
+    <speciality>Software Engineer</speciality>
+    <faculty-number>1233</faculty-number>
+    <exams>
+      <exam>
+        <exam-name>PHP</exam-name>
+        <date-taken>2015-05-21</date-taken>
+        <grade>4</grade>
+      </exam>
+      <exam>
+        <exam-name>JS</exam-name>
+        <date-taken>2015-04-15</date-taken>
+        <grade>5</grade>
+      </exam>
+      <exam>
+        <exam-name>Java</exam-name>
+        <date-taken>2015-02-10</date-taken>
+        <grade>5</grade>
+      </exam>
+    </exams>
+   </students:student>
+
+  <students:student>
+    <name>Pencho Penchev</name>
+    <gender>male</gender>
+    <birth-date>1986-04-04</birth-date>
+    <email>pencho@penchev.com</email>
+    <university>SoftUni</university>
+    <speciality>Software Engineer</speciality>
+    <faculty-number>2244</faculty-number>
+    <exams>
+      <exam>
+        <exam-name>PHP</exam-name>
+        <date-taken>2015-05-21</date-taken>
+        <grade>6</grade>
+      </exam>
+      <exam>
+        <exam-name>JS</exam-name>
+        <date-taken>2015-04-15</date-taken>
+        <grade>5</grade>
+      </exam>
+      <exam>
+        <exam-name>Java</exam-name>
+        <date-taken>2015-02-10</date-taken>
+        <grade>6</grade>
+      </exam>    
+    </exams>
+  </students:student>
+
+  <students:student>
+    <name>Minka Mincheva</name>
+    <gender>female</gender>
+    <birth-date>1989-05-05</birth-date>
+    <email>minka@mincheva.com</email>
+    <university>SoftUni</university>
+    <speciality>Software Engineer</speciality>
+    <exams>
+      <exam>
+        <exam-name>PHP</exam-name>
+        <date-taken>2015-05-21</date-taken>
+        <grade>5</grade>
+      </exam>
+      <exam>
+        <exam-name>JS</exam-name>
+        <date-taken>2015-04-15</date-taken>
+        <grade>5</grade>
+      </exam>
+      <exam>
+        <exam-name>Java</exam-name>
+        <date-taken>2015-02-10</date-taken>
+        <grade>4</grade>
+      </exam>      
+    </exams>
+  </students:student>
+  
+</students:students>

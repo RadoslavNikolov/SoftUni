@@ -1,0 +1,116 @@
+[
+  {
+    "isbn": "660097222-X",
+    "title": "Prisoners (2013)",
+    "favouriteBy": [
+      "tmurphy1",
+      "tgrant4",
+      "mgeorgeh",
+      "dburket",
+      "bhamilton1n",
+      "ksims1s"
+    ]
+  },
+  {
+    "isbn": "901611270-7",
+    "title": "Requiem for a Dream (2000)",
+    "favouriteBy": [
+      "gmartin2",
+      "dmurray6",
+      "shendersonn",
+      "hmurray16",
+      "adavis1c",
+      "amason1m"
+    ]
+  },
+  {
+    "isbn": "853859411-7",
+    "title": "The Lord of the Rings: The Two Towers (2002)",
+    "favouriteBy": [
+      "tgrant4",
+      "tbennettb",
+      "drodriguezq",
+      "bmendoza13",
+      "crussell1e",
+      "efields1g"
+    ]
+  },
+  {
+    "isbn": "836139636-5",
+    "title": "Touch of Evil (1958)",
+    "favouriteBy": [
+      "lcarroll5",
+      "dmurray6",
+      "jhowarda",
+      "rwashingtonc",
+      "lelliottx",
+      "amason1m"
+    ]
+  },
+  {
+    "isbn": "308270318-6",
+    "title": "12 Years a Slave (2013)",
+    "favouriteBy": [
+      "tbennettb",
+      "malexanderf",
+      "rthompsoni",
+      "anichols18",
+      "mmoore1r"
+    ]
+  },
+  {
+    "isbn": "178300857-1",
+    "title": "A Clockwork Orange (1971)",
+    "favouriteBy": [
+      "dwashington8",
+      "aandersonl",
+      "mbradleyu",
+      "pmorenow",
+      "awilson14"
+    ]
+  },
+  {
+    "isbn": "653288544-4",
+    "title": "Amores Perros (2000)",
+    "favouriteBy": [
+      "tmurphy1",
+      "tgrant4",
+      "jhowarda",
+      "tbennettb",
+      "jgibson1j"
+    ]
+  },
+  {
+    "isbn": "685416258-0",
+    "title": "Django Unchained (2012)",
+    "favouriteBy": [
+      "djenkinsv",
+      "lelliottx",
+      "anichols18",
+      "vnguyen1h",
+      "rcarr1u"
+    ]
+  },
+  {
+    "isbn": "435551301-7",
+    "title": "Lagaan: Once Upon a Time in India (2001)",
+    "favouriteBy": [
+      "pmoore0",
+      "crussell1e",
+      "efields1g",
+      "bhamilton1n",
+      "ksims1s"
+    ]
+  },
+  {
+    "isbn": "960172299-8",
+    "title": "Taxi Driver (1976)",
+    "favouriteBy": [
+      "pmoore0",
+      "malexanderf",
+      "dburket",
+      "awilson14",
+      "cnichols1a"
+    ]
+  }
+]
