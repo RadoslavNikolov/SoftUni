@@ -1,0 +1,10 @@
+<?= $model->error ? $model->error : ''; ?>
+<h1>Login form</h1>
+<form action="" method="post">
+    <input type="text" name="username"/>
+    <input type="password" name="password"/>
+    <input type="submit" value="Login"/>
+</form>
+<div>
+    <?php echo \SoftUni\Helpers\HelpFunctions::anchor('users', 'register', [], '[Register]')?>
+</div>

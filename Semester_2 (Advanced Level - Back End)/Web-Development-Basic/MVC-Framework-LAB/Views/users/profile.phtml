@@ -1,0 +1,28 @@
+<?= $model->error ? $model->error : ''; ?>
+<?= $model->success ? $model->success : ''; ?>
+<h1>Hello, <?= htmlspecialchars($model->username); ?></h1>
+
+<h3>
+    Resources:
+    <p>Gold: <?= $model->gold; ?></p>
+    <p>Food: <?= $model->food; ?></p>
+</h3>
+
+<form action="" method="post">
+    <div>
+        <input type="text" name="username" value="<?= htmlspecialchars($model->username); ?>"/>
+        <input type="password" name="password"/>
+        <input type="password" name="confirm"/>
+        <input type="submit" name="edit" value="Edit"/>
+        <input type="hidden" name="formToken" value="<?= htmlspecialchars($_SESSION['formToken'])?>">
+    </div>
+</form>
+
+Go to:
+<div>
+    <?php echo \SoftUni\Helpers\HelpFunctions::anchor('users', 'buildings', [], 'Buildings')?>
+</div>
+
+<div>
+    <?php echo \SoftUni\Helpers\HelpFunctions::anchor('users', 'logout', [], '[Logout]')?>
+</div>
