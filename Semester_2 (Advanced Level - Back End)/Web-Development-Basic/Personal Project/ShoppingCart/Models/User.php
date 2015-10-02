@@ -11,8 +11,8 @@ class User
     private $password;
     private $cash;
     private $role_id;
-    private $isActive;
-    private $isDeleted;
+    private $active;
+    private $deleted;
 
     private $error = false;
     private $success = false;
@@ -28,19 +28,19 @@ class User
      * @param $email
      * @param $password
      * @param int $cash
-     * @param bool|string $isActive
-     * @param bool $isDeleted
+     * @param bool|string $active
+     * @param bool $deleted
      * @param $id
      * @param int $role_id
      */
-    public function __construct($username, $email, $password, $cash = 1000, $isActive = true, $isDeleted = false, $id = null, $role_id = 2)
+    public function __construct($username, $email, $password, $cash, $active = true, $deleted = false, $id = null, $role_id = 1)
     {
         $this->setUsername($username);
         $this->setEmail($email);
         $this->setPassword($password);
         $this->setCash($cash);
-        $this->setIsActive($isActive);
-        $this->setIsDeleted($isDeleted);
+        $this->setActive($active);
+        $this->setDeleted($deleted);
         $this->setUserId($id);
         $this->setRoleId($role_id);
     }
@@ -61,20 +61,24 @@ class User
         $this->role_id = $role_id;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getIsDeleted()
-    {
-        return $this->isDeleted;
-    }
+
 
     /**
-     * @param mixed $isDeleted
+     * @return boolean
      */
-    public function setIsDeleted($isDeleted)
+    public function isDeleted()
     {
-        $this->isDeleted = $isDeleted;
+        return $this->deleted;
+    }
+
+
+
+    /**
+     * @param mixed $deleted
+     */
+    public function setDeleted($deleted)
+    {
+        $this->deleted = $deleted;
     }
 
 
@@ -108,7 +112,11 @@ class User
      */
     public function setCash($cash)
     {
-        $this->cash = $cash;
+        if(!empty($cash)){
+            $this->cash = $cash;
+        } else {
+            $this->cash = UserConfig::USERS_INITIAL_CASH;
+        }
     }
 
 
@@ -157,23 +165,28 @@ class User
      */
     public function setPassword($password)
     {
-        $this->password = $password;
+        if(substr( $password, 0, 7 ) === "$22$10$"){
+            $this->password = $password;
+
+        }else {
+            $this->password = password_hash($password, PASSWORD_DEFAULT);
+        }
     }
 
     /**
-     * @return mixed
+     * @return boolean
      */
-    public function getIsActive()
+    public function isActive()
     {
-        return $this->isActive;
+        return $this->active;
     }
 
     /**
-     * @param mixed $isActive
+     * @param mixed $active
      */
-    public function setIsActive($isActive)
+    public function setActive($active)
     {
-        $this->isActive = $isActive;
+        $this->active = $active;
     }
 
     /**
@@ -195,7 +208,7 @@ class User
     /**
      * @return boolean
      */
-    public function getError()
+    public function isError()
     {
         return $this->error;
     }
@@ -211,7 +224,7 @@ class User
     /**
      * @return boolean
      */
-    public function getSuccess()
+    public function isSuccess()
     {
         return $this->success;
     }
@@ -225,11 +238,8 @@ class User
     }
 
 
-
-
     public function save()
     {
         return UserRepository::create()->save($this);
     }
-
 }

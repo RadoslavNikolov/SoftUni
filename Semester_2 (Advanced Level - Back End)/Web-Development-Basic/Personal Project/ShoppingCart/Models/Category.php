@@ -8,16 +8,16 @@ class Category {
     private $cat_id;
     private $cat_name;
     private $parent_id;
-    private $isActive;
-    private $isDeleted;
+    private $active;
+    private $deleted;
 
-    function __construct($cat_name, $cat_id = null, $parent_id = null, $isActive = true, $isDeleted = false)
+    function __construct($cat_name, $cat_id = null, $parent_id = null, $active = true, $deleted = false)
     {
-        $this->setCatId($cat_id);
         $this->setCatName($cat_name);
+        $this->setCatId($cat_id);
         $this->setParentId($parent_id);
-        $this->setIsActive($isActive);
-        $this->setIsDeleted($isDeleted);
+        $this->setActive($active);
+        $this->setDeleted($deleted);
     }
 
 
@@ -70,35 +70,35 @@ class Category {
     }
 
     /**
-     * @return mixed
+     * @return boolean
      */
-    public function getIsActive()
+    public function isActive()
     {
-        return $this->isActive;
+        return $this->active;
     }
 
     /**
-     * @param mixed $isActive
+     * @param mixed $active
      */
-    public function setIsActive($isActive)
+    public function setActive($active)
     {
-        $this->isActive = $isActive;
+        $this->active = $active;
     }
 
     /**
-     * @return mixed
+     * @return boolean
      */
-    public function getIsDeleted()
+    public function isDeleted()
     {
-        return $this->isDeleted;
+        return $this->deleted;
     }
 
     /**
-     * @param mixed $isDeleted
+     * @param mixed $deleted
      */
-    public function setIsDeleted($isDeleted)
+    public function setDeleted($deleted)
     {
-        $this->isDeleted = $isDeleted;
+        $this->deleted = $deleted;
     }
 
     public function save()

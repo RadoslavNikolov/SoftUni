@@ -7,13 +7,13 @@ use ShoppingCart\Repositories\CategoryRepository;
 class Role {
     private $role_id;
     private $role_name;
-    private $isDeleted;
+    private $deleted;
 
-    function __construct($role_name, $role_id = null, $isDeleted = false)
+    function __construct($role_name, $role_id = null, $deleted = false)
     {
         $this->setRoleId($role_id);
         $this->setRoleName($role_name);
-        $this->setIsDeleted($isDeleted);
+        $this->setDeleted($deleted);
     }
 
 
@@ -50,19 +50,19 @@ class Role {
     }
 
     /**
-     * @return mixed
+     * @return boolean
      */
-    public function getIsDeleted()
+    public function isDeleted()
     {
-        return $this->isDeleted;
+        return $this->deleted;
     }
 
     /**
-     * @param mixed $isDeleted
+     * @param mixed $deleted
      */
-    public function setIsDeleted($isDeleted)
+    public function setDeleted($deleted)
     {
-        $this->isDeleted = $isDeleted;
+        $this->deleted = $deleted;
     }
 
 

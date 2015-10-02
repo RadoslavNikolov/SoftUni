@@ -1,90 +1,47 @@
 <?php
 namespace ShoppingCart;
 
+
+use ShoppingCart\Config\DatabaseConfig;
+use ShoppingCart\Core\Database;
+
 class Application
 {
-    const CONTROLLERS_NAMESPACE = "ShoppingCart\\Controllers\\";
-    const CONTROLLERS_SUFFIX = "Controller";
-    private $controllerName = null;
-    private $actionName = null;
-    private $requestParams = [];
 
     /**
-     * Application constructor.
-     * @param null $controller
-     * @param null $action
-     * @param array $params
+     * @var \ShoppingCart\FrontController
      */
-    public function __construct($controller, $action, array $params)
-    {
-        $this->setControllerName($controller);
-        $this->setActionName($action);
-        $this->setRequestParams($params);
+    private $frontController;
+
+    /**
+     * @param \ShoppingCart\FrontController $frontController
+     */
+    public function __construct($frontController){
+        $this->setFrontController($frontController);
     }
 
     /**
-     * @return null
+     * @param \ShoppingCart\FrontController $frontController
      */
-    public function getControllerName()
-    {
-        return $this->controllerName;
+    public function setFrontController($frontController) {
+        $this->frontController = $frontController;
     }
-
-    /**
-     * @param null $controllerName
-     */
-    public function setControllerName($controllerName)
-    {
-        $this->controllerName = $controllerName;
-    }
-
-    /**
-     * @return null
-     */
-    public function getActionName()
-    {
-        return $this->actionName;
-    }
-
-    /**
-     * @param null $actionName
-     */
-    public function setActionName($actionName)
-    {
-        $this->actionName = $actionName;
-    }
-
-    /**
-     * @return array
-     */
-    public function getRequestParams()
-    {
-        return $this->requestParams;
-    }
-
-    /**
-     * @param array $requestParams
-     */
-    public function setRequestParams($requestParams)
-    {
-        $this->requestParams = $requestParams;
-    }
-
 
     public function start(){
-
-        $this->initController();
-        View::$controllerName = $this->controllerName;
-        View::$actionName = $this->actionName;
-
-        call_user_func_array([
-            $this->controller,
-            $this->actionName
-            ],
-            $this->requestParams
+        Database::setInstance(
+            DatabaseConfig::DB_INSTANCE,
+            DatabaseConfig::DB_DRIVER,
+            DatabaseConfig::DB_USER,
+            DatabaseConfig::DB_PASS,
+            DatabaseConfig::DB_NAME,
+            DatabaseConfig::DB_HOST
         );
 
+        $this->frontController->dispatch();
     }
+
+
+
 
 
     private function initController(){

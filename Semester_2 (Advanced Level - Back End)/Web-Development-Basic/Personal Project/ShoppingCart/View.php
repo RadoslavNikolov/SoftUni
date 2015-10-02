@@ -2,16 +2,14 @@
 namespace ShoppingCart;
 
 
+use ShoppingCart\Config\ApplicationConfig;
+use ShoppingCart\Helpers\Validations;
+
 class View
 {
-    const PARAMS_COUNT_MODEL_AND_VIEW = 2;
-    const VIEW_FOLDER = 'Views';
-    const VIEW_EXTENSION = '.phtml';
-    /**
-     * View constructor.
-     */
-    static $controllerName;
-    static $actionName;
+    public static $controllerName;
+    public static $actionName;
+    public static $viewBag = [];
 
     /*
      * @see loadViewAndModel if 2 arguments are passed
@@ -22,7 +20,7 @@ class View
     {
         $params = func_get_args();
 
-        if (count($params) >= self::PARAMS_COUNT_MODEL_AND_VIEW) {
+        if (count($params) >= ApplicationConfig::PARAMS_COUNT_MODEL_AND_VIEW) {
             $view = $params[0];
             $model = $params[1];
             $this->initModelView($view, $model);
@@ -37,29 +35,40 @@ class View
         $view = str_replace('/',DIRECTORY_SEPARATOR, $view);
         $view = str_replace('\\',DIRECTORY_SEPARATOR, $view);
 
-        require self::VIEW_FOLDER
+        $file = ApplicationConfig::VIEW_FOLDER
             .DIRECTORY_SEPARATOR
             .$view
-            .self::VIEW_EXTENSION;
+            .ApplicationConfig::VIEW_EXTENSION;
+
+        if(Validations::viewModelValidation($model, $file)){
+            require $file;
+        }
     }
 
     private function initModelOnly($model)
     {
-        require self::VIEW_FOLDER
+        $file = ApplicationConfig::VIEW_FOLDER
             .DIRECTORY_SEPARATOR
             .self::$controllerName
             .DIRECTORY_SEPARATOR
             .self::$actionName
-            .self::VIEW_EXTENSION;
+            .ApplicationConfig::VIEW_EXTENSION;
+
+
+        if(Validations::viewModelValidation($model, $file)){
+            require $file;
+        }
     }
 
     private function initViewOnly()
     {
-        require self::VIEW_FOLDER
+        $file = ApplicationConfig::VIEW_FOLDER
             .DIRECTORY_SEPARATOR
             .self::$controllerName
             .DIRECTORY_SEPARATOR
             .self::$actionName
-            .self::VIEW_EXTENSION;
+            .ApplicationConfig::VIEW_EXTENSION;
+
+        require $file;
     }
 }

@@ -70,7 +70,7 @@ class UserRepository
     /**
      * @param $username
      * @param $password
-     * @return User
+     * @return \ShoppingCart\Models\User
      * @throws \Exception
      */
     public function login($username, $password){
@@ -99,7 +99,7 @@ class UserRepository
 
     /**
      * @param $userRow
-     * @return User
+     * @return \ShoppingCart\Models\User
      */
     public function getUserModel($userRow){
         $user = new User(
@@ -226,6 +226,22 @@ class UserRepository
     }
 
 
+    public function deleteUser($user_id){
+        $query = "
+            UPDATE users SET isDeleted = TRUE
+            WHERE user_id = ?
+        ";
+
+        $result = $this->db->prepare($query);
+        $result->execute([$user_id]);
+
+        if($result->rowCount() > 0 ){
+            return true;
+        }
+
+        throw new \Exception("Cannot delete user");
+    }
+
     public function save(User $user)
     {
         $query = "
@@ -235,26 +251,38 @@ class UserRepository
         $params = [
             $user->getUsername(),
             $user->getEmail(),
-            password_hash($user->getPassword(), PASSWORD_DEFAULT),
+            $user->getPassword(),
             $user->getCash(),
             $user->getRoleId(),
-            $user->getIsActive(),
-            $user->getIsDeleted()
+            $user->isActive(),
+            $user->isDeleted()
         ];
 
         if ($user->getUserId()) {
             $query = "
               UPDATE users SET
-                username = ?, email = ?, password = ?, cash = ?, role_id = ?, isActive = ?, isDeleted = ?
+                username = ?, email = ?, cash = ?, role_id = ?, isActive = ?, isDeleted = ?
               WHERE user_id = ?";
 
-            $params[] = $user->getUserId();
+            $params =  [
+                $user->getUsername(),
+                $user->getEmail(),
+                $user->getCash(),
+                $user->getRoleId(),
+                $user->isActive(),
+                $user->isDeleted(),
+                $user->getUserId()
+            ];
+
         }
 
         $result = $this->db->prepare($query);
         $result->execute($params);
 
         if($result->rowCount() > 0 ){
+            if ($user->getUserId()) {
+                $_SESSION['username'] = $user->getUsername();
+            }
             return true;
         }
 

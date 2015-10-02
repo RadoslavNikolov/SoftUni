@@ -75,6 +75,14 @@ background-color:#205081;
     display:inline-block; 
     outline:0;
     cursor:pointer;
+
+}
+
+#ddmenu .top-heading a{
+    text-decoration: none;
+}
+#ddmenu .top-heading a:hover{
+    text-decoration: none;
 }
 
 /* links of top-heading */

@@ -1,11 +1,47 @@
 <?php
 namespace ShoppingCart\Controllers;
 
+use ShoppingCart\Helpers\HelpFunctions;
+use ShoppingCart\Repositories\CategoryRepository;
+use ShoppingCart\View;
+
 abstract class Controller
 {
 
-    protected function isLogged(){}
 
+    /**
+     * @return bool
+     */
+    public function isLogged() {
+        return isset($_SESSION['user_id']);
+    }
+
+
+    /**
+     * @param null $model
+     * @param null $view
+     * @return View
+     */
+    public function render($model = null,$view = null) {
+        if(empty($model) && empty($view)){
+            return new View();
+
+        } else if(empty($view)){
+            return new View($model);
+        } else {
+            return new View($model, $view);
+        }
+
+//
+//        return new View($model, $view);
+//        View::initView($model,$view);
+    }
+
+
+    /**
+     * @param $toEscape
+     * @return string
+     */
     protected function escapeAll(&$toEscape){
         if(is_array($toEscape)){
             foreach($toEscape as $key => &$value){
@@ -38,4 +74,14 @@ abstract class Controller
         return $toEscape;
     }
 
+
+    protected function updateCategoriesInJson(){
+        $catRepo = CategoryRepository::create();
+
+        $categories = $this->escapeAll($catRepo->getAllCategories());
+        $asideCategories = HelpFunctions::convertCategorieToAsideArray($this->escapeAll($catRepo->getNestedCategories()));
+
+        file_put_contents('Resources\categoriesJson.json', json_encode($categories, true));
+        file_put_contents('Resources\asideCategoriesJson.json', json_encode($asideCategories, true));
+    }
 }

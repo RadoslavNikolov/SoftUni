@@ -46,7 +46,7 @@ class RoleRepository {
         ";
         $params = [
             $role->getRoleName(),
-            $role->getIsDeleted()
+            $role->isDeleted()
         ];
 
         if ($role->getRoleId()) {

@@ -34,16 +34,16 @@ class PartialHeader {
         $username = htmlspecialchars($_SESSION['username']);
         $role = htmlspecialchars($_SESSION['user_role']);
 
-
         $code = '<nav id="ddmenu">
                     <ul>
                         <li>
                             <span class="message">Hello, ';
         $code = $code . ucfirst($username);
+        $code = $code  . '</span></li>';
+        $code = $code . ' <li><span class="message">User role: ' . $_SESSION['user_role'] . '</span></li>';
 
         //Start drop down menu "Products"
-        $code = $code  . '</span></li>
-                            <li>
+        $code = $code . '   <li>
                                 <span class="top-heading">Products</span>
                                 <i class="caret"></i>
                                 <div class="dropdown">
@@ -68,9 +68,32 @@ class PartialHeader {
         </li>";
         //End drop down menu "Products"
 
+        if($role != 'customer'){
+
+            //Start drop down menu "Categories"
+            $code = $code . '   <li>
+                                <span class="top-heading">' . HelpFunctions::anchor('categories', 'show', [], 'Categories');
+            $code = $code . '</span>
+                                <i class="caret"></i>
+                                <div class="dropdown">
+                                    <div class="dd-inner">
+                                        <div class="column">
+                                            <h3>Categories Menu</h3>';
+
+            $code = $code . HelpFunctions::anchor('categories', 'edit', [], 'Edit Category');
+            $code = $code . HelpFunctions::anchor('categories', 'show', [], 'Delete Category');
+
+            $code = $code . "</div>
+                </div>
+            </div>
+        </li>";
+            //End drop down menu "Products"
+        }
+
         //Start drop down menu "Profile"
         $code = $code  . '<li>
-                            <span class="top-heading">Profile</span>
+                            <span class="top-heading">' . HelpFunctions::anchor('users', 'show', [], 'Profile');
+        $code = $code . '</span>
                             <i class="caret"></i>
                             <div class="dropdown">
                                 <div class="dd-inner">
@@ -78,7 +101,11 @@ class PartialHeader {
                                         <h3>Profile Menu</h3>';
 
         $code = $code . HelpFunctions::anchor('users', 'edit', [], 'Edit Profile');
-        $code = $code . HelpFunctions::anchor('users', 'delete', [], 'Delete Profile');
+
+        if($role == 'customer' || $role == 'editor'){
+            $code = $code . HelpFunctions::anchor('users', 'delete', [], 'Delete Profile');
+        }
+
         $code = $code . "</div>
                 </div>
             </div>

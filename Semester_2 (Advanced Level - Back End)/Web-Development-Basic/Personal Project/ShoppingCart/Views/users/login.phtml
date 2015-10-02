@@ -1,3 +1,4 @@
+<?php  /** @var \ShoppingCart\ViewModels\LoginInformation $model */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +7,7 @@
     <meta http-equiv = "Content-Type" content="text/html; charset=utf-8">
     <title></title>
     <link rel="stylesheet" href="<?=\ShoppingCart\Helpers\HelpFunctions::url()?>Styles/ddmenu.css" type="text/css" />
-    <script src="<?=\ShoppingCart\Helpers\HelpFunctions::url()?>Styles/ddmenu.js" type="text/javascript"></script>
+    <script src="<?=\ShoppingCart\Helpers\HelpFunctions::url()?>JS/ddmenu.js" type="text/javascript"></script>
     <script>function toggleSearch() {
             var searchDiv = document.getElementById("search-block");
             searchDiv.className = searchDiv.className == "show" ? "" : "show";}
@@ -18,13 +19,42 @@
 
 <?= $model->error ? $model->error : ''; ?>
 <h1>Login form</h1>
-<form action="" method="post">
-    <label for="username">User name: </label>
-    <input type="text" name="username" id="username" required="true"/><br>
-    <label for="password">Password: </label>
-    <input type="password" name="password" id="password" required="true"/><br>
-    <input type="submit" value="Login"/>
-</form>
+<div>
+    <?=
+    \ShoppingCart\Helpers\FormViewHelper::init()
+        ->initForm()
+            ->setAttribute('action', '')
+            ->setAttribute('method', 'post')
+            ->create()
+        ->initLabel()
+            ->setAttribute('for', 'username')
+            ->setContent('User name: ')
+            ->create()
+        ->initTextBox()
+            ->setName('username')
+            ->setAttribute('id', 'username')
+            ->setAttribute('required', 'true')
+            ->setNewLine()
+            ->create()
+        ->initLabel()
+            ->setAttribute('for', 'password')
+            ->setContent('Password: ')
+            ->create()
+        ->initPasswordBox()
+            ->setName('password')
+            ->setAttribute('id', 'password')
+            ->setAttribute('required', 'true')
+            ->setNewLine()
+            ->create()
+        ->initSubmit()
+            ->setValue('Login')
+            ->setNewLine()
+            ->create()
+        ->render();
+    ?>
+</div>
+
+
 <div>
     <?php echo \ShoppingCart\Helpers\HelpFunctions::anchor('users', 'register', [], '[Register]')?>
 </div>

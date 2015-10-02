@@ -13,6 +13,7 @@ class Database {
 
     }
 
+
     public static function setInstance(
         $instanceName,
         $driver,

@@ -1,10 +1,12 @@
 <?php
 namespace ShoppingCart\Controllers;
 
+use ShoppingCart\Config\UserConfig;
 use ShoppingCart\Helpers\HelpFunctions;
 use ShoppingCart\Helpers\Partials\PartialHeader;
 use ShoppingCart\Repositories\CategoryRepository;
 use ShoppingCart\Repositories\UserRepository;
+use ShoppingCart\ViewModels\CategoriesViewModel;
 use ShoppingCart\ViewModels\LoginInformation;
 use ShoppingCart\ViewModels\ProfileInformation;
 use ShoppingCart\ViewModels\RegisterInformation;
@@ -14,79 +16,134 @@ use ShoppingCart\View;
 class UsersController extends Controller
 {
 
-    public function isLogged() {
-        return isset($_SESSION['id']);
-    }
 
+    /**
+     * @return View
+     * @throws \Exception
+     * @Authorize
+     */
+    public function delete()
+    {
+        if(!$this->isLogged()){
+            header("Location: " . HelpFunctions::url() . "users/login");
+            exit;
+        }
 
-//    public function buildings($id = null){
-//        if(!$this->isLogged()){
-//            header("Location: login");
-//        }
-//
-//
-//        $viewModel = new ProfileInformation();
-//
-//        $userModel = new User();
-//        $userInfo = $userModel->getUserInfo($_SESSION['id']);
-//
-//        $viewModel->username = $userInfo['username'];
-//        $viewModel->gold = $userInfo['gold'];
-//        $viewModel->food = $userInfo['food'];
-//        $viewModel->userId = $_SESSION['id'];
-//        $viewModel->buildings = $userModel->getBuildings();
-//
-//        if($id != null){
-//
-//            if($userModel->evolve($id, $viewModel)){
-//                header("Location: " . HelpFunctions::generateUrl() . "users/buildings");
-//                exit;
-//            }
-//
-//        }
-//
-//
-//        return new View($viewModel);
-//    }
-//
-    public function profile(){
-//        if(!$this->isLogged()){
-//            header("Location: " . HelpFunctions::generateUrl() . "users/login");
-//            exit;
-//        }
+        $user_id = null;
+
+        if(!isset($_GET['user_id'])){
+            $user_id = $_SESSION['user_id'];
+
+        } else {
+            $user_id = $_GET['user_id'];
+
+        }
 
         $userRepository = UserRepository::create();
         $user = $userRepository->getUserById($_SESSION['user_id']);
-        $catRepo = CategoryRepository::create();
-        $_SESSION['nestedCategories'] = $catRepo->getNestedCategories();
-        $_SESSION['categories'] = $catRepo->getAllCategories();
+
+        if(isset($_POST['delete'])){
+            if($_POST['formToken'] != $_SESSION['formToken']){
+                header("Location: " . HelpFunctions::url() . "users/logout");
+                exit;
+            }
+
+            if($userRepository->login($_SESSION['username'], $_POST['password'])){
+                if ($userRepository->deleteUser($user_id)) {
+                    header("Location: " . HelpFunctions::url() . "users/logout");
+                    exit;
+                }
+            }else{
+                $user->setError("Password is incorrect.");
+            }
+
+            $user->setError("Cannot delete profile");
+        }
+
+//        $this->render($this->escapeAll($user), "profile/delete");
+        return new View("profile/delete", $this->escapeAll($user));
+    }
 
 
+    /**
+     * @return View
+     * @throws \Exception
+     * @Authorize
+     * @admin
+     */
+    public function edit(){
+
+        if(!$this->isLogged()){
+            header("Location: " . HelpFunctions::url() . "users/login");
+            exit;
+        }
+
+        $userRepository = UserRepository::create();
+        $user = $userRepository->getUserById($_SESSION['user_id']);
 
 
+        if(isset($_POST['edit'])){
 
-//        if(isset($_POST['edit'])){
+            if (isset($_POST['new-username']) && (!empty($_POST['new-username']) || !empty($_POST['confirm-username']))) {
+
+                if($_POST['new-username'] != $_POST['confirm-username'] || empty($_POST['new-username'])){
+                $user->setError("Difference between username and confirm username");
+//                    $this->render($this->escapeAll($user), "profile/edit");
+                    return new View("profile/edit", $this->escapeAll($user));
+                }
+
+                $user->setUsername($_POST['new-username']);
+            }
+
+
+            if (isset($_POST['new-email']) && (!empty($_POST['new-email']) || !empty($_POST['confirm-email']))) {
+
+                if( empty($_POST['new-email']) || filter_var($_POST['new-email'], FILTER_VALIDATE_EMAIL) === false){
+                    $user->setError("Email is not valid");
+//                    $this->render($this->escapeAll($user), "profile/edit");
+                    return new View("profile/edit", $this->escapeAll($user));
+                }
+
+                if($_POST['new-email'] != $_POST['confirm-email'] || empty($_POST['new-email'])){
+                    $user->setError("Difference between email and confirm email");
+//                    $this->render($this->escapeAll($user), "profile/edit");
+                    return new View("profile/edit", $this->escapeAll($user));
+                }
+
+                $user->setEmail($_POST['new-email']);
+            }
+
+            $user->save();
+
 //
-//            if($_POST['password'] != $_POST['confirm'] || empty($_POST['password'])){
-//                $viewModel->error = "Difference between password and confirm password";
-//                return new View($viewModel);
-//            }
-//
-//            $success = $this->editUser($viewModel);
-//
-//            if($success){
-//                $viewModel->success = "Successfully changed password";
-//
-//            } else {
-//                $viewModel->error = "The password was not changed successfully";
-//            }
-//
-//        }
+        }
 
+        return new View("profile/edit", $this->escapeAll($user));
+    }
+
+
+    /**
+     * @Route("users/penka/show")
+     * @Authorize
+     */
+    public function show(){
+        if(!$this->isLogged()){
+            header("Location: " . HelpFunctions::url() . "users/login");
+            exit;
+        }
+
+        $userRepository = UserRepository::create();
+        $user = $userRepository->getUserById($_SESSION['user_id']);
+
+//        $this->render($this->escapeAll($user));
+//        $test = new CategoriesViewModel();
         return new View($this->escapeAll($user));
     }
 
 
+    /**
+     * @return View
+     */
     public function register(){
         $viewModel = new RegisterInformation();
 
@@ -94,37 +151,39 @@ class UsersController extends Controller
             try {
                 if ($_POST['password'] != $_POST['conf-password']) {
                     $viewModel->error = 'diff between password and confirm password';
+//                    $this->render($this->escapeAll($viewModel));
                     return new View($this->escapeAll($viewModel));
                 }
-
-
 
                 $username = $_POST['username'];
                 $password = $_POST['password'];
                 $email = $_POST['email'];
                 $cash = null;
 
-
                 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
                     $viewModel->error = "This {$email} email is not valid";
+//                    $this->render($this->escapeAll($viewModel));
                     return new View($this->escapeAll($viewModel));
                 }
 
                 $userRepository = UserRepository::create();
                 if($userRepository->userExists($username)){
                     $viewModel->error = "Username: {$username} already exists";
+//                    $this->render($this->escapeAll($viewModel));
                     return new View($this->escapeAll($viewModel));
                 }
 
                 if($userRepository->emailExists($email)){
                     $viewModel->error = "Email: {$email} already taken";
+//                    $this->render($this->escapeAll($viewModel));
                     return new View($this->escapeAll($viewModel));
                 }
 
-                if (isset($_POST['cash'])) {
+                if (!empty($_POST['cash'])) {
                     $cash = $_POST['cash'];
                     if ($cash < 1 || $cash > 15000) {
                         $viewModel->error = "Initial cash must be in range [1 - 15000] not {$cash}";
+//                        $this->render($this->escapeAll($viewModel));
                         return new View($this->escapeAll($viewModel));
                     }
                 }
@@ -137,22 +196,25 @@ class UsersController extends Controller
                 );
 
                 if ($user->save()) {
-                    header("Location: " . HelpFunctions::generateUrl() . "users/login");
+                    header("Location: " . HelpFunctions::url() . "users/login");
                     exit;
                 }
 
             } catch (\Exception $e){
                 $viewModel->error = $e->getMessage();
+//                $this->render($this->escapeAll($viewModel));
                 return new View($this->escapeAll($viewModel));
             }
         }
 
+//        $this->render();
         return new View();
     }
 
 
     /**
      * @return View
+     * @Admin
      */
     public function login(){
 //        var_dump($_SESSION);
@@ -166,10 +228,12 @@ class UsersController extends Controller
                 $this->initLogin($username, $password);
             } catch (\Exception $e){
                 $viewModel->error = $e->getMessage();
+//                $this->render($this->escapeAll($viewModel));
                 return new View($this->escapeAll($viewModel));
             }
         }
 
+//        $this->render($this->escapeAll($viewModel));
         return new View($this->escapeAll($viewModel));
     }
 
@@ -189,22 +253,14 @@ class UsersController extends Controller
         $_SESSION['username'] = $user->getUsername();
         $_SESSION['user_role'] = $userRole->getRoleName();
         $_SESSION['formToken'] = uniqid(mt_rand(), true);
-        $_SESSION['user_model'] = $user;
+//        $_SESSION['user_model'] = $user;
 
-        header("Location: " . HelpFunctions::generateUrl() . "users/profile");
+        $this->updateCategoriesInJson();
+
+        header("Location: " . HelpFunctions::url() . "users/show");
         die;
     }
 
-//    public function editUser($viewModel){
-//        if(!$this->isLogged()){
-//            header("Location: login");
-//        }
-//
-//        $userModel = new User();
-//        $success = $userModel->editUser($viewModel->userId, $viewModel->username,  $_POST['password']);
-//
-//        return $success;
-//    }
 
     public function logout(){
         session_destroy(); // Delete all data in $_SESSION[]
@@ -215,7 +271,7 @@ class UsersController extends Controller
             $params["secure"], $params["httponly"]
         );
         PartialHeader::clearHeader();
-        header("Location: " . HelpFunctions::generateUrl() . "users/login");
+        header("Location: " . HelpFunctions::url() . "users/login");
         die;
     }
 

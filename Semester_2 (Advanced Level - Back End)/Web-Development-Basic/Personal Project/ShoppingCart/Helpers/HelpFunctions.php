@@ -1,16 +1,23 @@
 <?php
 namespace ShoppingCart\Helpers;
 
+use ShoppingCart\Config\UserConfig;
+
 class HelpFunctions {
     const LOCAL_HOST = 'localhost:6300';
 
 
-    public static function generateUrl(){
-        $self = $_SERVER['PHP_SELF'];
-        $index = basename($self);
-        $directories = str_replace($index, '', $self);
+    /**
+     * @return mixed
+     * @see Return full path of the root directory
+     */
+    public static function getFullBasePath(){
+        $entryPointPath = $_SERVER['SCRIPT_FILENAME'];
+        $basePath = str_replace(UserConfig::ENTRY_POINT,'',$entryPointPath);
+        $basePath = str_replace('/',DIRECTORY_SEPARATOR, $basePath);
+        $basePath = str_replace('\\',DIRECTORY_SEPARATOR, $basePath);
 
-        return $directories;
+        return $basePath;
     }
 
     public static function anchor($controller, $action,  array $parameters, $text){
@@ -42,26 +49,40 @@ class HelpFunctions {
     }
 
 
-    public static function createBuildingsTable (array $models, $link){
+    public static function createCategoryTable (array $models){
         if(!empty($models)){
             $data = '<table border="1">';
 
             $data = $data . "<tr>";
             $columnNames = array_keys($models[0]);
             foreach($columnNames as $value){
-                $data = $data . '<td>' . ucfirst(htmlspecialchars($value)) . '</td>';
+                $data = $data . '<th>' . ucfirst(htmlspecialchars($value)) . '</th>';
             }
-            if($link){
-                $data = $data . '<td></td>';
-            }
+
             $data = $data . "<tr>";
 
             foreach($models as $model){
                 $data = $data . "<tr>";
-                foreach($model as $value){
+
+                foreach($model as $key => $value){
                     $data = $data . '<td>' . htmlspecialchars($value) . '</td>';
                 }
-                $data = $data . "<td>" . HelpFunctions::anchor('users', 'buildings', array($model['building_id']) ,'[Evolve]') . "</td>";
+
+                if(($_SESSION['user_role'] == 'administrator') && $model['isActive'] === '1'){
+
+                    $data = $data . "<td>" . HelpFunctions::anchor('categories', 'edit', array($model['CategoryID'], 'changeActive') ,'[Set UnActive]') . "</td>";
+
+                } else if($_SESSION['user_role'] == 'administrator' && $model['isActive'] === '0'){
+                    $data = $data . "<td>" . HelpFunctions::anchor('categories', 'edit', array($model['CategoryID'], 'changeActive') ,'[Set Active]') . "</td>";
+                }
+
+                if(($_SESSION['user_role'] == 'administrator' || $_SESSION['user_role'] == 'editor') && $model['isDeleted'] === '0'){
+                    $data = $data . "<td>" . HelpFunctions::anchor('categories', 'edit', array($model['CategoryID'], 'changeDelete') ,'[Delete]') . "</td>";
+
+                } else if(($_SESSION['user_role'] == 'administrator' || $_SESSION['user_role'] == 'editor') && $model['isDeleted'] === '1'){
+                    $data = $data . "<td>" . HelpFunctions::anchor('categories', 'edit', array($model['CategoryID'], 'changeDelete') ,'[UnDelete]') . "</td>";
+                }
+
                 $data = $data . "<tr>";
             }
             $data = $data . '</table>';
@@ -80,5 +101,56 @@ class HelpFunctions {
     }
 
 
+    public static function convertCategorieToAsideArray($array){
+        $tempArray = [];
+        foreach($array as $value){
+            $root_name = $value['root_name'];
+            $down1_name = $value['down1_name'];
+            $down2_name = $value['down2_name'];
+            $down3_name = $value['down3_name'];
+
+            if(empty($root_name)){
+                continue;
+            }
+            if(!array_key_exists($root_name, $tempArray)){
+                $tempArray[$root_name] = array();
+            }
+
+            if(empty($down1_name)){
+                continue;
+            }
+            if(!array_key_exists($down1_name, $tempArray[$root_name])){
+                $tempArray[$root_name][$down1_name] = array();
+
+            }
+
+            if(empty($down2_name)){
+                continue;
+            }
+            if(!array_key_exists($down2_name, $tempArray[$root_name][$down1_name])){
+                $tempArray[$root_name][$down1_name][$down2_name] = array();
+
+            }
+
+            if(empty($down3_name)){
+                continue;
+            }
+
+            if(!array_key_exists($down3_name, $tempArray[$root_name][$down1_name][$down2_name])){
+                $tempArray[$root_name][$down1_name][$down2_name][$down3_name] = array();
+            }
+        }
+
+
+        return $tempArray;
+    }
+
+
+    /**
+     * @return bool
+     */
+    public static function isLogged() {
+        return isset($_SESSION['user_id']);
+    }
 
 }
