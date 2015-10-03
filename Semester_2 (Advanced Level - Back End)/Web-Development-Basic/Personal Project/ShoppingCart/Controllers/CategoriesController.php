@@ -34,8 +34,7 @@ class CategoriesController extends Controller{
      */
     public function show(){
         if(!$this->isLogged()){
-            header("Location: " . HelpFunctions::url() . "users/login");
-            exit;
+            $this->redirect('users', 'login');
         }
 
         $categories = CategoryRepository::create()->getCategories();
@@ -58,8 +57,7 @@ class CategoriesController extends Controller{
 
         var_dump($catRepo->getCategoryByName($catName));
         if($catRepo->getCategoryByName($catName)){
-            header("Location: " . HelpFunctions::url() . "categories/add/?error=Category name " . $catName . " already exist!");
-            exit;
+            $this->redirect('categories', 'add', ["?error=Category name " . $catName . " already exist!"]);
         }
 
         $newCategory = new Category($catName,null, $parentId );
@@ -68,8 +66,7 @@ class CategoriesController extends Controller{
             $this->updateCategoriesInJson();
         };
 
-        header("Location: " . HelpFunctions::url() . "categories/add/?success=Category name " . $catName . " added!");
-        exit;
+        $this->redirect('categories', 'add', ["?success=Category name " . $catName . " added!"]);
     }
 
 
@@ -102,8 +99,7 @@ class CategoriesController extends Controller{
      */
     public function edit($cat_id = null, $condition = null){
         if(!$this->isLogged()){
-            header("Location: " . HelpFunctions::url() . "users/login");
-            exit;
+            $this->redirect('users', 'login');
         }
 
         if(!empty($condition) && !empty($cat_id)){
@@ -134,8 +130,7 @@ class CategoriesController extends Controller{
                 }
             }
 
-            header("Location: " . HelpFunctions::url() . "categories/show");
-            exit;
+            $this->redirect('categories', 'show');
         }
 
         $categories = CategoryRepository::create()->getAllCategories();

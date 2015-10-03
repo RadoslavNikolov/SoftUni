@@ -22,21 +22,49 @@ abstract class Controller
      * @param null $view
      * @return View
      */
-    public function render($model = null,$view = null) {
-        if(empty($model) && empty($view)){
-            return new View();
+    public function render($model = null, $view = null) {
 
-        } else if(empty($view)){
-            return new View($model);
+        if(!empty($model) && !empty($view)){
+             return new View($model, $view);
         } else {
-            return new View($model, $view);
+
+            $caller = debug_backtrace()[1];
+            $action = $caller['function'];
+            $token = explode(DIRECTORY_SEPARATOR, strtolower($caller['class']));
+            $controller = strtolower(str_replace('controller', "", array_pop($token)));
+            $target = "" . $controller . "/" . $action;
+
+            return new View($model, $target);
         }
+
+
+
 
 //
 //        return new View($model, $view);
 //        View::initView($model,$view);
     }
 
+    /**
+     * @param null $controller
+     * @param null $action
+     * @param array $params
+     */
+    protected function redirect(
+        $controller = null, $action = null, $params = [])
+    {
+        $uri = $controller ? $controller . '/' : '';
+        $uri .= $action ? $action : '';
+        if (!empty($params)) {
+            $uri .= '/';
+            foreach($params as $param) {
+                $uri .= $param . '/';
+            }
+        }
+
+        header('Location: ' . HelpFunctions::url() . $uri);
+        die;
+    }
 
     /**
      * @param $toEscape

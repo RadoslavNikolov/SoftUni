@@ -14,8 +14,6 @@ use ShoppingCart\View;
 
 class UsersController extends Controller
 {
-
-
     /**
      * @return View
      * @throws \Exception
@@ -24,8 +22,7 @@ class UsersController extends Controller
     public function delete()
     {
         if(!$this->isLogged()){
-            header("Location: " . HelpFunctions::url() . "users/login");
-            exit;
+            $this->redirect('users', 'login');
         }
 
         $user_id = null;
@@ -43,14 +40,12 @@ class UsersController extends Controller
 
         if(isset($_POST['delete'])){
             if($_POST['formToken'] != $_SESSION['formToken']){
-                header("Location: " . HelpFunctions::url() . "users/logout");
-                exit;
+                $this->redirect('users', 'logout');
             }
 
             if($userRepository->login($_SESSION['username'], $_POST['password'])){
                 if ($userRepository->deleteUser($user_id)) {
-                    header("Location: " . HelpFunctions::url() . "users/logout");
-                    exit;
+                    $this->redirect('users', 'logout');
                 }
             }else{
                 $user->setError("Password is incorrect.");
@@ -138,8 +133,7 @@ class UsersController extends Controller
      */
     public function cart($all = null){
         if(!$this->isLogged()){
-            header("Location: " . HelpFunctions::url() . "users/login");
-            exit;
+            $this->redirect('users', 'login');
         }
 
         $userRepository = UserRepository::create();
@@ -221,12 +215,9 @@ class UsersController extends Controller
         );
 
         if ($user->save()) {
-            header("Location: " . HelpFunctions::url() . "users/login");
-            exit;
+            $this->redirect('users', 'login');
         }
-
     }
-
 
     /**
      * @return View
@@ -251,7 +242,6 @@ class UsersController extends Controller
                 $this->initLogin($username, $password);
             } catch (\Exception $e){
                 $viewModel->error = $e->getMessage();
-                return new View($this->escapeAll($viewModel));
             }
         }
 
@@ -295,8 +285,7 @@ class UsersController extends Controller
 
         $this->updateCategoriesInJson();
 
-        header("Location: " . HelpFunctions::url() . "users/show");
-        die;
+        $this->redirect('users', 'show');
     }
 
 
@@ -309,8 +298,6 @@ class UsersController extends Controller
             $params["secure"], $params["httponly"]
         );
         PartialHeader::clearHeader();
-        header("Location: " . HelpFunctions::url() . "users/login");
-        die;
+        $this->redirect('users', 'login');
     }
-
 }
