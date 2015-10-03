@@ -1,6 +1,7 @@
 <?php
 namespace ShoppingCart\Models;
 
+use ShoppingCart\Config\UserConfig;
 use ShoppingCart\Repositories\UserRepository;
 
 class User

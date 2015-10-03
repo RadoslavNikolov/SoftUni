@@ -14,6 +14,9 @@
     <script> amenu.close(false); </script>
     <script> amenu.close(false); </script>
     <script> amenu.close(false); </script>
+    <script> amenu.close(); </script>
+    <script> amenu.close(); </script>
+    <script> amenu.close(); </script>
 </head>
 <body style="padding:20px 6px;margin:0;">
 
@@ -39,53 +42,92 @@
 
 
         <div>
-            <form action="" method="post">
-                <div>
-                    <div>
-                        <label for="username">Username: </label>
-                        <input type="text" id="username" name="username" value="<?= htmlspecialchars($model->getUsername()); ?>"/>
-                        <label for="new-username">New username: </label>
-                        <input type="text" id="new-username" name="new-username" placeholder="enter new user name"/>
-                        <label for="confirm-username">Confirm username: </label>
-                        <input type="text" id="confirm-username" name="confirm-username" placeholder="confirm new user name"/>
-                    </div>
-                    <div>
-                        <label for="email">Email: </label>
-                        <input type="text" id="email" name="email" value="<?= htmlspecialchars($model->getEmail()); ?>"/>
-                        <label for="new-email">New email: </label>
-                        <input type="text" id="new-email" name="new-email" placeholder="enter new email"/>
-                        <label for="confirm-email">Confirm new email: </label>
-                        <input type="text" id="confirm-email" name="confirm-email" placeholder="confirm new email"/>
-                    </div>
-<!--                    <div>-->
-<!--                        <label for="password">Change Password: </label>-->
-<!--                        <input type="password" id="password" name="password" placeholder="enter new password" "/>-->
-<!--                        <label for="confirm-password">Confirm password: </label>-->
-<!--                        <input type="password" id="confirm-password" name="confirm-password" placeholder="confirm new password"/>-->
-<!--                    </div>-->
-                    <div>
-                        <input type="submit" name="edit" value="Edit"/>
-                        <input type="hidden" name="formToken" value="<?= htmlspecialchars($_SESSION['formToken'])?>">
-                    </div>
-                </div>
-            </form>
+            <?php
+                $token = htmlspecialchars($_SESSION['formToken']);
+                $username = htmlspecialchars($model->getUsername());
+                $email =  htmlspecialchars($model->getEmail());
+            ?>
+
+            <?=
+            \ShoppingCart\Helpers\FormViewHelper::init()
+                ->initForm()
+                    ->setAttribute('action', '')
+                    ->setAttribute('method', 'post')
+                    ->create()
+                ->initLabel()
+                    ->setAttribute('for', 'username')
+                    ->setContent('User name: ')
+                    ->create()
+                ->initTextBox()
+                    ->setName('username')
+                    ->setAttribute('id', 'username')
+                    ->setAttribute('value', "{$username}")
+                    ->setNewLine()
+                    ->create()
+                ->initLabel()
+                    ->setAttribute('for', 'new-username')
+                    ->setContent('New username: ')
+                    ->create()
+                ->initTextBox()
+                    ->setName('new-username')
+                    ->setAttribute('id', 'new-username')
+                    ->setAttribute('placeholder', "enter new user name")
+                    ->setNewLine()
+                    ->create()
+                ->initLabel()
+                    ->setAttribute('for', 'confirm-username')
+                    ->setContent('Confirm username: ')
+                    ->create()
+                ->initTextBox()
+                    ->setName('confirm-username')
+                    ->setAttribute('id', 'confirm-username')
+                    ->setAttribute('placeholder', "confirm new user name")
+                    ->setNewLine()
+                    ->create()
+                ->initLabel()
+                    ->setAttribute('for', 'email')
+                    ->setContent('Email: ')
+                    ->create()
+                ->initTextBox()
+                    ->setName('email')
+                    ->setAttribute('id', 'email')
+                    ->setAttribute('value', "{$email}")
+                    ->setNewLine()
+                    ->create()
+                ->initLabel()
+                    ->setAttribute('for', 'new-email')
+                    ->setContent('New email: ')
+                    ->create()
+                ->initEmailBox()
+                    ->setName('new-email')
+                    ->setAttribute('id', 'new-email')
+                    ->setAttribute('placeholder', "enter new email")
+                    ->setNewLine()
+                    ->create()
+                ->initLabel()
+                    ->setAttribute('for', 'confirm-email')
+                    ->setContent('Confirm new email: ')
+                    ->create()
+                ->initEmailBox()
+                    ->setName('confirm-email')
+                    ->setAttribute('id', 'confirm-email')
+                    ->setAttribute('placeholder', "confirm new email")
+                    ->setNewLine()
+                    ->create()
+                ->initSubmit()
+                    ->setName('edit')
+                    ->setValue('Edit')
+                    ->setNewLine()
+                    ->create()
+                ->initHiddenBox()
+                    ->setName('formToken')
+                    ->setAttribute('value', "{$token}")
+                    ->setNewLine()
+                    ->create()
+                ->render();
+            ?>
+
         </div>
-
-
-        <?=
-
-        \ShoppingCart\Helpers\FormViewHelper::init()
-            ->initTextBox()
-                ->setName('username')
-                ->setValue('pesho')
-                ->setAttribute('class', 'field-green')
-                ->create()
-            ->initPasswordBox()
-                ->setName('password')
-                ->setAttribute('id', 'input-pass')
-                ->create()
-            ->render();
-        ?>
 
         <div>
             <?php echo \ShoppingCart\Helpers\HelpFunctions::anchor('users', 'logout', [], '[Logout]')?>

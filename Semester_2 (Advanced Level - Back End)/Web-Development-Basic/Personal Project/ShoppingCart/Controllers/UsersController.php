@@ -1,14 +1,13 @@
 <?php
 namespace ShoppingCart\Controllers;
 
-use ShoppingCart\Config\UserConfig;
 use ShoppingCart\Helpers\HelpFunctions;
 use ShoppingCart\Helpers\Partials\PartialHeader;
-use ShoppingCart\Repositories\CategoryRepository;
+use ShoppingCart\Models\BindingModels\RegisterBindingModel;
+use ShoppingCart\Models\Cart;
+use ShoppingCart\Repositories\CartRepository;
 use ShoppingCart\Repositories\UserRepository;
-use ShoppingCart\ViewModels\CategoriesViewModel;
 use ShoppingCart\ViewModels\LoginInformation;
-use ShoppingCart\ViewModels\ProfileInformation;
 use ShoppingCart\ViewModels\RegisterInformation;
 use ShoppingCart\Models\User;
 use ShoppingCart\View;
@@ -84,6 +83,17 @@ class UsersController extends Controller
 
         if(isset($_POST['edit'])){
 
+            if(empty($_POST['new-username']) &&
+                empty($_POST['confirm-username']) &&
+                empty($_POST['new-email']) &&
+                empty($_POST['confirm-email'])
+            ){
+                $user->setError("All fields are empty");
+//                    $this->render($this->escapeAll($user), "profile/edit");
+                return new View("profile/edit", $this->escapeAll($user));
+            }
+
+
             if (isset($_POST['new-username']) && (!empty($_POST['new-username']) || !empty($_POST['confirm-username']))) {
 
                 if($_POST['new-username'] != $_POST['confirm-username'] || empty($_POST['new-username'])){
@@ -114,13 +124,34 @@ class UsersController extends Controller
             }
 
             $user->save();
-
-//
         }
 
         return new View("profile/edit", $this->escapeAll($user));
     }
 
+
+    /**
+     * @Authorize
+     * @param null $all
+     * @return View
+     * @throws \Exception
+     */
+    public function cart($all = null){
+        if(!$this->isLogged()){
+            header("Location: " . HelpFunctions::url() . "users/login");
+            exit;
+        }
+
+        $userRepository = UserRepository::create();
+        if(empty($all)){
+            $user = $userRepository->getUserById($_SESSION['user_id']);
+        }else {
+            $user = $userRepository->getUserById($_SESSION['user_id'], true);
+        }
+
+
+        return new View($this->escapeAll($user));
+    }
 
     /**
      * @Route("users/penka/show")
@@ -140,84 +171,76 @@ class UsersController extends Controller
         return new View($this->escapeAll($user));
     }
 
+    /**
+     * @param \ShoppingCart\Models\BindingModels\RegisterBindingModel $model
+     * @Route("users/register/post")
+     * @return View
+     */
+    public function post(RegisterBindingModel $model){
+        $viewModel = new RegisterInformation();
+        $username = $model->getUsername();
+        $password = $model->getPassword();
+        $confPassword = $model->getConfPassword();
+        $email = $model->getEmail();
+        $cash = $model->getCash();
+
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $viewModel->error = "This {$email} email is not valid";
+            return new View("users/register", $this->escapeAll($viewModel));
+        }
+
+        $userRepository = UserRepository::create();
+
+        if($userRepository->userExists($username)){
+            $viewModel->error = "Username: {$username} already exists";
+            return new View("users/register", $this->escapeAll($viewModel));
+        }
+
+        if($userRepository->emailExists($email)){
+            $viewModel->error = "Email: {$email} already taken";
+            return new View("users/register", $this->escapeAll($viewModel));
+        }
+
+        if($password != $confPassword){
+            $viewModel->error = "There is diff between password and confirm password";
+            return new View("users/register", $this->escapeAll($viewModel));
+        }
+
+        if ($cash) {
+            if ($cash < 1 || $cash > 15000) {
+                $viewModel->error = "Initial cash must be in range [1 - 15000] not {$cash}";
+                return new View("users/register", $this->escapeAll($viewModel));
+            }
+        }
+
+        $user = new User(
+            $username,
+            $email,
+            $password,
+            $cash
+        );
+
+        if ($user->save()) {
+            header("Location: " . HelpFunctions::url() . "users/login");
+            exit;
+        }
+
+    }
+
 
     /**
      * @return View
      */
     public function register(){
         $viewModel = new RegisterInformation();
-
-        if (isset($_POST['username'], $_POST['password'], $_POST['email'], $_POST['conf-password'])) {
-            try {
-                if ($_POST['password'] != $_POST['conf-password']) {
-                    $viewModel->error = 'diff between password and confirm password';
-//                    $this->render($this->escapeAll($viewModel));
-                    return new View($this->escapeAll($viewModel));
-                }
-
-                $username = $_POST['username'];
-                $password = $_POST['password'];
-                $email = $_POST['email'];
-                $cash = null;
-
-                if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                    $viewModel->error = "This {$email} email is not valid";
-//                    $this->render($this->escapeAll($viewModel));
-                    return new View($this->escapeAll($viewModel));
-                }
-
-                $userRepository = UserRepository::create();
-                if($userRepository->userExists($username)){
-                    $viewModel->error = "Username: {$username} already exists";
-//                    $this->render($this->escapeAll($viewModel));
-                    return new View($this->escapeAll($viewModel));
-                }
-
-                if($userRepository->emailExists($email)){
-                    $viewModel->error = "Email: {$email} already taken";
-//                    $this->render($this->escapeAll($viewModel));
-                    return new View($this->escapeAll($viewModel));
-                }
-
-                if (!empty($_POST['cash'])) {
-                    $cash = $_POST['cash'];
-                    if ($cash < 1 || $cash > 15000) {
-                        $viewModel->error = "Initial cash must be in range [1 - 15000] not {$cash}";
-//                        $this->render($this->escapeAll($viewModel));
-                        return new View($this->escapeAll($viewModel));
-                    }
-                }
-
-                $user = new User(
-                    $username,
-                    $email,
-                    $password,
-                    $cash
-                );
-
-                if ($user->save()) {
-                    header("Location: " . HelpFunctions::url() . "users/login");
-                    exit;
-                }
-
-            } catch (\Exception $e){
-                $viewModel->error = $e->getMessage();
-//                $this->render($this->escapeAll($viewModel));
-                return new View($this->escapeAll($viewModel));
-            }
-        }
-
-//        $this->render();
-        return new View();
+        return new View($this->escapeAll($viewModel));
     }
-
 
     /**
      * @return View
      * @Admin
      */
     public function login(){
-//        var_dump($_SESSION);
         $viewModel = new LoginInformation();
 
         if (isset($_POST['username'], $_POST['password'])) {
@@ -228,12 +251,10 @@ class UsersController extends Controller
                 $this->initLogin($username, $password);
             } catch (\Exception $e){
                 $viewModel->error = $e->getMessage();
-//                $this->render($this->escapeAll($viewModel));
                 return new View($this->escapeAll($viewModel));
             }
         }
 
-//        $this->render($this->escapeAll($viewModel));
         return new View($this->escapeAll($viewModel));
     }
 
@@ -245,15 +266,32 @@ class UsersController extends Controller
      */
     private function initLogin($username, $password){
         $userRepository = UserRepository::create();
-
         $user = $userRepository->login($username, $password);
         $userRole = $userRepository->getUserRole($user->getRoleId());
+        $userCart = CartRepository::create()->getCarts(false,false,$user->getUserId());
+
+        if(empty($userCart)){
+
+            $cart = new Cart(
+                $user->getUserId()
+            );
+
+            if($cart->save()){
+                $userCart = CartRepository::create()->getCarts(false,false,$user->getUserId());
+                $user->setCarts($userCart);
+            }
+        } else {
+            $user->setCarts($userCart);
+
+        }
+
+//        var_dump($user);
+//        die;
 
         $_SESSION['user_id'] = $user->getUserId();
         $_SESSION['username'] = $user->getUsername();
         $_SESSION['user_role'] = $userRole->getRoleName();
         $_SESSION['formToken'] = uniqid(mt_rand(), true);
-//        $_SESSION['user_model'] = $user;
 
         $this->updateCategoriesInJson();
 

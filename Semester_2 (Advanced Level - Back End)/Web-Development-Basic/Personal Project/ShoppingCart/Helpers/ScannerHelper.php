@@ -128,7 +128,7 @@ class ScannerHelper {
         }
     }
 
-    private static function docBlockParser($data){
+    public static function docBlockParser($data){
         preg_match_all('/(@\w+)(.*)\r?\n/', $data, $matches);
         foreach($matches[0] as &$match){
             $match = trim(preg_replace('/\s\s+/', '', $match));

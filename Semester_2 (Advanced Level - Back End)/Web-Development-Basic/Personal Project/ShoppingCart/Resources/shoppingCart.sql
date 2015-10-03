@@ -6,10 +6,10 @@ CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 USE `shopping_cart`;
 
 -- Drop all existing Sales tables, so that we can create them
-DROP TABLE IF EXISTS `users`;
 DROP TABLE IF EXISTS `roles`;
-DROP TABLE IF EXISTS `carts`;
 DROP TABLE IF EXISTS `categories`;
+DROP TABLE IF EXISTS `users`;
+DROP TABLE IF EXISTS `carts`;
 DROP TABLE IF EXISTS `products`;
 DROP TABLE IF EXISTS `cart_products`;
 
@@ -86,6 +86,8 @@ CREATE TABLE carts (
   user_id int(11) NOT NULL,
   isCheckout boolean NOT NULL default 0,
   isDeleted boolean NOT NULL,
+  checkout_date datetime NULL,
+  total numeric(15,3) NULL,
   PRIMARY KEY (cart_id),
   CONSTRAINT FK_Carts_Users FOREIGN KEY(user_id) REFERENCES users (user_id)
 ) ENGINE=INNODB DEFAULT CHARSET=utf8;

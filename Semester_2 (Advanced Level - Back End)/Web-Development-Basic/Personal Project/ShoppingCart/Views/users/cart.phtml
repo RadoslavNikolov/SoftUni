@@ -10,16 +10,17 @@
     <link rel="stylesheet" href="<?=\ShoppingCart\Helpers\HelpFunctions::url()?>Styles/accordionmenu.css" type="text/css" />
     <script src="<?=\ShoppingCart\Helpers\HelpFunctions::url()?>JS/ddmenu.js" type="text/javascript"></script>
     <script src="<?=\ShoppingCart\Helpers\HelpFunctions::url()?>JS/accordionmenu.js" type="text/javascript"></script>
-<!--    <script>function toggleSearch() {-->
-<!--            var searchDiv = document.getElementById("search-block");-->
-<!--            searchDiv.className = searchDiv.className == "show" ? "" : "show";}-->
-<!--    </script>-->
+    <!--    <script>function toggleSearch() {-->
+    <!--            var searchDiv = document.getElementById("search-block");-->
+    <!--            searchDiv.className = searchDiv.className == "show" ? "" : "show";}-->
+    <!--    </script>-->
+    <script> amenu.close(false); </script>
+    <script> amenu.close(false); </script>
+    <script> amenu.close(false); </script>
     <script> amenu.close(); </script>
     <script> amenu.close(); </script>
     <script> amenu.close(); </script>
-    <script> amenu.close(); </script>
-    <script> amenu.close(); </script>
-    <script> amenu.close(); </script>
+    <!--    <script> amenu.open("li22", false); amenu.open("li31", false); </script>-->
 </head>
 <body style="padding:20px 6px;margin:0;">
 
@@ -35,28 +36,10 @@
     <div class="wrapper">
         <?= $model->isError() ? $model->isError() : ''; ?>
         <?= $model->isSuccess() ? $model->isSuccess() : ''; ?>
-        <h1>Hello, <?= htmlspecialchars($model->getUsername()); ?></h1>
-
-        <h3>
-            Profile Info:
-            <p>Email: <?= $model->getEmail(); ?></p>
-            <p>Cash: <?= $model->getCash(); ?></p>
-        </h3>
+        <h1>Customer Cart</h1>
 
         <div>
-            <?=
-             \ShoppingCart\Helpers\FormViewHelper::init()
-                ->initTextBox()
-                ->setName('username')
-                ->setValue('pesho')
-                ->setAttribute('class', 'field-green')
-                ->create()
-                ->initPasswordBox()
-                ->setName('password')
-                ->setAttribute('id', 'input-pass')
-                ->create()
-                ->render();
-            ?>
+            <?php var_dump($model)?>
         </div>
 
         <div>
@@ -65,22 +48,9 @@
 
         <div>
 
-            <?php
-
-
-            ?>
-
         </div>
-
-
     </div>
 </main>
-
-
-
-
-
-
 
 </body>
 </html>

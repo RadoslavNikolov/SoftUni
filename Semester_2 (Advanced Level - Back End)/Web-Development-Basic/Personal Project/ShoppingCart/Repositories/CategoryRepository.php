@@ -56,19 +56,19 @@ class CategoryRepository{
         ];
 
         if(!is_null($cat_id)){
-            $query .= "WHERE root.cat_id = ?";
+            $query .= " WHERE root.cat_id = ?";
 
             $params[] = $cat_id;
         }
 
         if(!is_null($isDeleted)){
-            $query .= "WHERE root.isDeleted = ?";
+            $query .= " WHERE root.isDeleted = ?";
 
             $params[] = $isDeleted;
         }
 
         if(!is_null($isActive)){
-            $query .= "WHERE root.isActive = ?";
+            $query .= " WHERE root.isActive = ?";
 
             $params[] = $isActive;
         }
@@ -80,6 +80,8 @@ class CategoryRepository{
 
         return $result->fetchAll();
     }
+
+
 
     public function getNestedCategories(){
         $query = "
@@ -108,6 +110,30 @@ class CategoryRepository{
     }
 
 
+    public function getCategoryByName($catName){
+        $query = "
+        SELECT cat.cat_id as cat_id,
+              cat.cat_name as cat_name,
+              cat.parent_id as parent_id,
+              cat.isActive as isActive,
+              cat.isDeleted as isDeleted
+        FROM categories as cat
+        WHERE cat.cat_name = ?";
+
+        $params = [
+            $catName
+        ];
+
+        $result = $this->db->prepare($query);
+        $result->execute($params);
+        $categoryRow = $result->fetch();
+
+        if(!$categoryRow){
+            return false;
+        }
+
+        return $this->getCategoryModel($categoryRow);
+    }
 
     public function getCategoryById($cat_id){
         $query = "
@@ -171,10 +197,10 @@ class CategoryRepository{
         $result = $this->db->prepare($query);
         $result->execute($params);
 
-//        var_dump($result->getError());
-
         return $result->fetchAll();
     }
+
+
 
 
     public function save(Category $category)

@@ -4,6 +4,8 @@ namespace ShoppingCart\Routers;
 use ShoppingCart\Config\ApplicationConfig;
 use ShoppingCart\Config\UserConfig;
 use ShoppingCart\Helpers\HelpFunctions;
+use ShoppingCart\Helpers\ScannerHelper;
+use ShoppingCart\Repositories\UserRepository;
 
 class Router implements IRouter{
     private $controller = null;
@@ -35,11 +37,19 @@ class Router implements IRouter{
         $this->requestParams = $requestParams;
 
 
+
+
         //Check for custom Route
         $this->checkCustomRoute($requestString);
 
         //Check for @Authorize and @Admin annotations
         $this->checkAnnotations();
+
+        //Check binding model
+        if($_SERVER['REQUEST_METHOD'] == 'POST'){
+            $this->checkBindingModel();
+        }
+
 
     }
 
@@ -91,6 +101,68 @@ class Router implements IRouter{
                 $this->controller = $controller;
             }
         }
+    }
+
+
+    private function checkBindingModel(){
+        $controller = ApplicationConfig::CONTROLLERS_NAMESPACE
+            . ucfirst($this->getControllerName())
+            . ApplicationConfig::CONTROLLERS_SUFFIX;
+
+        $reflector = new \ReflectionClass($controller);
+        $method = $reflector->getMethod($this->action);
+
+        if(!$method->getParameters()){
+            return;
+        }
+
+        $param = $method->getParameters()[0];
+
+        //If argument type is interface not class return
+        if(interface_exists($param->getClass()->name, false)){
+            return;
+        }
+
+        //If not exist class such as argument type return
+        if(!class_exists($param->getClass()->name, false)){
+
+        }
+
+        $paramReflectorClass = new \ReflectionClass($param->getClass()->getName());
+        $bindingModelName = $paramReflectorClass->getName();
+        $bindingModel = new $bindingModelName();
+        $paramClassFields = $paramReflectorClass->getProperties();
+
+        foreach($paramClassFields as $field) {
+
+            $doc = $field->getDocComment();
+            $annotation = ScannerHelper::docBlockParser($doc);
+            $fieldName = $field->getName();
+
+            $setter = 'set' . $field->getName();
+
+            if(!empty($annotation)){
+                if (strtolower($annotation[0]) == '@require') {
+
+                    if (!isset($_POST[$fieldName])) {
+                        $setter = 'set' . $field->getName();
+                        $bindingModel->$setter("{$fieldName} is required");
+                        continue;
+                    }
+
+                    $setter = 'set' . $field->getName();
+                    $bindingModel->$setter($_POST[$fieldName]);
+
+                } else {
+
+                    if (isset($_POST[$fieldName])) {
+                        $bindingModel->$setter($_POST[$fieldName]);
+                    }
+                }
+            }
+        }
+
+        $this->requestParams = array($bindingModel);
     }
 
     private function checkAnnotations()

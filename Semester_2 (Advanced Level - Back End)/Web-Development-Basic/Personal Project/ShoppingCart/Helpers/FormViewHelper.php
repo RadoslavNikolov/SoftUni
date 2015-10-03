@@ -133,12 +133,26 @@ class FormViewHelper
     /**
      * @return $this
      */
+    public static function initEmailBox(){
+        self::$tag = 'input';
+        self::$elementType = 'email';
+        return self::$_instance;
+    }
+
+    /**
+     * @return $this
+     */
     public static function initPasswordBox(){
         self::$tag = 'input';
         self::$elementType = 'password';
         return self::$_instance;
     }
 
+
+    public static function insertIntoForm($code){
+        self::$elements .= $code;
+        return self::$_instance;
+    }
 
     /**
      * @return $this

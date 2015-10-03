@@ -1,3 +1,5 @@
+<?php  /** @var \ShoppingCart\ViewModels\RegisterInformation $model */ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,21 +17,77 @@
 <body style="padding:20px 6px;margin:0;">
 
 <?php echo \ShoppingCart\Helpers\Partials\PartialHeader::create()?>
+<div>
+    <h1><?= $model->error ? $model->error : ''; ?></h1>
+</div>
 
 <h1>Register form</h1>
-<form action="" method="post">
-    <label for="username">User name: </label>
-    <input type="text" name="username" id="username" required="true"/><br>
-    <label for="password">Password: </label>
-    <input type="password" name="password" id="password" required="true"/><br>
-    <label for="conf-password">Confirm password: </label>
-    <input type="password" name="conf-password" id="conf-password" required="true"/><br>
-    <label for="email">Email: </label>
-    <input type="email" name = "email" id="email" required="true"/><br>
-    <label for="cash">Cash: </label>
-    <input type="number"name="cash" id="cash" min="1" max="15000"/><br>
-    <input type="submit" value="Register"/>
-</form>
+<div>
+    <?=
+    \ShoppingCart\Helpers\FormViewHelper::init()
+        ->initForm()
+            ->setAttribute('action', \ShoppingCart\Helpers\HelpFunctions::url() . "users/register/post")
+            ->setAttribute('method', 'post')
+            ->create()
+        ->initLabel()
+            ->setAttribute('for', 'username')
+            ->setContent('User name: ')
+            ->create()
+        ->initTextBox()
+            ->setName('username')
+            ->setAttribute('id', 'username')
+            ->setAttribute('required', 'true')
+            ->setNewLine()
+            ->create()
+        ->initLabel()
+            ->setAttribute('for', 'password')
+            ->setContent('Password: ')
+            ->create()
+        ->initPasswordBox()
+            ->setName('password')
+            ->setAttribute('id', 'password')
+            ->setAttribute('required', 'true')
+            ->setNewLine()
+            ->create()
+        ->initLabel()
+            ->setAttribute('for', 'confPassword')
+            ->setContent('Confirm password: ')
+            ->create()
+        ->initPasswordBox()
+            ->setName('confPassword')
+            ->setAttribute('id', 'confPassword')
+            ->setAttribute('required', 'true')
+            ->setNewLine()
+            ->create()
+        ->initLabel()
+            ->setAttribute('for', 'email')
+            ->setContent('Email: ')
+            ->create()
+        ->initEmailBox()
+            ->setName('email')
+            ->setAttribute('id', 'email')
+            ->setAttribute('required', 'true')
+            ->setNewLine()
+            ->create()
+
+        ->initLabel()
+            ->setAttribute('for', 'cash')
+            ->setContent('Cash: ')
+            ->create()
+        ->initNumberBox()
+            ->setName('cash')
+            ->setAttribute('id', 'cash')
+            ->setAttribute('min', '1')
+            ->setAttribute('max', '15000')
+            ->setNewLine()
+            ->create()
+        ->initSubmit()
+            ->setValue('Register')
+            ->setNewLine()
+            ->create()
+        ->render();
+    ?>
+</div>
 
 <div>
     <?php echo \ShoppingCart\Helpers\HelpFunctions::anchor('users', 'login', [], '[Login]')?>

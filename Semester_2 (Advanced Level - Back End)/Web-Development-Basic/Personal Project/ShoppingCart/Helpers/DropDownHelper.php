@@ -30,7 +30,7 @@ class DropDownHelper {
                     $this->options = " selected";
                 }
             }
-            $this->options .= "value={$model[$valueKey]}>" . $model[$valueContent] . "</option>\n";
+            $this->options .= " value=\"{$model[$valueKey]}\">" . $model[$valueContent] . "</option>\n";
         }
 
         return $this;
@@ -43,7 +43,7 @@ class DropDownHelper {
         }
         $output .= ">\n";
         $output .= $this->options;
-        $output .= "</select>";
+        $output .= "</select></br>";
 
         return $output;
     }

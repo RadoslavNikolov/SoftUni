@@ -80,9 +80,9 @@ class PartialHeader {
                                         <div class="column">
                                             <h3>Categories Menu</h3>';
 
+            $code = $code . HelpFunctions::anchor('categories', 'add', [], 'Add Category');
             $code = $code . HelpFunctions::anchor('categories', 'edit', [], 'Edit Category');
             $code = $code . HelpFunctions::anchor('categories', 'show', [], 'Delete Category');
-
             $code = $code . "</div>
                 </div>
             </div>
@@ -113,19 +113,18 @@ class PartialHeader {
         //End drop down menu "Profile"
 
         //Start drop down menu "Cart"
-        $code = $code  . '<li>
+        if($role == 'customer'){
+            $code = $code  . '<li>
                             <span class="top-heading">Cart</span>
                             <i class="caret"></i>
                             <div class="dropdown">
                                 <div class="dd-inner">
                                     <div class="column">
                                         <h3>Cart Menu</h3>';
-        if($role == 'customer' || $role == 'editor'){
             $code = $code . HelpFunctions::anchor('users', 'cart', [], 'Get Cart');
-            $code = $code . HelpFunctions::anchor('users', 'cart', ['all'], 'Get All Ny Carts');
-        } else {
-            $code = $code . HelpFunctions::anchor('admin', 'carts', [], 'Get users carts');
+            $code = $code . HelpFunctions::anchor('users', 'cart', ['all'], 'Get All My Carts');
         }
+
 
         $code = $code . "</div>
                 </div>

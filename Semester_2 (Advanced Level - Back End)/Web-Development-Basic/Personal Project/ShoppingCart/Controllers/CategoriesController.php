@@ -4,10 +4,15 @@ namespace ShoppingCart\Controllers;
 
 use ShoppingCart\Helpers\HelpFunctions;
 use ShoppingCart\Helpers\Partials\PartialAside;
+use ShoppingCart\Models\BindingModels\CategoryAddBindingModel;
+use ShoppingCart\Models\BindingModels\CategoryBindingModel;
+use ShoppingCart\Models\BindingModels\RegisterBindingModel;
+use ShoppingCart\Models\Category;
 use ShoppingCart\Repositories\CategoryRepository;
 use ShoppingCart\Repositories\UserRepository;
 use ShoppingCart\View;
 use ShoppingCart\ViewModels\CategoriesViewModel;
+use ShoppingCart\ViewModels\RegisterInformation;
 
 class CategoriesController extends Controller{
 
@@ -36,10 +41,57 @@ class CategoriesController extends Controller{
         $categories = CategoryRepository::create()->getCategories();
         $viewModel = new CategoriesViewModel($categories);
 
-//        $this->render($this->escapeAll($user));
         return new View($this->escapeAll($viewModel));
     }
 
+
+
+    /**
+     * @param \ShoppingCart\Models\BindingModels\CategoryBindingModel $model
+     * @Route("categories/add/post")
+     * @return View
+     */
+    public function post(CategoryBindingModel $model){
+        $catName = $model->getCategoryname();
+        $parentId = !intval($model->getParentid()) ? null : intval($model->getParentid());
+        $catRepo = CategoryRepository::create();
+
+        var_dump($catRepo->getCategoryByName($catName));
+        if($catRepo->getCategoryByName($catName)){
+            header("Location: " . HelpFunctions::url() . "categories/add/?error=Category name " . $catName . " already exist!");
+            exit;
+        }
+
+        $newCategory = new Category($catName,null, $parentId );
+        if($newCategory->save()){
+            PartialAside::clearAside();
+            $this->updateCategoriesInJson();
+        };
+
+        header("Location: " . HelpFunctions::url() . "categories/add/?success=Category name " . $catName . " added!");
+        exit;
+    }
+
+
+
+    public function add(){
+        if(!$this->isLogged()){
+            header("Location: " . HelpFunctions::url() . "users/login");
+            exit;
+        }
+
+        $categories = CategoryRepository::create()->getAllCategories();
+
+        $categories = array_map(function($a){
+            return array(
+                'id' => $a['cat_id'],
+                'name' => $a['cat_name']);
+        }, $categories);
+
+        $viewModel = new CategoriesViewModel($categories);
+
+        return new View($this->escapeAll($viewModel));
+    }
 
     /**
      * @param null $cat_id
@@ -87,13 +139,15 @@ class CategoriesController extends Controller{
         }
 
         $categories = CategoryRepository::create()->getAllCategories();
-        $categories = array_map(function($v){
-            return $v['cat_name'];
+
+        $categories = array_map(function($a){
+            return array(
+                'id' => $a['cat_id'],
+                'name' => $a['cat_name']);
         }, $categories);
 
         $viewModel = new CategoriesViewModel($categories);
 
-//        $this->render($this->escapeAll($user));
         return new View($this->escapeAll($viewModel));
     }
 }

@@ -5,6 +5,7 @@ namespace ShoppingCart\Repositories;
 use ShoppingCart\Config\DatabaseConfig;
 use ShoppingCart\Core\Database;
 //use ShoppingCart\Models\Cart;
+use ShoppingCart\Models\Cart;
 use ShoppingCart\Models\Role;
 use ShoppingCart\Models\User;
 //use ShoppingCart\Models\Product;
@@ -60,7 +61,7 @@ class UserRepository
      */
     public function emailExists($email){
         $result = $this->db->prepare("
-            SELECT user_id FROM users WHERE email = ? isDeleted = FALSE");
+            SELECT user_id FROM users WHERE email = ? AND isDeleted = FALSE");
         $result->execute([$email]);
 
         return $result->rowCount() > 0;
@@ -174,7 +175,16 @@ class UserRepository
 //        return false;
 //    }
 //
-    public function getUserById($userId)
+
+    /**
+     * @param $userId
+     * @param null $allCarts
+     * @return User
+     * @throws \Exception
+     * @see If there is second argument set, will return user with all carts
+     * @see If not will return just active cart(not deleted and not checkouted)
+     */
+    public function getUserById($userId, $allCarts = null)
     {
         $result = $this->db->prepare("
             SELECT
@@ -190,8 +200,32 @@ class UserRepository
         }
 
         $userRow = $result->fetch();
+        $user = $this->getUserModel($userRow);
 
-        return $this->getUserModel($userRow);
+
+
+        if(empty($allCarts)){
+            $userCarts = CartRepository::create()->getCarts(false,false,$user->getUserId());
+
+        } else {
+            $userCarts = CartRepository::create()->getCarts(null, null, $user->getUserId());
+        }
+
+        if(!$userCarts){
+            echo 'tuk';
+            $cart = new Cart(
+                $user->getUserId()
+            );
+
+            if($cart->save()){
+                $userCarts = CartRepository::create()->getCarts(false,false,$user->getUserId());
+                $user->setCarts($userCarts);
+            }
+        } else {
+            $user->setCarts($userCarts);
+        }
+
+        return $user;
     }
 
 
@@ -246,7 +280,7 @@ class UserRepository
     {
         $query = "
             INSERT INTO users (username, email, password, cash, role_id, isActive, isDeleted)
-            VALUES (?, ?, ?, ?, ?, ? , ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
         ";
         $params = [
             $user->getUsername(),

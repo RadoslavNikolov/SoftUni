@@ -36,24 +36,57 @@
     <div class="wrapper">
         <?= $model->isError() ? $model->isError() : ''; ?>
         <?= $model->isSuccess() ? $model->isSuccess() : ''; ?>
-        <h1>List categories</h1>
+        <?= isset($_GET) ? reset($_GET) : ''?>
+        <h1>Add product category</h1>
         <?php
         ?>
 
-        <div >
-            <?= \ShoppingCart\Helpers\DropDownHelper::create()
-                ->addAttribute('name', 'categories')
-                ->addAttribute('id', 'categories')
-                ->setContent($model->getCategories(), 'id', 'name', 'name')
-                ->setDefaultOption("--Categories--")
-                ->render();
+        <?php $selectCode = \ShoppingCart\Helpers\DropDownHelper::create()
+            ->addAttribute('name', 'parentid')
+            ->addAttribute('id', 'parentid')
+            ->setContent($model->getCategories(), 'id', 'name', 'name')
+            ->setDefaultOption("--Categories--")
+            ->render(); ?>
 
 
-
-
-
-//            ?>
+        <div ><span><strong>Existing categories:  </strong></span>
+            <?= $selectCode ?>
         </div>
+        </br>
+
+
+
+        <div>
+            <?=
+            \ShoppingCart\Helpers\FormViewHelper::init()
+                ->initForm()
+                    ->setAttribute('action', \ShoppingCart\Helpers\HelpFunctions::url() . "categories/add/post")
+                    ->setAttribute('method', 'post')
+                    ->create()
+                ->initLabel()
+                    ->setAttribute('for', 'categoryname')
+                    ->setContent('Category name: ')
+                    ->create()
+                ->initTextBox()
+                    ->setName('categoryname')
+                    ->setAttribute('id', 'categoryname')
+                    ->setAttribute('required', 'true')
+                    ->setNewLine()
+                    ->create()
+                ->initLabel()
+                    ->setAttribute('for', 'categories')
+                    ->setContent('Parent name: ')
+                    ->create()
+                ->insertIntoForm("{$selectCode}")
+
+                ->initSubmit()
+                ->setValue('Add')
+                ->setNewLine()
+                ->create()
+                ->render();
+            ?>
+        </div>
+
 
         <div>
             <?= \ShoppingCart\Helpers\HelpFunctions::anchor('users', 'logout', [], '[Logout]')?>
