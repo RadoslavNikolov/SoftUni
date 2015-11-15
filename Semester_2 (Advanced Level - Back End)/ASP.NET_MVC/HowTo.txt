@@ -1,0 +1,160 @@
+https://visualstudiogallery.msdn.microsoft.com/f27f5495-3987-4e0f-8ce3-9a95efc05ce0  ---  Restart VS2013 extension
+
+
+
+1.Create WebApi (MVC) prject with individual authentication
+
+2.Update packages in Package Manager Console  -  "update-package"
+
+3.Clear app
+	Views/Home - About + Contact.cshtml 
+
+
+4. От IdentityModels(папка Models in App проекта) се кътва ApplicationUser класа и се мести в Models проекта.
+
+5. В Models проекта се инсталират:
+	Microsoft.ASP.NET Identity EntityFramework
+Ако предишното не инсталира Entity Framework пакета, трябва да се инсталира.
+
+6. Горната точка се повтаря и за Data проекта.
+
+7. От IdentityModels(папка Models in App проекта) се кътва ApplicationDbContext класа и се мести в Data проекта със същото име.
+
+8. Оправяне на референциите. 
+	Data проекта знае за Models.
+	App проекта знае за Data и Models
+	Да се внимава да не се направи Circular reference
+
+9. Преименуваме ApplicationUser на User, ако искаме.
+
+10. Прави се Build на solution-a. Ще се появвят много грешки за липсващ ApplicationUser. Заменя се с User от models проекта.
+
+11. В ManageController в папка Controllers в App проекта се преименува ApplicationUserManager в UserManager и се оправят бъговете след build.
+
+12. Трия IdentityModels.cs от App проекта, папка Models.
+
+13. Стартира се проекта и се опитвам да се регистрирам.
+В папка App_Start във файл IdentityConfig.cs се променят ограниченията относно дължина и вид символи при регистрация ( клас Create).
+В него има метод UserValidator. 
+
+В AccountViewModels.cs в папка Models на App проекта се определяt view моделите какво ще искат за регистрация, логване и др.
+Променям всичко да иска userName вместо email с изключение на "register" метода. На него слагам и email и userName.
+В Register.cshtml view модела добавям още един div за UserName input.
+В AccountController в action-а "Register" трябва да е:
+
+public async Task<ActionResult> Register(RegisterViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = new User { UserName = model.UserName, Email = model.Email };
+                var result = await UserManager.CreateAsync(user, model.Password);
+
+
+В IdentityConfig.cs  в папка App_Start в "create" метода има UseManager валидация, която определя кога един user e валиден.
+По подразбиране това е когато email-а е уникален. Без да се вижда след и за повтарящи се потребителски имена. 
+
+
+14. Пускане на автоматична миграция в Data проекта.
+Инсталиране през NuGet console:  Enable-Migrations -EnableAutomaticMigrations -force
+	!!Да се следи "Default project" в NuGet конзолата да е Data проекта.
+
+	Появява се папка Migrations. Вътре трябва да има Configuration.cs.
+
+15. С цел при всяко пускена на проекта  да се прави миграция в Global.asac.cs  в app проекта
+	Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext, Configuration>());
+Задължително Configuration.cs класа от internal трябва да стане public (папка Migrations)
+
+16. Pagination:
+	*. Install-Package PagedList.Mvc
+
+17. AutoMapper
+	*. Инсталиране от NuGet menagment на AutoMapper:
+	*. Правене на следните интерфейси в App/Infrastructure/Mapping :
+		 *. IHaveCustomMappings.cs : 
+				using AutoMapper;
+
+    public interface IHaveCustomMappings
+    {
+        void CreateMappings(IConfiguration configuration);
+    }
+			
+		*. IMapFrom.cs : 
+				public interface IMapFrom<T>
+    {       
+    }
+}
+
+ 	*. В App_Start папката се прави клас AutoMapperConfig.cs :
+
+		public class AutoMapperConfig
+    {
+        public static void Execute()
+        {
+            var types = Assembly.GetExecutingAssembly().GetExportedTypes();
+
+            LoadStandardMappings(types);
+
+            LoadCustomMappings(types);
+        }
+
+        private static void LoadStandardMappings(IEnumerable<Type> types)
+        {
+            var maps = (from t in types
+                        from i in t.GetInterfaces()
+                        where
+                            i.IsGenericType && 
+                            i.GetGenericTypeDefinition() == typeof(IMapFrom<>) && 
+                            !t.IsAbstract && 
+                            !t.IsInterface
+                        select new
+                        {
+                            Source = i.GetGenericArguments()[0], 
+                            Destination = t
+                        }).ToArray();
+
+            foreach (var map in maps)
+            {
+                Mapper.CreateMap(map.Source, map.Destination);
+               
+ 	Mapper.CreateMap(map.Destination, map.Source);
+            }
+        }
+
+        private static void LoadCustomMappings(IEnumerable<Type> types)
+        {
+            var maps = (from t in types
+                        from i in t.GetInterfaces()
+                        where typeof(IHaveCustomMappings).IsAssignableFrom(t) && !t.IsAbstract && !t.IsInterface
+                        select (IHaveCustomMappings)Activator.CreateInstance(t)).ToArray();
+
+            foreach (var map in maps)
+            {
+                map.CreateMappings(Mapper.Configuration);
+            }
+        }			
+
+
+	*. В Glocal.asax.cs се стартира:  AutoMapperConfig.Execute();
+
+18.Ninject
+	*. Инсталиране от NuGet menagment на : 	
+		Install Ninject.MVC5    
+		Ако не стане:  Install first Ninject integration for WebApi2  след което Install then Ninject.MVC5
+
+	*. В App/App_Start/NinjectWebCommon  в   private static void RegisterServices(IKernel kernel) :
+		
+	    kernel.Bind<IContestsData>().To<ContestsData>()
+               .InRequestScope()
+               .WithConstructorArgument("context", p => new ContestsDbContext());
+
+            kernel.Bind<IUserStore<User>>().To<UserStore<User>>()
+                .InRequestScope()
+                .WithConstructorArgument("context", kernel.Get<ContestsDbContext>());
+
+            kernel.Bind<IUserIdProvider>().To<AspNetUserIdProvider>()
+               .InRequestScope()
+               .WithConstructorArgument("context", kernel.Get<ContestsDbContext>());
+
+            kernel.Bind<IAuthenticationManager>()
+                .ToMethod<IAuthenticationManager>(context => HttpContext.Current.GetOwinContext().Authentication)
+                .InRequestScope();

@@ -1,0 +1,16 @@
+﻿@model IQueryable<Snippy.App.Models.ViewModels.SnippetInfoViewModel>
+@{
+    ViewBag.Title = "Label web - Snippy";
+}
+
+<div class="row">
+    <h2 class="inline-item">All snippets with label </h2>
+    <span>
+        @{ string labelName = @ViewBag.LabelName;}
+        @{ int labelId = @ViewBag.LabelId;}
+        @Html.ActionLink(@labelName, "Details", "Labels", routeValues: new {id = labelId, area = ""}, htmlAttributes: new {@class = "btn btn-primary"})
+    </span>
+
+</div>
+
+@Html.DisplayForModel()

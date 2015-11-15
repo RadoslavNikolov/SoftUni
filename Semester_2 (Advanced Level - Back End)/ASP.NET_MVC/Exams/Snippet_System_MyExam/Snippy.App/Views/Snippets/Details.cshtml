@@ -1,0 +1,112 @@
+﻿@model Snippy.App.Models.ViewModels.SnippetDetailsViewModel
+
+@{
+    ViewBag.Title = @Model.Title;
+}
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="panel panel-body panel-default">
+            <div>
+                <span>
+                    @Html.ActionLink(@Model.Language.Name, "Details", "Languages", new {id = Model.Language.Id}, new {@class = "btn btn-success"})
+                </span>
+                <span><strong>@Model.Title</strong></span>
+            </div>
+
+            <div>
+                <span class="glyphicon glyphicon-user"></span>
+                <span><strong>@Model.Author.UserName</strong></span>
+                <span> on @Model.CreatedOn</span>
+            </div>
+
+            <div>
+                <span>Labels:</span>
+                <span>@Html.DisplayFor(l => l.Labels)</span>
+            </div>
+            <div>
+                <p>@Model.Description</p>
+            </div>
+
+            <div>
+                @Html.TextAreaFor(model => model.Code, new {@cols="250" , @rows="15", @class = "my-text-area"})
+            </div>
+        </div>      
+    </div>
+
+</div>
+
+<div id="comments">
+    <h2>Comments:</h2>
+    @if (@Model.Comments.Any())
+    {
+        @Html.DisplayFor(m => m.Comments)
+    }
+    else
+    {
+        <p id="no-comments">There are no comments right now</p>
+    }
+</div>
+
+@if (Request.IsAuthenticated)
+{
+    <div>
+        <h2>Add Comment:</h2>
+        @using (Ajax.BeginForm("Add", "Comments", new { snippetId = Model.Id }, new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.InsertAfter,
+        UpdateTargetId = "comments",
+        OnSuccess = "onAddCommentSuccess",
+        OnFailure = "onAddCommentFailure"
+    }, new { @class = "form-group" }))
+        {
+            @Html.AntiForgeryToken()
+            <label for="comment-input" class="control-label">Comment:</label>
+            <textarea rows="3" cols="50" id="comment-input" name="Content" width="200px" class=""></textarea>
+            <br />
+            <br />
+            <input type="submit" name="name" value="Comment" class="btn btn-primary" />
+            <div id="add-comment-messages"></div>
+        }
+    </div>
+}
+
+
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/ajax")
+
+    <script>
+
+        function onAddCommentSuccess() {
+            var commentsWrapper = document.querySelector('#comments #nocomments');
+            if (commentsWrapper) {
+                commentsWrapper.removeChild(document.getElementById('no-comments'));
+            }
+            var addCommentMessageWrapper = document.getElementById("add-comment-messages");
+            addCommentMessageWrapper.innerHTML = "You successfully added comment";
+            setTimeout(function () {
+                addCommentMessageWrapper.innerHTML = '';
+            }, 1500);
+        }
+
+        function onAddCommentFailure(error) {
+            var addCommentMessageWrapper = document.getElementById("add-comment-messages");
+            addCommentMessageWrapper.innerHTML = error.statusText;
+            console.log(error);
+            document.getElementById('comment-input').innerHTML = '';
+            setTimeout(function () {
+                addCommentMessageWrapper.innerHTML = '';
+            }, 1500);
+
+        }
+
+    </script>
+}
+
+
+
+

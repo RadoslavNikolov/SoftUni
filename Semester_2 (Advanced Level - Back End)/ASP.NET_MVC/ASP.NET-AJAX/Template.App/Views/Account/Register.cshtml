@@ -1,0 +1,100 @@
+﻿@model Template.App.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Create a new account.</h4>
+    <hr/>
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+            <span id="usernameStatus"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Email, new {@class = "col-md-2 control-label"})
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Email, new {@class = "form-control"})
+            <span id="emailStatus"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Register"/>
+        </div>
+    </div>
+}
+
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $("#UserName").keyup(function () {
+        var name = $("#UserName").val();
+        var status = $("#usernameStatus");
+        var user = $.trim(name);
+        if (user.length >= 3) {
+            status.html("Checking....");
+            $.ajax({
+                type: 'POST',
+                url: '/Account/CheckName',
+                data: {username: user}
+            })
+            .done( function (data) {
+                if (data === true) {
+                    status.html("<font color=green>Username '<b>" + name + "</b>' is available! </font>");
+                } else {
+                    status.html("<font color=red>Username '<b>" + name + "</b>' is taken! </font>");
+                }
+            });
+
+        } else {
+            status.html("Need more characters....");
+        }
+    });
+
+
+    $("#Email").keyup(function () {
+        var name = $("#Email").val();
+        var status = $("#emailStatus");
+        var email = $.trim(name);
+        if (email.length >= 3) {
+            status.html("Checking....");
+            $.ajax({
+                type: 'POST',
+                url: '/Account/CheckEmail',
+                data: { email: email }
+            })
+            .done(function (data) {
+                if (data == true) {
+                    status.html("<font color=green>Email '<b>" + email + "</b>' is available! </font>");
+                } else {
+                    status.html("<font color=red>Email '<b>" + email + "</b>' is taken! </font>");
+                }
+            });
+
+        } else {
+            status.html("Need more characters....");
+        }
+    });
+    </script>
+}

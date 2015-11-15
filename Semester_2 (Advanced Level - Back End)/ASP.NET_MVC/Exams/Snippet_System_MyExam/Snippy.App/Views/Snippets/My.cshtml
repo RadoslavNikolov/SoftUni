@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Snippy.App.Models.ViewModels.SnippetDetailsViewModel>
+
+@{
+    ViewBag.Title = "All Snippets";
+}
+
+<h1>My Snippets</h1>
+
+@if (@Model.Any())
+{
+    @Html.DisplayForModel()
+}
+else
+{
+    <span>You have nosnippets. You can </span>
+    <span>
+        @Html.ActionLink("create", "Create", "Snippets", null, null)
+    </span>
+    <span> one now.</span>
+}

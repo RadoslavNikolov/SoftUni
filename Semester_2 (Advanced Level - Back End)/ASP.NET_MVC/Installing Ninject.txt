@@ -1,0 +1,8 @@
+Install true NuGet manage console:
+	1. Install first Ninject integration for WebApi2
+	2. Install then Ninject.MVC5
+
+only in App project.
+
+http://aspnetguru.com/how-to-use-ninject-in-asp-net-mvc-5-and-web-api-2/
+https://www.youtube.com/watch?v=w_MehI2qBTo

@@ -1,0 +1,16 @@
+﻿@model Twitter.App.Models.ViewModels.PublicUserViewModel
+
+@{
+    ViewBag.Title = "Favourites";
+}
+
+<h2><a href="~/users/@Model.Username">@Model.Username</a>'s favourite qweets</h2>
+
+<div>
+    @foreach (var favourite in Model.Favourites)
+    {
+        @Html.Partial("_TweetPartial", @favourite)
+    }
+</div>
+
+

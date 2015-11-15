@@ -1,0 +1,23 @@
+﻿@model Contests.App.Models.ViewModels.UserInfoViewModel
+@{
+    ViewBag.Title = "My profile";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div class="container col-xs-4">
+    @if (Request.IsAuthenticated)
+    {
+        @Html.Partial("Partial/UserInfo", @Model)
+    }
+</div>
+
+
+<div class="container col-xs-8">
+    @if (Model.Contest.Any())
+    {
+        @Html.Partial("Partial/_Contests", @Model.Contest)
+    }
+</div>
+
+

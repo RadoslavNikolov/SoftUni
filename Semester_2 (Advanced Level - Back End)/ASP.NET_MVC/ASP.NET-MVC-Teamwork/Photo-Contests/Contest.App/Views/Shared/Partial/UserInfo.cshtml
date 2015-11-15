@@ -1,0 +1,33 @@
+﻿@using Contests.Models
+@model Contests.App.Models.ViewModels.UserInfoViewModel
+
+<hr />
+
+<div class="media">
+    @if (@Model.ProfilePhotoUrl != null)
+    {
+        <div class="media-top">
+            <a href="#">
+                <img src="@Model.ProfilePhotoUrl" class="media-object cover" alt="profile picture">
+            </a>
+        </div>
+    }
+    <div class="media-body">
+        <div class="form-group">
+            @Html.LabelFor(m => m.UserName)
+            @Html.DisplayFor(m => m.UserName)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.FullName)
+            @Html.DisplayFor(m => m.FullName)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Email)
+            @Html.DisplayFor(m => m.Email)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.PhoneNumber)
+            @Html.DisplayFor(m => m.PhoneNumber)
+        </div>
+    </div>
+</div>

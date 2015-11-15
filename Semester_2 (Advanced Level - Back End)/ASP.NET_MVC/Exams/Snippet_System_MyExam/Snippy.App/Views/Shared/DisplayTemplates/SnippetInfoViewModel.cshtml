@@ -1,0 +1,11 @@
+﻿@model Snippy.App.Models.ViewModels.SnippetInfoViewModel
+
+<div class="panel panel-body panel-default">
+    <h4>
+        @Html.ActionLink(@Model.Title, "Details", "Snippets", new {id = Model.Id, area = ""}, null)
+    </h4>
+    <p>
+        @Html.DisplayFor(x => x.Labels)
+    </p>
+</div>
+

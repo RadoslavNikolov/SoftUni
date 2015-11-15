@@ -1,0 +1,4 @@
+﻿@model Snippy.App.Models.ViewModels.LabelViewModel
+
+    @Html.ActionLink(Model.Text, "Details", "Labels", routeValues: new { id = @Model.Id, area = ""}, htmlAttributes:new {@class = "btn btn-primary"})
+

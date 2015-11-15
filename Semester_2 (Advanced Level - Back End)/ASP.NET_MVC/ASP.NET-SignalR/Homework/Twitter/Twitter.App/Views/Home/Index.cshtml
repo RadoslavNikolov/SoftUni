@@ -1,0 +1,54 @@
+﻿@using System.Security.Cryptography
+@using Microsoft.AspNet.Identity
+@using Twitter.App.Models.BindingModels
+@using Twitter.App.Models.ViewModels
+<div id="notifications"></div>   
+@model IEnumerable<TweetViewModel>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="tweets">
+    @Html.Partial("DisplayTemplates/TweetViewModel", (ViewBag.Tweets as IEnumerable<TweetViewModel>))
+</div>
+
+@section scripts{
+    <script src="~/Scripts/infiniteScroll.js"></script>
+    <script src="~/Scripts/twitter.js"></script>
+    <script type="text/javascript">
+        var prepend = false;
+        $(function() {
+            $("div#loading").hide();
+        });
+        var moreRowsUrl = ""; //the URL to your ActionMethod
+        $(window).scroll(scrollHandler);
+
+
+        $(document).ready(function() {
+            var notificationsHub = $.connection.notifications;
+            notificationsHub.client.receiveNotification = function(type, notification) {
+                var notificationElement = $("<div>").addClass("alert alert-dismissible alert-" + type)
+                    .html("<button type=\"button\" class=\"close\" data-dismiss=\"alert\">×</button>" + notification);
+                $('#notifications').append(notificationElement);
+            };
+
+            var tweetsHub = $.connection.tweetshub;
+
+            tweetsHub.client.receiveTweet = function (tweetId) {
+
+                $.ajax({
+                    method: "GET",
+                    url: "/Tweets/TweetById",
+                    data: "tweetId=" + tweetId,
+                    success: function(data) {
+                        $('.tweets').prepend(data);
+                    }
+                });             
+            };
+            $.connection.hub.start();
+        });
+
+    </script>
+}

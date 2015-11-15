@@ -1,0 +1,13 @@
+﻿
+@model SportSystem.App.Models.ViewModels.MatchViewModel
+
+<div class="panel panel-body panel-default">
+    <h3>
+        @Html.ActionLink(
+            String.Format("{0} vs. {1}", Model.HomeTeam, Model.AwayTeam),
+            "Details", "Matches", new {id = Model.Id}, null
+            )
+    </h3>
+    <p>Start: @Model.StartDate</p>
+</div>
+

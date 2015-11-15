@@ -1,0 +1,20 @@
+﻿@model SportSystem.App.Models.ViewModels.HomaPageViewModel
+
+@{
+    ViewBag.Title = "Home-Sport System";
+}
+
+
+<div class="row">
+    <div class="col-md-6">
+        <h1>Top Matches:</h1>
+        @Html.DisplayFor(x => x.MatchViewModel)
+        @Html.ActionLink("All Matches", "Index", "Matches", null, htmlAttributes: new {@class = "btn btn-default"})
+    </div>
+
+    <div class="col-md-6">
+        <h1>Best Teams:</h1>
+        @Html.DisplayFor(m => m.TeamViewModel)
+    </div>
+</div>
+

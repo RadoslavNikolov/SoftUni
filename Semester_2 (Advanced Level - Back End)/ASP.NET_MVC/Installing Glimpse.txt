@@ -1,0 +1,27 @@
+http://getglimpse.com/Docs/
+
+Which web framework you using? 
+ 
+WebForms   
+PM> Install-Package Glimpse.WebForms 
+ 
+    
+MVC   
+PM> Install-Package Glimpse.MVC5 
+ 
+ 
+What about Data Access? 
+ 
+Raw ADO   
+PM> Install-Package Glimpse.ADO 
+ 
+    
+Entity Framework   
+PM> Install-Package Glimpse.EF6 
+
+
+In ASP.NET MVC we need to install Glimpse for MVC and Entity Framework.
+
+Turn on Glipse. 
+We can do this by eccessing glimpse  in  (http://localhost:60193//glimpse.axd) for example. Glimpse is accessible only in local host for security reasons.
+In main page og glimpse just pres "turn on" button.

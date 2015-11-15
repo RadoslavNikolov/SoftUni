@@ -1,0 +1,15 @@
+1. download signalR into App project  - install-package Microsoft.AspNet.SignalR 
+2. In Owin Startup в метод Configuration() 
+	app.MapSignalR();
+3. Create directory Hubs
+4.Add new SignalR classs to it  -  add new item
+5.Създава се bundle config : 
+
+	bundles.Add(new ScriptBundle("~/bundles/signalr").Include(
+                      "~/Scripts/jquery.signalR-*"));
+6. В _Layout.csthml най-отдолу се добавя  точно в тази конфигурация:
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/signalr")
+    <script src="/signalr/hubs"></script>
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)

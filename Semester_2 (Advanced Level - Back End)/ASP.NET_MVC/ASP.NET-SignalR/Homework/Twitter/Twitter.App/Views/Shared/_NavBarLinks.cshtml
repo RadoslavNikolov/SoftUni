@@ -1,0 +1,5 @@
+﻿@if (Request.IsAuthenticated)
+{
+    <li>@Html.ActionLink("Hello " + User.Identity.Name.ToUpper() + "!", "Index", "Users", routeValues: new { username = User.Identity.Name }, htmlAttributes: null)</li>
+}
+

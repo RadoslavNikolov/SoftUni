@@ -1,0 +1,24 @@
+﻿
+@using System.Globalization
+@using Microsoft.AspNet.Identity
+@*@model Twitter.App.Models.ViewModels.TweetViewModel*@
+@model IEnumerable<Twitter.App.Models.ViewModels.UserPreviewViewModel>
+
+@foreach (var user in Model)
+{
+    <div class="well">
+        @if (user.UserPhoto != null)
+        {
+            <p>
+                <img src="~/File?id=@user.UserPhoto.FileId" width ="250px" alt="picture" />
+            </p>
+
+        }
+        <div>
+            <span class="post-author">@user.Username</span>
+        </div>
+    </div>
+
+}
+
+

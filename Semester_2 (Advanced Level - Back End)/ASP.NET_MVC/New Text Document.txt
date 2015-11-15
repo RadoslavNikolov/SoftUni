@@ -1,0 +1,5 @@
+https://prashantbrall.wordpress.com/2011/05/01/ef-code-first-many-to-many-self-referencing-relationship/
+http://www.sql-server-helper.com/tips/tip-of-the-day.aspx?tkey=bde631df-1c07-4667-bf41-ca795a6c99ce&tkw=sql-server-database-design---twitter-tweets
+http://stackoverflow.com/questions/7150306/help-with-a-microblog-twitter-clone-database-structure
+http://www.cubrid.org/blog/dev-platform/decomposing-twitter-database-perspective/
+http://140dev.com/free-twitter-api-source-code-library/twitter-database-server/mysql-database-schema/

@@ -1,0 +1,34 @@
+﻿@using Twitter.App.Models.BindingModels
+@using Twitter.App.Models.ViewModels
+@model  IEnumerable<UserPreviewViewModel>
+
+@{
+    ViewBag.Title = "Users Review Page";
+}
+
+    <div class="tweets">
+        @*@Html.DisplayFor(m => m.Tweets)*@
+
+        @*Using Partial for my Infinite scroller*@
+        @Html.Partial("DisplayTemplates/UserPreviewViewModel", Model)
+    </div>
+
+
+
+
+
+@section scripts{
+    <script src="~/Scripts/twitter.js"></script>
+    <script src="~/Scripts/infiniteScroll.js"></script>
+
+    <script type="text/javascript">
+        var prepend = true;
+        $(function () {
+            $("div#loading").hide();
+        });
+        var moreRowsUrl = ""; //the URL to your ActionMethod
+        //var moreRowsUrl = ' Url.RouteUrl("CustomerList")'; //if you have a route defined, you can use an Html helper like Url.RouteUrl
+        $(window).scroll(scrollHandler);
+
+    </script>
+}

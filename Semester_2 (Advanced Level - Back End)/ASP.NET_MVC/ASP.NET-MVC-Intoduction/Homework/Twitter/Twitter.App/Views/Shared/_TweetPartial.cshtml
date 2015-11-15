@@ -1,0 +1,17 @@
+﻿@model Twitter.App.Models.ViewModels.TweetViewModel
+
+<div class="qweetBox">
+    <p>@Model.Content</p>
+    <div class="qweetMeta">
+        <div class="leftCreator"><a href="~/users/@Model.Author.Username">@Model.Author.Username</a></div>
+        <div class="rightDate">@Model.CreatedOn</div>
+    </div>
+    <div class="qweetActions">
+        <button class="btn btn-primary">Reply</button>
+        <button class="btn btn-primary">Reqweet</button>
+        <button class="btn btn-success">Favourite</button>
+        <button class="btn btn-primary">Share</button>
+        <button class="btn btn-warning">Report</button>
+    </div>
+</div>
+

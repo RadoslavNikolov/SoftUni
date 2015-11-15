@@ -1,0 +1,127 @@
+﻿@using MvcPaging
+@model IPagedList<Contests.App.Areas.Admin.Models.ViewModels.ContestPreviewViewModel>
+    @{
+        ViewBag.Title = "User page";
+    }
+    <h1>Contests</h1>
+
+    @using (Html.BeginForm("Index", "Contests", FormMethod.Get))
+    {
+        <div class="row">
+            <div class="col-md-4">
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input type="text" class="form-control" name="contest_title" placeholder="Title ..." value="@TempData["contest_title"]" />
+                        <span class="input-group-btn">
+                            <a class="btn btn-default search-clear" href="@Url.Action("Index")" title="Clear">
+                                Clear
+                            </a>
+                            <button class="btn btn-info" type="submit">
+                                Search
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+	    </div>
+        
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>N</th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().Title)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().Category)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().Organizator)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().Status)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().Finalized)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().VotingType)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().ParticipationType)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().RewardType)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().DeadlineType)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{ int i = 0; }
+                @foreach (var item in Model)
+                {
+                    i += 1;
+                    var n = i + (@Model.PageNumber - 1) * @Model.PageSize;
+                    <tr>
+                        <td>
+                            @n
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Category)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Organizator)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Status)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Finalized)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.VotingType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ParticipationType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RewardType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DeadlineType)
+                        </td>
+                        <td>
+                            @if (item.Status == "Active" && item.Finalized == "Not finalized")
+                            {
+                                @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="pager">
+            @Html.Raw(Html.Pager(
+            new Options
+            {
+                PageSize = Model.PageSize,
+                TotalItemCount = Model.TotalItemCount,
+                CurrentPage = Model.PageNumber,
+                ItemTexts = new ItemTexts() { Next = "", Previous = "", First = "", Last = "" },
+                ItemIcon = new ItemIcon() { First = "icon-backward", Previous = "icon-chevron-left", Next = "icon-chevron-right", Last = "icon-forward" },
+                TooltipTitles = new TooltipTitles() { Next = "Next page {0}", Previous = "Previous page {0}", Page = "Go to page {0}" },
+                Size = Size.normal,
+                Alignment = Alignment.centered,
+                IsShowControls = true,
+                IsShowFirstLast = true,
+                IsShowPages = true
+            }, new { contest_title = TempData["contest_title"] }))
+        </div>
+    }

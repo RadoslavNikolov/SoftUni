@@ -1,0 +1,9 @@
+﻿@using Contests.Models
+@model IQueryable<SelectListItem>
+
+<div class="form-group" id="select-category">
+    @Html.Label("Category", htmlAttributes: new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.DropDownList("category", Model, "-- Select Category --", htmlAttributes: new { id = "selected-category", @class = "form-control" })
+    </div>
+</div>

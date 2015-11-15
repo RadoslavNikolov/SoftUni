@@ -1,0 +1,32 @@
+﻿@model Snippy.App.Models.ViewModels.HomePageViewModel
+
+@{
+    ViewBag.Title = "Home-Snippy";
+}
+
+
+<div class="row">
+    <div class="col-md-5">
+        <h1>Latest snippets:</h1>
+        @Html.DisplayFor(c => c.SnippetInfoViewModel)
+    </div>
+
+    <div class="col-md-5">
+        <h1>Latest comments:</h1>
+        @Html.DisplayFor(c => c.CommentViewModel)
+    </div>
+
+    <div class="col-md-2">
+
+        <div class="panel panel-primary" style="margin-top: 20px;">
+            <div class=" panel-heading">
+            <h3 class="panel-title">Best Labels</h3>
+        </div>
+            <div class="panel-body">
+                <ul class="list-group">
+                    @Html.DisplayFor(l => l.LabelInfoViewModel)               
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

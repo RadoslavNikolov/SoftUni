@@ -1,0 +1,14 @@
+﻿@model Twitter.App.Models.ViewModels.PublicUserViewModel
+@{
+    ViewBag.Title = "Followers";
+}
+
+<h2>@Html.ActionLink(User.Identity.Name, "Index", "Users", routeValues: new { username = @Model.Username }, htmlAttributes: null)'s followers</h2>
+
+<div class="followers">
+    @foreach (var follower in Model.Followers)
+    {
+        <p><a href="~/users/@follower">@follower</a></p>
+    }
+</div>
+

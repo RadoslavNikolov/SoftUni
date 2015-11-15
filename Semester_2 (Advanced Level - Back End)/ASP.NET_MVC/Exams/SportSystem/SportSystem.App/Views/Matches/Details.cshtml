@@ -1,0 +1,91 @@
+﻿@using System.Collections.Specialized
+@model SportSystem.App.Models.ViewModels.MatchDetailsViewModel
+
+@{
+    ViewBag.Title = "Match Details";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <h1>Match:</h1>
+        <h4>
+            Home Team: @Html.ActionLink(@Model.HomeTeamName, "Details", "Teams", new {id = Model.HomeTeamId}, null)
+            (Bets: $<span id="home-bets">@Model.HomeBets</span>)
+        </h4>
+        <h4>
+            Away Team: @Html.ActionLink(@Model.AwayTeamName, "Details", "Teams", new {id = Model.AwayTeamId}, null)
+            (Bets: $<span id="away-bets">@Model.AwayBets</span>)
+        </h4>
+        <p>
+            Date and Time: @Model.StartDate
+        </p>
+    </div>
+
+</div>
+
+<div id="comments">
+    <h2>Comments:</h2>
+    @if (@Model.Comments.Any())
+    {
+        @Html.DisplayFor(m => m.Comments)
+    }
+    else
+    {
+        <p id="no-comments">No comments.</p>
+    }
+</div>
+
+<div>
+    <h2>Add Comment:</h2>
+    @using (Ajax.BeginForm("Add", "Comments", new {matchId = Model.Id}, new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.InsertAfter,
+        UpdateTargetId = "comments",
+        OnSuccess = "onAddCommentSuccess",
+        OnFailure = "onAddCommentFailure"
+    }, new {@class = "form-group"}))
+    {
+        @Html.AntiForgeryToken()
+        <label for="comment-input" class="control-label">Comment:</label>
+        <textarea rows="3" cols="50" id="comment-input" name="Content" width="200px" class=""></textarea>
+        <br/>
+        <br/>
+        <input type="submit" name="name" value="Comment" class="btn btn-primary"/>
+        <div id="add-comment-messages"></div>
+    }
+</div>
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/ajax")
+
+    <script>
+        
+        function onAddCommentSuccess() {
+            var commentsWrapper = document.querySelector('#comments #nocomments');
+            if (commentsWrapper) {
+                commentsWrapper.removeChild(document.getElementById('no-comments'));
+            }
+            var addCommentMessageWrapper = document.getElementById("add-comment-messages");
+            addCommentMessageWrapper.innerHTML = "You successfully added comment";
+            setTimeout(function () {
+                addCommentMessageWrapper.innerHTML = '';
+            }, 1500);
+        }
+
+        function onAddCommentFailure(error) {
+            var addCommentMessageWrapper = document.getElementById("add-comment-messages");
+            addCommentMessageWrapper.innerHTML = error.statusText;
+            console.log(error);
+            document.getElementById('comment-input').innerHTML = '';
+            setTimeout(function () {
+                addCommentMessageWrapper.innerHTML = '';
+            }, 1500);
+
+        }
+
+    </script>
+}
+
+

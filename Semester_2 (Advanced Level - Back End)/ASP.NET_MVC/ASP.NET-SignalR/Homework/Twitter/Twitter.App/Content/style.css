@@ -1,0 +1,49 @@
+﻿.post-author {
+    font-weight: bold;
+}
+
+.posted-on {
+    color: gray;
+}
+
+.tweet-add {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.user-info, .user-info ul {
+    list-style: none;
+    display: inline;
+}
+
+.user-info > li{
+    display: inline;
+}
+
+.user-info span {
+    display: inline-block;
+}
+
+img.profile-picture {
+    border: solid 6px;
+    border-color: black;
+    border-radius: 15px;
+    max-width: 250px;
+    max-height: 250px;
+}
+aside {
+    float: left;
+    position: fixed;
+}
+
+div.row-fluid {
+    display: inline-flex
+}
+
+.span2 {
+    padding-right: 30px;
+}
+
+.span2 img {
+    margin-bottom: 20px;
+}

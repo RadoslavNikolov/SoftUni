@@ -1,0 +1,5 @@
+﻿@model IEnumerable<SportSystem.App.Models.ViewModels.PlayerViewModel>
+@foreach (var user in @Model)
+{
+    <option value='@user.Id'>@user.FullName</option>
+}
