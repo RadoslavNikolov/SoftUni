@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_Reverse-Numbers", "Reverse-Numbers\_01_Reverse-Numbers.csproj", "{5633F69D-27BC-492A-8D88-983E5218FFE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02_Calculate-Sequence", "Calculate-Sequence\_02_Calculate-Sequence.csproj", "{3C29A66B-5EEA-467C-A09C-46D4422E9E05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5633F69D-27BC-492A-8D88-983E5218FFE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5633F69D-27BC-492A-8D88-983E5218FFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5633F69D-27BC-492A-8D88-983E5218FFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5633F69D-27BC-492A-8D88-983E5218FFE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C29A66B-5EEA-467C-A09C-46D4422E9E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C29A66B-5EEA-467C-A09C-46D4422E9E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C29A66B-5EEA-467C-A09C-46D4422E9E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C29A66B-5EEA-467C-A09C-46D4422E9E05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
