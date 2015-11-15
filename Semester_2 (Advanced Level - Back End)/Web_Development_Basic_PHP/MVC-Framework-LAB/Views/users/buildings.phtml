@@ -1,0 +1,32 @@
+<?= $model->error ? $model->error : ''; ?>
+<?= $model->success ? $model->success : ''; ?>
+<h1>Buildings for <?= htmlspecialchars($model->username); ?></h1>
+
+<h3>
+    Resources:
+    <p>Gold: <?= $model->gold; ?></p>
+    <p>Food: <?= $model->food; ?></p>
+</h3>
+
+
+<table border="1">
+    <tr>
+        <td>Building name</td>
+        <td>Level</td>
+        <td>Gold</td>
+        <td>Food</td>
+    </tr>
+    <?php foreach($model->buildings as $building): ?>
+        <tr>
+            <td><?= htmlspecialchars($building['building_name']) ?></td>
+            <td><?= $building['level_id'] ?></td>
+            <td><?= $building['gold'] ?></td>
+            <td><?= $building['food'] ?></td>
+            <td><a href="<?=SoftUni\Helpers\HelpFunctions::generateUrl() . 'users/buildings/' .  $building['building_id']; ?>");">Evolve</a></td>
+        </tr>
+    <?php endforeach; ?>
+</table>
+
+<div>
+    <a href="profile">[Back to profile]</a>
+</div>
