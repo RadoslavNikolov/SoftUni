@@ -1,0 +1,1 @@
+C:\My\SoftUni.git\trunk\Semester_3(Advanced Level - Front End)\OOP_C#\Static Memebers nad Namespaces\RPG-Game-Class-exercise\RPG-Game\bin\Debug\RPG-Game.exe.config
