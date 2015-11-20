@@ -1,0 +1,6 @@
+C:\My\SoftUni.git\trunk\Semester_3(Advanced Level - Front End)\OOP_C#\Defining-Classes-Lab\FootballLeague\bin\Debug\FootballLeague.exe.config
+C:\My\SoftUni.git\trunk\Semester_3(Advanced Level - Front End)\OOP_C#\Defining-Classes-Lab\FootballLeague\bin\Debug\FootballLeague.exe
+C:\My\SoftUni.git\trunk\Semester_3(Advanced Level - Front End)\OOP_C#\Defining-Classes-Lab\FootballLeague\bin\Debug\FootballLeague.pdb
+C:\My\SoftUni.git\trunk\Semester_3(Advanced Level - Front End)\OOP_C#\Defining-Classes-Lab\FootballLeague\obj\Debug\FootballLeague.csprojResolveAssemblyReference.cache
+C:\My\SoftUni.git\trunk\Semester_3(Advanced Level - Front End)\OOP_C#\Defining-Classes-Lab\FootballLeague\obj\Debug\FootballLeague.exe
+C:\My\SoftUni.git\trunk\Semester_3(Advanced Level - Front End)\OOP_C#\Defining-Classes-Lab\FootballLeague\obj\Debug\FootballLeague.pdb
