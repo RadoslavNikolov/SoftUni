@@ -1,0 +1,6 @@
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Animals\bin\Debug\Animals.exe.config
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Animals\bin\Debug\Animals.exe
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Animals\bin\Debug\Animals.pdb
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Animals\obj\Debug\Animals.csprojResolveAssemblyReference.cache
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Animals\obj\Debug\Animals.exe
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Animals\obj\Debug\Animals.pdb

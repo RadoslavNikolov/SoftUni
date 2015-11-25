@@ -1,0 +1,8 @@
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\bin\Debug\Company-Hierarchy.exe.config
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\bin\Debug\Company-Hierarchy.exe
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\bin\Debug\Company-Hierarchy.pdb
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\bin\Debug\Human-Worker-Student.exe
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\bin\Debug\Human-Worker-Student.pdb
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\obj\Debug\Company-Hierarchy.csprojResolveAssemblyReference.cache
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\obj\Debug\Company-Hierarchy.exe
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\obj\Debug\Company-Hierarchy.pdb

@@ -1,0 +1,6 @@
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Human-Worker-Student\bin\Debug\Human-Worker-Student.exe.config
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Human-Worker-Student\bin\Debug\Human-Worker-Student.exe
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Human-Worker-Student\bin\Debug\Human-Worker-Student.pdb
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Human-Worker-Student\obj\Debug\Human-Worker-Student.csprojResolveAssemblyReference.cache
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Human-Worker-Student\obj\Debug\Human-Worker-Student.exe
+C:\Users\rnikolov\Desktop\Inheritance-Homework\Human-Worker-Student\obj\Debug\Human-Worker-Student.pdb
