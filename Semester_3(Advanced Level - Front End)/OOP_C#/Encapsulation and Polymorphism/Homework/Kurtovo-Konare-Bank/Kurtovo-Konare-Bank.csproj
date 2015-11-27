@@ -43,17 +43,24 @@
   <ItemGroup>
     <Compile Include="BankDB.cs" />
     <Compile Include="BankProgram.cs" />
+    <Compile Include="CustomValidation.cs" />
     <Compile Include="Engine\BankEngine.cs" />
+    <Compile Include="Factury\AccountFactory.cs" />
+    <Compile Include="Factury\CustomerFactory.cs" />
     <Compile Include="Interfaces\IAccountable.cs" />
+    <Compile Include="Interfaces\IAccounting.cs" />
     <Compile Include="Interfaces\IDepositable.cs" />
     <Compile Include="Interfaces\IInputHandler.cs" />
     <Compile Include="Interfaces\IRender.cs" />
     <Compile Include="Interfaces\IWithdrawable.cs" />
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\AccountingLogic.cs" />
     <Compile Include="Models\CompanyCustomer.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\DepositAccount.cs" />
     <Compile Include="Models\IndividualCustomer.cs" />
+    <Compile Include="Models\LoanAccount.cs" />
+    <Compile Include="Models\MortageAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\ConsoleInputHandler.cs" />
     <Compile Include="UI\ConsoleRenderer.cs" />

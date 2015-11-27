@@ -1,7 +1,9 @@
 ﻿namespace Kurtovo_Konare_Bank.Engine
 {
     using System;
+    using System.Globalization;
     using System.Linq;
+    using Factury;
     using Interfaces;
     using Models;
 
@@ -61,34 +63,47 @@
             switch (accountName)
             {                
                 case "depositaccount":                
-                    var customer = this.GetCustomer(commandArgs[2]);
+                    var customer = CustomerFactory.GetCustomerByName(commandArgs[2]);
                     if (customer == null)
                     {
                         return String.Format("Customer with name: {1} does not exists", commandArgs[2]);
                     }
-                    if (this.GetAccountByCistomerName(commandArgs[2]) != null)
+                    if (AccountFactory.GetAccountByCistomerName(commandArgs[2]) != null)
                     {
                         return String.Format("Deposit account with customer name: {0}  already exists", commandArgs[2]);
                     }
-                    var account = new DepositAccount(customer, float.Parse(commandArgs[3]), decimal.Parse(commandArgs[4]));
+                    var account = new DepositAccount(customer, float.Parse(commandArgs[3], CultureInfo.InvariantCulture), decimal.Parse(commandArgs[4], CultureInfo.InvariantCulture));
                     BankDB.accounts.Add(account);
                     break;
-                //case "companycustomer" :
-                //    if (this.GetCustomer(commandArgs[2]) != null)
-                //    {
-                //        return String.Format("IndividualCutomer with name: {0}  already exists", commandArgs[2]);
-                //    }
-                //    var customer1 = new CompanyCustomer(commandArgs[2], commandArgs[3], commandArgs[4]);
-                //    BankDB.customers.Add(customer1);
-                //    break;
+                case "loanaccount":
+                    var customer1 = CustomerFactory.GetCustomerByName(commandArgs[2]);
+                    if (customer1 == null)
+                    {
+                        return String.Format("Customer with name: {1} does not exists", commandArgs[2]);
+                    }
+                    if (AccountFactory.GetAccountByCistomerName(commandArgs[2]) != null)
+                    {
+                        return String.Format("Loan account with customer name: {0}  already exists", commandArgs[2]);
+                    }
+                    var account1 = new LoanAccount(customer1, float.Parse(commandArgs[3], CultureInfo.InvariantCulture), decimal.Parse(commandArgs[4], CultureInfo.InvariantCulture));
+                    BankDB.accounts.Add(account1);
+                    break;
+                case "mortageaccount":
+                    var customer2 = CustomerFactory.GetCustomerByName(commandArgs[2]);
+                    if (customer2 == null)
+                    {
+                        return String.Format("Customer with name: {1} does not exists", commandArgs[2]);
+                    }
+                    if (AccountFactory.GetAccountByCistomerName(commandArgs[2]) != null)
+                    {
+                        return String.Format("Mortage account with customer name: {0}  already exists", commandArgs[2]);
+                    }
+                    var account2 = new LoanAccount(customer2, float.Parse(commandArgs[3], CultureInfo.InvariantCulture), decimal.Parse(commandArgs[4], CultureInfo.InvariantCulture));
+                    BankDB.accounts.Add(account2);
+                    break;
             }
 
-            return String.Format("Customer of type: {0} with name: {1} was successfully created", accountName, commandArgs[2]);
-        }
-
-        private Account GetAccountByCistomerName(string customerName)
-        {
-            return BankDB.accounts.FirstOrDefault(a => a.Customer.Name == customerName);
+            return String.Format("Account of type: {0} with customer name: {1} was successfully created", accountName, commandArgs[2]);
         }
 
         private string ExecuteCreateCustomer(string[] commandArgs)
@@ -102,7 +117,7 @@
             switch (className)
             {                
                 case "individualcustomer":
-                    if (this.GetCustomer(commandArgs[2]) != null)
+                    if (CustomerFactory.GetCustomerByName(commandArgs[2]) != null)
                     {
                         return String.Format("Individual cutomer with name: {0}  already exists", commandArgs[2]);
                     }
@@ -110,21 +125,15 @@
                     BankDB.customers.Add(customer);
                     break;
                 case "companycustomer" :
-                    if (this.GetCustomer(commandArgs[2]) != null)
+                    if (CustomerFactory.GetCustomerByName(commandArgs[2]) != null)
                     {
-                        return String.Format("Individual cutomer with name: {0}  already exists", commandArgs[2]);
+                        return String.Format("Company cutomer with name: {0}  already exists", commandArgs[2]);
                     }
                     var customer1 = new CompanyCustomer(commandArgs[2], commandArgs[3], commandArgs[4]);
                     BankDB.customers.Add(customer1);
                     break;
             }      
             return String.Format("Customer of type: {0} with name: {1} was successfully created", className, commandArgs[2]);
-        }
-
-
-        private Customer GetCustomer(string name)
-        {
-            return BankDB.customers.FirstOrDefault(c => c.Name == name);
-        }
+        }     
     }
 }

@@ -3,7 +3,7 @@
     using System;
     using Interfaces;
 
-    public abstract class Account : IAccountable
+    public abstract class Account : IAccountable, IDepositable
     {
         private float interestRate;
         private decimal balance;
@@ -13,9 +13,12 @@
             this.InterestRate = interestRate;
             this.Customer = customer;
             this.Balance = balance;
+            this.CreatedOn = DateTime.Now;
         }
 
         public Customer Customer { get; set; }
+
+        public DateTime CreatedOn { get; set; }
 
         public decimal Balance
         {
@@ -46,5 +49,11 @@
         }
 
         public abstract decimal CalculateInterest(int months);
+
+        public void DepositMoney(decimal amount)
+        {
+            CustomValidation.ValidateDepositAmount(amount);
+            this.Balance += amount;
+        }
     }
 }

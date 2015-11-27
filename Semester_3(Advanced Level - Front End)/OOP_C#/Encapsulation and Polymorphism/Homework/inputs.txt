@@ -1,0 +1,10 @@
+createCustomer individualCustomer radko sofia 33
+createCustomer companyCustomer Radkoinc sofia 223344556
+createAccount depositAccount radko 15.5 15000.55
+createCustomer companyCustomer Radkoinc sofia 223344556
+createCustomer individualCustomer radko sofia 33
+createAccount depositAccount radko 15.5 15000.55
+createAccount depositAccount radkoinc 10 2500000
+createAccount loanAccount radkoinc 10 2500
+createAccount moprtagetAccount radko 10 2500
+createAccount mortageAccount radkoinc 10 2500

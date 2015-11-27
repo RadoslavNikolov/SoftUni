@@ -6,10 +6,12 @@
     {
         private string name;
 
-        protected Customer(string firstName,  string address)
+        protected Customer(string firstName,  string address, string telephone = "No telephone")
         {
             this.Name = firstName;
             this.Address = address;
+            this.Telephone = telephone;
+            this.CreatedOn = DateTime.Now;
         }
 
         public string Name
@@ -28,6 +30,8 @@
 
         public string Address { get; set; }
 
-        public string Teleephone { get; set; }
+        public string Telephone { get; set; }
+
+        public DateTime CreatedOn { get; set; }
     }
 }
