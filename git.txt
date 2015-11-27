@@ -1,0 +1,9 @@
+Make folder for local repo
+Go to that folder. Shift + F10 -> w
+1. git init
+2. git remote add origin https://github.com/RadoslavNikolov/SoftUni.git
+3. git pull origin master
+
+4. git add .  => add untracked changes
+5. git commit -m "some message"
+6. git push origin master  =>  push from local repo previously named "origin" to master (barnch in github)
