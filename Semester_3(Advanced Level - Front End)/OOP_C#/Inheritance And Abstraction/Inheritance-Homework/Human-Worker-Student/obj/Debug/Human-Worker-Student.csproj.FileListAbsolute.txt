@@ -4,3 +4,6 @@ C:\Users\rnikolov\Desktop\Inheritance-Homework\Human-Worker-Student\bin\Debug\Hu
 C:\Users\rnikolov\Desktop\Inheritance-Homework\Human-Worker-Student\obj\Debug\Human-Worker-Student.csprojResolveAssemblyReference.cache
 C:\Users\rnikolov\Desktop\Inheritance-Homework\Human-Worker-Student\obj\Debug\Human-Worker-Student.exe
 C:\Users\rnikolov\Desktop\Inheritance-Homework\Human-Worker-Student\obj\Debug\Human-Worker-Student.pdb
+C:\My\SoftUni\Semester_3(Advanced Level - Front End)\OOP_C#\Inheritance And Abstraction\Inheritance-Homework\Human-Worker-Student\bin\Debug\Human-Worker-Student.exe.config
+C:\My\SoftUni\Semester_3(Advanced Level - Front End)\OOP_C#\Inheritance And Abstraction\Inheritance-Homework\Human-Worker-Student\obj\Debug\Human-Worker-Student.exe
+C:\My\SoftUni\Semester_3(Advanced Level - Front End)\OOP_C#\Inheritance And Abstraction\Inheritance-Homework\Human-Worker-Student\obj\Debug\Human-Worker-Student.pdb

@@ -6,3 +6,6 @@ C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\bin\Debug\Human
 C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\obj\Debug\Company-Hierarchy.csprojResolveAssemblyReference.cache
 C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\obj\Debug\Company-Hierarchy.exe
 C:\Users\rnikolov\Desktop\Inheritance-Homework\Company-Hierarchy\obj\Debug\Company-Hierarchy.pdb
+C:\My\SoftUni\Semester_3(Advanced Level - Front End)\OOP_C#\Inheritance And Abstraction\Inheritance-Homework\Company-Hierarchy\bin\Debug\Company-Hierarchy.exe.config
+C:\My\SoftUni\Semester_3(Advanced Level - Front End)\OOP_C#\Inheritance And Abstraction\Inheritance-Homework\Company-Hierarchy\obj\Debug\Company-Hierarchy.exe
+C:\My\SoftUni\Semester_3(Advanced Level - Front End)\OOP_C#\Inheritance And Abstraction\Inheritance-Homework\Company-Hierarchy\obj\Debug\Company-Hierarchy.pdb

@@ -1,8 +1,9 @@
 ﻿namespace Kurtovo_Konare_Bank.Models
 {
     using System;
+    using Interfaces;
 
-    public abstract class Account
+    public abstract class Account : IAccountable
     {
         private float interestRate;
         private decimal balance;
@@ -43,5 +44,7 @@
                 this.interestRate = value;
             }
         }
+
+        public abstract decimal CalculateInterest(int months);
     }
 }
