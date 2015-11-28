@@ -49,7 +49,6 @@
     <Compile Include="Factury\CustomerFactory.cs" />
     <Compile Include="Interfaces\IAccountable.cs" />
     <Compile Include="Interfaces\IAccounting.cs" />
-    <Compile Include="Interfaces\IDepositable.cs" />
     <Compile Include="Interfaces\IInputHandler.cs" />
     <Compile Include="Interfaces\IRender.cs" />
     <Compile Include="Interfaces\IWithdrawable.cs" />

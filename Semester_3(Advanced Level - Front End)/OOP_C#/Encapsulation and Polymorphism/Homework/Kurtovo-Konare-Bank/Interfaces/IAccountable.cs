@@ -3,6 +3,6 @@
     public interface IAccountable
     {
         decimal CalculateInterest(int months);
-
+        void DepositMoney(decimal amount);
     }
 }

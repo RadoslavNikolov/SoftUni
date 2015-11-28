@@ -4,8 +4,9 @@
 
     public interface IAccounting
     {
-        string CalculateInterest(IAccountable account, int month);
-        string DepositAmount(IDepositable account, decimal amount);
-        string WithDrawAmount(IWithdrawable account, decimal amount);
+        string CalculateInterest(string accountCustomerName, int month);
+        string DepositAmount(string accountCustomerName, decimal amount);
+        string WithDrawAmount(string accountCustomerName, decimal amount);
+        string PrintAccount(string accountCustomerName);
     }
 }

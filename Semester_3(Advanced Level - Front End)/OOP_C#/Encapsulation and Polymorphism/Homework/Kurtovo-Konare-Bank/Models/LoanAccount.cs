@@ -1,8 +1,6 @@
 ﻿namespace Kurtovo_Konare_Bank.Models
 {
-    using System;
-    using Interfaces;
-    public class LoanAccount : Account, IDepositable
+    public class LoanAccount : Account
     {
         public LoanAccount(Customer customer, float interestRate, decimal balance = 0) 
             : base(customer, interestRate, balance)
@@ -22,7 +20,8 @@
                 fullRate = (months - 3) > 0 ? (months - 3) : 0;
             }
 
-            decimal interestRate = this.Balance * (decimal) (1 + (this.InterestRate*fullRate)/100.0);
+            decimal interestRate = this.Balance * (decimal)(((this.InterestRate/12.00) * fullRate)/100.0);
+            this.Balance += interestRate;
                                  
             return interestRate;
         }

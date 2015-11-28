@@ -3,7 +3,7 @@
     using System;
     using Interfaces;
 
-    public class DepositAccount : Account, IDepositable, IWithdrawable
+    public class DepositAccount : Account, IWithdrawable
     {
         public DepositAccount(Customer customer, float interestRate, decimal balance = 0) 
             : base(customer, interestRate, balance)
@@ -13,11 +13,13 @@
         public override decimal CalculateInterest(int months)
         {
             decimal interest = 0m;
+
             if (this.Balance > 1000)
             {
-                interest = this.Balance*(1 + (interest*months/100.0m));
+                interest = this.Balance* (decimal)(((this.InterestRate/12.00)*months)/100.00);
             }
 
+            this.Balance += interest;
             return interest;
         }
 

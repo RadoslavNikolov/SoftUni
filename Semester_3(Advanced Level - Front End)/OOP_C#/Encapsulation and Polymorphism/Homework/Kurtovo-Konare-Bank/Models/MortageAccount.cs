@@ -2,7 +2,7 @@
 {
     using System;
     using Interfaces;
-    public class MortageAccount : Account, IDepositable
+    public class MortageAccount : Account
     {
         public MortageAccount(Customer customer, float interestRate, decimal balance = 0) 
             : base(customer, interestRate, balance)
@@ -24,9 +24,10 @@
             }
             
 
-            decimal interestRate = this.Balance * (decimal)(1 + (this.InterestRate * (double)fullRate)/100.0) +
-                                   this.Balance * (decimal)(1 + ((this.InterestRate/2.0) * halfRate)/100);
+            decimal interestRate = this.Balance * (decimal)(((this.InterestRate/12.00) * (double)fullRate)/100.0) +
+                                   this.Balance * (decimal)(((this.InterestRate/2.0 * 12.00) * halfRate)/100);
 
+            this.Balance += interestRate;
             return interestRate;
         }
 

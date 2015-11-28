@@ -11,11 +11,13 @@
     {
         private readonly IRender renderer;
         private readonly IInputHandler inputHandler;
+        private readonly IAccounting accounting;
 
-        public BankEngine(IRender renderer, IInputHandler inputHandler)
+        public BankEngine(IRender renderer, IInputHandler inputHandler, IAccounting accounting)
         {
             this.renderer = renderer;
             this.inputHandler = inputHandler;
+            this.accounting = accounting;
             this.IsRunning = true;
         }
 
@@ -47,9 +49,52 @@
                     return ExecuteCreateCustomer(commandArgs);
                 case "createaccount":
                     return this.ExecuteCreateAccount(commandArgs);
+                case "deposit":
+                    return ExecuteDepositAmount(commandArgs);
+                case "withdraw":
+                    return WithdrawAmount(commandArgs);
+                case "interest":
+                    return CalculateInterest(commandArgs);
+                case "printaccount":
+                    return PrintAccount(commandArgs);
             }
 
-            return "test";
+            return "Goodbye!";
+        }
+
+        private string PrintAccount(string[] commandArgs)
+        {
+            //[0] - command
+            //[1] - customer name
+
+            return this.accounting.PrintAccount(commandArgs[1]);
+        }
+
+        private string CalculateInterest(string[] commandArgs)
+        {
+            //[0] - command
+            //[1] - customer name
+            //[2] - months
+
+            return this.accounting.CalculateInterest(commandArgs[1], int.Parse(commandArgs[2]));
+        }
+
+        private string WithdrawAmount(string[] commandArgs)
+        {
+            //[0] - command
+            //[1] - customer name
+            //[2] - amount
+
+            return this.accounting.WithDrawAmount(commandArgs[1], decimal.Parse(commandArgs[2]));
+        }
+
+        private string ExecuteDepositAmount(string[] commandArgs)
+        {
+            //[0] - command
+            //[1] - customer name
+            //[2] - amount
+
+            return this.accounting.DepositAmount(commandArgs[1], decimal.Parse(commandArgs[2]));
         }
 
         private string ExecuteCreateAccount(string[] commandArgs)
@@ -68,7 +113,7 @@
                     {
                         return String.Format("Customer with name: {1} does not exists", commandArgs[2]);
                     }
-                    if (AccountFactory.GetAccountByCistomerName(commandArgs[2]) != null)
+                    if (AccountFactory.GetAccountByCustomerName(commandArgs[2]) != null)
                     {
                         return String.Format("Deposit account with customer name: {0}  already exists", commandArgs[2]);
                     }
@@ -81,7 +126,7 @@
                     {
                         return String.Format("Customer with name: {1} does not exists", commandArgs[2]);
                     }
-                    if (AccountFactory.GetAccountByCistomerName(commandArgs[2]) != null)
+                    if (AccountFactory.GetAccountByCustomerName(commandArgs[2]) != null)
                     {
                         return String.Format("Loan account with customer name: {0}  already exists", commandArgs[2]);
                     }
@@ -94,7 +139,7 @@
                     {
                         return String.Format("Customer with name: {1} does not exists", commandArgs[2]);
                     }
-                    if (AccountFactory.GetAccountByCistomerName(commandArgs[2]) != null)
+                    if (AccountFactory.GetAccountByCustomerName(commandArgs[2]) != null)
                     {
                         return String.Format("Mortage account with customer name: {0}  already exists", commandArgs[2]);
                     }

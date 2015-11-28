@@ -8,3 +8,11 @@ createAccount depositAccount radkoinc 10 2500000
 createAccount loanAccount radkoinc 10 2500
 createAccount moprtagetAccount radko 10 2500
 createAccount mortageAccount radkoinc 10 2500
+deposit radko 5000
+withdraw radko 50000000
+withdraw radko 5000
+printaccount radko
+interest radko 15
+interest Radkoinc 10
+printaccount radko
+printaccount Radkoinc

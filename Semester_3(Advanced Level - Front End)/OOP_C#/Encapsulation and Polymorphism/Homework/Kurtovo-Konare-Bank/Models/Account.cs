@@ -1,9 +1,10 @@
 ﻿namespace Kurtovo_Konare_Bank.Models
 {
     using System;
+    using System.Text;
     using Interfaces;
 
-    public abstract class Account : IAccountable, IDepositable
+    public abstract class Account : IAccountable
     {
         private float interestRate;
         private decimal balance;
@@ -54,6 +55,14 @@
         {
             CustomValidation.ValidateDepositAmount(amount);
             this.Balance += amount;
+        }
+
+        public override string ToString()
+        {
+            var output = new StringBuilder();
+            output.AppendLine(string.Format("Account customer name: {0} / balance: {1} / Account type: {2}", this.Customer.Name,
+                this.Balance, this.GetType().Name));
+            return output.ToString();
         }
     }
 }
