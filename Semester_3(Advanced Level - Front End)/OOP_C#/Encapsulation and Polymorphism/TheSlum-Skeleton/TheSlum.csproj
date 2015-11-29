@@ -40,16 +40,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bonus.cs" />
-    <Compile Include="Character.cs" />
+    <Compile Include="Characters\Character.cs" />
+    <Compile Include="Characters\Healer.cs" />
+    <Compile Include="Characters\Mage.cs" />
+    <Compile Include="Characters\Warrior.cs" />
+    <Compile Include="Enums\CharacterType.cs" />
+    <Compile Include="Enums\ItemType.cs" />
+    <Compile Include="Factory\CharacterFactory.cs" />
+    <Compile Include="Factory\ItemFactory.cs" />
     <Compile Include="GameEngine\Engine.cs" />
+    <Compile Include="GameEngine\ExtendedEngine.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\IHeal.cs" />
     <Compile Include="Interfaces\ITimeoutable.cs" />
-    <Compile Include="Item.cs" />
+    <Compile Include="Items\Axe.cs" />
+    <Compile Include="Items\Bonus.cs" />
+    <Compile Include="Items\Injection.cs" />
+    <Compile Include="Items\Item.cs" />
+    <Compile Include="Items\Pill.cs" />
+    <Compile Include="Items\Shield.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Team.cs" />
+    <Compile Include="Enums\Team.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

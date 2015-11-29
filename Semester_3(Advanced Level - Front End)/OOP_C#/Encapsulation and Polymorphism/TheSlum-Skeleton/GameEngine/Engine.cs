@@ -3,7 +3,9 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using Characters;
     using Interfaces;
+    using Items;
 
     public class Engine
     {
@@ -73,7 +75,7 @@
             throw new NotImplementedException();
         }
 
-        protected void AddItem(string[] inputParams)
+        protected virtual void AddItem(string[] inputParams)
         {
             throw new NotImplementedException();
         }
@@ -102,11 +104,11 @@
         {
             if (currentCharacter is IHeal)
             {
-                target.HealthPoints += (currentCharacter as IHeal).HealingPoints;
+                target.HealthPoints += ((IHeal) currentCharacter).HealingPoints;
             }
             else if (currentCharacter is IAttack)
             {
-                target.HealthPoints -= (currentCharacter as IAttack).AttackPoints - target.DefensePoints;
+                target.HealthPoints -= ((IAttack) currentCharacter).AttackPoints - target.DefensePoints;
                 if (target.HealthPoints <= 0)
                 {
                     target.IsAlive = false;

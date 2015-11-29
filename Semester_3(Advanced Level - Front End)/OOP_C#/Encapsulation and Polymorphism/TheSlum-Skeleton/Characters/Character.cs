@@ -1,6 +1,5 @@
-﻿namespace TheSlum
+﻿namespace TheSlum.Characters
 {
-    using System;
     using System.Collections.Generic;
 
     public abstract class Character : GameObject
