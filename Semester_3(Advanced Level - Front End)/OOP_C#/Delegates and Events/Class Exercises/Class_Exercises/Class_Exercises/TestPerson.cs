@@ -1,0 +1,20 @@
+﻿namespace Class_Exercises
+{
+    public class TestPerson
+    {
+        public TestPerson(string name, int age)
+        {
+            this.Name = name;
+            this.Age = age;
+        }
+
+        public string Name { get; set; }
+
+        public int Age { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("Name: {0}, Age: {1}", this.Name, this.Age);
+        }
+    }
+}
