@@ -3,13 +3,12 @@
     using System;
     using Interfaces;
 
-    public class ConsoleApender : IAppender
+    public class ConsoleApender : AbstractAppender
     {
-        public IFormatter Formatter { get; }
 
-        public void Append(string message, ReportLevel level, DateTime time)
+        public override void Append(string message, ReportLevel level, DateTime time)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(this.Formatter.Format(message, level, time));
         }
 
     }

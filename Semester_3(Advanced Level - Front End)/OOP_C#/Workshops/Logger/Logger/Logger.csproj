@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Appenders\AbstractAppender.cs" />
     <Compile Include="Appenders\ConsoleApender.cs" />
     <Compile Include="Appenders\FileAppender.cs" />
     <Compile Include="CusotmFormatters\SimpleFormatter.cs" />

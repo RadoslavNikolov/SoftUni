@@ -6,6 +6,7 @@
     public class Logger
     {
         private static readonly string LoggerType = Helper.GetAppSettings("appenderType");
+        private IAppender appender;
 
         public Logger()
         {
@@ -13,7 +14,19 @@
             this.Appender = (IAppender)Activator.CreateInstance(t);
         }
 
-        public IAppender Appender { get; private set; }
+        public IAppender Appender
+        {
+            get { return this.appender; }
+            private set
+            {
+                if (value == null)
+                {
+                    throw new ArgumentNullException(nameof(value), "Appender cannot be null");
+                }
+
+                this.appender = value;
+            }
+        }
 
         public void Debug(string msg)
         {

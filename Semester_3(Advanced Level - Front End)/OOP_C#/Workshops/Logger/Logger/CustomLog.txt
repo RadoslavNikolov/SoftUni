@@ -29,3 +29,29 @@
      </message>Lellllleeeeeeeeeeeeee</message>
 </log>
 
+<log>
+     <time>14.12.2015 г. 22:38:39</time>
+     <level>Info</level>
+     </message>My first test</message>
+</log>
+
+<log>
+     <time>14.12.2015 г. 22:38:39</time>
+     <level>Fatal</level>
+     </message>Lellllleeeeeeeeeeeeee</message>
+</log>
+
+<log>
+     <time>14.12.2015 г. 22:44:14</time>
+     <level>Info</level>
+     </message>My first test</message>
+</log>
+
+<log>
+     <time>14.12.2015 г. 22:44:14</time>
+     <level>Fatal</level>
+     </message>Lellllleeeeeeeeeeeeee</message>
+</log>
+
+14.12.2015 г. 22:44:52 - Info - My first test
+14.12.2015 г. 22:44:52 - Fatal - Lellllleeeeeeeeeeeeee
