@@ -1,0 +1,31 @@
+14.12.2015 г. 21:43:26 - Info - My first test
+14.12.2015 г. 21:45:47 - Info - My first test
+14.12.2015 г. 21:45:49 - Info - My first test
+14.12.2015 г. 21:46:01 - Info - My first test
+14.12.2015 г. 21:46:01 - Fatal - Lellllleeeeeeeeeeeeee
+14.12.2015 г. 21:46:08 - Info - My first test
+14.12.2015 г. 21:46:08 - Fatal - Lellllleeeeeeeeeeeeee
+14.12.2015 г. 21:46:09 - Info - My first test
+14.12.2015 г. 21:46:09 - Fatal - Lellllleeeeeeeeeeeeee
+14.12.2015 г. 21:46:11 - Info - My first test
+14.12.2015 г. 21:46:11 - Fatal - Lellllleeeeeeeeeeeeee
+14.12.2015 г. 21:46:12 - Info - My first test
+14.12.2015 г. 21:46:12 - Fatal - Lellllleeeeeeeeeeeeee
+14.12.2015 г. 22:05:06 - Info - My first test
+14.12.2015 г. 22:05:06 - Fatal - Lellllleeeeeeeeeeeeee
+14.12.2015 г. 22:13:41 - Info - My first test
+14.12.2015 г. 22:13:41 - Fatal - Lellllleeeeeeeeeeeeee
+14.12.2015 г. 22:13:43 - Info - My first test
+14.12.2015 г. 22:13:43 - Fatal - Lellllleeeeeeeeeeeeee
+<log>
+     <time>14.12.2015 г. 22:22:19</time>
+     <level>Info</level>
+     </message>My first test</message>
+</log>
+
+<log>
+     <time>14.12.2015 г. 22:22:19</time>
+     <level>Fatal</level>
+     </message>Lellllleeeeeeeeeeeeee</message>
+</log>
+
