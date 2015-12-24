@@ -1,4 +1,4 @@
-﻿namespace Blobs.Models
+﻿namespace Blobs.Models.Units
 {
     using System;
     using Inftrastructure;

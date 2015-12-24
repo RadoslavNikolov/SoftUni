@@ -35,6 +35,7 @@
                 throw new ArgumentException("Unknown command");
             }
 
+
             var commad = (ICommand)Activator.CreateInstance(type, parameters, capitalismData, readerWriter);
 
             return commad;
