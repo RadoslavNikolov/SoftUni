@@ -3,3 +3,6 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Ev
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\3. New-House\bin\Debug\_3.New_House.pdb
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\3. New-House\obj\Debug\_3.New_House.exe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\3. New-House\obj\Debug\_3.New_House.pdb
+C:\My\SoftUni\PreSemester_0\C#Basics\Exams\Exam-11-April-2014-Evening-OK\3. New-House\bin\Debug\_3.New_House.exe.config
+C:\My\SoftUni\PreSemester_0\C#Basics\Exams\Exam-11-April-2014-Evening-OK\3. New-House\obj\Debug\_3.New_House.exe
+C:\My\SoftUni\PreSemester_0\C#Basics\Exams\Exam-11-April-2014-Evening-OK\3. New-House\obj\Debug\_3.New_House.pdb

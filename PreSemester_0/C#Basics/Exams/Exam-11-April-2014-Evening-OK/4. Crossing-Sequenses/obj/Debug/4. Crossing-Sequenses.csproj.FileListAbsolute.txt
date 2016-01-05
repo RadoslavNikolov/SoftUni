@@ -4,3 +4,6 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Ev
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\4. Crossing-Sequenses\obj\Debug\4. Crossing-Sequenses.csprojResolveAssemblyReference.cache
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\4. Crossing-Sequenses\obj\Debug\_4.Crossing_Sequenses.exe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\4. Crossing-Sequenses\obj\Debug\_4.Crossing_Sequenses.pdb
+C:\My\SoftUni\PreSemester_0\C#Basics\Exams\Exam-11-April-2014-Evening-OK\4. Crossing-Sequenses\bin\Debug\_4.Crossing_Sequenses.exe.config
+C:\My\SoftUni\PreSemester_0\C#Basics\Exams\Exam-11-April-2014-Evening-OK\4. Crossing-Sequenses\obj\Debug\_4.Crossing_Sequenses.exe
+C:\My\SoftUni\PreSemester_0\C#Basics\Exams\Exam-11-April-2014-Evening-OK\4. Crossing-Sequenses\obj\Debug\_4.Crossing_Sequenses.pdb

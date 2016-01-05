@@ -3,3 +3,6 @@ C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Ev
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\5. Catch-The-Bits\bin\Debug\_5.Catch_The_Bits.pdb
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\5. Catch-The-Bits\obj\Debug\_5.Catch_The_Bits.exe
 C:\Users\isrmn\Documents\Visual Studio 2012\Projects\Exams\Exam-11-April-2014-Evening\5. Catch-The-Bits\obj\Debug\_5.Catch_The_Bits.pdb
+C:\My\SoftUni\PreSemester_0\C#Basics\Exams\Exam-11-April-2014-Evening-OK\5. Catch-The-Bits\bin\Debug\_5.Catch_The_Bits.exe.config
+C:\My\SoftUni\PreSemester_0\C#Basics\Exams\Exam-11-April-2014-Evening-OK\5. Catch-The-Bits\obj\Debug\_5.Catch_The_Bits.exe
+C:\My\SoftUni\PreSemester_0\C#Basics\Exams\Exam-11-April-2014-Evening-OK\5. Catch-The-Bits\obj\Debug\_5.Catch_The_Bits.pdb
