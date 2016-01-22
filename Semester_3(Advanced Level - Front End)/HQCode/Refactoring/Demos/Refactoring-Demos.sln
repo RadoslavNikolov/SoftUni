@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomGenericList", "CustomGenericList\CustomGenericList.csproj", "{222500A1-417C-4426-80BC-1720D5F4B776}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomGenericList.Test", "CustomGenericList.Test\CustomGenericList.Test.csproj", "{F1FFB77C-1ED8-4D43-B8A2-96D543A96B37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{222500A1-417C-4426-80BC-1720D5F4B776}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{222500A1-417C-4426-80BC-1720D5F4B776}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{222500A1-417C-4426-80BC-1720D5F4B776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FFB77C-1ED8-4D43-B8A2-96D543A96B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FFB77C-1ED8-4D43-B8A2-96D543A96B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FFB77C-1ED8-4D43-B8A2-96D543A96B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FFB77C-1ED8-4D43-B8A2-96D543A96B37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

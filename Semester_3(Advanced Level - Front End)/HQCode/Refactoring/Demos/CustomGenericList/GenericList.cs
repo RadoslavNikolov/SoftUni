@@ -2,118 +2,113 @@
 
 namespace GenericList
 {
+    using System.Text;
+
     public class GenericList<T> where T : IComparable<T>
     {
+        private const int DefaultCapacity = 16;
         private T[] arr;
-        private int count;
 
-        public GenericList()
+        public GenericList(int capacity = DefaultCapacity)
         {
-            this.arr = new T[16];
+            this.arr = new T[capacity < 0 ? 0 : capacity];
             this.Count = 0;
         }
 
-        public GenericList(int capacity)
-        {
-            this.arr = new T[capacity];
-            this.Count = 0;
-        }
-
-        public int Count
-        {
-            get { return this.count; }
-            set { this.count = value; }
-        }
+        public int Count { get; private set; }
 
         public int Capacity
         {
             get { return this.arr.Length; }
+
         }
 
         public T this[int index]
         {
             get
             {
-                CheckIndex(index);
+                this.CheckIndex(index);
+
                 return this.arr[index];
             }
         }
 
         public void Add(T value)
         {
-            if (Count == Capacity)
+            if (this.Count == this.Capacity)
             {
-                Array.Resize(ref arr, arr.Length * 2);
+                Array.Resize(ref this.arr, this.arr.Length * 2);
             }
 
-            arr[Count] = value;
-            Count++;
+            this.arr[this.Count] = value;
+            this.Count++;
         }
 
         public void InsertAt(T value, int index)
         {
-            CheckIndex(index);
-            T[] buffer = new T[Capacity + 1];
+            this.CheckIndex(index);
+            T[] buffer = new T[this.Capacity + 1];
 
-            for (int i = 0, position = 0; i < arr.Length - 1; position++)
+
+            for (int i = 0; i < index; i++)
             {
-                if (position == index)
-                {
-                    buffer[position] = value;
-                    continue;
-                }
-                else
-                {
-                    buffer[position] = arr[i];
-                    i++;
-                }
+                buffer[i] = this.arr[i];
             }
 
-            arr = buffer;
-            Count++;
+            buffer[index] = value;
+
+            for (int i = index + 1; i < this.Count; i++)
+            {
+                buffer[i] = this.arr[i - 1];
+            }
+
+            this.arr = buffer;
+            this.Count++;
         }
 
         public void Remove(T value)
         {
-            RemoveAt(Find(value));
+            var position = this.Find(value);
+
+            this.RemoveAt(position);
         }
 
         public void RemoveAt(int index)
         {
-            CheckIndex(index);
-            T[] buffer = new T[Capacity];
+            this.CheckIndex(index);
+            T[] buffer = new T[this.Capacity ];
 
-            for (int i = 0, position = 0; i < arr.Length; i++, position++)
+            for (int i = 0; i < index; i++)
             {
-                if (i == index)
-                {
-                    position--;
-                    continue;
-                }
-                else
-                {
-                    buffer[position] = arr[i];
-                }
+                buffer[i] = this.arr[i];
             }
 
-            arr = buffer;
-            Count--;
+
+            for (int i = index; i < this.Count; i++)
+            {
+                buffer[i] = this.arr[i + 1];
+            }
+
+            this.arr = buffer;
+            this.Count--;
         }
 
         public void Clear()
         {
-            Array.Clear(arr, 0, arr.Length);
-            Count = 0;
+            Array.Clear(this.arr, 0, this.Capacity);
+            this.Count = 0;
         }
 
         public int Find(T element)
         {
-            return Array.BinarySearch<T>(arr, 0, Count, element);
+            var result = Array.BinarySearch(this.arr, 0, this.Count, element);
+
+            return result;
         }
 
         public void CheckIndex(int index)
         {
-            if ((index < 0) || (index >= Count))
+            if ((index < 0) || (index >= this.Count))
             {
                 throw new IndexOutOfRangeException("Index must be in range [0, count]");
             }
@@ -121,13 +116,13 @@ namespace GenericList
 
         public T Min()
         {
-            T min = arr[0];
-            for (int i = 1; i < Count; i++)
+            T min = this.arr[0];
+            for (int i = 1; i < this.Count; i++)
             {
-                T listItem = arr[i];
+                T listItem = this.arr[i];
                 if (listItem.CompareTo(min) < 0)
                 {
-                    min = arr[i];
+                    min = this.arr[i];
                 }
             }
 
@@ -136,13 +131,13 @@ namespace GenericList
 
         public T Max()
         {
-            T max = arr[0];
-            for (int i = 1; i < Count; i++)
+            T max = this.arr[0];
+            for (int i = 1; i < this.Count; i++)
             {
-                T listItem = arr[i];
+                T listItem = this.arr[i];
                 if (listItem.CompareTo(max) > 0)
                 {
-                    max = arr[i];
+                    max = this.arr[i];
                 }
             }
 
@@ -151,12 +146,13 @@ namespace GenericList
 
         public override string ToString()
         {
-            string str = "";
-            for (int index = 0; index < Count; index++)
+            var output = new StringBuilder();
+            for (int index = 0; index < this.Count; index++)
             {
-                str += string.Format("[{0}] = {1}\n", index, arr[index]);
+                output.AppendLine(string.Format("[{0}] = {1}", index, this.arr[index]));
             }
-            return str;
+
+            return output.ToString();
         }
     }
 }
