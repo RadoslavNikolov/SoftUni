@@ -1,45 +1,71 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
-using Interfaces;
-using Data;
-using buls.Infrastructure;
-
-namespace buls.Core
+﻿namespace BangaloreUniversityLearningSystem.Core
 {
-    public class बंगलौर_विश्वविद्यालय_इंजन : Iइंजन
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Reflection;
+    using Controllers;
+    using Data;
+    using Interfaces;
+    using Models;
+
+    public class BangaloreUniversityEngine : IRunnable
     {
-        public void रन()
+        private readonly IReaderWriter readerWriter;
+
+        public BangaloreUniversityEngine(IReaderWriter readerWriter)
+        {
+            this.readerWriter = readerWriter;
+        }
+
+        public void Run()
         {
             var db = new BangaloreUniversityDate();
             User u = null;
             while (true)
             {
-                string str = Console.ReadLine();
+                string str = this.readerWriter.Read();
                 if (str == null)
                 {
                     break;
                 }
-                var route = new Route(str);
+
+                var route = new Router(str);
                 var controllerType = Assembly.GetExecutingAssembly().GetTypes()
-                    .FirstOrDefault(type => type.Name == route._controllerName)
-                    ;
-                var ctrl = Activator.CreateInstance(controllerType, db, u) as Controller;
-                var act = controllerType.GetMethod(route._actionName);
+                    .FirstOrDefault(type => type.Name == route.ControllerName);
+                var ctrl = Activator.CreateInstance(controllerType, db, u) as ControllerAbstract;
+                var act = controllerType.GetMethod(route.ActionName);
                 object[] @params = MapParameters(route, act);
-                try {
+                try 
+                {
                     var view = act.Invoke(ctrl, @params) as IView;
-                    Console.WriteLine(view.Display());
-                    u = ctrl.usr;
-                } catch (Exception ex) {
-                    Console.WriteLine(ex.InnerException.Message);
+                    this.readerWriter.Write(view.Display());
+                    u = ctrl.User;
+                } 
+                catch (Exception ex) 
+                {
+                    this.readerWriter.Write(ex.InnerException.Message);
                 }
             }
         }
 
-        private static object[] MapParameters(Route route, MethodInfo action)
+        private static object[] MapParameters(Router router, MethodInfo action)
         {
-            return action.GetParameters().Select<ParameterInfo, object>(p => { if (p.ParameterType == typeof(int)) return int.Parse(route._parameters[p.Name]); else return route._parameters[p.Name]; }).ToArray();
+            var expectedMethodparameters = action.GetParameters();
+            var argumentsToPass = new List<object>();
+
+            foreach (ParameterInfo param in expectedMethodparameters)
+            {
+                var currentArgument = router.Parameters[param.Name];
+                if (param.ParameterType == typeof(int))
+                {
+                    argumentsToPass.Add(int.Parse(currentArgument));
+                }
+
+                argumentsToPass.Add(currentArgument);           
+            }
+
+            return argumentsToPass.ToArray();
         }
     }
 }

@@ -1,16 +1,16 @@
-﻿namespace buls.Infrastructure
+﻿namespace BangaloreUniversityLearningSystem
 {
     using System.Text;
     using Interfaces;
 
     public abstract class View : IView
     {
-        public View(object model)
+        protected View(object model)
         {
-            this.model = model;
+            this.Model = model;
         }
 
-        public object model { get; private set; }
+        public object Model { get; private set; }
 
         public string Display()
         {

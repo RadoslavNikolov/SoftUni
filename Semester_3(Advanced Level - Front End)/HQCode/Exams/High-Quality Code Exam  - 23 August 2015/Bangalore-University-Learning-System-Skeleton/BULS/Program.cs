@@ -1,13 +1,15 @@
-﻿namespace buls
+﻿namespace BangaloreUniversityLearningSystem
 {
-    using Core;
+    using BangaloreUniversityLearningSystem.Core;
+    using IO;
 
     public class Program
     {
         public static void Main()
         {
-            var इंजन = new बंगलौर_विश्वविद्यालय_इंजन();
-            इंजन.रन();
+            var consoleReaderWriter = new ConsoleReaderWriter();
+            var engine = new BangaloreUniversityEngine(consoleReaderWriter);
+            engine.Run();
         }
     }
 }

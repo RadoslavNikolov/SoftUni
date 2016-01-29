@@ -1,19 +1,18 @@
-﻿using System;
-using buls.Data;
-using Interfaces;
-using buls.data;
-
-namespace Data
+﻿namespace BangaloreUniversityLearningSystem.Data
 {
+    using Interfaces;
+    using Models;
+
     public class BangaloreUniversityDate : IBangaloreUniversityDate
     {
-        public UsersRepository users { get; internal set; }
-        public IRepository<Course> courses { get;  protected set; }
-
         public BangaloreUniversityDate()
         {
-            this.users = new UsersRepository();
-            this.courses = new Repository<Course>();
+            this.Users = new UsersRepository();
+            this.Courses = new Repository<Course>();
         }
+
+        public UsersRepository Users { get; internal set; }
+
+        public IRepository<Course> Courses { get; protected set; }
     }
 }

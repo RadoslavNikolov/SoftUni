@@ -1,16 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using Interfaces;
+﻿namespace BangaloreUniversityLearningSystem.Data
+{
+    using System;
+    using System.Collections.Generic;
+    using Interfaces;
 
-namespace buls.data
-{    
     public class Repository<T> : IRepository<T>
     {
-        protected List<T> items;
+        private readonly List<T> items;
 
         public Repository()
         {
             this.items = new List<T>();
+        }
+
+        public IEnumerable<T> Items
+        {
+            get { return this.items; }
         }
 
         public virtual IEnumerable<T> GetAll()
