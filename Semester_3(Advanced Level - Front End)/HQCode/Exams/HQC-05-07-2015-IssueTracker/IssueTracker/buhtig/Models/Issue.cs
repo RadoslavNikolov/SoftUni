@@ -97,8 +97,7 @@
         {
             var output = new StringBuilder();
             output.AppendLine(this.Title)
-                .AppendFormat("Priority: {0}", this.GetPriorityAsString())
-                .AppendLine()
+                .AppendFormat("Priority: {0}{1}", this.GetPriorityAsString(), Environment.NewLine)
                 .AppendLine(this.Description);
 
             this.AppendTags(output);       
@@ -111,8 +110,7 @@
         {
             if (this.comments.Count > 0)
             {
-                output.AppendFormat("Comments:{0}{1}", Environment.NewLine, string.Join(Environment.NewLine, this.Comments))
-                    .AppendLine();
+                output.AppendFormat("Comments:{0}{1}{2}", Environment.NewLine, string.Join(Environment.NewLine, this.Comments), Environment.NewLine);
             }
         }
 
@@ -121,8 +119,7 @@
             if (this.Tags.Count > 0)
             {
                 var orderedTags = this.Tags.OrderBy(t => t);
-                output.AppendFormat("Tags: {0}", string.Join(",", orderedTags))
-                    .AppendLine();
+                output.AppendFormat("Tags: {0}{1}", string.Join(",", orderedTags), Environment.NewLine);
             }
         }
 

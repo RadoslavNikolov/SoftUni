@@ -14,7 +14,7 @@
             this.Content = content;
         }
 
-        public User User { get;}
+        public User User { get; private set; }
 
         public string Content
         {

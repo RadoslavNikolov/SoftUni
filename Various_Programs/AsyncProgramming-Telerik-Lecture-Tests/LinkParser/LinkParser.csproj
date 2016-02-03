@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DDD7E7BC-80BB-4029-ABDD-36542AEC38E2}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{DDA264E7-FBA7-41E2-BD0E-2984AF668426}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BuhtigIssueTracker</RootNamespace>
-    <AssemblyName>BuhtigIssueTracker</AssemblyName>
+    <RootNamespace>LinkParser</RootNamespace>
+    <AssemblyName>LinkParser</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,46 +32,63 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PowerCollections">
-      <HintPath>..\packages\XAct.Wintellect.PowerCollections.0.0.1\lib\net20\PowerCollections.dll</HintPath>
+    <Reference Include="NuGet.PackageManagement">
+      <HintPath>..\packages\NuGet.PackageManagement.3.2.0\lib\net45\NuGet.PackageManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.PackageManagement.UI">
+      <HintPath>..\packages\NuGet.PackageManagement.UI.3.2.0\lib\net45\NuGet.PackageManagement.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.ProjectManagement">
+      <HintPath>..\packages\NuGet.PackageManagement.3.2.0\lib\net45\NuGet.ProjectManagement.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\BuhtigIssueTrackerEngine.cs" />
-    <Compile Include="Core\Dispatcher.cs" />
-    <Compile Include="Data\BuhtigIssueTrackerData.cs" />
-    <Compile Include="Interfaces\IBuhtigIssueTrackerData.cs" />
-    <Compile Include="Interfaces\IDispatcher.cs" />
-    <Compile Include="Interfaces\IEndpoint.cs" />
-    <Compile Include="Interfaces\IIssueTracker.cs" />
-    <Compile Include="Interfaces\IReader.cs" />
-    <Compile Include="Interfaces\IReaderWriter.cs" />
-    <Compile Include="Interfaces\IWriter.cs" />
-    <Compile Include="IO\ConsoleReaderWriter.cs" />
-    <Compile Include="Core\IssueTracker.cs" />
-    <Compile Include="Models\Endpoint.cs" />
-    <Compile Include="Models\Issue.cs" />
-    <Compile Include="Models\User.cs" />
-    <Compile Include="Models\Comment.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkItem.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Interfaces\IEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Models\Enums\IssuePriority.cs" />
-    <Compile Include="Utils\Constants.cs" />
-    <Compile Include="Utils\HashUtils.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
