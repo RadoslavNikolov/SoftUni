@@ -9,25 +9,25 @@
 
     public class Issue
     {
-        private string title;
-        private string description;
         private static int id;
-        private readonly IList<Comment> comments; 
-
+        private readonly IList<Comment> comments;      
+        private string title;
+        private string description;       
+        
         static Issue()
         {
-            id = 0;
+            id = 1;
         }
 
         public Issue(string title, string description, IssuePriority priority, IList<string> tags)
-        {
-            Issue.id++;
+        {          
             this.comments = new List<Comment>();
             this.Title = title;
             this.Description = description;
             this.Priority = priority;
-            this.Tags = tags;
+            this.Tags = tags;       
             this.Id = Issue.id;
+            Issue.id++;
         }
 
         public int Id { get; private set; }
@@ -41,15 +41,9 @@
 
             private set
             {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentException("The title cannot be null or empty");
-                }
-
-                if (value.Length < Constants.MinIssueTittleTextLength)
+                if (string.IsNullOrWhiteSpace(value) || value.Length < Constants.MinIssueTittleTextLength)
                 {
                     throw new ArgumentException(string.Format("The title must be at least {0} symbols long", Constants.MinIssueTittleTextLength));
-
                 }
 
                 this.title = value;
@@ -65,14 +59,9 @@
 
             set
             {
-                if (string.IsNullOrEmpty(value))
+                if (string.IsNullOrWhiteSpace(value) || value.Length < Constants.MinIssueDescriptionTextLength)
                 {
-                    throw new ArgumentException("The description cannot be null or empty");
-                }
-
-                if (value.Length < Constants.MinIssueDescriptionTextLength)
-                {
-                    throw new ArgumentException(string.Format("The description must be at least 5 symbols long", Constants.MinIssueDescriptionTextLength));
+                    throw new ArgumentException(string.Format("The description must be at least {0} symbols long", Constants.MinIssueDescriptionTextLength));
                 }
 
                 this.description = value;
@@ -118,8 +107,7 @@
         {
             if (this.Tags.Count > 0)
             {
-                var orderedTags = this.Tags.OrderBy(t => t);
-                output.AppendFormat("Tags: {0}{1}", string.Join(",", orderedTags), Environment.NewLine);
+                output.AppendFormat("Tags: {0}{1}", string.Join(",", this.Tags.OrderBy(t => t)), Environment.NewLine);
             }
         }
 

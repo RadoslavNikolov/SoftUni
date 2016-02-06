@@ -6,43 +6,38 @@
 
     public class Comment
     {
-        private string content;
+        private string text;
 
-        public Comment(User user, string content)
+        public Comment(User user, string text)
         {
             this.User = user;
-            this.Content = content;
+            this.Text = text;
         }
 
         public User User { get; private set; }
 
-        public string Content
+        public string Text
         {
             get
             {
-                return this.content;
+                return this.text;
             }
 
             private set
             {
-                if (string.IsNullOrEmpty(value))
+                if (string.IsNullOrWhiteSpace(value) || value.Length < Constants.MinCommentTextLength)
                 {
-                    throw new ArgumentException("The content cannot be null or empty");
+                    throw new ArgumentException(string.Format("The text must be at least {0} symbols long", Constants.MinCommentTextLength));
                 }
 
-                if (value.Length < Constants.MinCommentTextLength)
-                {
-                    throw new ArgumentException(string.Format("The content must be at least {0} symbols long", Constants.MinCommentTextLength));
-                }
-
-                this.content = value;
+                this.text = value;
             }
         }
 
         public override string ToString()
         {
             var output = new StringBuilder();
-            output.AppendLine(this.Content)
+            output.AppendLine(this.Text)
                 .AppendFormat("-- {0}", (object)this.User.UserName)
                 .AppendLine();
 

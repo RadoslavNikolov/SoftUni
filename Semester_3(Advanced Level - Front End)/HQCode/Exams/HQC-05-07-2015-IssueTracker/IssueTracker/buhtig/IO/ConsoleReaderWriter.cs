@@ -2,6 +2,7 @@
 {
     using System;
     using Interfaces;
+
     public class ConsoleReaderWriter : IReaderWriter
     {
         public string Read()

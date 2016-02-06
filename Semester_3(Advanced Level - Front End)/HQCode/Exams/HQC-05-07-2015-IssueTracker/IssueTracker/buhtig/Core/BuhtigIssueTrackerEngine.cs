@@ -1,6 +1,9 @@
 ﻿namespace BuhtigIssueTracker.Core
 {
+    using System;
+    using System.Text;
     using Interfaces;
+    using IO;
     using Models;
 
     public class BuhtigIssueTrackerEngine : IEngine
@@ -14,26 +17,37 @@
             this.readerWriter = readerWriter;
         }
 
+        public BuhtigIssueTrackerEngine()
+            : this(new ActionDispatcher(), new ConsoleReaderWriter())
+        {
+            ////DI: Added IReaderWriter
+        }
+
         public void Run()
         {
             while (true)
             {
-                string inputUrl = this.readerWriter.Read().Trim();
+                string inputUrl = this.readerWriter.Read();
 
-                if (string.IsNullOrEmpty(inputUrl))
+                if (inputUrl == null)
                 {
                     break;
                 }
 
-                try
-                {
-                    var endpoint = new Endpoint(inputUrl);
-                    string viewResult = this.actionDispatcher.DispatchAction(endpoint);
-                    this.readerWriter.Print(viewResult);
-                }
-                catch (System.Exception ex)
-                {
-                    this.readerWriter.Print(ex.Message);
+                inputUrl = inputUrl.Trim();
+                
+                if (!string.IsNullOrEmpty(inputUrl))
+                {         
+                    try
+                    {
+                        var endpoint = new Endpoint(inputUrl);
+                        string viewResult = this.actionDispatcher.DispatchAction(endpoint);
+                        this.readerWriter.Print(viewResult);
+                    }
+                    catch (Exception ex)
+                    {
+                        this.readerWriter.Print(ex.Message);
+                    }
                 }
             }
         }

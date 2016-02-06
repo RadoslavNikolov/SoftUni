@@ -17,10 +17,15 @@
         }
 
         public User CurrentLoggedUser { get; set; }
+
         public IDictionary<string, User> UsersDictionaryByUsername { get; private set; }
+
         public OrderedDictionary<int, Issue> IssuesById { get; private set; }
+
         public MultiDictionary<string, Issue> IssuesByUsername { get; private set; }
+
         public MultiDictionary<string, Issue> IssuesByTag { get; private set; }
+
         public MultiDictionary<User, Comment> UsersCommentDictionaryByUser { get; private set; }
 
         public void AddUser(User user)

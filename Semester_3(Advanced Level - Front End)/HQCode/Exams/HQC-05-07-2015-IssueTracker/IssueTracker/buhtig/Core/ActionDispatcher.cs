@@ -10,6 +10,11 @@
             this.IssueTracker = issueTracker;
         }
 
+        public ActionDispatcher()
+            : this(new IssueTracker())
+        {
+        }
+
         private IIssueTracker IssueTracker { get; set; }
 
         public string DispatchAction(IEndpoint endpoint)
@@ -33,7 +38,7 @@
                 case "MyComments": 
                     return this.IssueTracker.GetMyComments();
                 case "Search":
-                    return this.IssueTracker.SearchForIssues(endpoint.Parameters["tags"].Split('|'));
+                    return this.IssueTracker.SearchForIssues(endpoint);
                 default:
                     return string.Format("Invalid action: {0}", endpoint.ActionName);
             }

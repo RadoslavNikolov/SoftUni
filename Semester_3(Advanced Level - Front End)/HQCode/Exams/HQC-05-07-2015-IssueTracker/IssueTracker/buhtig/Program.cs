@@ -12,12 +12,12 @@
         {
             Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
-            //IoC example
+            ////DI: example
             var issueData = new BuhtigIssueTrackerData();
             var tracker = new IssueTracker(issueData);
             var actionDispatcher = new ActionDispatcher(tracker);
             var consoleReaderWriter = new ConsoleReaderWriter();
-            
+
             var engine = new BuhtigIssueTrackerEngine(actionDispatcher, consoleReaderWriter);
             engine.Run();
         }

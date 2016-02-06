@@ -1,9 +1,11 @@
-﻿namespace BuhtigIssueTracker.Core {
+﻿namespace BuhtigIssueTracker.Core 
+{
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using BuhtigIssueTracker.Interfaces;
     using BuhtigIssueTracker.Models;
+    using Data;
     using Models.Enums;
     using Utils;
 
@@ -14,7 +16,12 @@
             this.Data = data;
         }
 
-        private IBuhtigIssueTrackerData Data { get; set; }
+        public IssueTracker()
+            : this(new BuhtigIssueTrackerData())
+        {
+        }
+
+        public IBuhtigIssueTrackerData Data { get; set; }
 
         public string RegisterUser(IEndpoint endpoint)
         {
@@ -73,6 +80,7 @@
             {
                 return "There is no currently logged in user";
             }
+
             string username = this.GetCurrentUsername();
             this.Data.CurrentLoggedUser = null;
 
@@ -89,13 +97,13 @@
             string title = endpoint.Parameters["title"];
             string description = endpoint.Parameters["description"];
             IssuePriority priority =
-                (IssuePriority) Enum.Parse(typeof (IssuePriority), endpoint.Parameters["priority"], true);
+                (IssuePriority)Enum.Parse(typeof(IssuePriority), endpoint.Parameters["priority"], true);
             IList<string> tagsList = endpoint.Parameters["tags"].Split('|');
 
             var newIssue = new Issue(title, description, priority, tagsList.Distinct().ToList());
             this.Data.AddIssue(newIssue);
 
-            return string.Format("Issue {0} created successfully.", newIssue.Id);
+            return string.Format("Issue {0} created successfully", newIssue.Id);
         }
 
         public string RemoveIssue(IEndpoint endpoint)
@@ -114,6 +122,7 @@
 
             var issue = this.Data.IssuesById[issueId];
             var username = this.GetCurrentUsername();
+
             if (!this.Data.IssuesByUsername[username].Contains(issue))
             {
                 return string.Format("The issue with ID {0} does not belong to user {1}", issueId, username);
@@ -157,17 +166,17 @@
             var username = this.GetCurrentUsername();
             var issuesForCurrentUser = this.Data.IssuesByUsername[username];
 
-            //BUG: I think this is unnecessary
-            //var newIssues = issues;
+            ////BUG: I think this is unnecessary
+            ////var newIssues = issues;
 
             if (!issuesForCurrentUser.Any())
             {
-                //BUG: I think this is unnecessary
-                //var result = "";
-                //foreach (var i in this.Data.IssuesByUsername)
-                //{
-                //    result += i.Value.Select(iss => iss.Comments.Select(c => c.Content)).ToString();
-                //}
+                ////BUG: I think this is unnecessary
+                ////var result = "";
+                ////foreach (var i in this.Data.IssuesByUsername)
+                ////{
+                ////    result += i.Value.Select(iss => iss.Comments.Select(c => c.Content)).ToString();
+                ////}
 
                 return "No issues";
             }
@@ -182,57 +191,67 @@
                 return "There is no currently logged in user";
             }
 
-            var comments = new List<Comment>();
-            this.Data.IssuesById.Select(i => i.Value.Comments).ToList()
-                .ForEach(item => comments.AddRange(item));
+            ////Bug: bottleneck this is unnecessary
+            var comments = this.Data.UsersCommentDictionaryByUser[this.Data.CurrentLoggedUser]
+                .Select(c => c.ToString());
 
-            var username = this.GetCurrentUsername();
-            var resultComments = comments
-                .Where(c => c.User.UserName == username)
-                .Select(c => c.ToString())
-                .ToList();
+            ////var comments = new List<Comment>();
+            ////this.Data.IssuesById.Select(i => i.Value.Comments).ToList()
+            ////    .ForEach(item => comments.AddRange(item));
 
-            //Bug: This is unnecessary
-            //var commentsAsString = resultComments
-            //    .Select(x => x.ToString()).ToArray();
+            ////var username = this.GetCurrentUsername();
+            ////var resultComments = comments
+            ////    .Where(c => c.User.UserName == username)
+            ////    .Select(c => c.ToString())
+            ////    .ToList();
 
-            if (!resultComments.Any())
+            ////var commentsAsString = resultComments
+            ////    .Select(x => x.ToString()).ToArray();
+
+            if (!comments.Any())
             {
                 return "No comments";
             }
 
-            return string.Join(Environment.NewLine, resultComments);
+            return string.Join(Environment.NewLine, comments);
         }
 
-        public string SearchForIssues(string[] strings) {
-            if (strings.Length < 0)
+        public string SearchForIssues(IEndpoint endpoint)
+        {
+            var tags = endpoint.Parameters["tags"].Split('|');
+            if (tags.Length <= 0)
             {
                 return "There are no tags provided";
             }
 
-            var i = new List<Issue>();
-            foreach (var t in strings)
+            var issuesList = new List<Issue>();
+            foreach (var tag in tags)
             {
-                i.AddRange(this.Data.IssuesByTag[t]);
+                issuesList.AddRange(this.Data.IssuesByTag[tag]);
             }
 
-            if (!i.Any())
+            if (!issuesList.Any())
             {
                 return "There are no issues matching the tags provided";
             }
-            var newi = i.Distinct();
-            if (!newi.Any())
-            {
-                return "No issues";
-            }
 
-            return string.Join(Environment.NewLine, newi.OrderByDescending(x => x.Priority).ThenBy(x => x.Title).Select(x => string.Empty));
+            var distinctIssuesList = issuesList.Distinct();
+
+            ////BUG: that is unnecessary
+            ////if (!distinctIssuesList.Any())
+            ////{
+            ////    return "No issues";
+            ////}
+
+            ////BUG: ".Select(x => string.Empty)" is wrong. It returns stringEmpty for each item in list
+            return string.Join(Environment.NewLine, distinctIssuesList.OrderByDescending(x => x.Priority).ThenBy(x => x.Title));
         }
 
         private string GetCurrentUsername()
         {
-            return this.Data.CurrentLoggedUser.UserName;
-        }
-        
+            var username = this.Data.CurrentLoggedUser.UserName;
+
+            return username;
+        }      
     }
 }
