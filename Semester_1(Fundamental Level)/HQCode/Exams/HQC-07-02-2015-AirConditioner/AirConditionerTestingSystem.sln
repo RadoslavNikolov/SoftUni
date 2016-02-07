@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirConditionerTestingSystem", "AirConditionerTestingSystem\AirConditionerTestingSystem.csproj", "{6F364073-495F-4503-93ED-DBE74E6BF918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirConditionerTestingSystem.Test", "AirConditionerTestingSystem.Test\AirConditionerTestingSystem.Test.csproj", "{A212C2B7-9AB0-4343-B437-A98194963D2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F364073-495F-4503-93ED-DBE74E6BF918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F364073-495F-4503-93ED-DBE74E6BF918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F364073-495F-4503-93ED-DBE74E6BF918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F364073-495F-4503-93ED-DBE74E6BF918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A212C2B7-9AB0-4343-B437-A98194963D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A212C2B7-9AB0-4343-B437-A98194963D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A212C2B7-9AB0-4343-B437-A98194963D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A212C2B7-9AB0-4343-B437-A98194963D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
