@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Webinary registration form</title>
+    <link rel="stylesheet" href="myStyle.css" type="text/css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Регистрация за уебинар</h1>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Име и Фамилия:<sup>*</sup></legend>
+                <input type="text" required>
+            </fieldset>
+            <fieldset>
+                <legend>Адрес:</legend>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Населено място:</legend>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Пощенск код:</legend>
+                <input type="number">
+            </fieldset>
+            <fieldset>
+                <legend>Email:<sup>*</sup></legend>
+                <input type="email" required>
+            </fieldset>
+            <fieldset>
+                <legend>Телефон:<sup>*</sup></legend>
+                <input type="tel" required>
+            </fieldset>
+            <fieldset>
+                <legend>Дата на семинар:<sup>*</sup></legend>
+                <input type="date" required>
+            </fieldset>
+            <input type="checkbox" id="invoice-checkbox" onchange="togglecheckbox(this)"/>
+            <label for="invoice-checkbox">Желая фактура</label>
+
+            <div id="invoice-form">
+                <fieldset>
+                    <legend>Фирма/Организация:<sup>*</sup></legend>
+                    <input type="text" required>
+                </fieldset>
+                <fieldset>
+                    <legend>МОЛ:<sup>*</sup></legend>
+                    <input type="number" required>
+                </fieldset>
+                <fieldset>
+                    <legend>ЕИК:<sup>*</sup></legend>
+                    <input type="number" required>
+                </fieldset>
+                <fieldset>
+                    <legend>ИН по ДДС:<sup>*</sup></legend>
+                    <input type="number" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Адрес:<sup>*</sup></legend>
+                    <input type="text" required>
+                </fieldset>
+            </div>
+            <div id="butns">
+                <button type="submit" id="registerBtn">Регистрирай се</button>
+                <button type="reset" id="clearBtn" onclick="togglecheckbox(this)">Изчисти</button>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript">
+        var cb = document.getElementById("invoice-form");
+        togglecheckbox(cb)
+
+        function togglecheckbox(cb){
+            if(cb.checked) {
+                document.getElementById("invoice-form").hidden = false;
+            } else {
+                document.getElementById("invoice-form").hidden = true;
+            }
+        }
+
+    </script>
+</body>
+</html>
