@@ -3,11 +3,11 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Text;
 
     public static class SubsetSumsProgram
     {
-        private static readonly List<IEnumerable<int>> ResultsList = new List<IEnumerable<int>>();
-
+        //I modified the task and used bits mask to generate all possible combinations without repetition
         public static void Main()
         {
             Console.Write("Enter target sum:");
@@ -21,50 +21,31 @@
                 Environment.Exit(0);
             }
 
-            var inputArray = inputLine.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
-            inputArray = inputArray.Distinct().ToArray();
+            var inputList = inputLine.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).Distinct().ToArray();
 
-            ////Permutations
-            //for (int i = 1; i <= inputArray.Length; i++)
-            //{
-            //    FindAllSubsets<int>(inputArray, i, targetSum);
-            //}
-            //PrintSubsets(ResultsList, targetSum);
+            //Combinations with "bits mask" using strings
+            var resultList = CombinationUtils.GetCombinationsUsingStringMask(inputList);
+            PrintSubsets(resultList, targetSum);
 
-
-            //Combinations
-            var combResultsList = CombinationUtils.GenerateCombinations(inputArray);
-            PrintSubsets(combResultsList, targetSum);
+            ////Combinations with bits mask without using strings
+            //var combResultsList = CombinationUtils.GetCombinationsUsingBitMask(inputArray);
+            //PrintSubsets(combResultsList, targetSum);
         }
 
         // Print out the permutations or combinations of the input 
         private static void PrintSubsets(IEnumerable<IEnumerable<int>> resultsList, int targetSum)
         {
-            if (!resultsList.Any())
-            {
-                Console.WriteLine("No matching subsets.");
-                return;
-            }
+            var output = new StringBuilder();
 
             foreach (var list in resultsList)
             {
                 if (list.Sum() == targetSum)
                 {
-                    Console.WriteLine("{0} = {1}", string.Join(" + ", list), targetSum);
+                    output.AppendLine(string.Format("{0} = {1}", string.Join(" + ", list), targetSum));
                 }
             }
-        }
 
-        // Find out the permutations of the input 
-        private static void FindAllSubsets<T>(IEnumerable<T> input, int count, int targetSum)
-        {
-            foreach (IEnumerable<int> permutation in PermuteUtils.Permute<T>(input, count))
-            {
-                if (permutation.Sum() == targetSum)
-                {
-                    ResultsList.Add(permutation);
-                }
-            }
+            Console.WriteLine(output.Length == 0 ? "No matching subsets." : output.ToString());
         }
     }
 }

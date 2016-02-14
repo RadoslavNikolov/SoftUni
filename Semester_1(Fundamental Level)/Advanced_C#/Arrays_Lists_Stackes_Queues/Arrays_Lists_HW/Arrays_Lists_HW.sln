@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_SortArrayOfNumbers", "SortArrayOfNumbers\01_SortArrayOfNumbers.csproj", "{89F57D44-E1DB-48CD-AD30-1762561FD626}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Lago_Blocks", "Lago_Blocks\08_Lago_Blocks.csproj", "{B918DEC1-0642-46CE-8601-6EE7F29402EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Stuck_Numbers", "Stuck_Numbers\09_Stuck_Numbers.csproj", "{FBFE0AF1-3E0F-4947-B6FB-E845D6BEB9A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_PytagoreanNumbers", "PytagoreanNumbers\10_PytagoreanNumbers.csproj", "{D1E41309-0397-4AC5-8E69-A01892641440}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{FBFE0AF1-3E0F-4947-B6FB-E845D6BEB9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBFE0AF1-3E0F-4947-B6FB-E845D6BEB9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBFE0AF1-3E0F-4947-B6FB-E845D6BEB9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E41309-0397-4AC5-8E69-A01892641440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E41309-0397-4AC5-8E69-A01892641440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E41309-0397-4AC5-8E69-A01892641440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E41309-0397-4AC5-8E69-A01892641440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

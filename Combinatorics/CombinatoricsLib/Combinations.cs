@@ -1,11 +1,52 @@
-﻿namespace SubsetSums
+﻿namespace CombinatoricsLib
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    public class CombinationUtils
-    {   
+    public static class Combinations
+    {
+        /// <summary>
+        /// Gets the k combs with repetition.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list.</param>
+        /// <param name="length">The length.</param>
+        /// <returns>Returns an enumeration of enumerators, one for each combination of the input with deffined length.</returns>
+        public static IEnumerable<IEnumerable<T>> GetKCombsWithRepetition<T>(IEnumerable<T> list, int length) 
+            where T : IComparable
+        {
+            if (length == 1)
+            {
+                return list.Select(t => new T[] { t });
+            }
+
+            return GetKCombsWithRepetition(list, length - 1)
+                .SelectMany(t => list.Where(o => o.CompareTo(t.Last()) >= 0),
+                    (t1, t2) => t1.Concat(new T[] { t2 }));
+        }
+
+        /// <summary>
+        /// Gets the k combs without repetition.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list.</param>
+        /// <param name="length">The length.</param>
+        /// <returns>Returns an enumeration of enumerators, one for each combination of the input with deffined length.</returns>
+        public static IEnumerable<IEnumerable<T>> GetKCombs<T>(IEnumerable<T> list, int length)
+            where T : IComparable
+        {
+            if (length == 1)
+            {
+                return list.Select(t => new T[] { t });
+            }
+
+            return GetKCombs(list, length - 1)
+                .SelectMany(t => list.Where(o => o.CompareTo(t.Last()) > 0),
+                    (t1, t2) => t1.Concat(new T[] { t2 }));
+        }
+
+
         /// <summary>
         /// Generates the combinations without using strings.
         /// </summary>
@@ -16,7 +57,7 @@
         {
             var maskNumber = (int)Math.Pow(2, inputList.Count());
             var result = AllCombinations(inputList, maskNumber);
-            
+
             return result;
         }
 
@@ -33,7 +74,7 @@
                     if ((num & (1 << i)) == 1 << i)
                     {
                         currentCombinations.Add(inputList[inputList.Count - 1 - i]);
-                    }           
+                    }
                 }
 
                 if (currentCombinations.Any())

@@ -11,55 +11,43 @@
     {
         static void Main()
         {
-            //I modify the task to find all permutations.
-
             Console.Write("Enter n (numbers count) or \"exit\": ");
             string inputLine = Console.ReadLine();
             CheckForValidInput(inputLine);
             int n = int.Parse(inputLine);
 
-            Console.Write("Enter count(even integer number) of numbers in the sets or \"exit\": ");
-            inputLine = Console.ReadLine();
-            CheckForValidInput(inputLine);
-            int setNumsCount = int.Parse(inputLine);
-
-            Console.Write("Enter array of integer numbers that count of elements in array >= count of numbers in the sets: ");
+            Console.Write("Enter array of integer numbers whose count of elements >= count of numbers in the sets: ");
             inputLine = Console.ReadLine();
             CheckForValidInput(inputLine);
 
             var numsArray = Regex.Split(inputLine, @"\s+", RegexOptions.IgnoreCase).Select(int.Parse).ToArray();
-            if (n != numsArray.Length || numsArray.Length < setNumsCount)
-            {
-                Console.WriteLine("Invalid input!{0}Difference between \"n\" and input array length or input array count and count of numbers in the sets", Environment.NewLine);
-                Console.WriteLine("Have a nice day!");
-                Environment.Exit(0);
-            }
-
-            FindAllSets(numsArray, setNumsCount);
+            var permList = GetPermutations(numsArray, 4);
+            ProcessPermResults(permList);
         }
 
-        private static void FindAllSets<T>(IEnumerable<T> input, int setNumsCount)
+        private static void ProcessPermResults(IEnumerable<IEnumerable<int>> permList)
         {
-            var validSets = new List<IEnumerable<T>>();
+            var outPut = new StringBuilder();
 
-            foreach (IEnumerable<T> permutation in PermuteUtils.Permute<T>(input, setNumsCount))
+            foreach (var permutation in permList)
             {
-                if (CheckForValidSubsets(permutation, setNumsCount))
+                var permAsList = permutation as IList<int> ?? permutation.ToList();
+
+                if (CheckForValidPerm(permAsList))
                 {
-                    validSets.Add(permutation);
-                }             
+                    outPut.AppendLine(string.Format("{0}|{1}=={2}|{3}", permAsList[0], permAsList[1], permAsList[2], permAsList[3]));
+                }
             }
 
-            PrintResults(validSets, setNumsCount);
+            Console.WriteLine(outPut.Length == 0 ? "No" : outPut.ToString());
         }
 
-        private static bool CheckForValidSubsets<T>(IEnumerable<T> permutation, int setNumsCount)
+        private static bool CheckForValidPerm(IList<int> permAsList)
         {
-            if (
-                permutation.ToList().GetRange(0, setNumsCount / 2).Sum(x => x == null ? 0 : int.Parse(x.ToString())) 
-                == 
-                permutation.ToList().GetRange(setNumsCount/2, setNumsCount/2).Sum(x => x == null ? 0 : int.Parse(x.ToString()))
-                )
+            var fisrtNumAsStr = string.Format("{0}{1}", permAsList[0], permAsList[1]);
+            var secondNumAsStr = string.Format("{0}{1}", permAsList[2], permAsList[3]);
+
+            if (int.Parse(fisrtNumAsStr) == int.Parse(secondNumAsStr))
             {
                 return true;
             }
@@ -67,25 +55,6 @@
             return false;
         }
 
-        private static void PrintResults<T>(List<IEnumerable<T>> validSets, int setNumsCount)
-        {
-            if (!validSets.Any())
-            {
-                Console.WriteLine("No");
-                return;
-            }
-
-            foreach (var set in validSets)
-            {
-                var output = new StringBuilder();
-                var enumerable = set as List<T> ?? set.ToList();
-
-                output.Append(string.Join("|", enumerable.GetRange(0, setNumsCount/2)));
-                output.Append("=");
-                output.Append(string.Join("|", enumerable.GetRange(setNumsCount / 2, setNumsCount / 2)));
-                Console.WriteLine(output.ToString());
-            }
-        }
 
         private static void CheckForValidInput(string inputLine)
         {
@@ -94,6 +63,19 @@
                 Console.WriteLine("Have a nice day!");
                 Environment.Exit(0);
             }
+        }
+
+
+        public static IEnumerable<IEnumerable<T>> GetPermutations<T>(IEnumerable<T> list, int length)
+        {
+            if (length == 1)
+            {
+                return list.Select(t => new T[] { t });
+            }
+
+            return GetPermutations(list, length - 1)
+                .SelectMany(t => list.Where(o => !t.Contains(o)),
+                    (t1, t2) => t1.Concat(new T[] { t2 }));
         }
     }
 }
