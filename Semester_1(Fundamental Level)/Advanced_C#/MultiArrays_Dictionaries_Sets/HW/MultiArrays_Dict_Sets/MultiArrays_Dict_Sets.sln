@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Activity_Tracker", "Activity_TRacker\13_Activity_Tracker.csproj", "{3C486892-EAE9-4B59-883F-77E566930FC9}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Night_Life", "Night_Life\08_Night_Life.csproj", "{BD330FAE-79BE-4479-A335-34509FD8F450}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Collect_the_Coins", "Collect_the_Coins\05_Collect_the_Coins.csproj", "{314ECA7A-21B3-4BDD-85B4-A0DA1F9D52DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Matrix_Shuffling", "Matrix_Shuffling\03_Matrix_Shuffling.csproj", "{D8E6B241-4CD4-4B56-9F44-F1E50B2AF5CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_SequenceInMatrix", "SequenceInMatrix\04_SequenceInMatrix.csproj", "{850F8743-96C1-42DD-9980-FF71AF1F9A1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{314ECA7A-21B3-4BDD-85B4-A0DA1F9D52DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{314ECA7A-21B3-4BDD-85B4-A0DA1F9D52DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{314ECA7A-21B3-4BDD-85B4-A0DA1F9D52DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E6B241-4CD4-4B56-9F44-F1E50B2AF5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E6B241-4CD4-4B56-9F44-F1E50B2AF5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E6B241-4CD4-4B56-9F44-F1E50B2AF5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E6B241-4CD4-4B56-9F44-F1E50B2AF5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850F8743-96C1-42DD-9980-FF71AF1F9A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850F8743-96C1-42DD-9980-FF71AF1F9A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850F8743-96C1-42DD-9980-FF71AF1F9A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850F8743-96C1-42DD-9980-FF71AF1F9A1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
