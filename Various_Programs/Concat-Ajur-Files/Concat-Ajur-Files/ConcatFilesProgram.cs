@@ -51,9 +51,9 @@
 
         private static void ProcessDetFile(string file)
         {
-            using (StreamReader reader = new StreamReader(file, Encoding.Default, true))
+            using (StreamReader reader = new StreamReader(file, Encoding.Default))
             {
-                using (StreamWriter writer = File.AppendText(sdetFileFullPath))
+                using (StreamWriter writer = new StreamWriter(sdetFileFullPath, true, Encoding.Default))
                 {
                     string line;
 
@@ -72,9 +72,9 @@
 
         private static void ProcessTotFile(string file)
         {
-            using (StreamReader reader = new StreamReader(file, Encoding.Default, true))
+            using (StreamReader reader = new StreamReader(file, Encoding.Default))
             {
-                using (StreamWriter writer = File.AppendText(stotFileFullPath))
+                using (StreamWriter writer = new StreamWriter(stotFileFullPath, true, Encoding.Default))
                 {
                     string line;
 
