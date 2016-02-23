@@ -1,11 +1,9 @@
 ﻿namespace StudentsJoined
 {
     using System;
-    using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
     using Functional_Programming.Data;
-    using Functional_Programming.Models;
 
     public class StudentsJoinedMain
     {

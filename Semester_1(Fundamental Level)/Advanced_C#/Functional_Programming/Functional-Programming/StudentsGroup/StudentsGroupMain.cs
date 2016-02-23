@@ -3,7 +3,6 @@
     using System;
     using System.Linq;
     using Functional_Programming.Data;
-    using Functional_Programming.Models;
 
     public class StudentsGroupMain
     {
