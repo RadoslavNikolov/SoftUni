@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array-Manipulator", "Array-Manipulator\Array-Manipulator.csproj", "{6D5388BB-EDF4-4A71-885A-71721AF9A02B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Array-Manipulator", "Array-Manipulator\01_Array-Manipulator.csproj", "{6D5388BB-EDF4-4A71-885A-71721AF9A02B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Mutant-Bunnies", "Mutant-Bunnies\02_Mutant-Bunnies.csproj", "{5501ECB6-158C-42B7-B880-67E30C6AEE14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Shmoogle-Counter", "Shmoogle-Counter\03_Shmoogle-Counter.csproj", "{4BD54E70-8C6D-4E15-9352-FC21BF229D1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Srabsko", "Srabsko\04_Srabsko.csproj", "{BD7EDF1B-8149-47A2-8396-17B3F54B66E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{6D5388BB-EDF4-4A71-885A-71721AF9A02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D5388BB-EDF4-4A71-885A-71721AF9A02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D5388BB-EDF4-4A71-885A-71721AF9A02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5501ECB6-158C-42B7-B880-67E30C6AEE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5501ECB6-158C-42B7-B880-67E30C6AEE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5501ECB6-158C-42B7-B880-67E30C6AEE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5501ECB6-158C-42B7-B880-67E30C6AEE14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD54E70-8C6D-4E15-9352-FC21BF229D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD54E70-8C6D-4E15-9352-FC21BF229D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD54E70-8C6D-4E15-9352-FC21BF229D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD54E70-8C6D-4E15-9352-FC21BF229D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7EDF1B-8149-47A2-8396-17B3F54B66E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7EDF1B-8149-47A2-8396-17B3F54B66E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7EDF1B-8149-47A2-8396-17B3F54B66E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7EDF1B-8149-47A2-8396-17B3F54B66E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

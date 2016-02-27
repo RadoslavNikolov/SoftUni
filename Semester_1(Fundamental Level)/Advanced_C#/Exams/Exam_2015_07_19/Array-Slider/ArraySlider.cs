@@ -35,7 +35,7 @@
 
         private static void ProcessCommand(string[] commandTokens)
         {
-            var offset = int.Parse(commandTokens[0]) % numsArray.Length;
+            var offset = int.Parse(commandTokens[0]);
             var operand = int.Parse(commandTokens[2]);
 
             switch (commandTokens[1].Trim())
@@ -112,6 +112,7 @@
 
         private static void GetIndex(int offset)
         {
+            offset = offset % numsArray.Length;
 
             if (offset < 0)
             {

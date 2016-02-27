@@ -7,7 +7,7 @@
     using System.Text.RegularExpressions;
     using System.Threading;
 
-    public static class Program
+    public static class ArrayManipulatorMain
     {
         private static int[] numArray;
 
