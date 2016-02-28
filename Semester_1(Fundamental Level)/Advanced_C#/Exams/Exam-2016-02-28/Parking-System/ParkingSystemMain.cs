@@ -30,54 +30,54 @@ namespace Parking_System
 
                 tokens = inputLine.Split(' ').Select(int.Parse).ToArray();
                 var initialPosition = tokens[0];
-                var targetX = tokens[2];
-                var targetY = tokens[1];
+                var targetRow = tokens[1];
+                var targetCol = tokens[2];
 
-                Console.WriteLine( DoPark(initialPosition, targetX, targetY));          
+                Console.WriteLine( DoPark(initialPosition, targetRow, targetCol));          
             }
         }
 
-        private static string DoPark(int initialPosition, int targetX, int targetY)
+        private static string DoPark(int initialPosition, int targetRow, int targetCol)
         {
-            int moves = Math.Abs(targetY - initialPosition + 1);
-            var position = string.Format("{0}|{1}", targetX, targetY);
+            int moves = Math.Abs(targetRow - initialPosition + 1);
+            var position = string.Format("{0}|{1}", targetRow, targetCol);
 
             if (!ParkingLot.Contains(position))
             {
                 ParkingLot.Add(position);
-                moves += targetX;
+                moves += targetCol;
                 return moves.ToString();
             }
 
-            var count = Math.Max(targetX - 1, colsCount - targetX - 1);
+            var count = Math.Max(targetCol - 1, colsCount - targetCol - 1);
 
             for (int i = 1; i <= count; i++)
             {
 
-                if (targetX - i > 0)
+                if (targetCol - i > 0)
                 {
-                    position = string.Format("{0}|{1}", targetX - i, targetY);
+                    position = string.Format("{0}|{1}", targetRow, targetCol - i);
                     if (!ParkingLot.Contains(position))
                     {
                         ParkingLot.Add(position);
-                        moves += targetX - i;
+                        moves += (targetCol - i);
                         return moves.ToString();
                     }
                 }
 
-                if (targetX + i < colsCount)
+                if (targetCol + i < colsCount)
                 {
-                    position = string.Format("{0}|{1}", targetX + i, targetY);
+                    position = string.Format("{0}|{1}", targetRow, targetCol + i);
                     if (!ParkingLot.Contains(position))
                     {
                         ParkingLot.Add(position);
-                        moves += targetX + i;
+                        moves += (targetCol + i);
                         return moves.ToString();
                     }
                 }
             }
 
-            return string.Format("Row {0} full", targetY);
+            return string.Format("Row {0} full", targetRow);
         }
     }
 }
