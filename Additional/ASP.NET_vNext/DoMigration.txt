@@ -1,0 +1,32 @@
+1. Добавят се таблиците(пропъртитата) , който са необходими в DbContext класа:
+	Примерно:
+	
+		 public class PublicOrdersDbContext : IdentityDbContext<User>, IPublicOrderDbContext
+		{
+			public DbSet<Blog> Blogs { get; set; }
+
+			public DbSet<Post> Posts { get; set; }
+
+			protected override void OnModelCreating(ModelBuilder modelBuilder)
+			{
+				modelBuilder.Entity<Blog>()
+					.Property(b => b.Url)
+					.IsRequired();
+
+				base.OnModelCreating(modelBuilder);
+				// Customize the ASP.NET Identity model and override the defaults if needed.
+				// For example, you can rename the ASP.NET Identity table names and more.
+				// Add your customizations after calling base.OnModelCreating(builder);
+			}
+		}
+		
+2.Отваря се cmd като се отива в папката на проекта( там където е project.json файла)
+	2.1 Ако се прави миграцията за пръв път : 	dnvm use 1.0.0-rc1-final
+	2.2 След това: 	dnx ef migrations add MyFirstMigration
+	2.3 След това: 	dnx ef database update
+	
+	При следващи промени:
+	2.1	dnx ef migrations add - "command to scaffold a new migration to apply the corresponding changes to the database"
+	2.2 dnx ef database update - "command to apply the changes to the database"
+		
+
