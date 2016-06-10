@@ -11,7 +11,7 @@
     using Infrastructure.Mapping;
     using Microsoft.AspNet.Identity;
     using RestSharp.Extensions;
-
+    using Data.Migrations;
     public class ContestViewModel : IMapFrom<Contest>, IHaveCustomMappings
     {
         public int Id { get; set; }
@@ -41,7 +41,7 @@
 
         public IEnumerable<PhotoViewModel> Photos { get; set; }
 
-        public void CreateMappings(IConfiguration configuration)
+        public void CreateMappings(Configuration configuration)
         {
             configuration.CreateMap<Contest, ContestViewModel>()
                 .ForMember(n => n.OrganizatorName, opt => opt.MapFrom(n => n.Organizator.FullName))
