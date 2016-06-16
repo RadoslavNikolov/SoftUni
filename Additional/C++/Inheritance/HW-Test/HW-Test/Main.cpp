@@ -2,6 +2,7 @@
 #include <typeinfo>
 #include <map>
 #include <iostream>
+#include <memory>
 
 using namespace std;
 
@@ -62,11 +63,11 @@ private:
 	int points;
 };
 
-typedef map<int, Person*> Database;
+typedef map<int, shared_ptr<Person>> Database;
 Database myDB;
 int counter = 0;
 
-Person* getPersonById(int id)
+shared_ptr<Person> getPersonById(int id)
 {
 	Database::iterator it = myDB.find(id);
 	if (it != myDB.end())
@@ -79,15 +80,11 @@ Person* getPersonById(int id)
 
 int main()
 {
-	Person * p1;
-	Student s(++counter,"Test", 100);
-	p1 = &s;
-	myDB[counter] = p1;
-
-	myDB[++counter] = &Student(counter,"Test1", 80);
+	myDB[++counter] = make_shared<Student>(counter, "Test", 100);
+	myDB[++counter] = make_shared<Student>(counter, "Test1", 80);
 
 	int searchingKey = 2;
-	Person * resultPerson = getPersonById(searchingKey);
+	auto resultPerson = getPersonById(searchingKey);
 
 	if (resultPerson != nullptr)
 	{
