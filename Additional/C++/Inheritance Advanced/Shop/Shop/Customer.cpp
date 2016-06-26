@@ -14,24 +14,36 @@ Customer::~Customer()
 {
 }
 
-int Customer::getId()
+int Customer::getId() const
 {
 	return id;
 }
 
-string Customer::getName()
+string Customer::getName() const
 {
 	return name;
 }
 
-string Customer::getBicCode()
+string Customer::getBicCode() const
 {
 	return bicCode;
 }
 
-string Customer::getAddress()
+string Customer::getAddress() const
 {
 	return address;
+}
+
+float Customer::getTotalAmount()
+{
+	float totalAmount = 0.0f;
+
+	for (auto const& item : Customer::customerCart)
+	{
+		totalAmount += item.second->getPrice();
+	}
+
+	return totalAmount;
 }
 
 void Customer::setName(string customerName)
@@ -95,4 +107,10 @@ void Customer::addItemToCart(shared_ptr<Item> itemToAdd)
 {
 	customerCart[itemToAdd->getId() + '_' + to_string(itemsCounter++)] = itemToAdd;
 }
+
+void Customer::clearCart()
+{
+	customerCart.clear();
+}
+
 

@@ -13,10 +13,11 @@ public:
 	Customer(int customerId, string customerName, string customerBicCode, string customerAddress);
 	~Customer();
 
-	int getId();
-	string getName();
-	string getBicCode();
-	string getAddress();
+	int getId() const;
+	string getName() const;
+	string getBicCode() const;
+	string getAddress() const;
+	float getTotalAmount();
 
 	void setName(string customerName);
 	void setBicCode(string customerBicCode);
@@ -25,6 +26,7 @@ public:
 	string toString();
 	string printAllItemsInCart();
 	void addItemToCart(shared_ptr<Item> itemToAdd);
+	void clearCart();
 
 private:
 	int id;

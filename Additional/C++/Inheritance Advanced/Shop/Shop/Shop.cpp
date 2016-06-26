@@ -6,6 +6,7 @@
 #include "SplitString.h"
 #include <iostream>
 #include <vector>
+#include <iomanip>
 
 using namespace std;
 
@@ -17,8 +18,8 @@ int customerIdCounter = 1;
 
 //Не съм използвам copy constructor поради факта,че всеки потребител пази колекция от пойнтери към желаните артикули.
 //Реших да го направя по този начин за да може когато променя нещо в даден артикул това да се отрази веднага на всички артикули, добавени в количките на всеки един потребител
-//Представете си ако сум добавил даден артикул в количките на n на брой потребители. Ако изполвам copy constructor това значи да итерирам през количките на всички потребители и ако намеря 
-// артикул с такова id да направя промяната. Гарантирам, че знаме какво е и как се ползва copy constructor :))
+//Представете си ако съм добавил даден артикул в количките на n на брой потребители. Ако изполвам copy constructor това значи да итерирам през количките на всички потребители и ако намеря 
+// артикул с такова id да направя промяната. Гарантирам, че знаме какво е и как се ползва copy constructor и предефиниране на оператор :))
 
 void printMenu()
 {
@@ -26,8 +27,10 @@ void printMenu()
 	cout << "2. Add item" << endl;
 	cout << "3. Print item by id" << endl;
 	cout << "4. Add item to customer cart" << endl;
-	cout << "5. Print customer information" << endl;
-	cout << "6. Change price of item by id" << endl;
+	cout << "5. Clear customer cart" << endl;
+	cout << "6. Make the purchase" << endl;
+	cout << "7. Print customer information" << endl;
+	cout << "8. Change price of item by id" << endl;
 	cout << "0 End" << endl;
 	cout << "Enter number from menu:  ";
 }
@@ -231,7 +234,74 @@ void chageItemPriceById()
 	
 	p->setPrice(newPrice);
 	cout << "Price of item with id: " << p->getId() << " was changed to " << p->getPrice() << endl;
+}
 
+void clearCurrentCustomerCart()
+{
+	bool clearCart = false;
+
+	if (currentCustomer != nullptr)
+	{
+		while (true)
+		{
+			cout << "Are you shure you want to clear the cart? Y/N" << endl;
+
+			string answer;
+			cin >> answer;
+
+			if (answer.size() == 1 && isalpha(answer.at(0)) && answer.at(0) == 'Y' || answer.at(0) == 'y' || answer.at(0) == 'N' || answer.at(0) == 'n')
+			{
+				if (answer.at(0) == 'Y' || answer.at(0) == 'y')
+				{
+					clearCart = true;
+				}
+
+				break;
+			}
+			else
+			{
+				cout << " >>>>>> Invalid Answer: " << endl;
+				cout << " Are you shure you want to clear the cart? Y/N" << endl;
+			}
+		}
+
+	}
+
+	if (currentCustomer != nullptr && !clearCart)
+	{
+		return;
+	}
+
+	currentCustomer->clearCart();
+	cout << " >>>>>> The cart cleared! " << endl;
+}
+
+void makeThePurchase()
+{
+	cout << "Enter amount of money: ";
+	float money = 0;
+	cin.sync();
+	cin >> money;
+
+	if (!cin)
+	{
+		cin.clear();
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
+	}
+
+	float totalAmount = currentCustomer->getTotalAmount();
+
+	if (totalAmount > money)
+	{
+		cout << " >>>>>> Insufficient money! The purchase was not made." << endl;
+	}
+	else
+	{
+		cout << "The purchase was made successfully!" << endl;
+		cout << "Change is: " << setprecision(2) << money - totalAmount << endl;
+		currentCustomer->clearCart();
+		cout << "Customer cart was cleared." << endl;
+	}
 }
 
 void commandManager(unsigned short choice)
@@ -252,9 +322,15 @@ void commandManager(unsigned short choice)
 		addItemToCustomerCart();
 		break;
 	case 5:
-		cout << currentCustomer->toString() << endl;
+		clearCurrentCustomerCart();
 		break;
 	case 6:
+		makeThePurchase();
+		break;
+	case 7:
+		cout << currentCustomer->toString() << endl;
+		break;
+	case 8:
 		chageItemPriceById();
 		break;
 	default:
@@ -279,7 +355,7 @@ void start()
 		if (!cin)
 		{
 			cin.clear(); // reset failbit
-			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //skip bad input
+			cin.ignore(numeric_limits<streamsize>::max(), '\n'); //skip bad input
 		}
 
 		isRunning = choice != 0;
