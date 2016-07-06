@@ -13,20 +13,26 @@ PhysicsContorl::~PhysicsContorl()
 
 float PhysicsContorl::CalcMaxJumpHeightOfCharacter(const Character & character)
 {
-	float displacement = -(0 - character.speed * character.speed) / (2 * character.environment.gravity);
+	// d = (Vi - Vo)^2/2*g
+	float displacement = ((0 - character.speed) * (0 - character.speed)) / (2 * character.environment.gravity);
 
 	return displacement;
 }
 
 float PhysicsContorl::CalcTimeOfJumpOfCharacter(const Character & character)
 {
-	float dist = PhysicsContorl::CalcMaxJumpHeightOfCharacter(character);
+	// t = sqrt(2 * d)
+	float displacement = PhysicsContorl::CalcMaxJumpHeightOfCharacter(character);
+	float time = sqrt((2 * displacement) / character.environment.gravity);
 
-	float time = sqrt((2 * dist) / character.environment.gravity);
 	return time;
 }
 
 bool PhysicsContorl::IsCharacterCapableJumpCertainHeight(const Character & character, float targetHeight)
 {
+	float displacement = CalcMaxJumpHeightOfCharacter(character);
+
+	if (displacement >= targetHeight) return true;
+
 	return false;
 }
