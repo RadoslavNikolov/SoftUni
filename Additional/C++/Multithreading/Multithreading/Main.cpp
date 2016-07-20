@@ -5,6 +5,10 @@
 #include <thread>
 #include <chrono>
 #include <atomic>
+#include <vector>
+
+#include "ConcurrentQueue.h"
+#include "Queue.cpp"
 
 
 using namespace std;
@@ -12,6 +16,8 @@ using namespace std;
 mutex mtx;
 string overflowMessage = "Number overflow";
 bool cancleProgram = false;
+//ConcurrentQueue<string> myQueue;
+Queue<string> myQueue;
 
 
 void Print(string & output)
@@ -61,7 +67,7 @@ void CalculatePrimeNumbers(atomic<bool>& run)
 			result.str(""); //Clear stream
 			result << "Prime " << i << ", " << miliseconds << " ms.";
 
-			this_thread::sleep_for(chrono::milliseconds(200)); //Slow the proccess for user facilatation. 
+			//this_thread::sleep_for(chrono::milliseconds(200)); //Slow the proccess for user facilatation. 
 
 			Print(result.str());
 		}
@@ -93,7 +99,7 @@ void CalcilateFibonacciNumbers(atomic<bool>& run)
 		result.str("");  //Clear stream
 		result << "Fibonacci " << temp2 << ", " << miliseconds << " ms.";
 
-		this_thread::sleep_for(chrono::milliseconds(150)); //Slow the proccess for user facilatation. 
+		//this_thread::sleep_for(chrono::milliseconds(150)); //Slow the proccess for user facilatation. 
 		Print(result.str());
 
 		//// For some reason this code does not work properly only for unsigned long long. Tested for all other types.
@@ -118,6 +124,65 @@ void CalcilateFibonacciNumbers(atomic<bool>& run)
 
 }
 
+
+
+void CalculatePrimeNumbersInRange(atomic<bool>& run, unsigned long long startNum, unsigned long long endNum)
+{
+	//unsigned long long i = 1;
+	bool isPrime = true;
+	auto startTime = std::chrono::high_resolution_clock::now();
+
+	while (run.load() && startNum <= endNum)
+	{
+		unsigned long  iSqred;
+		ostringstream result;
+		iSqred = sqrtl(startNum);
+
+		for (unsigned long j = 2; j <= iSqred + 1; j++)
+		{
+			if (startNum > 2 && startNum % j != 0)
+			{
+				isPrime = true;
+			}
+			else if (startNum == 2)
+			{
+				isPrime = true;
+				break;
+			}
+			else
+			{
+				isPrime = false;
+				break;
+			}
+		}
+
+		if (isPrime)
+		{
+			auto endTime = std::chrono::high_resolution_clock::now();
+			auto elapsed = endTime - startTime;
+			long long miliseconds = std::chrono::duration_cast<std::chrono::milliseconds>(elapsed).count();
+			startTime = endTime;
+
+			result.str(""); //Clear stream
+			result << "Prime " << startNum << ", " << miliseconds << " ms.";
+
+			//this_thread::sleep_for(chrono::milliseconds(200)); //Slow the proccess for user facilatation. 
+
+			Print(result.str());
+			//myQueue.push(result.str());
+		}
+
+		// Catch number overflow.
+		if (startNum++ >= numeric_limits<unsigned long long>::max())
+		{
+			Print(overflowMessage);
+			break;
+		}
+		//End
+	}
+}
+
+
 void ReadCin(atomic<bool>& run)
 {
 	string buffer;
@@ -132,6 +197,25 @@ void ReadCin(atomic<bool>& run)
 	}
 }
 
+void PrintFromQueue(atomic<bool>& run)
+{
+	while (run.load())
+	{
+		/*string result = myQueue.pop();
+		cout << result;*/
+		ostringstream  result;
+
+		for (int i = 0; i < 10; i++)
+		{
+			result << myQueue.pop() << endl;
+		}
+
+		Print(result.str());
+		//this_thread::sleep_for(chrono::milliseconds(200)); //Slow the proccess for user facilatation.
+		//Print(myQueue.pop());
+	}
+}
+
 
 int main()
 {
@@ -140,20 +224,55 @@ int main()
 
 	atomic<bool> run(true);
 	thread cinThread(ReadCin, ref(run));
-	thread primeThread(CalculatePrimeNumbers, ref(run));
+	//thread primeThread(CalculatePrimeNumbers, ref(run));
 	thread fibonacciThread(CalcilateFibonacciNumbers, ref(run));
+	vector<thread> threadVector;
+
+
+	unsigned long long maxNum = numeric_limits<unsigned long long>::max();
+	unsigned long long range = maxNum / 2;
+
+	for (unsigned long long i = 0; i <= maxNum; i += range)
+	{
+		threadVector.push_back(thread(CalculatePrimeNumbersInRange, ref(run), i, i + range));
+	}
+
+	
+
+
 
 	while (run.load())
 	{
-		//Main thread
+		/*unsigned long long maxNum = numeric_limits<unsigned long long>::max();
+		unsigned long long range = maxNum / 2;
+		
+		for (unsigned long long i = 0; i <= maxNum; i+=range)
+		{
+			threadVector.push_back(thread(CalculatePrimeNumbersInRange, ref(run), i, i + range));
+		}
+
+		for (int i = 0; i < threadVector.size(); i++)
+		{
+			threadVector[i].join();
+		}
+*/
 	}
+
 
 	run.store(false);
 
+
+
+
 	cinThread.join();
-	primeThread.join();
+	//printThread.join();
 	fibonacciThread.join();
 	
+	for (int i = 0; i < threadVector.size(); i++)
+	{
+		threadVector[i].join();
+	}
+
 	return 0;
 }
 
