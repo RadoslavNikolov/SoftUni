@@ -6,8 +6,7 @@
 #include <chrono>
 #include <atomic>
 #include <vector>
-
-#include "ConcurrentQueue.h"
+#include <memory>
 #include "Queue.cpp"
 
 
@@ -16,7 +15,6 @@ using namespace std;
 mutex mtx;
 string overflowMessage = "Number overflow";
 bool cancleProgram = false;
-//ConcurrentQueue<string> myQueue;
 Queue<string> myQueue;
 
 
@@ -100,6 +98,7 @@ void CalcilateFibonacciNumbers(atomic<bool>& run)
 		result << "Fibonacci " << temp2 << ", " << miliseconds << " ms.";
 
 		//this_thread::sleep_for(chrono::milliseconds(150)); //Slow the proccess for user facilatation. 
+
 		Print(result.str());
 
 		//// For some reason this code does not work properly only for unsigned long long. Tested for all other types.
@@ -121,40 +120,54 @@ void CalcilateFibonacciNumbers(atomic<bool>& run)
 			break;
 		}
 	}
-
 }
-
 
 
 void CalculatePrimeNumbersInRange(atomic<bool>& run, unsigned long long startNum, unsigned long long endNum)
 {
 	//unsigned long long i = 1;
-	bool isPrime = true;
+	bool isPrime = false;
+	bool initialCheck = false;
 	auto startTime = std::chrono::high_resolution_clock::now();
+	unsigned long  iSqred;
+	ostringstream result;
 
 	while (run.load() && startNum <= endNum)
 	{
-		unsigned long  iSqred;
-		ostringstream result;
+		initialCheck = false;
+
+		if (startNum <= 1)
+		{
+			isPrime = false;
+			initialCheck = true;
+		}
+		else if(startNum <= 3)
+		{
+			isPrime = true;
+			initialCheck = true;
+		}
+		else if(startNum % 2 == 0 || startNum % 3 == 0)
+		{
+			isPrime = false;
+			initialCheck = true;
+		} 
+
 		iSqred = sqrtl(startNum);
 
-		for (unsigned long j = 2; j <= iSqred + 1; j++)
+		if (!initialCheck)
 		{
-			if (startNum > 2 && startNum % j != 0)
+			for (unsigned long j = 3; j <= iSqred + 1; j++)
 			{
-				isPrime = true;
-			}
-			else if (startNum == 2)
-			{
-				isPrime = true;
-				break;
-			}
-			else
-			{
-				isPrime = false;
-				break;
+				if (startNum % j != 0)
+				{
+					isPrime = true;
+					break;
+				}
+
+				isPrime = true;			
 			}
 		}
+		
 
 		if (isPrime)
 		{
@@ -166,10 +179,10 @@ void CalculatePrimeNumbersInRange(atomic<bool>& run, unsigned long long startNum
 			result.str(""); //Clear stream
 			result << "Prime " << startNum << ", " << miliseconds << " ms.";
 
-			//this_thread::sleep_for(chrono::milliseconds(200)); //Slow the proccess for user facilatation. 
+			//this_thread::sleep_for(chrono::milliseconds(100)); //Slow the proccess for user facilatation. 
 
 			Print(result.str());
-			//myQueue.push(result.str());
+			//myQueue.push(result.str()); //This is not fast enough as I expected. Sad
 		}
 
 		// Catch number overflow.
@@ -211,8 +224,9 @@ void PrintFromQueue(atomic<bool>& run)
 		}
 
 		Print(result.str());
+
 		//this_thread::sleep_for(chrono::milliseconds(200)); //Slow the proccess for user facilatation.
-		//Print(myQueue.pop());
+
 	}
 }
 
@@ -224,54 +238,33 @@ int main()
 
 	atomic<bool> run(true);
 	thread cinThread(ReadCin, ref(run));
-	//thread primeThread(CalculatePrimeNumbers, ref(run));
-	thread fibonacciThread(CalcilateFibonacciNumbers, ref(run));
-	vector<thread> threadVector;
-
-
-	unsigned long long maxNum = numeric_limits<unsigned long long>::max();
-	unsigned long long range = maxNum / 2;
-
-	for (unsigned long long i = 0; i <= maxNum; i += range)
-	{
-		threadVector.push_back(thread(CalculatePrimeNumbersInRange, ref(run), i, i + range));
-	}
-
 	
-
-
-
 	while (run.load())
 	{
-		/*unsigned long long maxNum = numeric_limits<unsigned long long>::max();
-		unsigned long long range = maxNum / 2;
-		
-		for (unsigned long long i = 0; i <= maxNum; i+=range)
+		//thread fibonacciThread(CalcilateFibonacciNumbers, ref(run));
+		vector<shared_ptr<thread>> threadVector;
+		threadVector.push_back(make_shared<thread>(thread(CalcilateFibonacciNumbers, ref(run))));
+
+		// Лично при мен 8 е оптималната бройка на тредовете, които да поусна за изчислението на простите числа.
+		// До колкото забелязах колкото ядра, толкова тредове. Ако са повече мютекса при принтирането на конзолата забавя много нещата.
+		// При терминиране на програмата се чака малко докато се извърти while цикъла на всеки тред
+		short numOfThreadsToInvoke = 8;
+		unsigned long long range = numeric_limits<unsigned long long>::max() / numOfThreadsToInvoke;
+		for (unsigned long long i = 0; i < numOfThreadsToInvoke; i++)
 		{
-			threadVector.push_back(thread(CalculatePrimeNumbersInRange, ref(run), i, i + range));
+			threadVector.push_back(make_shared<thread>(thread(CalculatePrimeNumbersInRange, ref(run), range * i, range * (i + 1))));
 		}
 
+		//fibonacciThread.join();
 		for (int i = 0; i < threadVector.size(); i++)
 		{
-			threadVector[i].join();
+			threadVector[i]->join();
 		}
-*/
 	}
 
 
 	run.store(false);
-
-
-
-
 	cinThread.join();
-	//printThread.join();
-	fibonacciThread.join();
-	
-	for (int i = 0; i < threadVector.size(); i++)
-	{
-		threadVector[i].join();
-	}
 
 	return 0;
 }
