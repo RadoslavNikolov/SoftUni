@@ -137,7 +137,7 @@ void VehicleRegisterProcessing::searchVehicleByRegNum()
 		threadVector.push_back(make_shared<thread>(thread(searchForCehicleByRegNumber, regNum, i)));
 	}
 
-	for (int i = 0; i < threadVector.size(); i++)
+	for (unsigned int i = 0; i < threadVector.size(); i++)
 	{
 		threadVector[i]->join();
 	}

@@ -23,7 +23,7 @@ inline vector<string>& SplitString::split(char delim, int rep) {
 
 	string work = data();
 	string buf = "";
-	int i = 0;
+	unsigned int i = 0;
 
 	while (i < work.length()) 
 	{
