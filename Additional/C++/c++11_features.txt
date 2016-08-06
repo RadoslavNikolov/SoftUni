@@ -1,0 +1,46 @@
+-- Lambda
+
+auto lbd = [](int x, int y){return x + y} ---- syntax
+cout << lbd(5,10) << endl;
+
+
+//with capture
+
+int z = 2;
+auto lbd = [z](int x, int t){return (x + y)*z}
+cout << lbd(5,10) << endl;
+
+
+-- Non-modifying sequence operations
+
+all_of(first, last, predicate)
+any_of(first, last, predicate)
+none_of(first,last,predicate)
+
+
+-- Modifying sequence operations
+
+move(first, last, d_first)
+move_backwards(first,last, d_last)
+d_first --- container where elements will be move
+
+shuffle(begin, end, generator)
+	denerator - uses new random number functionality
+	
+	
+	
+-- Sorting operations
+is_sorted(begin, end)
+is_sorted_until(begin,end) -- връща итератор до къде е сортиран
+
+
+-- Min/max operations
+
+minmax(a,b)   --- връща пеър от най-малкото и най-голямото
+minmax_element(begin,end)  --- връща пеър от най-малкото и най-голямото
+is_permutatios(first1,last1,first2,last2) -- използва се за проверка дали една редица е пермутация на друга редица(същите елементи, но не е задължително да са в същия ред)
+
+-- Heap operations
+
+is_heap(begin, end)
+is_heap_until(begin,end)
