@@ -1,7 +1,9 @@
-#pragma once
-#include <string>
+#ifndef Date_h
+#define Date_h
+#endif
 
-using namespace std;
+#include "SplitString.h"
+
 class Date
 {
 private:
@@ -13,8 +15,9 @@ private:
 public:
 	Date();
 	Date(string dateStr);
+
 	~Date();
 
-	string toString();
+	string toString() const;
 };
 

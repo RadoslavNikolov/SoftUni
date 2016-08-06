@@ -1,7 +1,6 @@
 #pragma once
-#include <string>
 #include "Date.h"
-using namespace std;
+
 class Vehicle
 {
 private:
@@ -16,20 +15,19 @@ private:
 	Date currentRegistrationDate;
 
 public:
-	Vehicle();
+	Vehicle(int id, string registrationNum, float weight, short int seatsNum, string chassisNum, string engineNum, string ownerName, string firstRegDateStr, string currentRegDateStr);
+
 	~Vehicle();
 
-	int getId();
-	string getRegistrationNumber();
-	float getWeight();
-	short int getSeatsNumber();
-	string getChassisNumber();
-	string getEngineNumber();
-	string getOwnerName();
-	Date getFirstRegistrationDate();
-	Date getCurrentRegistrationDate();
-
-	string toString();
-
+	int getId() const;
+	string getRegistrationNumber() const;
+	float getWeight() const;
+	short int getSeatsNumber() const;
+	string getChassisNumber() const;
+	string getEngineNumber() const;
+	string getOwnerName() const;
+	Date getFirstRegistrationDate() const;
+	Date getCurrentRegistrationDate() const;
+	string toString() const;
 };
 

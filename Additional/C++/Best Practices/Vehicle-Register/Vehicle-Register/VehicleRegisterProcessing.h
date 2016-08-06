@@ -1,14 +1,10 @@
-#pragma once
-#include <vector>
-#include <string>
-using namespace std;
+#ifndef VehicleRegisterProcessing_h
+#define VehicleRegisterProcessing_h
+#endif
 
 struct VehicleRegisterProcessing
 {
-
-	void getInputLine(vector<string> &input);
 	void addNewVehicle();
-	void searchVehicleByRegNum();
-	
+	void searchVehicleByRegNum();	
 };
 

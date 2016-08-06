@@ -1,10 +1,11 @@
 #include "Date.h"
 #include <sstream>
-#include <vector>
-#include "SplitString.h"
 
 Date::Date()
 {
+	this->day = 1;
+	this->month = 1;
+	this->year = 1900;
 }
 
 Date::Date(string dateStr)
@@ -40,7 +41,7 @@ void Date::setDate(string dateStr)
 		throw "Month must be in ranage[1-12]";
 	}
 
-	short int year = stoi(input[3]);
+	short int year = stoi(input[2]);
 	if (year < 1900 && year > 3000)
 	{
 		throw "Year must be in ranage[1900-3000]";
@@ -51,7 +52,7 @@ void Date::setDate(string dateStr)
 	this->year = year;
 }
 
-string Date::toString()
+string Date::toString() const
 {
 	ostringstream result;
 	result << this->day << "." << this->month << "." << this->year << endl;

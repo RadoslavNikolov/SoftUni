@@ -1,10 +1,10 @@
 #include "VehicleRegisterProcessing.h"
-#include <iostream>
-#include <map>
 #include <memory>
-#include <vector>
 #include "Vehicle.h"
-#include "SplitString.h"
+#include <iostream>
+#include <string>
+#include "Console.h"
+#include <thread>
 
 using namespace std;
 
@@ -24,12 +24,20 @@ int motorCyclesDbCounter = 1;
 void VehicleRegisterProcessing::addNewVehicle()
 {
 	vector<string> input;
-	cout << "Enter new vehicle in format with delimiter ':' [RegNumber:Weight:SeatsNum:ChassisNum:EngineNum:OwnerName:FirsRegDate(dd.MM.yyyy):CurrentregDay(dd.MM.yyyy)]" << endl;
-	VehicleRegisterProcessing::getInputLine(input);
+	Console::print("Enter new vehicle in format with delimiter ':' [RegNumber:Weight:SeatsNum:ChassisNum:EngineNum:OwnerName:FirsRegDate(dd.MM.yyyy):CurrentregDay(dd.MM.yyyy)]");
+
+	try
+	{
+		Console::getInputLine(input);
+	}
+	catch (const exception&)
+	{
+		Console::print(" >>>>>> Invalid input ");
+	}
 
 	if (input.size() != 8)
 	{
-		cout << " >>>>>> Invalid input " << endl;;
+		Console::print(" >>>>>> Invalid input ");
 		return;
 	}
 
@@ -37,53 +45,101 @@ void VehicleRegisterProcessing::addNewVehicle()
 
 	try
 	{
-		/*p = getItemByRegNum(input[0]);
-		if (p != nullptr)
-		{
-			cout << "Item with this id already exists.";
-			return;
-		}*/
-
 		float weight = stof(input[1]);
 		short int seatsNum = stoi(input[2]);
 
 		if (seatsNum < 2 || weight < 500)
 		{
-			motorCyclesDB[input[0]] = make_shared<Vehicle>(motorCyclesDbCounter++, input[0], input[1], input[2], input[3], input[4], input[5], input[6], input[7]);
-			cout << " >>>>>> Added motorcycle with registration number: " << input[0] << endl;
+			motorCyclesDB[input[0]] = make_shared<Vehicle>(motorCyclesDbCounter++, input[0], stof(input[1]), stoi(input[2]), input[3], input[4], input[5], input[6], input[7]);
+
+			Console::print(" >>>>>> Added motorcycle with registration number: " + input[0]);
 		}
 		else if (weight > 2500)
 		{
-			trucksDB[input[0]] = make_shared<Vehicle>(trucksDbCounter++, input[0], input[1], input[2], input[3], input[4], input[5], input[6], input[7]);
-			cout << " >>>>>> Added truck with registration number: " << input[0] << endl;
+			trucksDB[input[0]] = make_shared<Vehicle>(trucksDbCounter++, input[0],stof(input[1]), stoi(input[2]), input[3], input[4], input[5], input[6], input[7]);
+
+			Console::print(" >>>>>> Added truck with registration number: " + input[0]);
 		}
 		else
 		{
-			carsDB[input[0]] = make_shared<Vehicle>(carsDbCounter++, input[0], input[1], input[2], input[3], input[4], input[5], input[6], input[7]);
-			cout << " >>>>>> Added car with registration number: " << input[0] << endl;
-		}
+			carsDB[input[0]] = make_shared<Vehicle>(carsDbCounter++, input[0], stof(input[1]), stoi(input[2]), input[3], input[4], input[5], input[6], input[7]);
 
+			Console::print(" >>>>>> Added car with registration number: " + input[0]);
+		}
 
 	}
 	catch (const char* msg)
 	{
-		cout << " >>>>>> " << msg << endl;
+		Console::print(" >>>>>> " + *msg);
 	}
 
+}
 
-	cout << "Add new vehicle" << endl;
+template<typename Func>
+bool searchMapByKey(map<string, shared_ptr<Vehicle>> const & db, const string& regNum, Func const &printFunc);
+
+void searchForCehicleByRegNumber(string regNum, short int vehicleType)
+{	
+	auto printLambda = [](string v) {Console::print(v); };
+
+	switch (vehicleType)
+	{
+	case 0:
+		if (!searchMapByKey(carsDB, regNum, printLambda))
+		{
+			printLambda("There is no registration number: " + regNum + " in cars database");
+		}
+		
+		break;
+	case 1:
+		if (!searchMapByKey(trucksDB, regNum, printLambda))
+		{
+			printLambda("There is no registration number: " + regNum + " in trucks database!");
+		}
+
+		break;
+	case 2:
+		if (!searchMapByKey(motorCyclesDB, regNum, printLambda))
+		{
+			printLambda("There is no registration number: " + regNum + " in motorcycles database!");
+		}
+		break;
+	}
+}
+
+template<typename Func>
+bool searchMapByKey(map<string, shared_ptr<Vehicle>> const & db, string const & regNum, Func const &printFunc)
+{
+	map<basic_string<char>, shared_ptr<Vehicle>>::const_iterator it;
+
+	it = db.find(regNum);
+
+	if (it != db.end())
+	{
+		printFunc(it->second->toString());
+		return true;
+	}
+
+	return false;
 }
 
 void VehicleRegisterProcessing::searchVehicleByRegNum()
 {
-	cout << "Search vehicle by id" << endl;
+	Console::print("Enter searching registration number: ");
+
+	string regNum;
+	getline(cin, regNum);
+	
+	vector<shared_ptr<thread>> threadVector;
+
+	for (unsigned long long i = 0; i < 3; i++)
+	{
+		threadVector.push_back(make_shared<thread>(thread(searchForCehicleByRegNumber, regNum, i)));
+	}
+
+	for (int i = 0; i < threadVector.size(); i++)
+	{
+		threadVector[i]->join();
+	}
 }
 
-void VehicleRegisterProcessing::getInputLine(vector<string> &input)
-{
-	string segment;
-	cin >> segment;
-
-	SplitString s(segment);
-	input = s.split(':');
-}

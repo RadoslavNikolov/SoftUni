@@ -1,49 +1,52 @@
-#pragma once
-#include <string>
-#include <vector>
+#ifndef Console_h
+#define Console_h
+#endif
 #include <map>
+#include <vector>
 using namespace std;
 
 class Console {
 public:
 	Console();
 	~Console();
+
 	//if the console is running or not
 	bool isActive() const;
 	//this will update the console application
 	void update();
 
-	map<string, void(Console::*)()> mapping;
+	map<unsigned int, void(Console::*)()> consoleCommonFuncMenuMapping;
+
+	template<typename T>
+	static void print(T value);
+
+	static void getInputLine(vector<string>& input);
 
 private:
 	bool active;
 	string command;
 	vector<string> tokens;
-
-	template<typename T>
-	static void print(T const& value);
-
-	//this will be used to take input from the screen
+	
+	///this will be used to take input from the screen
 	void getInput();
 
-	//clears the value of command
+	///clears the value of command
 	void resetCommand();
 
-	//breaks the command into its tokens
+	///breaks the command into its tokens
 	void parseCommand(std::string command);
 
-	//evaluates what it will do based on the command
-	int evaluate();
+	///executes valid command, corresponding to menu
+	void exicuteCommand();
 
-	void exicuteCommand(int commandNum);
+	///this will return the first token
+	string getFirstToken();
 
-	//this will return the first token
-	std::string getFirstToken();
-
-	//sets active to false
+	///sets active to false
 	void exitConsole();
 
-	void clearSystem();
-
 	static void printMenu();
+
+	///this will clear cmd screen and print the menu
+	void clearSystem();
 };
