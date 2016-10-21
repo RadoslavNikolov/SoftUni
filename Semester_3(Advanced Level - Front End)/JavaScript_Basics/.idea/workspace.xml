@@ -2,10 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34215ab9-61cb-4d85-ba19-2d4b9de8357f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/GitTest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Various_Programs/EncryptionSamples/.vs/EncryptionSamples/v14/.suo" afterPath="$PROJECT_DIR$/../../Various_Programs/EncryptionSamples/.vs/EncryptionSamples/v14/.suo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_July_27/_01_Build_Table/buildTable.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_July_27/_01_Build_Table/buildTable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_July_27/_02_Reveal_Triangles/revealTriangles.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_July_27/_02_Reveal_Triangles/revealTriangles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_July_27/_04_Concert/concert.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_July_27/_04_Concert/concert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_July_28/_01_Double_Rakiya_Numbers/Double_Rakiya_Numbers.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_July_28/_01_Double_Rakiya_Numbers/Double_Rakiya_Numbers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_July_28/_02_String_Matrix_Rotation/Matrix_Rotation.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_July_28/_02_String_Matrix_Rotation/Matrix_Rotation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_July_28/_03_Sort_Table/Sort_Table.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_July_28/_03_Sort_Table/Sort_Table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_July_28/_04_Soccer_Results/SoccerResults.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_July_28/_04_Soccer_Results/SoccerResults.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_July_29/_01_Prices_Trend/pricesTrend.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_July_29/_01_Prices_Trend/pricesTrend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_July_29/_02_Tetris_Figures/tetrisFigures.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_July_29/_02_Tetris_Figures/tetrisFigures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_July_29/_03_Biggest_Table_Row/biggestTableRow.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_July_29/_03_Biggest_Table_Row/biggestTableRow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_July_29/_04_Students,Courses,Grades,Visits/Students.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_July_29/_04_Students,Courses,Grades,Visits/Students.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_November_22/_01_Daggers_and_Swords/DaggersAndSwords.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_November_22/_01_Daggers_and_Swords/DaggersAndSwords.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_November_22/_02_X-Remove/X_removal.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_November_22/_02_X-Remove/X_removal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_November_22/_03_Query_Mess/queryMess.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_November_22/_03_Query_Mess/queryMess.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_November_22/_04_VladkosNotebook/vladkosNotebook.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_November_22/_04_VladkosNotebook/vladkosNotebook.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_November_24/_01_Eworks_Fans/eworkFans.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_November_24/_01_Eworks_Fans/eworkFans.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_November_24/_02_Plus_Remove/plusRemoval.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_November_24/_02_Plus_Remove/plusRemoval.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_November_24/_03_Link_Strings/linkStrings.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_November_24/_03_Link_Strings/linkStrings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_November_24/_04_Users_Module/usersModule.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_November_24/_04_Users_Module/usersModule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_September_04/_01_Keep_The_Change/KeepTheChange.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_September_04/_01_Keep_The_Change/KeepTheChange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_September_04/_02_The_Numbers/theNumbers.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_September_04/_02_The_Numbers/theNumbers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_September_04/_03_ToTheStars/toTheStars.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_September_04/_03_ToTheStars/toTheStars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2014_September_04/_04_Cloud_Manager/cloudManager.js" afterPath="$PROJECT_DIR$/Exams/Exam_2014_September_04/_04_Cloud_Manager/cloudManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2015_April_05/_01_Uncle_Scrooge/uncleScrooge.js" afterPath="$PROJECT_DIR$/Exams/Exam_2015_April_05/_01_Uncle_Scrooge/uncleScrooge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2015_April_05/_02_Free_Racing/freeRacing.js" afterPath="$PROJECT_DIR$/Exams/Exam_2015_April_05/_02_Free_Racing/freeRacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2015_April_05/_03_Goshko_The_Rabbit/goshkoTheRabbit.js" afterPath="$PROJECT_DIR$/Exams/Exam_2015_April_05/_03_Goshko_The_Rabbit/goshkoTheRabbit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2015_April_05/_04_Rolland_Garros/rollandGarros.js" afterPath="$PROJECT_DIR$/Exams/Exam_2015_April_05/_04_Rolland_Garros/rollandGarros.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2015_January_09/_01_The_Tetevan_Trip/theTetevenTrip.js" afterPath="$PROJECT_DIR$/Exams/Exam_2015_January_09/_01_The_Tetevan_Trip/theTetevenTrip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2015_January_09/_02_Parachute/parachute.js" afterPath="$PROJECT_DIR$/Exams/Exam_2015_January_09/_02_Parachute/parachute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2015_January_09/_03_Use_Your_Chains/useYourChains.js" afterPath="$PROJECT_DIR$/Exams/Exam_2015_January_09/_03_Use_Your_Chains/useYourChains.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Exam_2015_January_09/_04_All_That_Luggage/allTheLuggage.js" afterPath="$PROJECT_DIR$/Exams/Exam_2015_January_09/_04_All_That_Luggage/allTheLuggage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exams/Lab_2014_November_14/_01AutoComplite/autoComplite.js" afterPath="$PROJECT_DIR$/Exams/Lab_2014_November_14/_01AutoComplite/autoComplite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS_DOM/_05_Keep_The_Change/KeepTheChange.js" afterPath="$PROJECT_DIR$/JS_DOM/_05_Keep_The_Change/KeepTheChange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS_DOM/_06_The_Numbers/theNumbers.js" afterPath="$PROJECT_DIR$/JS_DOM/_06_The_Numbers/theNumbers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS_DOM/_07_ToTheStars/toTheStars.js" afterPath="$PROJECT_DIR$/JS_DOM/_07_ToTheStars/toTheStars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS_DOM/_08_Cloud_Manager/cloudManager.js" afterPath="$PROJECT_DIR$/JS_DOM/_08_Cloud_Manager/cloudManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS_Syntax/_07_Reveal_Triangles/revealTriangles.js" afterPath="$PROJECT_DIR$/JS_Syntax/_07_Reveal_Triangles/revealTriangles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/GitTest.js" afterPath="$PROJECT_DIR$/Test/GitTest.js" />
     </list>
     <ignored path="JSBasics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,17 +99,64 @@
         <entry file="file://$PROJECT_DIR$/JS_Intro_Homework/_01_CurrTime/current-time.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GitTest.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test/GitTest.js">
+      <file leaf-file-name="numberChecker.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS_Loops_old/_01_Number_Checker/numberChecker.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GitTest.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/GitTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS_DOM/_02_Email_field/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS_DOM/_02_Email_field/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="include.postload.js" pinned="false" current-in-tab="false">
+        <entry file="mock://chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js">
+          <provider selected="true" editor-type-id="vmFileEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrayBuilder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS_Loops_old/_04_Create_Array/arrayBuilder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -95,9 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Canvas_Workshop_2014/images/golden_spiral.html" />
-        <option value="$USER_HOME$/AppData/Local/Temp/grid.html" />
-        <option value="$PROJECT_DIR$/Canvas_Workshop_2014/main.js" />
         <option value="$PROJECT_DIR$/Canvas_Workshop_2014/index.html" />
         <option value="$PROJECT_DIR$/Lab_23_03_2015/_01_Write_Your_Name/index.html" />
         <option value="$PROJECT_DIR$/Lab_23_03_2015/_01_Write_Your_Name/main.js" />
@@ -145,7 +227,10 @@
         <option value="$PROJECT_DIR$/Exams/Exam_05_April_2015/_04_Rolland_Garros/rollandGarros.js" />
         <option value="$PROJECT_DIR$/Exams/Exam_05_April_2015/_01_Uncle_Scrooge/uncleScrooge.js" />
         <option value="$PROJECT_DIR$/Exams/Exam_2014_July_27/_03_Extract_Hyperlinks/extractHyperlinks.js" />
+        <option value="$PROJECT_DIR$/JS_Loops_old/_04_Create_Array/arrayBuilder.js" />
+        <option value="chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.postload.js" />
         <option value="$PROJECT_DIR$/Test/GitTest.js" />
+        <option value="$PROJECT_DIR$/JS_DOM/_02_Email_field/index.html" />
       </list>
     </option>
   </component>
@@ -205,20 +290,6 @@
               <option name="myItemId" value="JavaScript_Basics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSBasics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript_Basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -233,52 +304,41 @@
     <property name="options.lastSelected" value="editing.templates" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScript_Applications" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="javascript.nodejs.core.library.configured.version" value="4.3.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="JavaScriptPreferStrict" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\toshiba\Desktop\JavaScript\JSBasics\Canvas_Workshop_2014" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My\SoftUni\Semester_3(Advanced Level - Front End)\JavaScript_Basics\JS_DOM\_02_Email_field" />
       <recent name="C:\Users\toshiba\Desktop\JavaScript\JSBasics\Exams" />
       <recent name="C:\Users\toshiba\Desktop\JavaScript\JSBasics\Game" />
       <recent name="C:\Users\toshiba\Desktop\JavaScript\JSBasics\TeamWork" />
       <recent name="C:\Users\toshiba\Desktop\JavaScript\JSBasics\Regex\_05_" />
-      <recent name="C:\Users\toshiba\Desktop\JavaScript\JSBasics\Regex\_04_" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\toshiba\Desktop\JavaScript\JSBasics\Canvas_Workshop_2014" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.goshkoTheRabbit.js">
-    <configuration default="false" name="freeRacing.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="freeRacing.js" working-dir="$PROJECT_DIR$/Exams/Exam_05_April_2015/_02_Free_Racing">
-      <RunnerSettings RunnerId="Basic" />
-      <RunnerSettings RunnerId="debuggableProgram" />
-      <ConfigurationWrapper RunnerId="Basic" />
-      <ConfigurationWrapper RunnerId="debuggableProgram" />
+  <component name="RunManager" selected="Node.js.GitTest.js">
+    <configuration default="false" name="GitTest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="GitTest.js" working-dir="$PROJECT_DIR$/Test">
       <method />
     </configuration>
-    <configuration default="false" name="uncleScrooge.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="uncleScrooge.js" working-dir="$PROJECT_DIR$/Exams/Exam_05_April_2015/_01_Uncle_Scrooge">
-      <RunnerSettings RunnerId="Basic" />
-      <ConfigurationWrapper RunnerId="Basic" />
+    <configuration default="false" name="current-time.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="current-time.js" working-dir="$PROJECT_DIR$/JS_Intro_Homework/_01_CurrTime">
       <method />
     </configuration>
-    <configuration default="false" name="useYourChains.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="useYourChains.js" working-dir="$PROJECT_DIR$/Exams/Exam_09_January_2015/_03_Use_Your_Chains">
-      <RunnerSettings RunnerId="Basic" />
-      <ConfigurationWrapper RunnerId="Basic" />
+    <configuration default="false" name="arrayBuilder.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="arrayBuilder.js" working-dir="$PROJECT_DIR$/JS_Loops_old/_04_Create_Array">
       <method />
     </configuration>
-    <configuration default="false" name="allTheLuggage.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="allTheLuggage.js" working-dir="$PROJECT_DIR$/Exams/Exam_09_January_2015/_04_All_That_Luggage">
-      <RunnerSettings RunnerId="Basic" />
-      <ConfigurationWrapper RunnerId="Basic" />
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JSBasics/JS_DOM/_02_Email_field/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="goshkoTheRabbit.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="goshkoTheRabbit.js" working-dir="$PROJECT_DIR$/Exams/Exam_05_April_2015/_03_Goshko_The_Rabbit">
-      <RunnerSettings RunnerId="Basic" />
-      <ConfigurationWrapper RunnerId="Basic" />
+    <configuration default="false" name="main.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/JS_DOM/_02_Email_field">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -356,19 +416,19 @@
       <item index="0" class="java.lang.String" itemvalue="Node.js.rollandGarros.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.main.js" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.freeRacing.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.uncleScrooge.js" />
-      <item index="5" class="java.lang.String" itemvalue="Node.js.useYourChains.js" />
-      <item index="6" class="java.lang.String" itemvalue="Node.js.allTheLuggage.js" />
-      <item index="7" class="java.lang.String" itemvalue="Node.js.goshkoTheRabbit.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.GitTest.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.current-time.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.arrayBuilder.js" />
+      <item index="6" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="7" class="java.lang.String" itemvalue="Node.js.main.js (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.goshkoTheRabbit.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.freeRacing.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.uncleScrooge.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.allTheLuggage.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.useYourChains.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.GitTest.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.main.js (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.arrayBuilder.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.current-time.js" />
       </list>
     </recent_temporary>
   </component>
@@ -386,26 +446,35 @@
       <option name="presentableId" value="Default" />
       <updated>1424101504941</updated>
       <workItem from="1475225545347" duration="675000" />
-      <workItem from="1475226232852" duration="516000" />
+      <workItem from="1475226232852" duration="6835000" />
     </task>
+    <task id="LOCAL-00001" summary="test git from webstorm&#10;">
+      <created>1475226771353</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475226771353</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1191000" />
+    <option name="totallyTimeSpent" value="7510000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25396827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532833" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833022" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532833" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984127" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3977486" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -413,7 +482,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -448,6 +516,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test git from webstorm&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="test git from webstorm&#10;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -471,8 +543,20 @@
           <line>106</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Test/GitTest.js</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JS_DOM/_02_Email_field/main.js</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -686,13 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS_DOM/_02_Email_field/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS_DOM/_04_Create_HTML_Generator/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -729,15 +806,47 @@
     <entry file="file://$PROJECT_DIR$/JS_Intro_Homework/_01_CurrTime/current-time.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS_Loops_old/_01_Number_Checker/numberChecker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS_Loops_old/_04_Create_Array/arrayBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS_DOM/_02_Email_field/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/GitTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS_DOM/_02_Email_field/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding />
         </state>
       </provider>

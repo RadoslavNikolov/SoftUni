@@ -55,6 +55,6 @@ function solve(input) {
 //    '</table>']
 //];
 //for (var str in input) {
-//    solve(input[str]);
+//    sumNumbers(input[str]);
 //}
 

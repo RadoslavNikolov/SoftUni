@@ -49,4 +49,4 @@ function solve(input) {
 //    'coin 200',
 //    'coin 500',
 //    'cigars 1' ];
-//solve(input);
+//sumNumbers(input);

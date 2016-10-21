@@ -99,4 +99,4 @@ function solve(input) {
 //var input = ['right, up, up, down','asdf, as{#}aj{g}dasd, kjldk{}fdffd, jdflk{#}jdfj','tr{X}yrty, zxx{*}zxc, mncvnvcn, popipoip','poiopipo, nmf{X}d{X}ei, mzoijwq, omcxzne'];
 
 //var input = ['up, right, left, down','as{!}xnk'];
-//solve(input);
+//sumNumbers(input);

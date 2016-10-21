@@ -44,5 +44,5 @@ function solve(input) {
 //    [1211,1213]
 //];
 //for(var str in input) {
-//    solve(input[str]);
+//    sumNumbers(input[str]);
 //}

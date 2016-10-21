@@ -59,5 +59,5 @@ function solve(input) {
 //     'Iron Maiden | Buenos Aires | 03-Mar-2014 | River Plate Stadium']
 //];
 //for(var obj in input) {
-//    console.log(solve(input[obj]));
+//    console.log(sumNumbers(input[obj]));
 //}

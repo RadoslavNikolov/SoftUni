@@ -21,4 +21,4 @@ function solve(input) {
     }
 
 }
-//solve([1242192.33,'married'])
+//sumNumbers([1242192.33,'married'])
