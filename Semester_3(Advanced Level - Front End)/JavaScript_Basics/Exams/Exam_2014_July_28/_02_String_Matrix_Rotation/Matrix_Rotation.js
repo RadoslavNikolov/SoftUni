@@ -91,5 +91,5 @@ function solve(input) {
 //    ['Rotate(270)','hello','softuni','exam']
 //];
 //for(var str in input) {
-//    solve(input[str]);
+//    sumNumbers(input[str]);
 //}

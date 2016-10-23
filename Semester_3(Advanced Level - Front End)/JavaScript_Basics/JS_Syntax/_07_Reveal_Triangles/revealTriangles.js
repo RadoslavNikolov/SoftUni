@@ -26,4 +26,4 @@ function solve(arr) {
 }
 
 console.log(solve(['abcdexgh', 'bbbdxxxh', 'abcxxxxx']));
-//console.log(solve(['ax', 'xxx', 'b','bbb','bbbb']));
+//console.log(sumNumbers(['ax', 'xxx', 'b','bbb','bbbb']));

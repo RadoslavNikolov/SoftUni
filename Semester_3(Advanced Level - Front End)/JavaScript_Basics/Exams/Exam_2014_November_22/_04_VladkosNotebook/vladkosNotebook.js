@@ -87,5 +87,5 @@ function solve(input) {
 //    'green|win|mariya']];
 //
 //for (var arr in input) {
-//    solve(input[arr]);
+//    sumNumbers(input[arr]);
 //}

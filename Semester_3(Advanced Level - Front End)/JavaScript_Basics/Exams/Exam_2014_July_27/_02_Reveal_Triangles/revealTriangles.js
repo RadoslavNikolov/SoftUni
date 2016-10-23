@@ -25,5 +25,5 @@ function solve(arr) {
     return output.join('\n');
 }
 
-//console.log(solve(['abcdexgh', 'bbbdxxxh', 'abcxxxxx']));
-//console.log(solve(['ax', 'xxx', 'b','bbb','bbbb']));
+//console.log(sumNumbers(['abcdexgh', 'bbbdxxxh', 'abcxxxxx']));
+//console.log(sumNumbers(['ax', 'xxx', 'b','bbb','bbbb']));

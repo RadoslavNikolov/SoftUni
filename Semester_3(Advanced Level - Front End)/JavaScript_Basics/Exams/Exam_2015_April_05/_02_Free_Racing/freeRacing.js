@@ -61,4 +61,4 @@ function solve(input) {
 }
 
 //var input = ['10','19','angel, 10','Boris, 10','Georgi, 3','Dimitar, 7'];
-//solve(input);
+//sumNumbers(input);

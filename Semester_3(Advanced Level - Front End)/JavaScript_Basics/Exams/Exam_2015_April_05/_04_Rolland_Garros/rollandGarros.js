@@ -103,4 +103,4 @@ function solve(input) {
 //    'Pete Sampras vs. Andre Agassi : 2-1',
 //    'Boris Beckervs.Andre        \t\t\tAgassi:2-1' ];
 //var input = ['Boris Beckervs.Andre        \t\t\tAgassi:2-1' ];
-//solve(input);
+//sumNumbers(input);

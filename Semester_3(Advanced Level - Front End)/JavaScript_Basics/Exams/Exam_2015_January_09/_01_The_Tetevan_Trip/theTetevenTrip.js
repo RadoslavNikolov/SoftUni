@@ -32,7 +32,7 @@ function solve(input) {
 }
 
 
-//solve(['BMW petrol 1 320.5',
+//sumNumbers(['BMW petrol 1 320.5',
 //        'Golf petrol 2 150.75',
 //        'Lada gas 1 202',
 //        'Mercedes diesel 2 312.54']

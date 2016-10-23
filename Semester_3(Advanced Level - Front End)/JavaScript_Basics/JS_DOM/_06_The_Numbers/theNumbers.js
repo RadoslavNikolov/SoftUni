@@ -17,4 +17,4 @@ function solve(input) {
 
     console.log(output.substring(0,output.length-1));
 }
-//solve('20');
+//sumNumbers('20');

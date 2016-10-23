@@ -97,5 +97,5 @@ function solve(input) {
 //];
 //
 //for (var arr in input) {
-//    solve(input[arr]);
+//    sumNumbers(input[arr]);
 //}

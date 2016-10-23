@@ -39,13 +39,13 @@ function solve(input) {
         return '-';
     }
 }
-//solve(['word screammm screech speech wolf',
+//sumNumbers(['word screammm screech speech wolf',
 //        'bas',
 //        'wo',
 //        'scr',
 //        's']
 //);
-//solve(['firefox mozilla gecko webKit lord battery skype',
+//sumNumbers(['firefox mozilla gecko webKit lord battery skype',
 //    'firf',
 //    'fire',
 //    'momo',
