@@ -13,7 +13,7 @@ namespace EncryptionSamples.Certificates
         public static void Run()
         {
             var store = new X509Store(StoreName.Root, StoreLocation.LocalMachine);
-
+   
             store.Open(OpenFlags.ReadOnly);
 
             Console.WriteLine("Friendly Name\t\t\t\t\t Expiration date");
