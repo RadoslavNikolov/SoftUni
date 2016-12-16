@@ -1,13 +1,4 @@
-﻿/*
- *	Created/modified in 2011 by Simon Baer
- *	
- *  Based on the Code Project article by Nicolas Wälti:
- *  http://www.codeproject.com/KB/cpp/PopupNotifier.aspx
- * 
- *  Licensed under the Code Project Open License (CPOL).
- */
-
-using System;
+﻿using System;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;

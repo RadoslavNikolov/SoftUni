@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planning.API", "NKB-Online-Planning\Planning.API.csproj", "{03F2A449-1757-4726-9EF7-39B635995BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planning.Model", "Planning.Model\Planning.Model.csproj", "{B88CAD62-DCB8-45B4-97A1-4568AAC717DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planning.Data", "Planning.Data\Planning.Data.csproj", "{407D09DC-01E9-47C7-A8C8-2B0E0845B469}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F2A449-1757-4726-9EF7-39B635995BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F2A449-1757-4726-9EF7-39B635995BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F2A449-1757-4726-9EF7-39B635995BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F2A449-1757-4726-9EF7-39B635995BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88CAD62-DCB8-45B4-97A1-4568AAC717DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88CAD62-DCB8-45B4-97A1-4568AAC717DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88CAD62-DCB8-45B4-97A1-4568AAC717DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88CAD62-DCB8-45B4-97A1-4568AAC717DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407D09DC-01E9-47C7-A8C8-2B0E0845B469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407D09DC-01E9-47C7-A8C8-2B0E0845B469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407D09DC-01E9-47C7-A8C8-2B0E0845B469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407D09DC-01E9-47C7-A8C8-2B0E0845B469}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

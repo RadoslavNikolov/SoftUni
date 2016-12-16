@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cfff1102615b43ff8bc3f16cd4101248" Name="Diagram1">
+        <EntityTypeShape EntityType="NKBModel.AHeartA" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.AlertInfo" Width="1.5" PointX="7.5" PointY="318.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.AmbList2005" Width="1.5" PointX="3.75" PointY="228.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.AmbList2005Med" Width="1.5" PointX="6" PointY="233.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Anestezia" Width="1.5" PointX="3" PointY="221.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Antro_pok" Width="1.5" PointX="23.75" PointY="311.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Billing" Width="1.5" PointX="7.5" PointY="350.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.BList" Width="1.5" PointX="6" PointY="217.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.BLOcenki" Width="1.5" PointX="12.75" PointY="294.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.blXmlSent" Width="1.5" PointX="8.25" PointY="227.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Bolnica" Width="1.5" PointX="3" PointY="294" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.BolnichnoLechenie" Width="1.5" PointX="7.5" PointY="277.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.BolnichnoLechenieDop" Width="1.5" PointX="9.75" PointY="289.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Broiach" Width="1.5" PointX="10.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Cena" Width="1.5" PointX="29.25" PointY="287.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.CeniNZOKAmb" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Configuration" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Darjava_EC" Width="1.5" PointX="2.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DebugITAnalysis" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DeinostNZOK" Width="1.5" PointX="7.5" PointY="270.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Diag_KDKK" Width="1.5" PointX="4.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DiagKlinPateka" Width="1.5" PointX="9.75" PointY="262.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DiagKlinProcedura" Width="1.5" PointX="6.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Diagnoza" Width="1.5" PointX="5.25" PointY="292.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DiagnozaSpec" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DiagUslojnPridr" Width="1.5" PointX="7.5" PointY="314.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Diet" Width="1.5" PointX="5.25" PointY="270.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DietContract" Width="1.5" PointX="3" PointY="271" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DietDelivery" Width="1.5" PointX="10.5" PointY="341.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DietInfo" Width="1.5" PointX="7.5" PointY="252.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DietOrder" Width="1.5" PointX="8.25" PointY="335.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DietOrderAccordance" Width="1.5" PointX="12.75" PointY="341.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DietUser" Width="1.5" PointX="17.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DietWardPersistance" Width="1.5" PointX="5.25" PointY="332.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DispDosie" Width="1.5" PointX="9" PointY="222.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DispGrupa" Width="1.5" PointX="14.25" PointY="223.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DispIzsledvane" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DispProgDiag" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DispProgIzsl" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DispPrograma" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DispProgSpec" Width="1.5" PointX="5.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DispProgZab" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DispZaboliavane" Width="1.5" PointX="18.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DoctorCommission" Width="1.5" PointX="12.5" PointY="275.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DoctorCommissionProtocol" Width="1.5" PointX="6" PointY="236.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DoctorHoliday" Width="1.5" PointX="12.5" PointY="272.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DoctorsSchedule" Width="1.5" PointX="5.25" PointY="278.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DogovorNZOK" Width="1.5" PointX="5.25" PointY="284" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DogovorPC" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Drug" Width="1.5" PointX="17.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DrugsMKB" Width="1.5" PointX="0.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.dtproperties" Width="1.5" PointX="2.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.EjNaznachenie" Width="1.5" PointX="9.75" PointY="297.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Events" Width="1.5" PointX="4.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.EventTemplates" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ExternalFiles" Width="1.5" PointX="7.5" PointY="354.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ExternalFilesVid" Width="1.5" PointX="6.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.FactNastroiki" Width="1.5" PointX="19.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.FactPrava" Width="1.5" PointX="19.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Factura" Width="1.5" PointX="14.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.FacturaUsl" Width="1.5" PointX="17" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Frequency" Width="1.5" PointX="19.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.FromLIS" Width="1.5" PointX="16.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.FromPACS" Width="1.5" PointX="19.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.GroupKlasMKB10" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.GroupKlasSeb" Width="1.5" PointX="20.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.GroupMZ" Width="1.5" PointX="8.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.GroupMZ_0205" Width="1.5" PointX="10.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.GroupMZ_0305" Width="1.5" PointX="21.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.GroupMZ_1104" Width="1.5" PointX="21.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Grupa" Width="1.5" PointX="27" PointY="293.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.hadis" Width="1.5" PointX="12.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Hemodializa" Width="1.5" PointX="17" PointY="306.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.HemodializaMed" Width="1.5" PointX="21.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.HemodializaMedIzbran" Width="1.5" PointX="19.25" PointY="308.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.hipExam" Width="1.5" PointX="21.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ImpGroupMap" Width="1.5" PointX="21.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ImpGroupMap_2015" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ImpKPDiag" Width="1.5" PointX="4.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ImpKPDiag_2015" Width="1.5" PointX="18.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Implantant" Width="1.5" PointX="26.75" PointY="272.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ImplantantDop" Width="1.5" PointX="0.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ImplantantNZOK" Width="1.5" PointX="23.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ImplantantNZOK_2015" Width="1.5" PointX="6.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ImplantantNZOKDealer" Width="1.5" PointX="8.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ImpOldNew" Width="1.5" PointX="4.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IntLechenie" Width="1.5" PointX="17.75" PointY="291.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzdNaprNZOK" Width="1.5" PointX="29.75" PointY="278.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzoliranMikroorganizamData" Width="1.5" PointX="3" PointY="275.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzprLekar" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzprLekarPS" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsDI" Width="1.5" PointX="15.5" PointY="270.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsDI_Res" Width="1.5" PointX="17.75" PointY="314.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsEFI" Width="1.5" PointX="18.5" PointY="277.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsFNI" Width="1.5" PointX="21.5" PointY="277.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsIP" Width="1.5" PointX="21.5" PointY="264.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsIP_Res" Width="1.5" PointX="23.75" PointY="260.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsLAB" Width="1.5" PointX="18.5" PointY="265" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsLABINR" Width="1.5" PointX="23.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsLABINRDanni" Width="1.5" PointX="20.75" PointY="258.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsLabPaket" Width="1.5" PointX="23.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsProPaket" Width="1.5" PointX="23.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsROD" Width="1.5" PointX="32.25" PointY="278.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsVSI" Width="1.5" PointX="35.25" PointY="276.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzvunNKBKons" Width="1.5" PointX="3" PointY="217" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Kalkulacia" Width="1.5" PointX="23.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.KlinicnaPateka" Width="1.5" PointX="7.5" PointY="262.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.KlinicnaProcedura" Width="1.5" PointX="12.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.KlinPatekaCena" Width="1.5" PointX="9.75" PointY="265.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.KlinPatImpl" Width="1.5" PointX="9.75" PointY="268.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.KlinPatImplCena" Width="1.5" PointX="12" PointY="269.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.KlinProceduraCena" Width="1.5" PointX="15" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.KlinProceduraDiagnosi" Width="1.5" PointX="23.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Komitet" Width="1.5" PointX="7.5" PointY="358.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Konsultacia" Width="1.5" PointX="29.25" PointY="270" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.KpLechenie" Width="1.5" PointX="14.75" PointY="297.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.KpOtcheteni" Width="1.5" PointX="8" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.KpPeriod" Width="1.5" PointX="5.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.LeglovaBaza" Width="1.5" PointX="5.25" PointY="336.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.LimitiNZOK" Width="1.5" PointX="5.25" PointY="288.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.madis" Width="1.5" PointX="25.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.MartvoRodeni" Width="1.5" PointX="12.75" PointY="289.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.MedCentar" Width="1.5" PointX="3" PointY="282.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.MedDiagDeinost" Width="1.5" PointX="2.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.MedNzok" Width="1.5" PointX="25.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.MedPaketDetail" Width="1.5" PointX="15" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.MedPaketMaster" Width="1.5" PointX="12.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.MedPricTerapia" Width="1.5" PointX="25.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.MedTerapia" Width="1.5" PointX="12.75" PointY="260.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.MikrobiologichnoIzsledvane" Width="1.5" PointX="20.75" PointY="253" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.MikroskopskiPreparatData" Width="1.5" PointX="3" PointY="289.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.NaprNasNZOK" Width="1.5" PointX="14.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.NOIProverka" Width="1.5" PointX="9.75" PointY="300.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.NOIProverkaOSV" Width="1.5" PointX="7.5" PointY="367.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Nomenklatura" Width="1.5" PointX="0.75" PointY="216.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.NovoRodeni" Width="1.5" PointX="17.75" PointY="299.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.NZOKAmbGrafik" Width="1.5" PointX="12" PointY="216.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.NZOKAmbNorm" Width="1.5" PointX="16.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.NZOKLimit" Width="1.5" PointX="25.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Obsajdane" Width="1.5" PointX="5.25" PointY="340.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Ocenki" Width="1.5" PointX="10.5" PointY="313.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Operacia" Width="1.5" PointX="24.5" PointY="276.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.OperEKK" Width="1.5" PointX="26.75" PointY="281.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Order" Width="1.5" PointX="11.25" PointY="335" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.OrderData" Width="1.5" PointX="9" PointY="346.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.OrderEntry" Width="1.5" PointX="23.75" PointY="300.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.OrderNomMed" Width="1.5" PointX="21.5" PointY="302.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Pacient" Width="1.5" PointX="5.25" PointY="307.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PACSACKLog" Width="1.5" PointX="18.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PACSModality" Width="1.5" PointX="5.25" PointY="350.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PantheonCodes" Width="1.5" PointX="5.25" PointY="353.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Pauza" Width="1.5" PointX="5.25" PointY="355.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Personal" Width="1.5" PointX="10.25" PointY="273.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PersonalPC" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PersonalRS1" Width="1.5" PointX="12.5" PointY="286" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PersonalRS2" Width="1.5" PointX="14.75" PointY="285.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PersonalZveno" Width="1.5" PointX="12.5" PointY="308" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PlaniraneOper" Width="1.5" PointX="5.25" PointY="358.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PlaniranePregled" Width="1.5" PointX="8.25" PointY="328.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Pochinali" Width="1.5" PointX="40.5" PointY="276.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PochinaliTakDonori" Width="1.5" PointX="42.75" PointY="283.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PoslednoID" Width="1.5" PointX="20.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Praktika" Width="1.5" PointX="7.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Pregled" Width="1.5" PointX="38.25" PointY="273.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PregledDiagnoza" Width="1.5" PointX="43.5" PointY="279.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PregnancyRegister" Width="1.5" PointX="12.5" PointY="250.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Prevejdane" Width="1.5" PointX="9.75" PointY="309" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Pridrujitel" Width="1.5" PointX="9.75" PointY="434.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PrintedTabeli" Width="1.5" PointX="25.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Proceduri" Width="1.5" PointX="32.25" PointY="266.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Proceduri_Vid" Width="1.5" PointX="22.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Razhod_Transfer" Width="1.5" PointX="9.75" PointY="438.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Razhod_Transfer_Zvena" Width="1.5" PointX="8.25" PointY="325.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Razhodi" Width="1.5" PointX="6" PointY="324.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.RazhodTip" Width="1.5" PointX="30" PointY="294.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.RazhodTipActivities" Width="1.5" PointX="32.25" PointY="288.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.RazZveno" Width="1.5" PointX="25.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Recepta" Width="1.5" PointX="6" PointY="241.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ReceptaMed" Width="1.5" PointX="8.25" PointY="242.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ReceptaMedSpisak" Width="1.5" PointX="8.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_10_2005" Width="1.5" PointX="27.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_2" Width="1.5" PointX="27.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_2012_1" Width="1.5" PointX="27.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_2012_2" Width="1.5" PointX="10.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_2012_3" Width="1.5" PointX="27.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_2012_4" Width="1.5" PointX="27.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_2012_5" Width="1.5" PointX="27.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_2012_6" Width="1.5" PointX="27.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_2012_7" Width="1.5" PointX="27.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_3" Width="1.5" PointX="24.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_5" Width="1.5" PointX="27.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_6" Width="1.5" PointX="0.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_6A" Width="1.5" PointX="2.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_7" Width="1.5" PointX="4.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_365_7_Old" Width="1.5" PointX="20.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_5_2008_1" Width="1.5" PointX="29.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_5B_2005_1" Width="1.5" PointX="29.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_5B_2005_2" Width="1.5" PointX="29.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_5B_2006_1" Width="1.5" PointX="29.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_5B1_2005_1" Width="1.5" PointX="29.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_5B1_2005_1_Old" Width="1.5" PointX="16.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_5B1_2005_2" Width="1.5" PointX="29.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_5B2_2005_1" Width="1.5" PointX="29.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_5B2_2005_1_Old" Width="1.5" PointX="26.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_5B2_2005_2" Width="1.5" PointX="29.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_6_2008_1" Width="1.5" PointX="10.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.REPORT_6B" Width="1.5" PointX="31.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_F14" Width="1.5" PointX="0.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_F30" Width="1.5" PointX="2.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_God_3" Width="1.5" PointX="31.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.REPORT_GOD_3_Old" Width="1.5" PointX="4.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.REPORT_GOD_4_1" Width="1.5" PointX="6.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_God_FIS" Width="1.5" PointX="31.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_God_FIS_Old" Width="1.5" PointX="31.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_God_FNI" Width="1.5" PointX="31.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_God_Hemod" Width="1.5" PointX="31.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_God_Izs" Width="1.5" PointX="18.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_God_Izs_Old" Width="1.5" PointX="31.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_God_LAB" Width="1.5" PointX="20.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_God_ROD" Width="1.5" PointX="31.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_KDKK1" Width="1.5" PointX="22.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_SO_2011" Width="1.5" PointX="31.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report_YS" Width="1.5" PointX="31.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report115" Width="1.5" PointX="28.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report370_P" Width="1.5" PointX="30.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ReportForm3Sp" Width="1.5" PointX="32.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Reports78" Width="1.5" PointX="33.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Route" Width="1.5" PointX="33.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ScheduleTimeInterval" Width="1.5" PointX="7.5" PointY="272.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Sec_Groups" Width="1.5" PointX="9.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Sec_Log" Width="1.5" PointX="33.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Sec_Log1" Width="1.5" PointX="33.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Sec_Modules" Width="1.5" PointX="33.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Security" Width="1.5" PointX="12" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Shablon1" Width="1.5" PointX="33.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Shablon2" Width="1.5" PointX="33.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.sickleave_calibrate" Width="1.5" PointX="33.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Sluchai" Width="1.5" PointX="10" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.SmetkaLechenie" Width="1.5" PointX="24.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.SpecialnostPersonal" Width="1.5" PointX="8" PointY="258.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.SpeshenList" Width="1.5" PointX="40.5" PointY="289.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.SpeshenListDop" Width="1.5" PointX="0.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Spravka" Width="1.5" PointX="33.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.SpravkaAjurGod" Width="1.5" PointX="2.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.SpravkaFav" Width="1.5" PointX="4.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Sreshti" Width="1.5" PointX="7.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.SubZveno" Width="1.5" PointX="5.25" PointY="370.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.TabelaMedi" Width="1.5" PointX="40.5" PointY="304.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.TabelaMediIzp" Width="1.5" PointX="26" PointY="304.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.TempletFile" Width="1.5" PointX="6.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.tmpDealerNZOK" Width="1.5" PointX="8.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.tmpImplantantNZOK" Width="1.5" PointX="10.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.tmpMedNzok" Width="1.5" PointX="16.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.toCypro" Width="1.5" PointX="20" PointY="296.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ToLIS" Width="1.5" PointX="18.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ToPACS" Width="1.5" PointX="20.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ToSMOBZ" Width="1.5" PointX="34.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.TransferKDKK_1" Width="1.5" PointX="35.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.TransferKDKK_2" Width="1.5" PointX="35.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.TransferKDKK_3" Width="1.5" PointX="35.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Trudozaguba" Width="1.5" PointX="8.25" PointY="218.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.userDefaults" Width="1.5" PointX="35.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.UserPointOfView" Width="1.5" PointX="35.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Usluga" Width="1.5" PointX="27" PointY="285.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.UslugaGrupa" Width="1.5" PointX="29.25" PointY="291.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.VidDogovorNZOK" Width="1.5" PointX="3" PointY="278.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.WeightedCalculationByEventAndUnit" Width="1.5" PointX="8.25" PointY="341.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.WS_Param" Width="1.5" PointX="35.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Zveno" Width="1.5" PointX="3" PointY="330.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.DomainToHisUsersMapping" Width="1.5" PointX="35.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsMDI" Width="1.5" PointX="35.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.IzsVPI" Width="1.5" PointX="26.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.OSIOMD_EXTERNAL_ID" Width="1.5" PointX="32.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.OSIOMD_IDS" Width="1.5" PointX="34.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.tmpDrugsMKB" Width="1.5" PointX="12.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.TraceLog" Width="1.5" PointX="28.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.zNom" Width="1.5" PointX="36.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.AUView" Width="1.5" PointX="36.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.blxml" Width="1.5" PointX="37.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.BLXMLTZ" Width="1.5" PointX="2.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Darjavi" Width="1.5" PointX="37.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Foreigners" Width="1.5" PointX="37.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.GetPermits" Width="1.5" PointX="37.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.hadismadis" Width="1.5" PointX="4.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.hadisPresentation" Width="1.5" PointX="6.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.hadisStats" Width="1.5" PointX="37.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.hadisStatsPerDate" Width="1.5" PointX="8.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.HadisToday" Width="1.5" PointX="22.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.lkkCommissions" Width="1.5" PointX="38.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PacientiZaDenia" Width="1.5" PointX="30.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PacientiZaDeniaNew" Width="1.5" PointX="32.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.PacientiZaDeniaWithStatus" Width="1.5" PointX="34.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.RegionSelect" Width="1.5" PointX="39.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report365_2" Width="1.5" PointX="39.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.Report365_3" Width="1.5" PointX="39.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.RstSec_Log1" Width="1.5" PointX="39.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.SelectedBLfieldsForDRG" Width="1.5" PointX="10.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.sys_rowcount" Width="1.5" PointX="39.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vCentur" Width="1.5" PointX="12.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vCentur0" Width="1.5" PointX="14.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vCenturNew" Width="1.5" PointX="39.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vFacCentur" Width="1.5" PointX="39.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.view_APr_CommissionXML" Width="1.5" PointX="0.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.View_KF_Proceduri" Width="1.5" PointX="39.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.View_KF_ProceduriNew" Width="1.5" PointX="39.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.View_KF_ProceduriSort" Width="1.5" PointX="24.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.View_Limit" Width="1.5" PointX="26.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.view0" Width="1.5" PointX="40.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.View2" Width="1.5" PointX="40.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.View3" Width="1.5" PointX="40.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.View4" Width="1.5" PointX="36.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.View8" Width="1.5" PointX="40.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewBlDopEpikriza" Width="1.5" PointX="41.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewBlEpikriza" Width="1.5" PointX="41.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewBlNumber" Width="1.5" PointX="41.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewCountIntenzivni" Width="1.5" PointX="41.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewCountPochinaliDo24h" Width="1.5" PointX="41.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewDiagProc" Width="1.5" PointX="16.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewEpikriza" Width="1.5" PointX="41.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewGetAllOper" Width="1.5" PointX="18.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewGettAllProc" Width="1.5" PointX="41.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewhadis" Width="1.5" PointX="28.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewHadisRegistrars" Width="1.5" PointX="41.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewHavingDispPacID" Width="1.5" PointX="30.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewHavingPacID" Width="1.5" PointX="32.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewHavingPacIDEC" Width="1.5" PointX="2.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewImplantKliPat" Width="1.5" PointX="4.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewImpStoinost" Width="1.5" PointX="6.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewIntPrev" Width="1.5" PointX="12.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewLatestNZOKPrice" Width="1.5" PointX="20.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewLechebniZavedenia" Width="1.5" PointX="42.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewLechZavIdentification" Width="1.5" PointX="42.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewLkk" Width="1.5" PointX="42.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewLZIdentificationNew" Width="1.5" PointX="43.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewLZNew" Width="1.5" PointX="43.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewMDD" Width="1.5" PointX="43.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewNomCnt" Width="1.5" PointX="43.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewOperacii" Width="1.5" PointX="43.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewPersonalNames" Width="1.5" PointX="43.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewPK011" Width="1.5" PointX="22.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewPrestoi" Width="1.5" PointX="43.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewPrestoiIntenzivni" Width="1.5" PointX="30.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewPrestoiPoZvena" Width="1.5" PointX="32.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewPrestoiPoZvenaNew" Width="1.5" PointX="34.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewPrevejdaneInt" Width="1.5" PointX="36.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewPrevejdanePoZvena" Width="1.5" PointX="38.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.ViewPrevF30" Width="1.5" PointX="40.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewToCypro" Width="1.5" PointX="42.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewToLis" Width="1.5" PointX="24.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.viewtrace" Width="1.5" PointX="44.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.VIEWXLS" Width="1.5" PointX="44.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vKonsStatistika" Width="1.5" PointX="44.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vKPProc" Width="1.5" PointX="44.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vNNLab" Width="1.5" PointX="44.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vNNRod" Width="1.5" PointX="44.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vPregledHosp" Width="1.5" PointX="45.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vPrevDoData" Width="1.5" PointX="2.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vPrevejdane" Width="1.5" PointX="45.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vPrevejdaneNew" Width="1.5" PointX="45.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vPrevejdaneOld" Width="1.5" PointX="45.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vPrevejdanePlan" Width="1.5" PointX="14.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vrpRegJournal" Width="1.5" PointX="45.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vUslojIOcenki" Width="1.5" PointX="16.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vw_TransferKR" Width="1.5" PointX="18.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.vw_TransferZvena" Width="1.5" PointX="45.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.xc001helper" Width="1.5" PointX="45.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NKBModel.xmlPatient" Width="1.5" PointX="26.75" PointY="45.75" IsExpanded="true" />
+        <AssociationConnector Association="NKBModel.FK_AlertInfo_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_AmbList" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.fk_amblist_blist" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_AmbList2005Med_AmbList2005" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_NOIProverka_AmbList2005" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Recepta_AmbList2005" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Anestezia_IzsDII" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Anestezia_IzsEFI" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Anestezia_IzsIP" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Anestezia_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Anestezia_Operacia" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Anestezia_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Anestezia_Personal1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Antro_pok_IzsDI" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Antro_pok_IzsIP" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Antro_pok_IzsLAB" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Antro_pok_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Antro_pok_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Antro_pok_PlaniraneOper" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Antro_pok_Pregled" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Billing_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__BList__lkkId__5A7BE372" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__BList__lkkId__63BC0040" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__blXmlSent__id__75DAB07B" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BList_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BList_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BList_Nomenklatura1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.fk_icdcode" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.fk_pregled" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Trudozaguba_BList" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BLOcenki_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BLOcenki_Ocenki" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_LimitiNZOK_Bolnica" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__toCypro__tcBolId__1117EB45" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Diagnoza" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Diagnoza1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Diagnoza2" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Diagnoza3" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Diagnoza4" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Diagnoza5" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Diagnoza6" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Diagnoza7" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Diagnoza8" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Diet" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_KlinicnaPateka" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_KlinicnaPateka1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Nomenklatura10" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Nomenklatura11" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Nomenklatura12" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Nomenklatura4" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Nomenklatura5" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Nomenklatura6" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Nomenklatura7" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Nomenklatura9" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Personal1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Personal2" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Personal3" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_PlaniranePregled" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_SubZveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenie_Zveno1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_BolnichnoLechenieDop_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_EjNaznachenie_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IntLechenie_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsEFI_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsFNI_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsIP_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsLAB_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsROD_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsVSI_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Konsultacia_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MartvoRodeni_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MedTerapia_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_NOIProverka_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_NOIProverka_BolnichnoLechenie1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_NovoRodeni_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_OrderEntry_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pochinali_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Prevejdane_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pridrujitel_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Razhod_Transfer_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_TabelaMedi_BolnichnoLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_SabitieCena_Sabitie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DeinostNZOK_DogovorNZOK" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DIAGKLIN_RELATIONS_DIAGNOZA" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DIAGKLIN_RELATIONS_KLINICNA" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.Diagnosis_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__KpLecheni__OD_Hi__3F348707" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DIAGNOZA_RELATIONS_DIAGNOZA" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DIAGUSLO_RELATIONS_DIAGNOZA" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DIAGUSLO_RELATIONS_DIAGNOZA2" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_Diagnoza_DiiDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_Diagnoza_DiiNasDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsEFI_Diagnoza_EfiDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsEFI_Diagnoza_EfiNasDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsFNI_Diagnoza_FniDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsFNI_Diagnoza_FniNasDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsIP_Diagnoza_IpDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsIP_Diagnoza_IpNasDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsLAB_Diagnoza_LabNasDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsROD_Diagnoza_RodNasDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsVSI_Diagnoza_VsiNasDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsVSI_Diagnoza_VsiNasDiagMDD" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Konsultacia_Diagnoza" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Diagnoza" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Diagnoza1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Diagnoza2" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Diagnoza3" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Diagnoza4" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Diagnoza5" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pochinali_Diagnoza" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pochinali_Diagnoza1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_Diagnoza" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PregledDiagnoza_Diagnoza" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.fk_procedures" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Proceduri_Diagnoza_ProMKB" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Proceduri_Diagnoza_ProNasDiag" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Diag_Spec_Diag_Spec" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Diet_DietContract" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DietInfo_Diet" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DietOrder_Diet" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DietWardPersistance_Diet" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DietDelivery_DietOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DietOrderAccordance_DietDelivery" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DietOrder_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DietWardPersistance_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DispDosie_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DispDosie_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DispGrupa_DispDosie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_DispDosie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DispGrupa_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DispProgDiag_DispProgZab" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DispProgIzsl_DispProgZab" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DispProgZab_DispPrograma" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DispProgSpec_DispProgZab" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__DoctorCom__Docto__2C21B293" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__DoctorCom__Docto__2D15D6CC" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__DoctorCom__Docto__2E09FB05" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__DoctorCom__Docto__2EFE1F3E" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__DoctorCom__Docto__2FF24377" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__DoctorCom__Docto__30E667B0" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__DoctorCom__Docto__31DA8BE9" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__KpLecheni__OD_Lk__3E4062CE" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DcotorCommission_PersonalId" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DcotorCommission_PersonalId1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DcotorCommission_PersonalId2" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DcotorCommission_PersonalId3" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DcotorCommission_PersonalId4" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__DoctorHoliday_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__DoctorsSchedule_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__DoctorsSchedule_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__FK__DoctorsSchedule_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__ScheduleTimeInterval_DoctorsSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DogovorNZOK_MedCentar" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_DogovorNZOK_VidDogovorNZOK" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_KLINICNA_RELATIONS_DOGOVORN" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PersonalPC_DogovorPC" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_ExternalFiles_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_FacturaUsl_Factura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_UslugaGrupa_Grupa" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Hemodializa_KpLechenie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_HemodializaMedIzbran_Hemodializa" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__Implantan__EFIID__580034D1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Implantant_IzsDI" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Implantant_IzsIP" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Implantant_KlinPatImpl" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Implantant_Operacia" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Implantant_Proceduri" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IntLechenie_Prevejdane" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzdNaprNZOK_IzsFNI" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzdNaprNZOK_Pregled" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzdNaprNZOK_Proceduri" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzoliranMikroorganizamData_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MikrobiologichnoIzsledvane_IzoliranMikroorganizamData" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzprLekarPS_IzprLekar" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzprLekarPS_Praktika" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_Nom_DiiFinans" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_Nom_DiiKontVid" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_Nom_DiiNasVun" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_Nom_DiiSadDost" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_Personal_DiiLekar1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_Res_IzsDI" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_Usluga_DiiVid" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_Zveno_DiiMesto" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsDI_Zveno_DiiNasZveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsEFI_Nom_EfiFinans" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsEFI_Nom_EfiKontVid" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsEFI_Nom_EfiNasVun" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsEFI_Personal_EfiLekar1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsEFI_Usluga_EfiVid" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsEFI_Zveno_EfiMesto" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsEFI_Zveno_EfiNasZveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsFNI_Nom_FniFinans" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsFNI_Nom_FniNasVun" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsFNI_Personal_FniLekar" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsFNI_Usluga_FniVid" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsFNI_Zveno_FniMesto" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsFNI_Zveno_FniNasZveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_OrderEntry_IzsFNI" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsIP_Nom_IpFinans" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsIP_Nom_IpKontVid" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsIP_Nom_IpNasVun" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsIP_Personal_IpLekar1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsIP_Res_IzsIP" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsIP_Zveno_IpMesto" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsIP_Zveno_IpNasZveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsLAB_Nom_LabFinans" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsLAB_Nom_LabNasVun" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsLAB_Personal_LabLekar" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsLAB_Zveno_LabMesto" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsLAB_Zveno_LabNasZveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsLABINRDanni_IzsLAB" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MikrobiologichnoIzsledvane_IzsLAB" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_OrderEntry_IzsLAB" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsROD_Nom_RodFinans" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsROD_Nom_RodNasVun" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsROD_Personal_RodLekar" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsROD_Usluga_RodVid" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsROD_Zveno_RodMesto" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsROD_Zveno_RodNasZveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_OrderEntry_IzsROD" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsVSI_Nom_VsiFinans" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsVSI_Nom_VsiNasVun" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsVSI_Personal_VsiLekar" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsVSI_Usluga_VsiVid" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsVSI_Zveno_VsiMesto" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzsVSI_Zveno_VsiNasZveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzvunNKBKons_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_IzvunNKBKons_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_KlinPatekaCena_KlinicnaPateka" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_KlinPatImpl_KlinicnaPateka" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_KlinProceduraCena_KlinicnaProcedura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_KlinPatImplCena_KlinPatImpl" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Komitet_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Konsultacia_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Konsultacia_Nomenklatura1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Konsultacia_Nomenklatura2" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Konsultacia_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Konsultacia_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Konsultacia_Usluga" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Konsultacia_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__toCypro__tcKPId__120C0F7E" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_KpLechenie_PlaniranePregled" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_KpOtcheteni_KpPeriod" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_LEGLOVAB_RELATIONS_ZVENO" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_LimitiNZOK_MedCentar" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MartvoRodeni_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MedCentar_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MedPaket_Master_Detail" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MedTerapia_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MikrobiologichnoIzsledvane_MikroskopskiPreparatData" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MikrobiologichnoIzsledvane_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MikrobiologichnoIzsledvane_Nomenklatura1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MikrobiologichnoIzsledvane_Nomenklatura2" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_MikroskopskiPreparatData_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_NOIProverka_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_NOIProverkaOSV_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_NOMENKLA_RELATIONS_NOMENKLA" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_NZOKAmbGrafik_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Nomenklatura1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Nomenklatura2" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Nomenklatura3" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Personal_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pochinali_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_Nomenklatura1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_Nomenklatura2" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_Nomenklatura3" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_Nomenklatura4" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Proceduri_Nom_ProFinans" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Proceduri_Nom_ProNasVun" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Trudozaguba_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Zveno_Nomenklatura" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Zveno_Nomenklatura2" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_ZVENO_REFERENCE_NOMENKLA" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.Risk_Pregnancy_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.Unregister_Reason_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_NovoRodeni_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_NZOKAmbGrafik_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Obsajdane_Pacient1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Obsajdane_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Personal1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Personal2" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Personal3" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Personal4" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Operacia_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_OperEKK_Operacia" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Order_OrderData" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Order_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Order_Zveno1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_OrderEntry_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_TabelaMedi_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_OrderData_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Modality" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_OrderEntry_OrderNomMed" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_OrderEntry_Pregled" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_OrderEntry_Proceduri" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_TabelaMediIzp_OrderEntry" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__toCypro__tcPacId__1023C70C" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PlaniranePregled_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pochinali_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_TabelaMedi_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.Patient_Pregnancy_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_ZvenoModality" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK__PantheonC__Zveno__6A53EF36" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pauza_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PERSONAL_REFERENCE_SPECIALN" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PERSONAL_REFERENCE_ZVENO" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PERSONAL_RELATIONS_PERSONAL" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PersonalRS1_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pochinali_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_Personal" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_Personal1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Proceduri_Personal_ProLekar" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.Personal_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PersonalRS2_PersonalRS1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PERSONAL_RELATIONS_ZVENO" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PlaniraneOper_Zveno1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PlaniranePregled_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_PlaniranePregled" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pochinali_Pregled" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pochinali_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PochinaliTakDonori_Pochinali" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_Usluga" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Pregled_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_PregledDiagnoza_Pregled" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_SpeshenList_Pregled" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_TabelaMedi_Pregled" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.PregnancyRegister_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Prevejdane_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Proceduri_Usluga_ProVid" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Proceduri_Zveno_ProMesto" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Proceduri_Zveno_ProNasZveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Razhod_Transfer_Zvena_Razhodi" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.fk_razhodi" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.fk_RazhodTip" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.fk_razhodtipA" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.fk_Usluga" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_ReceptaMed_Recepta" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Security_Sec_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Sluchai_Sreshti" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_SPECIALN_REFERENCE_SPECIAL1" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_SubZveno_Zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_TabelaMediIzp_TabelaMedi" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_Sabitie_Sabitie" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.FK_UslugaGrupa_Usluga" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.fk_zveno" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.usluga_izslab" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.usluga_orderentry" ManuallyRouted="false" />
+        <AssociationConnector Association="NKBModel.AutopsiaDiagnoza" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

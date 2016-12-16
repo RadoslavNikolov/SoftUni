@@ -1,0 +1,3116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{407D09DC-01E9-47C7-A8C8-2B0E0845B469}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Planning.Data</RootNamespace>
+    <AssemblyName>Planning.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbortiGodini_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AbortiZavedenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AHeartA.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AktualniUslugiCenorazpisFull_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AktualniUslugiCenorazpis_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AktualniUslugiKP6_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AktualniUslugiMDD_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AktualniUslugi_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AktUslugiLab_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AlertInfo.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AmbJournal01Dop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AmbJournal01_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AmbJournal02Dop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AmbJournal02_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AmbJournal_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AmbList2005.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AmbList2005Med.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AmbListFill1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AmbListFill_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AmbListZaPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Anestezia.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AnestJurnal_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Antro_pok.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AUView.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Azbuchnik_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="badInrs_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Billing.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BISEntityModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BISEntityModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BISEntityModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BISEntity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BISEntity.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="BlAllProc4KPNew_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BlAllProc4KP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BlChujdiGrajdane_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLDiagPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BlHospPeriodDay_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BlHospPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaAnestezia_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaDII_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaEFI_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaEjNaznachenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaFNI_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaIP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaKPRIzp_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaKPR_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaLAB_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaMedikacia_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaMedikamenti_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaNapuskane_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaNaznachenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaOperacia_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaOperEKK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaPrevejdane_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaPridrujitel_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaPriem_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaPRO_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologiaROD_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BlHronologiaScores_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronologia_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLHronoNapravlenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BList.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BListAmbPrint_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BListKpLechPrint_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BListPregPrint_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BListPrint_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLOcenki.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BlPacDvijenieNew_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BlPacDvijenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLPacPrevejdane_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLPersonalPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLProcs_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLRaioniPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="blxml.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="blXmlSent.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLXMLTZ.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BoLechZaPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bolnica.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BolnichnoLechenie.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BolnichnoLechenieDop.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BolPacientRazhod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Broiach.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CalcBudgetNew_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CalcBudget_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CalcKlinichnaPateka_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CalcLechenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CalcPacientiKP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CalcPacienti_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CalcStatistika_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CalculaciaPacienti0_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Cena.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CeniNZOKAmb.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CeniNZOKZaData_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CeniZaData_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CenorazpisReport_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChastOtNomenklatura_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ControlaDD_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ControlaMZ_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CSVToTable_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Darjava_EC.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Darjavi.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DebitniPacienti_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DebugITAnalysis.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeinostNZOK.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetskaSmartnost_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DiagKlinPateka.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DiagKlinProcedura.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Diagnoza.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DiagnozaSpec.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DiagUslojnPridr.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Diag_KDKK.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Diet.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DietContract.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DietDelivery.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DietInfo.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DietOrder.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DietOrderAccordance.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DietUser.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DietWardPersistance.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DiffDiag_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DiiIzhod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DIIZaPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispDosie.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispFiles_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispGrupa.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispIzsledvane.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispProgDiag.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispProgIzsl.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispPrograma.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispProgSpec.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispProgZab.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispZaboliavane.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DnevnikKP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorCommission.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorCommissionProtocol.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorHoliday.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorsSchedule.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DogovorNZOK.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DogovorPC.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DomainToHisUsersMapping.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DosieSecPacient_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Drug.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DrugsMKB.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dtproperties.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dt_getpropertiesbyid_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dt_getpropertiesbyid_u_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjednevnoSvPrihodi2014AllDop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjednevnoSvPrihodi2014All_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjednevnoSvPrihodi2014Dop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjednevnoSvPrihodi2014_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjednevnoSvPrihodiNew_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjednevnoSvPrihodi_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjednewnoSvedenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjNaznachenie.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjSutSvedenieDIINew_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjSutSvedenieDII_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjSutSvedenieEFINew_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjSutSvedenieEFI_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjSutSvedenieIPNew_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjSutSvedenieIP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjSutSvedenieNew_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjSutSvedenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ESpravkaNapusnali_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ESpravkaPrieti_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Events.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EventTemplates.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExternalFiles.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExternalFilesVid.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="extfiles_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="F30Speshni_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FactNastroiki.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FactPrava.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Factura.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaFirmi_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaSelect_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaUsl.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaWriteNew_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaWrite_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinOtchetPart1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinOtchetPart2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinOtchetPart3_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinOtchetPart4_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinOtchetPart5_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinOtchetPart6_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinOtchetPart81_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinOtchetPart8_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fn_Split_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Foreigners.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Formular15a_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Formular3_00_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Formular3_03_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Formular3_32_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Frequency.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FromLIS.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FromPACS.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GenBoListTablici_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GenMddLabIzvadka_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GenMddRodIzvadka_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GenVsiListTablici_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetBLInfo_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetBLListDefaultAmb_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetBLListDefaultHosp_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetBLListDefaultKpr_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetBLListDefaultPreg_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetClinicalProcByTimeRange_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetCntEQKod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetCntEQNameKDKK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetCntEQName_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetCountPacient_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetDvijenieCalc_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetDvijenieNew_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetDvijeniePacient_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetDvijeniePlan_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetDvijenieZvenoZaPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetDvijenieZveno_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetDvijenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetDvZvenoPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getLabResults_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetLabSelector_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetLastBL_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetMedikamenti_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetNZOKLimitForTimePeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetPermits.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetStacionarStatus_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GrafikKabinet1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GrafikKabinet_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GreshenUINZam_Naet_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GroupKlasMKB10.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GroupKlasSeb.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GroupMZ.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GroupMZ_0205.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GroupMZ_0305.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GroupMZ_1104.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Grupa.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hadis.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hadismadis.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hadisPresentation.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hadisStats.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hadisStatsPerDate.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HadisToday.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HavingPacIDEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HavingPacID_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hemodializa.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HemodializaMed.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HemodializaMedIzbran.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HemodializaNasoch_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hipExam.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hipoPregled_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HirurgDejnostOtdel_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HirurgiaTbl5_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HirurgichenJurnal_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HmHronologiaHEM_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalActivity1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalActivity2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalActivityA_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalActivityNew1Dop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalActivityNew1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalActivityNew2Dop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalActivityNew2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalActivityNew3_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalActivity_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalMestoF_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalMestoID_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalMestoX_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalMestoZ_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalMesto_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaAlert_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaDiagnozi_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaIntLechenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaKom_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaObs_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaPO_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaPulnaAutopsia_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaPulnaKonsultacia_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaPulnaPregled_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaPulnaRegistracia_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaPulnaSmurt_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaPulna_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HronologiaTip_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ICB008ExportPro_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ICB008Export_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImpGroupMap.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImpGroupMap_2015.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImpKPDiag.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImpKPDiag_2015.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Implantant.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantDop.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiBLNoNZOK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiBL_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiDIIDopNoNZOK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiDIIDop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiDIINoNZOK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiDII_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiEFIDopNoNZOK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiEFIDop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiEFINoNZOK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiEFI_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiIPDopNoNZOK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiIPDop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiIPNoNZOK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiIP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiOperDopNoNZOK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiOperDop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiOperNoNZOK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiOper_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiPoPacienti_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiProcDopNoNZOK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiProcDop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiProcNoNZOK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantiProc_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantNZOK.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantNZOKDealer.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplantantNZOK_2015.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImplBolLech_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImpOldNew.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InfarctH01_H17_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InsultH01_H12_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IntLechenie.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IPDIIPoLekari_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzdNaprNZOK.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzoliranMikroorganizamData.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzpisaniPoKP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzprLekar.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzprLekarPS.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsDI.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsDI_Res.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsEFI.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsFish_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsFNI.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsIP.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsIP_Res.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsLAB.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsLABINR.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsLABINRDanni.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsLabPaket.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsMDI.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsProPaket.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsROD.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsVPI.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzsVSI.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IzvunNKBKons.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JournalBolList_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JournalFNI_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JournalNapusnali_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JournalPlanPriem_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JurnalJivorodeni_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JurnalRodilki_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kalkulacia.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KartaNapStac_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KlinicnaPateka.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KlinicnaProcedura.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KlinPatekaCena.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KlinPatImpl.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KlinPatImplCena.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KlinProceduraCena.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KlinProceduraDiagnosi.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KnigaPrietiBolni_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Komitet.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Konsultacia.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KonsultSpec_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KontrolImplantantiRaz_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KontrolImplantanti_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KontrSpravka_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KontrSprKpr_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KontsSprKlinPat_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kp251_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KPImplALL_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KpLechenie.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KpNZOKReps_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KpOtcheteni.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KpPeriod.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KPProceduriSData_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KPProcList_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KPProverka1New_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KPProverka1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KPProverka2New_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KPProverka2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KPProverka3NKB_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KPProverka3_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KProc6_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KProc7_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KProcN4_N1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KProcN5_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KProcN8ASummary_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KProcN8A_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KProcN8_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KProcN9_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KProcXml_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KprOtchet_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LabProfili_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LabProfilUsluga_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LabsClaim2006_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LastPatientType1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LastPatientType2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LastPatientType_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Leglofond_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LeglovaBaza.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LimitiNZOK.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ListBackOrdersDop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ListBackOrders_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ListDogovoriPC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ListOrdersOS003_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ListOrders_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lkkCommissions.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadAntro_Pok_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoadBolnichnoLechenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadDoctorCommission_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadDoctorsSchedule_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadImplants_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadIzsDi_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoadIzsDi_Res_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadIzsLab_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadIzsOrder_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadOncoDecision_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadOperacia_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadOperEKK_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadOPrograma_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadOrderEntries_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadOrders_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadPersonalOper_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadPersonal_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadPlaniraneOper_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadPrevejdane_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadTabelaMediIzp_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoadTabelaMedi_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loadZveno_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="madis.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MartvoRodeni.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MDDRep01_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MDDRep02_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MDDRep04_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MDDRep05_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MDDRep06_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MDDRep07_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MDDRep09_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MDDRep10_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MDDRep11_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MedCentar.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MedDiagDeinost.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MedNzok.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MedPaketDetail.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MedPaketMaster.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MedPricTerapia.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MedTerapia.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MikrobiologichnoIzsledvane.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MikroskopskiPreparatData.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorFromCCC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorFromLISMsgDop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorFromLISMsg_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorFromLIS_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorFromPACS_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorSMOBZ_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorToCCC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorToLIS_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorToPACS_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NapMestoJitelstvo_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NaprNasNZOK.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NapusnaliDiagPrid_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NapusnaliDiag_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NasLZAmbList_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NasZdrZavedenie_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NOIProverka.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NOIProverkaOSV.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Nomenklatura.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NovoPostupili_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NovoRodeni.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NovorodeniDeca_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NovorodeniMaiki_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NovoRodeniZaPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005NZOKImpDost_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005NZOKImplantantiEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005NZOKImplantantiHistEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005NZOKImplantantiHist_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005NZOKImplantantiXLS_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005NZOKImplantanti_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005Pril10_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005Pril11_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005Pril13_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005Pril14_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005Pril5b_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005Pril6b1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005Pril6b2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Nrd2005SpecIMPIzvanRegEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Nrd2005SpecIMPIzvanReg_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart3A_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart3EC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart3_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart4_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart5EC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart5_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart6EC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart6_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart7EC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart7LekEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart7Lek_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart7_1EC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart7_1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart7_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart8_1EC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart8_1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart8_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart9_0EC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecIMPPart9_0_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecImpRegStand3AEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecImpRegStand3A_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecImpRegStand3EC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2005SpecImpRegStand3_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2006NCHIPril10_135_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2006NzokDeinostPoKPEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2006NzokDeinostPoKPHistEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2006NzokDeinostPoKPHist_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2006NzokDeinostPoKP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2006NZOKHospVSMD_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2006NZOKProcEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2006NZOKProcHistEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2006NZOKProcHist_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2006NZOKProc_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2006Pril3_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2007NZOKVSD_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2009Pril2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2011_F30_D4_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2011_F30_DO_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NRD2011_F30_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKAmbGrafik.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKAmbNorm.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular115_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B11_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B13_old_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B13_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B14_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B15a_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B15_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B2_S_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B3_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B5_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B62_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B6_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B7_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormular365B_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormularHem1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKFormularHem2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKHospPatients_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKLimit.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NzokNaprZaHosp_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKOpisLekari_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKOpis_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKRLFuncEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKRLFunc_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKSub365BR02_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NZOKYear05_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ObPlanDii_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ObPlanEFI_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ObPlanIP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ObPlanOper_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ObPlanPregled_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ObPlanPriem_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ObRecepta_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Obsajdane.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ObSpravka_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ocenki.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OpActDiiIP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operacia.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OperaciaZveno_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operacii_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OperActivnost_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OperActLekari_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OperativnaPrograma_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OperEKK.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OperKP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OperSposobi_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OperStatZveno_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OPprograma_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderData.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEntry.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderNomMed.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OSIOMD_EXTERNAL_ID.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OSIOMD_IDS.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pacient.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PacientiZaDenia.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PacientiZaDeniaNew.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PacientiZaDeniaWithStatus.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PACSACKLog.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PACSADT1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PACSADT_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PACSModality.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PantheonCodes.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pauza.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Personal.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalPC.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalRS1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalRS2.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalZveno.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PK011_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlaniraneOper.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlaniranePregled.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlanKabinetiList_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlanOPSPacient_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlanPreglediKabinet1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlanPreglediKabinet_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlanPregledPacient_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlanPriemKlinika_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlanZaProc_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pochinali.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PochinaliDo24h_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PochinaliTakDonori.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POEpikriza_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PoslednoID.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PostDataErrors_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PostnatPOchinali_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PPLCalcKP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PPLCalcSeb1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PPLCalcSeb_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PracticeSchema_2009New_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Praktika.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pregled.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PregledDiagnoza.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PregledHosp_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PregnancyRegister.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PreminaliZaDeniaDetaili_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PrestoiIntenzivni_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PrestoiZaPeriod111_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PrestoiZaPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Prevejdane.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PrevejdaneDateErrors_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PrevejdaneMiastoErrors_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prevEpikriza_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pridrujitel.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pril2_Izv2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Prilojenie2_0_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Prilojenie2_1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Prilojenie2_2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Prilojenie2_3_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Prilojenie2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Prilojenie3_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PrintedTabeli.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProcDataDisplay_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Proceduri.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Proceduri_Vid.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProdNadNorma_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PSpecIMPEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PSpecKPECHist_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PSpecKPEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PSpecKPmEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rajdaemost_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Razhodi.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RazhodiReport_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RazhodiZvena_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RazhodMedKon_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RazhodTip.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RazhodTipActivities.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Razhod_Transfer.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Razhod_Transfer_Zvena.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RazpredelenieFNI_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RazrReHosp_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RazZveno.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RazZvenoSelect_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular365_1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular365_2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular365_3_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular365_4Dop_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular365_4_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular365_5_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular365_6_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular365_7_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular370_PDet_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular370_P_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular_P5_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCZFormular_P6_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Recepta.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptaMed.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptaMedikamenti_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptaMedSpisak.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegDispZZOL_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegEGNNull_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionSelect.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegistarEkip_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegistarNovorodeni_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrZZOL_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegLat_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegStandIzv_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegStandSpr1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegStandSpr2_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegStandSpr3_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegStandSpr_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegStand_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report115.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report213_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report365_2.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report365_3.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report370_P.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportForm3Sp.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reports78.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_10_2005.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_2.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_2012_1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_2012_2.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_2012_3.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_2012_4.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_2012_5.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_2012_6.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_2012_7.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_3.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_5.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_6.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_6A.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_7.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_365_7_Old.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_5B1_2005_1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_5B1_2005_1_Old.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_5B1_2005_2.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_5B2_2005_1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_5B2_2005_1_Old.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_5B2_2005_2.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_5B_2005_1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_5B_2005_2.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_5B_2006_1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_5_2008_1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT_6B.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_6_2008_1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_F14.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_F30.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_God_3.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT_GOD_3_Old.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT_GOD_4_1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_God_FIS.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_God_FIS_Old.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_God_FNI.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_God_Hemod.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_God_Izs.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_God_Izs_Old.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_God_LAB.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_God_ROD.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_KDKK1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_SO_2011.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report_YS.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Route.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpAG015_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpAG016_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpAG017_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpAK002_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpAKrpt1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpBL003_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpBP009_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpBP032_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpBP033_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpBP034_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpBS057a_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpBS057_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpBS058a_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpBS058_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpDI001_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpDI003_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpDI004_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpDI005_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpDI006_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpFA010_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpFA011_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpIZ106_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpIZ207_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpIZ604_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpIZ605_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpIZ704_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpIZ705_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpIZ707_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpIZ708_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpKS010_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpLL005_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN001Prmn_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN005cgkNKB_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN005cgk_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN005P_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN006cgkNKB_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN006cgk_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN009Lekari_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN010a_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN010b_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN010c_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN010Ea_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN010Eb_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN010Ec_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN011Lekari_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN013P_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN013_2015_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN013_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN014N0_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN015_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN016B_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN017E_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN017_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN018a_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN018b_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN018c_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN020a_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN020b_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN020c_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN021a_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN021Lekari_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN023a_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN023b_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN023c_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpMN024_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpPK001N_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpPK005_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpPK007_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpPK008_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpPK009_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpPK010_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpPK012_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rptBolData_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpTD001_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXA014_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXA015_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXB001_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXC001_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXK005Day_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXK005LastDay_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXK005Period_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXK005_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXK014_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS002aNKB_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS002a_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS002b_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS002xaNKB_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS002xa_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS002xb_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS003aNKB_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS003a_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS003b_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS003xaNKB_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS003xa_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS003xb_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS007AvoProcs_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS007Avo_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS007A_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS007Procs_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpXS007_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RstSec_Log1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleTimeInterval.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Security.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sec_Groups.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sec_Log.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sec_Log1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sec_Modules.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="selAKrpt1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="selectBLIST_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SelectedBLfieldsForDRG.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SelectEvents_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm315A_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SelectForm315_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SelectKPEstimate_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Shablon1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Shablon2.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sickleave_calibrate.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SignalnaInformaciaAll_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SignalnaInformacia_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sluchai.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SluchaiPoKP_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SmetkaLechenie.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SmetkaNew_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Smetka_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SMOBZADT_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SMOBZDelete_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialnostPersonal.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecIMPLekariEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecIMPLekariFunctionEC_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecIMPLekariFunction_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecImpLekariWord_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecIMPLekari_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpeshenList.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpeshenListDop.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SplitArrayWithTableName_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SplitArray_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="splitSemicolonNumbers_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SplitString_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spravka.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpravkaAjurGod.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpravkaFav.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpravkaPregled_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpravkiNOI_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SprTabela_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_NRD2005Lekari_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_NRD2005Lekari_V_nO_nD_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sreshti.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StacInfo1_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StacionarReport_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StacPokazateli_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StationarInfo_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StatistikaNapusnali_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StatistikaPrieti_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SubZveno.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_rowcount.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TabelaMedi.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TabelaMediIzp.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempletFile.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TestAmbLists_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="testLoadImplants_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tmpDealerNZOK.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tmpDrugsMKB.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tmpImplantantNZOK.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tmpMedNzok.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="toCypro.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ToLIS.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ToPACS.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ToSMOBZ.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TraceLog.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransferKDKK_1.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransferKDKK_2.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransferKDKK_3.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Trudozaguba.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TurseneProsto_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TurseneRazshireno_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uinSelector_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="userDefaults.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="userDefaultsLoad_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserPointOfView.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Usluga.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UslugaGrupa.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vCentur.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vCentur0.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vCenturNew.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vFacCentur.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VidDogovorNZOK.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="view0.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View2.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View3.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View4.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View8.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewBlDopEpikriza.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewBlEpikriza.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewBlNumber.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCountIntenzivni.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCountPochinaliDo24h.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDiagProc.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewEpikriza.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewGetAllOper.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewGettAllProc.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewhadis.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewHadisRegistrars.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewHavingDispPacID.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewHavingPacID.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewHavingPacIDEC.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewImplantKliPat.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewImpStoinost.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewIntPrev.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewLatestNZOKPrice.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewLechebniZavedenia.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewLechZavIdentification.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewLkk.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewLZIdentificationNew.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewLZNew.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewMDD.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewNomCnt.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewOperacii.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewPersonalNames.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPK011.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewPrestoi.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPrestoiIntenzivni.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPrestoiPoZvena.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPrestoiPoZvenaNew.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPrevejdaneInt.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPrevejdanePoZvena.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPrevF30.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewToCypro.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewToLis.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="viewtrace.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWXLS.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="view_APr_CommissionXML.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_KF_Proceduri.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_KF_ProceduriNew.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_KF_ProceduriSort.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Limit.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vKonsStatistika.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vKPProc.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VlojeniImplantantiZaPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vNNLab.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vNNRod.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vPregledHosp.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vPrevDoData.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vPrevejdane.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vPrevejdaneNew.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vPrevejdaneOld.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vPrevejdanePlan.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vrpRegJournal.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VSDFileSchema_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VsiListiZaPeriod_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vUslojIOcenki.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_TransferKR.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_TransferZvena.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WeightedCalculationByEventAndUnit.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WS_Param.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XA011_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="xc001helper.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="xk005_commissions_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="xmlPatient.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="YS016Danni_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="YS016Shifr_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ZaboliavaneNovorodeni_old_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ZaboliavaneNovorodeni_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="zNom.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zveno.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ZvenoServices_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ZvenoServ_Result.cs">
+      <DependentUpon>BISEntityModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="BISEntity.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BISEntity.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="BISEntity.edmx.diagram">
+      <DependentUpon>BISEntity.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BISEntityModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>BISEntityModel.Context.cs</LastGenOutput>
+      <DependentUpon>BISEntity.edmx</DependentUpon>
+    </Content>
+    <Content Include="BISEntityModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BISEntity.edmx</DependentUpon>
+      <LastGenOutput>BISEntityModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,10 +1,4 @@
-﻿/*
- *	Created/modified in 2011 by Simon Baer
- *	
- *  Licensed under the Code Project Open License (CPOL).
- */
-
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 namespace DemoApp
