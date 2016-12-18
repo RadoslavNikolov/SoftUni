@@ -114,11 +114,11 @@
 			Use "migrations [command] --help" for more information about a command.
    
    
-   Команда: dotname ef migrations add [name]  ->  в моя случай: dotname ef migrations add v1
+   Команда: dotnet ef migrations add [name]  ->  в моя случай: dotnet ef migrations add v1
 	Това създава папка Migrations в проекта с два класа  20161030181013_v1.cs  и OdeToFoodDbContextModelSnapshot.cs
 	
 	
-   Команда: dotname ef database ще приложи миграцията върху базата
+   Команда: dotnet ef database ще приложи миграцията върху базата
    
 	C:\Users\Radko\Desktop\OdeToFood\src\OdeToFood>dotnet ef database update
 	Project OdeToFood (.NETCoreApp,Version=v1.0) was previously compiled. Skipping compilation.
