@@ -4,18 +4,73 @@ import random
 from matplotlib import pyplot as plt
 
 
+import numpy as np
+import matplotlib.pyplot as plt
 
-def get_combinations(numbers, k):
-  return it.combinations(numbers, k)
+from scipy.stats import norm
 
-def print_salad_recipes(fruits):
-    for i in range(2,len(fruits)+1):
-        recipies = get_combinations(fruits,i)
-        for rec in recipies:
-            print(rec)
+x = np.linspace(-5,5,100)
 
-fruits = ["apple", "grapes", "banana", "kiwi", "orange", "apricot", "cherry", "blueberry", "strawberry"]
-print_salad_recipes(fruits)
+s = [0.5,1,2] 
+m = 1
+c = ['b','r','y']
+
+for sig,color in zip(s, c): 
+	pdf= norm.pdf(x,m,sig)
+	plt.plot(x,pdf, color, linewidth=2)
+
+plt.xlim(-5, 5)
+plt.ylim(0,0.6)
+plt.legend(['mu = -1', 'mu = 0', 'mu = 1', 'sigma=1'], loc='best')
+plt.title('Normal distribution')
+plt.show()
+
+
+
+
+
+
+ax = plt.figure().add_subplot(1,1,1)
+x = np.arange(-5, 5, 0.01)
+
+
+s = np.sqrt([0.2, 1, 5, 0.5])
+m = [0, 0, 0, -2] 
+c = ['b','r','y','g']
+
+for mu, sig, color in zip(s, m, c): 
+    gauss = make_gauss(1, sig, mu)(x)
+    ax.plot(x, gauss, color, linewidth=2)
+
+plt.xlim(-5, 5)
+plt.ylim(0, 1)
+plt.legend(['0.2', '1.0', '5.0', '0.5'], loc='best')
+plt.show()
+
+
+
+#n = [0.2,0.5,0.8]
+#p = 30
+#for i in range(0, len(n)):
+#	plot_Binomial_Distribution(n[i], p)
+
+#plt.title('Density plot for samples drawn from negative binomial n=%s, p=%s.\nTrue pmf in red' % (n, p))
+#plt.ylabel('Probability p(x)')
+#plt.xlabel('x')
+#plt.show()
+
+#def get_combinations(numbers, k):
+#  return it.combinations(numbers, k)
+
+#def print_salad_recipes(fruits):
+#    for i in range(2,len(fruits)+1):
+#        recipies = get_combinations(fruits,i)
+#        for rec in recipies:
+#            print(rec)
+
+#fruits = ["apple", "grapes", "banana", "kiwi", "orange", "apricot", "cherry",
+#"blueberry", "strawberry"]
+#print_salad_recipes(fruits)
 
 
 
