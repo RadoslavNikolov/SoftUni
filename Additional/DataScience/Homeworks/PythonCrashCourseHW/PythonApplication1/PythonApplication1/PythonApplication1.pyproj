@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>1bfb8fb5-e03c-426b-bd34-c43c7b057098</ProjectGuid>
+    <ProjectGuid>6993ec01-4033-4509-abee-a11563800ac9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_1.PythonCrashCourse_ClassExercises.py</StartupFile>
+    <StartupFile>PythonApplication1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>1.PythonCrashCourse-ClassExercises</Name>
-    <RootNamespace>1.PythonCrashCourse-ClassExercises</RootNamespace>
+    <Name>PythonApplication1</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="_1.PythonCrashCourse_ClassExercises.py" />
+    <Compile Include="PythonApplication1.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
